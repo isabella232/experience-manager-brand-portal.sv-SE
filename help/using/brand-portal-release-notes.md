@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -48,6 +48,13 @@ Den här versionen av varumärkesportalen innehåller följande förbättringar:
    >Konfiguration via äldre OAuth stöds inte längre från 6 april 2020 och har ändrats till att konfigureras via Adobe I/O.
 
 
+   >[!TIP]
+   >
+   >***Endast befintliga kunder***
+   >
+   >Vi rekommenderar att du fortsätter använda den befintliga äldre OAuth Gateway-konfigurationen. Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe I/O.
+
+
 Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md)
 
 
@@ -72,6 +79,8 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 ### Kända fel {#known-issues}
 
 Den här versionen innehåller följande kända fel:
+
+* Användare av varumärkesportalen kan inte publicera resurser i mappen för bidrag till AEM Assets när de uppgraderar till Adobe I/O.
 
 * Alternativet Exkludera systemåtergivningar fungerar inte korrekt när en resurs hämtas.
 
