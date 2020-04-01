@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Den här versionen av varumärkesportalen innehåller följande förbättringar:
    >Konfiguration via äldre OAuth stöds inte längre från 6 april 2020 och har ändrats till att konfigureras via Adobe I/O.
 
 
-   >[!TIP]
-   >
-   >***Endast befintliga kunder***
-   >
-   >Vi rekommenderar att du fortsätter använda den befintliga äldre OAuth Gateway-konfigurationen. Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe I/O.
+>[!TIP]
+>
+>***Endast för befintliga kunder***
+>
+>Vi rekommenderar att du fortsätter använda den befintliga äldre OAuth Gateway-konfigurationen. Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe I/O.
 
 
 Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md)
-
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 Den här versionen innehåller följande kända fel:
 
-* Användare av varumärkesportalen kan inte publicera resurser i mappen för bidrag till AEM Assets när de uppgraderar till Adobe I/O.
+* Användare av varumärkesportalen kan inte publicera material i mappen för bidrag till AEM Assets när de uppgraderar till Adobe I/O på AEM 6.5.4.
 
-* Alternativet Exkludera systemåtergivningar fungerar inte korrekt när en resurs hämtas.
+   Problemet åtgärdas i nästa Service Pack 6.5.5.
+
+   Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din författarinstans.
+
+* Alternativet Exkludera systemåtergivningar fungerar inte korrekt när du hämtar en resurs.
+
 
 ## Språk {#languages}
 
