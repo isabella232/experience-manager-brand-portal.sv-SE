@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -40,6 +40,18 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >Kontakta Adobes support för att uppgradera din AEM-instans till den senaste AEM-versionen som stöds.
 
 ![Källa för varumärkesportalresurser](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>Om du är AEM 6.5.4-användare fortsätter funktionen Resurser att fungera med den&quot;gamla OAuth-integreringen&quot;.
+>
+>Men Brand Portal-användare kan inte publicera material i mappar för bidrag till AEM Assets när de uppgraderar till Adobe I/O på AEM 6.5.4.
+>
+>Problemet åtgärdas i nästa Service Pack AEM 6.5.5.
+>
+>Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din författarinstans.
+
 
 ## Förutsättningar {#prerequisites}
 
