@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 Frågor och svar om varumärkesportalen fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste versionen av AEM Assets Brand Portal 6.4.5 eller tidigare versioner.
 
 
+## Frågor och svar om varumärkesportalen 6.4.6 {#faqs-bp646}
+
+**Frågor. Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
+
+**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanserna till den senaste Service Pack-versionen och konfigurera den med Adobe IO. Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md) . För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+**Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter uppgradering till Adobe I/O. Min författarinstans finns på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
+
+**Ans.** Ja, det finns ett känt fel när du publicerar material i distributionsmappen till AEM Assets på AEM 6.5.4 med Adobe I/O. Problemet åtgärdas i nästa Service Pack AEM 6.5.5.
+
+Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
+
+
+## Frågor och svar om varumärkesportalen 6.4.5 {#faqs-bp645}
 
 **Frågor. Vilken är den största förändringen i version 6.4.5 av varumärkesportalen?**
 
@@ -108,7 +122,7 @@ Brand Portal-användarna kommer åt **Contribute** -mappen och överför innehå
 
 **Frågor. Var kan jag se status för import- och publiceringsjobb?**
 
-**Ans.** I AEM kan du se status för en import på sidan för **asynkrona** jobb. I varumärkesportalen kan du se status för ett publiceringsjobb i **[!UICONTROL Tools > Asset Contribution status]**.
+**Ans.** I AEM kan du se status för en import på sidan för **asynkrona** jobb. I varumärkesportalen kan du se status för ett publiceringsjobb i **[!UICONTROL Verktyg > Resursbidragsstatus]**.
 
 
 
