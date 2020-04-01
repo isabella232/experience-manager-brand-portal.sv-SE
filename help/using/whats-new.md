@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
 
 ---
 
@@ -59,6 +59,12 @@ Stegen för att konfigurera AEM Assets med Brand Portal är olika beroende på d
 | **AEM 6.4 (6.4.8.0 och senare)** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 och senare)** | [Skapa konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Kontakta supporten | Kontakta supporten |
+
+>[!NOTE]
+>
+>Vi rekommenderar att du uppdaterar din AEM-instans till det senaste Service Pack-versionen.
+
+
 
 Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
 
@@ -182,7 +188,7 @@ Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en
 
 **Användningsexempel**
 
-Nu kan du begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
+Du kan nu begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
 
 Observera att sökningar under dessa mappar endast returnerar resultat från resurser som har delats med användaren.
 
