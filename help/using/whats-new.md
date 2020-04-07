@@ -4,13 +4,13 @@ seo-title: Nyheter i AEM Assets Brand Portal
 description: Ta en titt på de nya funktionerna och förbättringarna i 6.4.6.
 seo-description: Ta en titt på de nya funktionerna och förbättringarna i 6.4.6.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
-contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Manager Assets Brand Portal (AEM) hjälper er att enkelt skaffa
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-Brand Portal 6.4.6 är en förbättrad version där auktoriseringskanalen mellan AEM Assets och Brand Portal ändras. Tidigare konfigurerades varumärkesportalen i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe I/O, som anskaffar en IMS-token för auktorisering av din klient för varumärkesportalen.
+I varumärkesportalen 6.4.6 ändras auktoriseringskanalen mellan AEM Assets och varumärkesportalen. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe I/O, som anskaffar en IMS-token för auktorisering av din klient för varumärkesportalen.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -55,6 +55,7 @@ Stegen för att konfigurera AEM Assets med Brand Portal är olika beroende på d
 
 | **AEM-version** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
+| **AEM Assets as a Cloud Service** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 och senare)** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 och senare)** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 och senare)** | [Skapa konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -188,7 +189,7 @@ Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en
 
 **Användningsexempel**
 
-Du kan nu begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
+Nu kan du begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
 
 Observera att sökningar under dessa mappar endast returnerar resultat från resurser som har delats med användaren.
 
