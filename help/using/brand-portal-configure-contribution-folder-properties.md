@@ -5,12 +5,13 @@ description: 'Få information om hur du konfigurerar egenskaperna för en mapp f
 seo-description: 'Få information om hur du konfigurerar egenskaperna för en mapp för bidrag i AEM Assets. '
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -29,15 +30,15 @@ Administratören kan sedan ge Brand Portal-användare/grupper åtkomst till mapp
 
 **Så här konfigurerar du bidragsmappens egenskaper:**
 1. Logga in på din AEM-författarinstansStandard-URL: http:// localhost:4502/aem/start.html
-1. Navigera till **[!UICONTROL Assets > Files]** och hitta mappen för bidrag.
-1. Välj mapp för bidrag och klicka på **[!UICONTROL Properties]**![](assets/properties.png). Fönstret Mappegenskaper öppnas.
+1. Navigera till **[!UICONTROL Resurser > Filer]** och leta upp mappen för bidrag.
+1. Välj mapp för bidrag och klicka på **[!UICONTROL Egenskaper]** ![](assets/properties.png). Fönstret Mappegenskaper öppnas.
    ![](assets/contribution-folder-property1.png)
-1. Navigate to **[!UICONTROL Asset Contribution]** tab.
-1. Ange en hög nivå **[!UICONTROL Description]** för mappen för bidrag.
-1. Klicka **[!UICONTROL Upload Brief]** för ![](assets/upload.png) att bläddra från den lokala datorn och ladda upp ett **tillgångskravsdokument**.
-1. I **[!UICONTROL Add User or Group]** söker du efter och **[!UICONTROL Add]** i varumärkesportalen efter användare eller grupper som du vill dela mappen för bidrag med.
+1. Gå till fliken **[!UICONTROL Resursbidrag]** .
+1. Ange en **[!UICONTROL beskrivning]** på hög nivå av mappen för bidrag.
+1. Klicka på **[!UICONTROL Överför sammanfattning]** ![](assets/upload.png) för att bläddra från den lokala datorn och överföra ett **tillgångskravsdokument**.
+1. I **[!UICONTROL Lägg till användare eller grupp]** söker du efter och **[!UICONTROL lägger till]** profilanvändare eller grupper som du vill dela mappen för bidrag med.
 Dessa Brand Portal-användare/grupper har behörighet att komma åt mappen för bidrag och överföra innehåll från gränssnittet för varumärkesportalen utan att ha tillgång till AEM-författarinstansen.
-1. Klicka på **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
