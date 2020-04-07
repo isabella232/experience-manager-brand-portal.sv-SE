@@ -5,11 +5,12 @@ description: Få insikt i hur man publicerar en mapp för bidrag från AEM Asset
 seo-description: Få insikt i hur man publicerar en mapp för bidrag från AEM Assets till Brand Portal i varumärkesportalen 6.4.5.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,8 +23,8 @@ När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folde
 
 1. Logga in på din AEM-författarinstans.
 Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigera till **[!UICONTROL Assets > Files]** och leta upp den mapp där du vill publicera till varumärkesportalen.
-1. Välj mapp för bidrag och klicka på **[!UICONTROL Quick Publish > Publish to Brand Portal]**.
+1. Navigera till **[!UICONTROL Resurser > Filer]** och leta upp den mapp där du vill publicera till Varumärkeportal.
+1. Välj mapp för bidrag och klicka på **[!UICONTROL Snabbpublicering > Publicera till varumärkesportal]**.
    ![](assets/publish-contribution-folder-to-bp.png)
 Du får ett meddelande när mappen för bidrag har publicerats på varumärkesportalen.
 
