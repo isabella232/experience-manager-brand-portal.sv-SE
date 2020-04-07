@@ -5,11 +5,12 @@ description: Få insikt i hur du konfigurerar en mapp för bidrag i varumärkesp
 seo-description: Få insikt i hur du konfigurerar en mapp för bidrag i varumärkesportalen.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
