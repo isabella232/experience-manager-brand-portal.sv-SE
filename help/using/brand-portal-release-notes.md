@@ -5,11 +5,12 @@ description: Få insikt i funktioner, förbättringar, åtgärdade kritiska prob
 seo-description: Få insikt i förbättringarna, åtgärdade kritiska problem och kända problem i Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -37,11 +38,14 @@ Den här versionen innehåller följande nya funktioner:
 
 * Captcha för gästinloggning på Brand Portal. Mer information finns i [Gäståtkomst](../using/guest-access.md) för varumärkesportalen.
 
+* Brand Portal stöds nu med molntjänsten AEM Assets. Du kan konfigurera AEM Assets så att det kan användas tillsammans med varumärkesportalen för att dela och distribuera resurser med användare på varumärkesportalen.
+Mer information finns i [Konfigurera molntjänsten AEM Assets med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+
 ### Förbättringar {#enhancements-646}
 
 Den här versionen av varumärkesportalen innehåller följande förbättringar:
 
-* AEM Assets har nu konfigurerats med Brand Portal via Adobe I/O, som anskaffar en IMS-token för auktorisering av din klient för varumärkesportalen.
+* I AEM 6.3 och senare ändras auktoriseringskanalen mellan AEM Assets och Brand Portal. AEM Assets har nu konfigurerats med Brand Portal via Adobe I/O, som anskaffar en IMS-token för auktorisering av din klient för varumärkesportalen.
 
    >[!NOTE]
    >
@@ -109,7 +113,7 @@ Om du vill ta reda på vilka plattformar som är certifierade för att köras me
 ## Länkar {#links}
 
 * [Adobe Experience Manager Product Page på adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Dokumentation för Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Dokumentation för Assets Brand Portal](https://helpx.adobe.com/se/experience-manager/brand-portal/user-guide.html)
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
 
