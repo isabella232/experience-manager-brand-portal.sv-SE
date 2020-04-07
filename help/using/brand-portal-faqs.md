@@ -5,11 +5,12 @@ description: Få insikt i de vanliga frågorna i Adobe Experience Manager Assets
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ Frågor och svar om varumärkesportalen fokuserar på frågor och problem som sl
 
 **Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter uppgradering till Adobe I/O. Min författarinstans finns på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Ja, det finns ett känt fel när du publicerar material i distributionsmappen till AEM Assets på AEM 6.5.4 med Adobe I/O. Problemet åtgärdas i nästa Service Pack AEM 6.5.5.
+**Ans.** Ja, det finns ett känt fel när du publicerar material i distributionsmappen till AEM Assets på AEM 6.5.4 med Adobe I/O. Problemet kommer att åtgärdas i nästa Service Pack.
 
 Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
 
