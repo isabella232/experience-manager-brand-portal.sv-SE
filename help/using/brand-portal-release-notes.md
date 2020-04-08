@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ Den här versionen innehåller följande nya funktioner:
 * Captcha för gästinloggning på Brand Portal. Mer information finns i [Gäståtkomst](../using/guest-access.md) för varumärkesportalen.
 
 * Brand Portal stöds nu med molntjänsten AEM Assets. Du kan konfigurera AEM Assets så att det kan användas tillsammans med varumärkesportalen för att dela och distribuera resurser med användare på varumärkesportalen.
-Mer information finns i [Konfigurera molntjänsten AEM Assets med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Mer information finns i [Konfigurera molntjänsten AEM Assets med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Förbättringar {#enhancements-646}
 
