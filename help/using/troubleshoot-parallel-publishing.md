@@ -9,22 +9,22 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Felsöka problem vid parallell publicering till varumärkesportalen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Varumärkesportalen är konfigurerad med AEM Assets för att ha godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets-författarinstansen. När AEM Author har [konfigurerats](../using/configure-aem-assets-with-brand-portal.md)används en replikeringsagent för att replikera de valda resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
+Varumärkesportalen är konfigurerad med AEM Assets för att ha godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets-författarinstansen. När AEM Author har [konfigurerats](../using/configure-aem-assets-with-brand-portal.md)används en replikeringsagent för att replikera de valda resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används från och med AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 för parallell publicering med hög hastighet.
 
 >[!NOTE]
 >
 >Adobe rekommenderar att du uppgraderar till AEM 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med varumärkesportalen och replikeringen misslyckas.
 
-När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar flera resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
+När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/molntjänsten]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar flera resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
 
-Publiceringen kan emellertid misslyckas ibland på grund av stora avförsäljningsjobb, ökat nätverk och **[!UICONTROL Disk I/O]** på AEM Author-instansen eller långsammare prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
+Publiceringen kan emellertid misslyckas ibland på grund av stora snedställningsjobb, ökat nätverks- och **[!UICONTROL disk-I/O]** på AEM Author-instansen eller försämrade prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
 
 ![](assets/test-connection.png)
 
@@ -107,6 +107,6 @@ permission
 
 Om en replikeringsagent (som publicerades på en varumärkesportal helt okej) slutar bearbeta publiceringsjobb bör du kontrollera replikeringsloggarna. AEM har automatisk återförsöksinstallation, så om en viss resurspublicering misslyckas provas den automatiskt igen. Om det uppstår något tillfälligt problem, t.ex. ett nätverksfel, kan det lyckas under ett nytt försök.
 
-Om det finns kontinuerliga publiceringsfel och kön är blockerad bör du kontrollera **[!UICONTROL test connection]** och försöka lösa de fel som rapporteras.
+Om det finns kontinuerliga publiceringsfel och kön är blockerad bör du kontrollera **[!UICONTROL testanslutningen]** och försöka lösa de fel som rapporteras.
 
 Beroende på felen rekommenderar vi att du loggar en supportanmälan så att konstruktörerna på Brand Portal kan hjälpa dig att lösa problem.
