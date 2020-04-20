@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
@@ -59,7 +59,7 @@ Den här versionen av varumärkesportalen innehåller följande förbättringar:
 >Vi rekommenderar att du fortsätter använda den befintliga äldre OAuth Gateway-konfigurationen. Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe I/O.
 
 
-Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md)
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
@@ -119,6 +119,8 @@ Om du vill ta reda på vilka plattformar som är certifierade för att köras me
 
 Dessa webbplatser är bara tillgängliga för kunder. Om du är kund och behöver åtkomst kontaktar du din kontoansvarige på Adobe.
 
-* [](https://daycare.day.com) [Produktåtkomst](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [Produktåtkomst](https://login.marketing.adobe.com)
 
 * [Adobes kundtjänst](https://helpx.adobe.com/contact.html)
