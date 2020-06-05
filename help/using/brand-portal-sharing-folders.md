@@ -9,7 +9,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+workflow-type: tm+mt
+source-wordcount: '1099'
+ht-degree: 0%
 
 ---
 
@@ -46,6 +49,7 @@ Om alternativet är inaktiverat måste administratörer dela dessa resurser med 
 >
 >Alternativet att aktivera **[!UICONTROL Public Folder Publish]** finns i AEM 6.3.2.1 och senare.
 
+
 ## Åtkomst till delade mappar {#access-to-shared-folders}
 
 I följande matris beskrivs åtkomsträttigheter och rättigheter att dela/ta bort delning av resurser för olika användarroller:
@@ -57,7 +61,10 @@ I följande matris beskrivs åtkomsträttigheter och rättigheter att dela/ta bo
 | Visningsprogram | Nej* | Ja, endast om det delas med dem eller med den grupp de tillhör | Nej |
 | Gästanvändare | Nej* | Ja, endast om det delas med dem eller med den grupp de tillhör | Nej |
 
-**Som standard är **[!UICONTROL Public Folder Publish]**alternativet inaktiverat när replikering av varumärkesportalen konfigureras med AEM Author. Om alternativet är aktiverat är de mappar som publiceras på varumärkesportalen som standard tillgängliga för alla användare (även icke-adminanvändare).*
+>[!NOTE]
+>
+>Som standard är **[!UICONTROL Public Folder Publish]** alternativet inaktiverat när replikering av varumärkesportalen konfigureras med AEM Author. Om alternativet är aktiverat är de mappar som publiceras på varumärkesportalen som standard tillgängliga för alla användare (även icke-adminanvändare).
+
 
 ### Åtkomst till delade mappar som inte är administratörsanvändare {#non-admin-user-access-to-shared-folders}
 
