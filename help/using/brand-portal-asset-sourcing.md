@@ -19,7 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
@@ -40,16 +43,15 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >
 >Kontakta Adobes support för att uppgradera din AEM-instans till den senaste AEM-versionen som stöds.
 
+
 ![Källa för varumärkesportalresurser](assets/asset-sourcing.png)
 
 
 >[!NOTE]
 >
->Om du är AEM 6.5.4-användare fortsätter funktionen Resurser att fungera med den&quot;gamla OAuth-integreringen&quot;.
+>Det finns ett känt fel i AEM 6.5.4. Användare av varumärkesportalen kan inte publicera resurser i mappen för bidrag till AEM Resurser när de uppgraderar till Adobe Developer Console.
 >
->Men Brand Portal-användare kan inte publicera material i mappar för bidrag till AEM Assets när de uppgraderar till Adobe I/O på AEM 6.5.4.
->
->Problemet åtgärdas i nästa Service Pack AEM 6.5.5.
+>Problemet åtgärdas i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack AEM 6.5.5 och [uppgradera dina konfigurationer](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 >
 >Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din författarinstans.
 
@@ -57,7 +59,7 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 ## Förutsättningar {#prerequisites}
 
 * AEM 6.5.0.2 eller senare.
-* Kontrollera att din AEM Assets-instans har konfigurerats med varumärkesportalen. Se [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
+* Kontrollera att din AEM Assets-instans har konfigurerats med varumärkesportalen. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Se även {#reference-articles}
 
