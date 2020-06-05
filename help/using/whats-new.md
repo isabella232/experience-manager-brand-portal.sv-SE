@@ -10,7 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: dc10879caf91b81deda08682548143c60500fd1b
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '4468'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Adobe Experience Manager Assets Brand Portal (AEM) hjälper er att enkelt skaffa
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-I varumärkesportalen 6.4.6 ändras auktoriseringskanalen mellan AEM Assets och varumärkesportalen. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe I/O, som anskaffar en IMS-token för auktorisering av din klient för varumärkesportalen.
+I varumärkesportalen 6.4.6 ändras auktoriseringskanalen mellan AEM Assets och varumärkesportalen. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som köper en IMS-token för auktorisering av din varumärksportal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -55,10 +58,10 @@ Stegen för att konfigurera AEM Assets med Brand Portal är olika beroende på d
 
 | **AEM-version** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 och senare)** | [Skapa konfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3 (6.3.3.8 och senare)** | [Skapa konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM Assets as a Cloud Service** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 och senare)** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3 (6.3.3.8 och senare)** | [Skapa en konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Kontakta supporten | Kontakta supporten |
 
 >[!NOTE]
@@ -189,7 +192,7 @@ Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en
 
 **Användningsexempel**
 
-Nu kan du begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
+Du kan nu begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
 
 Observera att sökningar under dessa mappar endast returnerar resultat från resurser som har delats med användaren.
 
@@ -335,9 +338,9 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe.io är värd för användargränssnittet för att konfigurera autentiseringsintegreringar
+### Adobe I/O-gränssnitt för att konfigurera autentiseringsintegreringar
 
-Från och med varumärkesportalen 6.4.2 används gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera autenticeringsintegreringar för att möjliggöra integrering av AEM Assets med varumärkesportalen. Tidigare fanns användargränssnittet för konfigurering av OAuth-integreringar på [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+Från och med varumärkesportalen 6.4.2 används gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera autenticeringsintegreringar för att möjliggöra integrering av AEM Assets med varumärkesportalen. Tidigare fanns användargränssnittet för konfigurering av OAuth-integreringar på [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
@@ -427,7 +430,7 @@ Förbättrad egenskapsväljare i administrationsverktygen för metadata, söknin
 
 ![](assets/public-folder-publish.png)
 
-* Administratörer meddelas via e-post om åtkomstbegäran, förutom meddelanden i meddelandefältet i varumärkesportalen, om någon har begärt åtkomst till varumärkesportalen.
+* Administratörer meddelas via e-post om åtkomstbegäran, förutom meddelanden i meddelandeområdet i varumärkesportalen, om någon har begärt åtkomst till varumärkesportalen.
 
 ## Vad har ändrats i 6.3.2 {#what-changed-in-3}
 
