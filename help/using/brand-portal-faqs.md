@@ -10,30 +10,35 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1246'
+ht-degree: 0%
 
 ---
 
 
 # Frequently Asked Questions {#frequently-asked-questions}
 
-Frågor och svar om varumärkesportalen fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste versionen av AEM Assets Brand Portal 6.4.5 eller tidigare versioner.
+Frågor och svar om varumärkesportalen fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste versionen av AEM Assets Brand Portal 6.4.6 eller tidigare versioner.
 
 
-## Frågor och svar om varumärkesportalen 6.4.6 {#faqs-bp646}
+## Frågor och svar om varumärkesportalen 6.4.6  {#faqs-bp646}
 
 **Frågor. Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanserna till den senaste Service Pack-versionen och konfigurera den med Adobe IO. Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md) . För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanserna till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md) . För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter uppgradering till Adobe I/O. Min författarinstans finns på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
+**Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter att ha uppgraderat till Adobe Developer Console. Min författarinstans finns på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Ja, det finns ett känt fel när du publicerar material i distributionsmappen till AEM Assets på AEM 6.5.4 med Adobe I/O. Problemet kommer att åtgärdas i nästa Service Pack.
+**Ans.** Ja, det finns ett känt fel när du publicerar material i mappen för bidrag till AEM Assets på AEM 6.5.4 via Adobe Developer Console.
+
+Problemet åtgärdas i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack AEM 6.5.5 och [uppgradera dina konfigurationer](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 
 Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
 
 
-## Frågor och svar om varumärkesportalen 6.4.5 {#faqs-bp645}
+## Frågor och svar om varumärkesportalen 6.4.5  {#faqs-bp645}
 
 **Frågor. Vilken är den största förändringen i version 6.4.5 av varumärkesportalen?**
 
@@ -76,7 +81,7 @@ Den här mappen delas med de aktiva Brand Portal-användarna för bidrag.
 
 **Frågor. Vad innehåller en Contribute-mapp?**
 
-**Ans.** Mappen **Contribute** innehåller två undermappar **NEW** och **SHARED**. Till att börja med är mappen NEW tom och mappen SHARED innehåller referensinnehållet (återanvändbara resurser) för Brand Portal-användarna.
+**Ans.** **Contribute** -mappen innehåller två undermappar **NYHET** och **DELAD**. Till att börja med är mappen NEW tom och mappen SHARED innehåller referensinnehållet (återanvändbara resurser) för Brand Portal-användarna.
 Brand Portal-användarna kommer åt **Contribute** -mappen och överför innehåll i mappen **NEW** .
 
 
@@ -109,6 +114,7 @@ Brand Portal-användarna kommer åt **Contribute** -mappen och överför innehå
 
 
 
+
 **Frågor. Vilket format har CSV-filen för användarimport?**
 
 **Ans.** Formatet är detsamma som det som stöds av Admin Console för import av större mängder användare. E-post, förnamn och efternamn är obligatoriska.
@@ -123,7 +129,7 @@ Brand Portal-användarna kommer åt **Contribute** -mappen och överför innehå
 
 **Frågor. Var kan jag se status för import- och publiceringsjobb?**
 
-**Ans.** I AEM kan du se status för en import på sidan för **asynkrona** jobb. I varumärkesportalen kan du se status för ett publiceringsjobb i **[!UICONTROL Verktyg > Resursbidragsstatus]**.
+**Ans.** I AEM kan du se status för en import på sidan för **asynkrona** jobb. I varumärkesportalen kan du se status för ett publiceringsjobb i **[!UICONTROL Tools > Asset Contribution status]**.
 
 
 
