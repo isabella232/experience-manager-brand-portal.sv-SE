@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folde
 
 1. Logga in på din AEM-författarinstans.
 Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigera till **[!UICONTROL Resurser > Filer]** och leta upp den mapp där du vill publicera till Varumärkeportal.
-1. Välj mapp för bidrag och klicka på **[!UICONTROL Snabbpublicering > Publicera till varumärkesportal]**.
+1. Navigera till **[!UICONTROL Assets > Files]** och leta upp den mapp där du vill publicera till varumärkesportalen.
+1. Välj mapp för bidrag och klicka på **[!UICONTROL Quick Publish > Publish to Brand Portal]**.
    ![](assets/publish-contribution-folder-to-bp.png)
 Du får ett meddelande när mappen för bidrag har publicerats på varumärkesportalen.
 
