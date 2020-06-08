@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >
 >Resurshantering i varumärkesportalen stöds i AEM 6.5.2.0 och senare.
 >
->Funktionen stöds inte i tidigare versioner - AEM 6.3 och AEM 6.4.
+>Funktionen stöds inte i molntjänsten AEM Assets och tidigare versioner - AEM 6.3 och AEM 6.4.
 >
 >Kontakta Adobes support för att uppgradera din AEM-instans till den senaste AEM-versionen som stöds.
 
