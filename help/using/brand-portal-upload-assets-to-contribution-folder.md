@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -31,12 +34,12 @@ Användare av varumärkesportalen kan sedan skapa nya resurser för bidrag och �
 
 1. Logga in på din Brand Portal-instans.
 Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som är tillåtna för användaren på varumärkesportalen tillsammans med den nyligen delade mappen för bidrag.
-1. Klicka för att öppna mappen för bidrag så ser du två undermappar -**[!UICONTROL DELAD]** och **[!UICONTROL NY]** - i mappen för bidrag.
-1. Klicka på **[!UICONTROL NY]** mapp.
+1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i mappen för bidrag.
+1. Klicka på **[!UICONTROL NEW]** mapp.
    ![](assets/upload-new-assets1.png)
-1. Klicka på **[!UICONTROL Skapa > Filer]** ![](assets/upload.png) för att överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
+1. Klicka **[!UICONTROL Create > Files]** för ![](assets/upload.png) att överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
    ![](assets/upload-new-assets2.png)
-1. Bläddra och överför nya resurser (filer/mappar) i mappen **[!UICONTROL NEW]** .
+1. Bläddra och överför nya resurser (filer/mappar) i **[!UICONTROL NEW]** mappen.
    ![](assets/upload-new-assets3.png)
 
 När överföringen är klar kan användare av varumärkesportalen publicera bidragsmappen tillbaka till AEM Assets. Se [Publicera en mapp för bidrag till AEM Resurser](brand-portal-publish-contribution-folder-to-aem-assets.md).
