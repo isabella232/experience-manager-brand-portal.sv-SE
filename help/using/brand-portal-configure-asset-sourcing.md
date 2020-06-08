@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ AEM-administratörer kan konfigurera **Resurser** inifrån AEM-författarinstans
 
 >[!NOTE]
 >
->Innan du börjar med konfigurationen bör du kontrollera att din AEM Resurser-instans har konfigurerats med Varumärkeportal. Se [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
+>Innan du börjar med konfigurationen bör du kontrollera att din AEM Resurser-instans har konfigurerats med Varumärkeportal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 I följande video visas hur du konfigurerar resurskälla för din AEM-författarinstans:
@@ -34,10 +37,10 @@ AEM-administratörer kan aktivera Resurser inifrån AEM Web Console Configuratio
 
 **Så här aktiverar du resurskälla:**
 1. Logga in på din AEM-författarinstans och öppna Configuration ManagerDefault URL: http:// localhost:4502/system/console/configMgr
-1. Sök med nyckelordet **Resurser** för att hitta flaggkonfigurationen **[!UICONTROL Resursfunktion]**
-1. Klicka på **[!UICONTROL Flagga för resurskällningsfunktion]** för att öppna konfigurationsfönstret
-1. Aktivera kryssrutan **[!UICONTROL feature.flag.active.status]**
-1. Click **[!UICONTROL Save]**.
+1. Sök med nyckelordet **Resurser** för att hitta **[!UICONTROL Asset Sourcing Feature Flag Config]**
+1. Klicka **[!UICONTROL Asset Sourcing Feature Flag Config]** för att öppna konfigurationsfönstret
+1. Kryssrutan Aktivera **[!UICONTROL feature.flag.active.status]**
+1. Klicka på **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
 
@@ -53,11 +56,11 @@ Administratören kan lägga till nya användare i AEM Admin Console. Mer informa
 
 **Så här överför du användarlistan för varumärkesportalen:**
 1. Logga in på din AEM-författarinstansStandard-URL: http:// localhost:4502/aem/start.html
-1. Navigera från **verktygspanelen** ![](assets/tools.png) till **[!UICONTROL Resurser > Användare av varumärkesportalen]**
+1. From **Tools** ![](assets/tools.png) panel, navigate to **[!UICONTROL Assets > Brand Portal Users]**
    ![](assets/upload-user-list1.png)
 1. Fönstret för ladda upp medverkande på varumärkesportalen öppnas.
 Bläddra från den lokala datorn och överför **konfigurationsfilen** (.csv) som innehåller listan över aktiva Brand Portal-användare.
-1. Click **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
    ![](assets/upload-user-list2.png)
 
 
