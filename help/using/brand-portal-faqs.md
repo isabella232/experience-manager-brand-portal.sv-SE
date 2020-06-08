@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,25 @@ Frågor och svar om varumärkesportalen fokuserar på frågor och problem som sl
 Problemet åtgärdas i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack AEM 6.5.5 och [uppgradera dina konfigurationer](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 
 Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
+
+**Frågor. Jag vill aktivera funktionen Resurser i min AEM Assets-molninstans. Hur konfigurerar jag det?**
+
+**Ans.** Nej, funktionen Resurser stöds för närvarande inte i molntjänsten AEM Assets.
+
+Håll dig ansluten och se versionsinformationen för meddelanden om vilka funktioner som är tillgängliga i kommande versioner.
+
+**Frågor. Jag kan inte publicera resurser från AEM Assets till varumärkesportalen och replikeringsagentloggen genererar ett undantagsfel`java.net.SocketException: Connection timed out`. Finns det en snabbkorrigering?**
+
+**Ans.** Om det finns ett antal väntande begäranden i replikeringskön kan det bero på att replikeringsagenten inte bearbetar begäran om att publicera en resurs och ett undantag genereras: `java.net.SocketException: Connection timed out`.
+
+Åtgärda problemet genom att utföra följande steg:
+
+1. Öppna replikeringsagenten och klicka på **[!UICONTROL Edit]** för att ändra inställningarna för replikeringsagenten.
+1. Klicka på fliken i Agentinställningar **[!UICONTROL Extended]**.
+1. Aktivera kryssrutan **[!UICONTROL Close Connection]**.
+1. Starta om replikeringspaketet (servern).
+
+Aktivera inställningarna för alla fyra replikeringsagenterna för att undvika problem med någon av replikeringsagenterna.
 
 
 ## Frågor och svar om varumärkesportalen 6.4.5  {#faqs-bp645}
