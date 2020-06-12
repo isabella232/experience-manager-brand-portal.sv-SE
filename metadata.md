@@ -4,13 +4,16 @@ solution-title: Läs mer & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: Komma igång
-getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html
 tutorials-title: Självstudiekurser
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.sv-SE
 index: y
 translation-type: tm+mt
-source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 8%
 
 ---
 
