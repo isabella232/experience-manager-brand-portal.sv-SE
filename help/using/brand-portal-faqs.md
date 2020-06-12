@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,28 @@ Problemet åtgärdas i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till 
 
 Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
 
-**Frågor. Jag vill aktivera funktionen Resurser i min AEM Assets-molninstans. Hur konfigurerar jag det?**
 
-**Ans.** Nej, funktionen Resurser stöds för närvarande inte i molntjänsten AEM Assets.
+**Frågor. Jag ser inte innehållet i mappen för bidrag som publicerats från Brand Portal i AEM Assets. Vad kan vara den möjliga orsaken?**
 
-Håll dig ansluten och se versionsinformationen för meddelanden om vilka funktioner som är tillgängliga i kommande versioner.
+**Ans.** Kontakta administratören för AEM Resurser för att verifiera konfigurationerna och se till att din innehavare av varumärkesportalen bara är konfigurerad med en instans av författaren till AEM Assets.
 
-**Frågor. Jag kan inte publicera resurser från AEM Assets till varumärkesportalen och replikeringsagentloggen genererar ett undantagsfel`java.net.SocketException: Connection timed out`. Finns det en snabbkorrigering?**
+Detta kan inträffa när du har konfigurerat en innehavare av en varumärkesportal på flera instanser av AEM Assets-författare. Administratören konfigurerar till exempel samma varumärkesportal-klient på AEM Assets-författarinstansen i staging- och produktionsmiljön. I det här fallet utlöses resurspubliceringen i Brand Portal, men AEM Assets-författarinstansen kunde inte importera resurskoden som replikeringsagenten inte får den begärande token.
 
-**Ans.** Om det finns ett antal väntande begäranden i replikeringskön kan det bero på att replikeringsagenten inte bearbetar begäran om att publicera en resurs och ett undantag genereras: `java.net.SocketException: Connection timed out`.
 
-Åtgärda problemet genom att utföra följande steg:
+**Frågor. Jag kan inte publicera resurser från AEM Assets till varumärkesportalen. Replikeringsloggen anger att anslutningen gjorde timeout. Finns det en snabbkorrigering?**
 
-1. Öppna replikeringsagenten och klicka på **[!UICONTROL Edit]** för att ändra inställningarna för replikeringsagenten.
-1. Klicka på fliken i Agentinställningar **[!UICONTROL Extended]**.
-1. Aktivera kryssrutan **[!UICONTROL Close Connection]**.
-1. Starta om replikeringspaketet (servern).
+**Ans.** Publiceringen misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
-Aktivera inställningarna för alla fyra replikeringsagenterna för att undvika problem med någon av replikeringsagenterna.
+Utför följande steg för att konfigurera replikeringsagenten:
+1. Logga in på din AEM Assets-författarinstans.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. Klicka på på sidan Replikering **[!UICONTROL Agents on author]**. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
+1. Klicka på replikeringsagentens URL för att öppna agentinformationen.
+1. Klicka **[!UICONTROL Edit]** för att ändra inställningarna för replikeringsagenten.
+1. Klicka på fliken **[!UICONTROL Extended]** i Agentinställningar.
+1. Aktivera **[!UICONTROL Close Connection]** kryssrutan.
+1. Upprepa steg 4 till 7 för att konfigurera alla fyra replikeringsagenterna.
+1. Starta om servern.
 
 
 ## Frågor och svar om varumärkesportalen 6.4.5  {#faqs-bp645}
