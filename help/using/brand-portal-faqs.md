@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,6 @@ Problemet åtgärdas i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till 
 
 Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
 
-
 **Frågor. Jag ser inte innehållet i mappen för bidrag som publicerats från Brand Portal i AEM Assets. Vad kan vara den möjliga orsaken?**
 
 **Ans.** Kontakta administratören för AEM Resurser för att verifiera konfigurationerna och se till att din innehavare av varumärkesportalen bara är konfigurerad med en instans av författaren till AEM Assets.
@@ -58,7 +57,7 @@ Utför följande steg för att konfigurera replikeringsagenten:
 1. Klicka på fliken **[!UICONTROL Extended]** i Agentinställningar.
 1. Aktivera **[!UICONTROL Close Connection]** kryssrutan.
 1. Upprepa steg 4 till 7 för att konfigurera alla fyra replikeringsagenterna.
-1. Starta om servern.
+1. Starta om servern och bekräfta anslutningen.
 
 
 ## Frågor och svar om varumärkesportalen 6.4.5  {#faqs-bp645}
