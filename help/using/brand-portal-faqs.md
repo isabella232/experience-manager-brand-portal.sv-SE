@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,9 @@ Frågor och svar om varumärkesportalen fokuserar på frågor och problem som sl
 
 ## Frågor och svar om varumärkesportalen 6.4.6  {#faqs-bp646}
 
-
-
 **Frågor. Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
 
 **Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanserna till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](configure-aem-assets-with-brand-portal.md) . För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
-
 
 **Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter att ha uppgraderat till Adobe Developer Console. Min författarinstans finns på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
 
@@ -40,13 +37,11 @@ Problemet åtgärdas i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till 
 
 Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM-författarinstans.
 
-
 **Frågor. Jag vill aktivera funktionen Resurser i min AEM Assets-molninstans. Hur konfigurerar jag det?**
 
 **Ans.** Nej, funktionen Resurser stöds för närvarande inte i molntjänsten AEM Assets.
 
 Håll dig ansluten och se versionsinformationen för meddelanden om vilka funktioner som är tillgängliga i kommande versioner.
-
 
 **Frågor. Jag kan inte publicera resurser från AEM Assets till varumärkesportalen och replikeringsagentloggen genererar ett undantagsfel`java.net.SocketException: Connection timed out`. Finns det en snabbkorrigering?**
 
@@ -61,12 +56,6 @@ Håll dig ansluten och se versionsinformationen för meddelanden om vilka funkti
 
 Aktivera inställningarna för alla fyra replikeringsagenterna för att undvika problem med någon av replikeringsagenterna.
 
-
-**Frågor. Jag ser inte innehållet i mappen för bidrag som publicerats från Brand Portal i AEM Assets. Vad kan vara den möjliga orsaken?**
-
-**Ans.** Kontakta administratören för AEM Resurser för att verifiera konfigurationerna och se till att din innehavare av varumärkesportalen bara är konfigurerad med en instans av författaren till AEM Assets.
-
-Detta kan inträffa när du har konfigurerat en innehavare av en varumärkesportal på flera instanser av AEM Assets-författare. Administratören konfigurerar till exempel samma varumärkesportal-klient på AEM Assets-författarinstansen i staging- och produktionsmiljön. I det här fallet utlöses resurspubliceringen i Brand Portal, men AEM Assets-författarinstansen kunde inte importera resurskoden som replikeringsagenten inte får den begärande token.
 
 ## Frågor och svar om varumärkesportalen 6.4.5  {#faqs-bp645}
 
