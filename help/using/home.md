@@ -4,10 +4,10 @@ seo-title: Användarhandbok för AEM Brand Portal
 description: Användarhandbok för AEM Brand Portal
 seo-description: Beskriver hur du använder varumärkesportalen
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 6%
+source-wordcount: '343'
+ht-degree: 4%
 
 ---
 
@@ -50,4 +50,4 @@ Den här användarhandboken ger dokumentinsikter om erbjudanden på varumärkesp
 
 ### Användbara resurser
 
-* [Förstå varumärkesportalen med AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
+* [Förstå varumärkesportalen med AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
