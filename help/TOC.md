@@ -5,10 +5,10 @@ sub-product: varumärkesportal för Experience Manager
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 18%
+source-wordcount: '284'
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 18%
    + [Vanliga frågor](using/brand-portal-faqs.md)
    + [Filformat som stöds](using/brand-portal-supported-formats.md)
    + [Gäståtkomst till varumärkesportalen](using/guest-access.md)
-   + [Förstå varumärkesportalen med AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
+   + [Förstå varumärkesportalen med AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Bläddra bland resurser på varumärkesportalen](using/browse-assets-brand-portal.md)
 + Publicera resurser från AEM till varumärkesportalen {#publish}
    + [Konfigurera AEM Assets med varumärkesportalen](using/configure-aem-assets-with-brand-portal.md)
