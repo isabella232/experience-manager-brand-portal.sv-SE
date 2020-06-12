@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -51,6 +51,7 @@ AEM-administratörer kan överföra användarkonfigurationsfilen för varumärke
 >[!NOTE]
 >
 >CSV-filens format är detsamma som det som stöds av Admin Console för bulkanvändarimport. E-post, förnamn och efternamn är obligatoriska.
+
 
 Administratören kan lägga till nya användare i AEM Admin Console. Mer information finns i [Hantera användare](brand-portal-adding-users.md) . När du har lagt till användare i Admin Console kan dessa användare läggas till i användarkonfigurationsfilen för varumärkesportalen och sedan tilldelas behörighet att komma åt mappen för bidrag.
 
