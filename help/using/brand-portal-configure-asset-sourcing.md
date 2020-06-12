@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,6 @@ AEM-administratörer kan konfigurera **Resurser** inifrån AEM-författarinstans
 >[!NOTE]
 >
 >Innan du börjar med konfigurationen bör du kontrollera att din AEM Resurser-instans har konfigurerats med Varumärkeportal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
->
->En innehavare av en varumärkesportal får endast konfigureras med en instans av författaren till AEM Assets.
->
->Konfigurera inte en innehavare av en varumärksportal med flera instanser av AEM Assets-författare.
-
 
 
 I följande video visas hur du konfigurerar resurskälla för din AEM-författarinstans:
