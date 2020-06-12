@@ -4,7 +4,10 @@ seo-title: Användarhandbok för AEM Brand Portal
 description: Användarhandbok för AEM Brand Portal
 seo-description: Beskriver hur du använder varumärkesportalen
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +42,7 @@ Den här användarhandboken ger dokumentinsikter om erbjudanden på varumärkesp
 |--- |---|
 | [Nyheter](whats-new.md) | Vilka ändringar och de senaste erbjudandena i varumärkesportalen har gjorts i tidigare versioner. |
 | [Versionsinformation](brand-portal-release-notes.md) | Förbättringar, åtgärdade kritiska problem och kända fel i den aktuella versionen. |
-| [Konfigurera AEM-resurser med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md) | Så här replikerar du varumärkesportalen med AEM Assets för att publicera resurser. |
+| [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md) | Så här replikerar du varumärkesportalen med AEM Assets för att publicera resurser. |
 | [Felsöka problem vid parallell publicering](troubleshoot-parallel-publishing.md) | Felsöka replikering mellan varumärkesportalen och AEM Assets. |
 | [Filformat som stöds](brand-portal-supported-formats.md) | Filformat som stöds i varumärkesportalen för förhandsgranskning och hämtning. |
 | [Publicera resurser på varumärkesportalen](brand-portal-sharing-folders.md) | Publicera mappar, samlingar, länkar, förinställningar, schema, ansikten och taggar i varumärkesportalen. |
@@ -47,4 +50,4 @@ Den här användarhandboken ger dokumentinsikter om erbjudanden på varumärkesp
 
 ### Användbara resurser
 
-* [Förstå varumärkesportalen med AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Förstå varumärkesportalen med AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
