@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,16 +33,18 @@ ht-degree: 0%
 
 Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesportalen kan visa, söka efter och hämta resurser från bidragsmappen samt från andra tillåtna mappar. Administratörer kan dessutom dela mappen för bidrag ytterligare, ändra egenskaper och lägga till resurser i samlingar.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Förutsättningar {#prerequisites}
+
+* AEM 6.5.2 eller senare.
+* Kontrollera att din AEM Assets-instans har konfigurerats med varumärkesportalen. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Se till att din varumärksportal är konfigurerad med en enda instans av AEM Assets-författaren.
 
 >[!NOTE]
 >
->Resurshantering i varumärkesportalen stöds i AEM 6.5.2.0 och senare.
->
->Funktionen stöds inte i molntjänsten AEM Assets och tidigare versioner - AEM 6.3 och AEM 6.4.
->
->Kontakta Adobes support för att uppgradera din AEM-instans till den senaste AEM-versionen som stöds.
+>Resurshantering stöds inte i molntjänsten AEM Assets.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Källa för varumärkesportalresurser](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >
 >Om du vill åtgärda AEM 6.5.4 direkt rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din författarinstans.
 
-
-## Förutsättningar {#prerequisites}
-
-* AEM 6.5.0.2 eller senare.
-* Kontrollera att din AEM Assets-instans har konfigurerats med varumärkesportalen. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Se även {#reference-articles}
 
