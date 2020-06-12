@@ -1,11 +1,14 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: experience manager brand portal
+sub-product: varumärkesportal för Experience Manager
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 18%
 
 ---
 
@@ -20,15 +23,15 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
    + [Vanliga frågor](using/brand-portal-faqs.md)
    + [Filformat som stöds](using/brand-portal-supported-formats.md)
    + [Gäståtkomst till varumärkesportalen](using/guest-access.md)
-   + [Förstå varumärkesportalen med AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Förstå varumärkesportalen med AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
    + [Bläddra bland resurser på varumärkesportalen](using/browse-assets-brand-portal.md)
-+ Publicera från AEM Assets till varumärkesportalen {#publish}
-   + [Konfigurera AEM-resurser med varumärkesportalen](using/configure-aem-assets-with-brand-portal.md)
++ Publicera resurser från AEM till varumärkesportalen {#publish}
+   + [Konfigurera AEM Assets med varumärkesportalen](using/configure-aem-assets-with-brand-portal.md)
    + [Publicera resurser på varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Publicera mappar på varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Publicera samlingar på varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Felsöka problem vid parallell publicering till varumärkesportalen](using/troubleshoot-parallel-publishing.md)
-   + [Publicera taggar i varumärkesportalen](using/brand-portal-publish-tags.md)
+   + [Publicera taggar på varumärkesportalen](using/brand-portal-publish-tags.md)
    + [Publicera förinställningar, schema och ansikten på varumärkesportalen](using/publish-schema-search-facets-presets.md)
 + Resurshantering i varumärkesportalen {#asset-sourcing-in-brand-portal}
    + [Översikt](using/brand-portal-asset-sourcing.md)
