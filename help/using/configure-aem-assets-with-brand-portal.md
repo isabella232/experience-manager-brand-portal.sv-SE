@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 9%
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 # Konfigurera AEM Assets med varumärkesportalen {#configure-integration}
 
-Adobe Experience Manager Assets (AEM) är konfigurerat med varumärkesportalen via Adobe Developer Console, som tar fram en IMS-token för auktorisering av er varumärksportal. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare.
+Adobe Experience Manager (AEM) Assets konfigureras med Brand Portal via Adobe Developer Console, som anskaffar en IMS-token för auktorisering av din varumärksportal. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare.
 
 Om du konfigurerar AEM Assets kan du använda Brand Portal för att publicera och distribuera resurser hos Brand Portal-användarna. Med Configuring Brand Portal on AEM 6.3 (och senare) kan man publicera resurser, distribuera resurser och bidra med resurser för dem som använder varumärkesportalen.
 
@@ -42,7 +42,7 @@ Om du konfigurerar AEM Assets kan du använda Brand Portal för att publicera oc
 >Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe Developer Console.
 
 
-Stegen för att konfigurera AEM Assets med Brand Portal är olika beroende på din AEM-version, om du konfigurerar för första gången eller uppgraderar befintliga konfigurationer:
+Stegen för att konfigurera AEM Assets med varumärkesportalen skiljer sig åt beroende på din AEM-version, om du konfigurerar för första gången eller uppgraderar befintliga konfigurationer:
 
 | **AEM-version** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
@@ -53,14 +53,3 @@ Stegen för att konfigurera AEM Assets med Brand Portal är olika beroende på d
 | **AEM 6.2** | Kontakta supporten | Kontakta supporten |
 
 
-<!--
-   Comment Type: draft
-
-   <li> </li>
-   -->
-
-<!--
-   Comment Type: draft
-
-   <li>Step text</li>
-   -->
