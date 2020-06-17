@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 # Konfigurera resurskälla {#configure-asset-sourcing}
 
-AEM-administratörer kan konfigurera **Resurser** inifrån AEM-författarinstansen. Administratören aktiverar konfigurationen av resurskällans funktionsflagga från **AEM Web Console Configuration** och överför listan över aktiva Brand Portal-användare i **AEM Resurser**.
+AEM-administratörer kan konfigurera **Resurser** inifrån AEM-författarinstansen. Administratören aktiverar konfigurationen av resurskällans funktionsflagga från **AEM Web Console Configuration** och överför listan över aktiva Brand Portal-användare i **AEM Assets**.
 
 >[!NOTE]
 >
->Innan du börjar med konfigurationen bör du kontrollera att din AEM Resurser-instans har konfigurerats med Varumärkeportal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Innan du börjar med konfigurationen bör du kontrollera att AEM Assets-instansen har konfigurerats med Varumärksportal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
 
 
 I följande video visas hur du konfigurerar resurskälla för din AEM-författarinstans:
@@ -46,7 +47,7 @@ AEM-administratörer kan aktivera Resurser inifrån AEM Web Console Configuratio
 
 ## Överför användarlista för varumärkesportalen {#upload-bp-user-list}
 
-AEM-administratörer kan överföra användarkonfigurationsfilen för varumärkesportalen (.csv) som innehåller den aktiva användarlistan för varumärkesportalen i AEM Resurser. En mapp för bidrag kan bara delas med de aktiva Brand Portal-användare som definieras i användarlistan. Administratören kan även lägga till nya användare i konfigurationsfilen och överföra den ändrade användarlistan.
+AEM-administratörer kan överföra användarkonfigurationsfilen för varumärkesportalen (.csv) som innehåller den aktiva användarlistan för varumärkesportalen i AEM Assets. En mapp för bidrag kan bara delas med de aktiva Brand Portal-användare som definieras i användarlistan. Administratören kan även lägga till nya användare i konfigurationsfilen och överföra den ändrade användarlistan.
 
 >[!NOTE]
 >
