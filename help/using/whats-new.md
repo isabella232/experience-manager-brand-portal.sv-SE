@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
 workflow-type: tm+mt
 source-wordcount: '4468'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Nyheter i AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager Assets Brand Portal (AEM) hjälper er att enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande varumärkesportalupplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande varumärkesportalupplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-I varumärkesportalen 6.4.6 ändras auktoriseringskanalen mellan AEM Assets och varumärkesportalen. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som köper en IMS-token för auktorisering av din varumärksportal.
+I varumärkesportalen 6.4.6 ändras behörighetskanalen mellan AEM Assets och varumärkesportalen. Brand Portal stöds nu i molntjänsten AEM Assets, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med varumärkesportalen via Adobe Developer Console, som tar fram en IMS-token för auktorisering av din varumärksportal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -40,7 +40,7 @@ I varumärkesportalen 6.4.6 ändras auktoriseringskanalen mellan AEM Assets och 
 
    -->
 
-Stegen för att konfigurera AEM Assets med Brand Portal är olika beroende på din AEM-version, om du konfigurerar för första gången eller uppgraderar befintliga konfigurationer:
+Stegen för att konfigurera AEM Assets med varumärkesportalen skiljer sig åt beroende på din AEM-version, om du konfigurerar för första gången eller uppgraderar befintliga konfigurationer:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -77,7 +77,7 @@ Se Vanliga frågor om [varumärkesportalen](brand-portal-faqs.md).
 ## Vad har ändrats i 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att överföra innehåll till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till författarmiljön. Den här funktionen kallas **[Resurser i varumärkesportalen](brand-portal-asset-sourcing.md)**och förbättrar kundupplevelsen genom att erbjuda en tvåvägsfunktion för användare som både bidrar och delar resurser med andra globalt distribuerade Brand Portal-användare.
+Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att man behöver ha tillgång till upphovsmiljön. Den här funktionen kallas **[Resurser i varumärkesportalen](brand-portal-asset-sourcing.md)**och förbättrar kundupplevelsen genom att erbjuda en tvåvägsfunktion för användare som både bidrar och delar resurser med andra globalt distribuerade Brand Portal-användare.
 
 ### Resurshantering i varumärkesportalen {#asset-sourcing-in-bp}
 
@@ -97,6 +97,7 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >Funktionen stöds inte i tidigare versioner - AEM 6.3 och AEM 6.4.
 
 
+
 ### Överför resurser till mappen för bidrag {#upload-assets-in-bp}
 
 Brand Portal-användare med rätt behörigheter kan [hämta tillgångskraven](brand-portal-download-asset-requirements.md) för att förstå behovet av bidrag och överföra flera resurser eller mappar som innehåller flera resurser till bidragsmappen. Observera dock att användare av varumärkesportalen endast kan överföra resurser till undermappen **NEW** . Mappen **DELAD** är avsedd för distribution av krav och baslinjeresurser. Se, [Överför resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md)
@@ -106,9 +107,9 @@ Brand Portal-användare med rätt behörigheter kan [hämta tillgångskraven](br
 ![](assets/upload-asset4.png)
 
 
-### Publicera mapp för bidrag till AEM Resurser {#publish-assets-to-aem}
+### Publicera mapp för bidrag till AEM Assets {#publish-assets-to-aem}
 
-När överföringen är klar till mappen **NEW** kan Brand Portal-användare sedan publicera bidragsmappen tillbaka till AEM. Det kan ta några minuter att importera och spegla det publicerade innehållet/resurserna i AEM Assets. Se, [Publicera mapp för bidrag till AEM Resurser](brand-portal-publish-contribution-folder-to-aem-assets.md)
+När överföringen är klar till mappen **NEW** kan Brand Portal-användare sedan publicera bidragsmappen tillbaka till AEM. Det kan ta några minuter att importera och spegla det publicerade innehållet/resurserna i AEM Assets. Se, [Publicera mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)
@@ -153,11 +154,12 @@ På samma sätt kan du ange:
 >
 >Om du markerar kryssrutan **Delvis sökning** är **Ignorera skiftläge** markerat som standard.
 
+
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Vad har ändrats i 6.4.3 {#what-changed-in}
 
-Brand Portal 6.4.3 fokuserar på - att ge organisationer ett alternativt alias utöver sitt klient-ID i Brand Portal-URL:en, ny mapphierarkikonfiguration, bättre videosupport, schemalagd publicering från AEM Author-instansen till Brand Portal, förbättringar av verksamheten samt att tillgodose kundernas önskemål.
+Utgåvan av Brand Portal 6.4.3 fokuserar på - att ge organisationer ett alternativt alias utöver deras klient-ID i åtkomst-URL:en för Brand Portal, ny konfiguration av mapphierarki, bättre stöd för video, schemalagd publicering från AEM Author-instansen till Brand Portal, förbättringar av driften - samt att tillgodose kundernas önskemål.
 
 ### Mapphierarkinavigering för icke-administratörer
 
@@ -202,17 +204,17 @@ Observera att sökningar under dessa mappar endast returnerar resultat från res
 
 ### Stöd för videoåtergivningar i Dynamic Media
 
-Användare vars AEM Author-instans är i läget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, utöver de ursprungliga videofilerna.
+Användare vars AEM Author-instans är i hybridläget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, förutom de ursprungliga videofilerna.
 
 För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratörer ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway URL) och registrerings-ID för att hämta den dynamiska videon) i **Video** -konfigurationen från administratörsverktygspanelen.
 
-**Användningsexemplet** Dynamic Media-videor kan förhandsvisas på:
+**Du kan förhandsgranska användningsfallet** för Dynamic Media-videofilmer på:
 
 * Sidan Resursinformation
 * Resursvy
 * Förhandsgranska länkdelning
 
-Dynamic Media Video-kodningar kan hämtas från:
+Dynamic Media Videokodningar kan hämtas från:
 
 * Varumärkesportal
 * Delad länk
@@ -340,7 +342,7 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 
 ### Adobe I/O-gränssnitt för att konfigurera autentiseringsintegreringar
 
-Från och med varumärkesportalen 6.4.2 används gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera autenticeringsintegreringar för att möjliggöra integrering av AEM Assets med varumärkesportalen. Tidigare fanns användargränssnittet för konfigurering av OAuth-integreringar på [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 och senare använder gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera Auth-integreringar så att AEM Assets kan integreras med Brand Portal. Tidigare fanns användargränssnittet för konfigurering av OAuth-integreringar på [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
@@ -430,7 +432,7 @@ Förbättrad egenskapsväljare i administrationsverktygen för metadata, söknin
 
 ![](assets/public-folder-publish.png)
 
-* Administratörer meddelas via e-post om åtkomstbegäran, förutom meddelanden i meddelandeområdet i varumärkesportalen, om någon har begärt åtkomst till varumärkesportalen.
+* Administratörer meddelas via e-post om åtkomstbegäran, förutom meddelanden i meddelandefältet i varumärkesportalen, om någon har begärt åtkomst till varumärkesportalen.
 
 ## Vad har ändrats i 6.3.2 {#what-changed-in-3}
 
@@ -442,7 +444,7 @@ Användare kan nu begära åtkomst till varumärkesportalen med hjälp av den ny
 
 ![](assets/bplogin_request_access.png)
 
-Beroende på om användarna har ett Adobe ID eller behöver skapa ett Adobe ID kan användarna följa det arbetsflöde som krävs för att skicka en förfrågan. Produktadministratörer för varumärkesportalen får sådana förfrågningar i sitt meddelandeområde och beviljar åtkomst via Adobe Admin Console.
+Beroende på om användare har ett Adobe ID eller behöver skapa ett Adobe ID kan användare följa det arbetsflöde som krävs för att skicka en begäran. Produktadministratörer på varumärkesportalen får sådana förfrågningar i sitt meddelandeområde och ger åtkomst via Adobe Admin Console.
 
 Mer information finns i [Begär åtkomst till varumärkesportalen](../using/brand-portal.md#requestaccesstobrandportal).
 
@@ -531,7 +533,7 @@ För att anpassa användarupplevelsen i Brand Portal till AEM, övergår Adobe t
 
 #### Ny smart taggbaserad sökning {#new-smart-tags-based-search}
 
-Om bilder med smarta taggar publiceras från AEM Assets till Brand Portal kan du söka efter de här bilderna i varumärkesportalen med hjälp av smarta taggnamn som söknyckelord. Den här funktionen är bara tillgänglig för filer.
+Om bilder med smarta taggar publiceras från AEM Assets till varumärkesportalen kan du söka efter dessa bilder i varumärkesportalen med hjälp av de smarta taggnamnen som söknyckelord. Den här funktionen är bara tillgänglig för filer.
 
 ### Förbättrad nedladdning {#enhanced-downloading-experience}
 
@@ -557,7 +559,7 @@ Administratörer kan skapa och hantera tre typer av rapporter - resurser som hä
 
 ### Ytterligare metadata {#additional-metadata}
 
-I varumärkesportalen 6.3.1 introduceras ytterligare metadata, som är ungefär som i AEM Assets 6.3. Du kan använda formuläret Schemaredigerare för att styra de metadata som ska vara synliga på sidan Resursegenskaper. Resursmetadata är inte synliga för användare med externa länkdelningar, som bara kan förhandsgranska och hämta resurser med hjälp av länkdelningens URL.
+I varumärkesportalen 6.3.1 introduceras ytterligare metadata, som är samma som i AEM Assets 6.3. Du kan använda formuläret Schemaredigerare för att styra de metadata som ska vara synliga på sidan Resursegenskaper. Resursmetadata är inte synliga för användare med externa länkdelningar, som bara kan förhandsgranska och hämta resurser med hjälp av länkdelningens URL.
 
 ![](assets/additionsinmetadata.png)
 
