@@ -1,8 +1,8 @@
 ---
 title: Konfigurera egenskaper för Contribute-mapp
 seo-title: Konfigurera egenskaper för Contribute-mapp
-description: 'Få information om hur du konfigurerar egenskaperna för en mapp för bidrag i AEM Assets. '
-seo-description: 'Få information om hur du konfigurerar egenskaperna för en mapp för bidrag i AEM Assets. '
+description: 'Få information om hur du konfigurerar egenskaperna för en bidragsmapp i AEM Assets. '
+seo-description: 'Få information om hur du konfigurerar egenskaperna för en bidragsmapp i AEM Assets. '
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,5 @@ Dessa Brand Portal-användare/grupper har behörighet att komma åt mappen för 
 
 >[!NOTE]
 >
->Sökresultaten baseras på användarlistan i varumärkesportalen som konfigurerats i AEM Resurser. Se till att du har den uppdaterade användarlistan för varumärkesportalen. Se Användarlista för [Överför varumärkesportal](brand-portal-configure-asset-sourcing.md).
+>Sökresultaten baseras på användarlistan för varumärkesportalen som konfigurerats i AEM Assets. Se till att du har den uppdaterade användarlistan för varumärkesportalen. Se Användarlista för [Överför varumärkesportal](brand-portal-configure-asset-sourcing.md).
+
