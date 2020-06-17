@@ -10,7 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +25,7 @@ Med Brand Portal kan du förbättra hämtningsprestanda för stora filer genom a
 >[!NOTE]
 >
 >Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
+
 
 Om det här alternativet är aktiverat kan Brand Portal-användare avsevärt minska tiden det tar att hämta önskade resursfiler från Brand Portal eller via delad länk genom att installera Aspera Connect-klienten.
 
