@@ -10,7 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 8554b9768040b59d2b1a03a3703b2d7235e63bcb
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +65,8 @@ Till skillnad från delade mappar visas inga åtgärder när du hovrar eller mar
 
 >[!NOTE]
 >
->Observera att standardminiatyrbilden för de virtuella mapparna är miniatyrbilden för den första delade mappen.
+>Standardminiatyrbilden för de virtuella mapparna är miniatyrbilden för den första delade mappen.
+
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
