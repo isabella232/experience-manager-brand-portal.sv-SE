@@ -1,24 +1,27 @@
 ---
 title: Hantera användare, grupper och användarroller
 seo-title: Hantera användare, grupper och användarroller
-description: Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera deras roller med användargränssnittet i varumärkesportalen. Det här privilegiet är inte tillgängligt för granskare och redigerare.
-seo-description: Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera deras roller med användargränssnittet i varumärkesportalen. Det här privilegiet är inte tillgängligt för granskare och redigerare.
+description: Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera sina roller med användargränssnittet i Brand Portal. Det här privilegiet är inte tillgängligt för granskare och redigerare.
+seo-description: Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera sina roller med användargränssnittet i Brand Portal. Det här privilegiet är inte tillgängligt för granskare och redigerare.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '2060'
+ht-degree: 0%
 
 ---
 
 
 # Hantera användare, grupper och användarroller {#manage-users-groups-and-user-roles}
 
-Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera deras roller med användargränssnittet i varumärkesportalen. Det här privilegiet är inte tillgängligt för granskare och redigerare.
+Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera sina roller med användargränssnittet i Brand Portal. Det här privilegiet är inte tillgängligt för granskare och redigerare.
 
-I [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)kan du visa alla produkter som är kopplade till din organisation. En produkt kan vara vilken Experience Cloud-lösning som helst, till exempel Adobe Analytics, Adobe Target eller AEM Brand Portal. Du måste välja produkt för AEM Brand Portal och skapa produktprofiler.
+I [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)kan du visa alla produkter som är kopplade till din organisation. En produkt kan vara en valfri Experience Cloud-lösning, som Adobe Analytics, Adobe Target eller AEM Brand Portal. Du måste välja produkt för AEM Brand Portal och skapa produktprofiler.
 
 <!--
 Comment Type: draft
@@ -36,6 +39,7 @@ Dessa produktprofiler synkroniseras med användargränssnittet i användarportal
 >
 >Om du vill skapa grupper i varumärkesportalen från Adobe [!UICONTROL Admin Console]använder du **[!UICONTROL Products > Product Profiles]**, i stället för **[!UICONTROL User page > User Groups]**. Produktprofiler i Adobe [!UICONTROL Admin Console] används för att skapa grupper i varumärkesportalen.
 
+
 ## Lägg till en användare {#add-a-user}
 
 Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) för att skapa användare och tilldela dem till produktprofiler (*tidigare produktkonfigurationer*) som visas som grupper i varumärkesportalen. Du kan använda grupper för att utföra gruppåtgärder som rollhantering och resursdelning.
@@ -44,9 +48,11 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
 >
 >Nya användare som inte har tillgång till varumärkesportalen kan begära åtkomst från inloggningsskärmen i varumärkesportalen. Mer information finns i [Begär åtkomst till varumärkesportalen](../using/brand-portal.md#request-access-to-brand-portal). När du har fått meddelanden om åtkomstbegäran i meddelandefältet klickar du på meddelandet och sedan på **[!UICONTROL Grant Access]**. Du kan även följa länken i det e-postmeddelande om åtkomstbegäran som har tagits emot. Om du sedan vill lägga till en användare via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)följer du steg 4-7 i proceduren nedan.
 
+
 >[!NOTE]
 >
 >Du kan logga in på [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt följer du steg 4-7 i proceduren nedan för att lägga till en användare.
+
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -66,7 +72,7 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
    ![Admin Console - översikt](assets/admin_console_overviewadduser.png)
 
    * Klicka på i verktygsfältet överst **[!UICONTROL Users]**. På [!UICONTROL Users] sidan är [!UICONTROL Users] den vänstra listen markerad som standard. Klicka på **[!UICONTROL Add User]**.
-   ![Admin Console Lägg till användare](assets/admin_console_adduseruserpage.png)
+   ![Admin Console Add users](assets/admin_console_adduseruserpage.png)
 
 1. I dialogrutan Lägg till användare skriver du e-post-ID:t för den användare som du vill lägga till eller väljer användaren i listan med förslag som visas när du skriver.
 
@@ -88,6 +94,7 @@ Produktprofiler (som tidigare kallades produktkonfigurationer) i [!UICONTROL Adm
 >[!NOTE]
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-7 i proceduren nedan för att lägga till en produktprofil.
+
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -121,6 +128,7 @@ Om du vill lägga till användare i en varumärkesportalgrupp lägger du till de
 >[!NOTE]
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt på Admin Console följer du steg 4-7 i proceduren nedan för att lägga till användare i en produktprofil.
+
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -172,6 +180,7 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-8 i proceduren nedan för att lägga till en användare i en produktprofil.
 
+
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
    ![AEMLogo](assets/aemlogo.png)
@@ -201,8 +210,7 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
    >Varumärksportal har endast stöd för systemadministratörs- och produktadministratörsroller.
    >
    >
-   >Adobe rekommenderar att du undviker att använda systemadministratörsrollen eftersom den ger administratörsbehörighet för hela organisationen för alla produkter i en organisation. En systemadministratör för en organisation som inkluderar tre molnprodukter för marknadsföring har till exempel hela uppsättningen behörigheter för alla tre produkterna. Endast en systemadministratör kan konfigurera AEM Resurser så att resurser kan publiceras från AEM Assets till varumärkesportalen. Mer information finns i [Konfigurera AEM-resurser med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
-   >
+   >Adobe rekommenderar att du undviker att använda systemadministratörsrollen eftersom den ger administratörsbehörighet för hela organisationen för alla produkter i en organisation. En systemadministratör för en organisation som inkluderar tre molnprodukter för marknadsföring har till exempel hela uppsättningen behörigheter för alla tre produkterna. Endast en systemadministratör kan konfigurera AEM Assets så att resurser kan publiceras från AEM Assets till varumärkesportalen. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >Produktadministratörsrollen ger däremot administratörsbehörighet för en viss produkt. Om du vill använda en mer detaljerad åtkomstkontroll i varumärkesportalen använder du rollen Produktadministratör och väljer produkten som varumärkesportal.
 
@@ -264,6 +272,7 @@ En administratör kan associera specifika behörigheter med en [grupp](../using/
 >
 >För de resurser som delas som länken gäller behörigheten att komma åt de ursprungliga återgivningarna av bildfiler baserat på behörigheten för den användare som delar resurserna.
 
+
 Så här ändrar du rollen och åtkomsträttigheten till de ursprungliga återgivningarna för specifika gruppmedlemmar:
 
 1. Gå till fliken på **[!UICONTROL User Roles]** sidan **[!UICONTROL Groups]** .
@@ -286,3 +295,4 @@ Så här ändrar du rollen och åtkomsträttigheten till de ursprungliga återgi
    >[!NOTE]
    >
    >Associationen användare-till-grupp, eller gruppmedlemskapet för en användare, synkroniseras till varumärkesportalen var 8:e timme. Ändringar i användar- eller grupproller börjar gälla efter att nästa synkroniseringsjobb har körts.
+
