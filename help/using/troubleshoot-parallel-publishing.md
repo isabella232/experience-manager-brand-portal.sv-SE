@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -19,15 +19,16 @@ ht-degree: 0%
 
 # Felsöka problem vid parallell publicering till varumärkesportalen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Varumärkesportalen är konfigurerad med AEM Assets för att ha godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets-författarinstansen. När AEM Author har [konfigurerats](../using/configure-aem-assets-with-brand-portal.md)används en replikeringsagent för att replikera de valda resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används från och med AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 för parallell publicering med hög hastighet.
+Varumärkesportalen är konfigurerad med AEM Assets för att innehålla godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När den har [konfigurerats](../using/configure-aem-assets-with-brand-portal.md)använder AEM Author en replikeringsagent för att replikera de markerade resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används från och med AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 för parallell publicering med hög hastighet.
 
 >[!NOTE]
 >
 >Adobe rekommenderar att du uppgraderar till AEM 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med varumärkesportalen och replikeringen misslyckas.
 
+
 När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar flera resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
 
-Publiceringen kan emellertid misslyckas ibland på grund av stora avförsäljningsjobb, ökat nätverk och **[!UICONTROL Disk I/O]** på AEM Author-instansen eller långsammare prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
+Publiceringen kan emellertid misslyckas ibland på grund av stora snedningsjobb, utökat nätverk och **[!UICONTROL Disk I/O]** på AEM Author-instansen eller långsammare prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
 
 ![](assets/test-connection.png)
 
@@ -39,7 +40,7 @@ Så här validerar du dina publiceringskonfigurationer:
 1. Kontrollera om replikeringsagenten har skapats
 1. Testanslutning
 
-**Slutloggar när molntjänsten skapas**
+**Slutloggar när Cloud Service skapas**
 
 Kontrollera slutloggar. Kontrollera om replikeringsagenten har skapats eller inte. Om det inte går att skapa replikeringsagenten kan du redigera molntjänsten genom att göra mindre ändringar i molntjänsten. Validera och kontrollera igen om replikeringsagenten har skapats eller inte. Om inte kan du redigera tjänsten igen.
 
@@ -122,7 +123,7 @@ Beroende på felen rekommenderar vi att du loggar en supportanmälan så att kon
 **Upplösning**: Publiceringen misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
 Utför följande steg för att konfigurera replikeringsagenten:
-1. Logga in på din AEM Assets-författarinstans.
+1. Logga in på AEM Assets författarinstans.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. Klicka på på sidan Replikering **[!UICONTROL Agents on author]**. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
 1. Klicka på replikeringsagentens URL för att öppna agentinformationen.
