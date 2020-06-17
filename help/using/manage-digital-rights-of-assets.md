@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Läs vidare för att lära dig hur resurserna skyddas på varumärkesportalen oc
 
 ## Resursens förfallodatum {#asset-expiration}
 
-Förfallotid är ett effektivt sätt att kontrollera användningen av godkända resurser på varumärkesportalen i en organisation. Alla resurser som publiceras från AEM Assets till Brand Portal kan ha ett förfallodatum, vilket begränsar användningen av dessa resurser för olika användarroller.
+Förfallotid är ett effektivt sätt att kontrollera användningen av godkända resurser på varumärkesportalen i en organisation. Alla mediefiler som publiceras från AEM Assets till varumärkesportalen kan ha ett förfallodatum, vilket begränsar användningen av dessa mediefiler för olika användarroller.
 
 ### Användningsbehörigheter för resurser som gått ut {#usage-permissions-expired-assets}
 
@@ -34,6 +37,7 @@ Administratörer kan publicera material som gått ut från AEM Assets till varum
 >[!NOTE]
 >
 >En mapp kan fortfarande delas som en länk, även om den innehåller resurser som har gått ut. I det här fallet listar länken inte resurser som har gått ut och bara resurser som inte har gått ut delas.
+
 
 I följande tabell visas användningsbehörigheterna för utgångna resurser:
 
@@ -48,6 +52,7 @@ I följande tabell visas användningsbehörigheterna för utgångna resurser:
 >
 >Om visningsprogram och redigerare hämtar en mapp med resurser som har upphört att gälla och som inte har gått ut, hämtas endast de resurser som inte har gått ut. Om en mapp bara innehåller resurser som har gått ut hämtas en tom mapp.
 
+
 ### Utgångsstatus för tillgångar {#expiration-status-of-assets}
 
 Du kan visa förfallostatusen för resurser i deras **[!UICONTROL Card View]**. En röd flagga på kortet anger att resursen har gått ut.
@@ -57,6 +62,7 @@ Du kan visa förfallostatusen för resurser i deras **[!UICONTROL Card View]**. 
 >[!NOTE]
 >
 >I list- och kolumnvyer visas inte tillgångarnas förfallostatus.
+
 
 ## Resurslänkens förfallodatum {#asset-link-expiration}
 
@@ -72,7 +78,7 @@ Mer information om länkdelning finns i [Dela resurser som en länk](../using/br
 
 Licensierade mediefiler regleras av ett licensavtal som måste godkännas innan de kan hämtas från varumärkesportalen. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från varumärkesportalen eller via en delad länk. Licensskyddade resurser kan visas av alla användare, oavsett om de har gått ut eller inte. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om hur licensierade mediefiler och tillåtna aktiviteter fungerar baserat på användarroller läser du i [användningsbehörigheterna för utgångna mediefiler](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Licensskyddade mediefiler har [licensavtal som är kopplade](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) till dem, vilket görs genom att ställa in resursens [metadataegenskap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) i AEM Resurser.
+Licensskyddade mediefiler har [licensavtal som är kopplade](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) till dem, vilket görs genom att ställa in objektets [metadataegenskap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) i AEM Assets.
 
 Om du väljer att hämta licensskyddade mediefiler omdirigeras du till **[!UICONTROL Copyright Management]** sidan.
 
