@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,5 @@ Du kan nu konfigurera Contribute-mappens egenskaper. Se [Konfigurera egenskaper]
 >
 >Se till att du ger Contribute-mappen ett lämpligt namn eftersom du inte kan ändra mappnamnet när du har skapat det.
 >
->Kapsling av Contribute-mappen stöds inte. Skapa inte en Contribute-mapp i en annan Contribute-mapp.
+>Kapsling av Contribute-mappen stöds inte. Du kan skapa flera Contribute-mappar i en mapp, men du behöver inte skapa en Contribute-mapp i en annan Contribute-mapp.
 
