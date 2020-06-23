@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
+source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ Administratören kan sedan ge Brand Portal-användare/grupper åtkomst till mapp
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Ange en hög nivå **[!UICONTROL Description]** för mappen för bidrag.
 1. Klicka **[!UICONTROL Upload Brief]** för ![](assets/upload.png) att bläddra från den lokala datorn och ladda upp ett **tillgångskravsdokument**.
-1. I **[!UICONTROL Add User or Group]** söker du efter och **[!UICONTROL Add]** på varumärkesportalen som du vill dela mappen för bidrag med. Det går inte att tilldela grupper en distributionsmapp.
-Dessa Brand Portal-användare har behörighet att komma åt mappen för bidrag och överföra innehåll från gränssnittet för varumärkesportalen utan att behöva komma åt AEM-författarinstansen.
+1. I **[!UICONTROL Add User or Group]** fältet lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Med hjälp av gränssnittet Varumärksportal kan tillagda användare få åtkomst till och överföra innehåll till mappen för bidrag. För närvarande kan du inte lägga till grupper i en mapp för bidrag.
 
 1. Klicka på **[!UICONTROL Save]**.
    ![](assets/contribution-folder-property2.png)
