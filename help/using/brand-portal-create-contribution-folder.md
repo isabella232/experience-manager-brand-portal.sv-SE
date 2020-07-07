@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -42,4 +42,3 @@ Du kan nu konfigurera Contribute-mappens egenskaper. Se [Konfigurera egenskaper]
 >En icke-admin-användare kan bara skapa och dela en resursavgiftsmapp. När bidragsmappen har skapats kan en användare som inte är administratör inte ändra eller ta bort den.
 >
 >Kapsling av resursavgiftsmapp stöds inte. Du kan skapa flera mappar för bidrag i en mapp, men du får inte skapa en mapp för bidrag i en annan mapp för bidrag.
-
