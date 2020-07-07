@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -38,7 +38,6 @@ Administratörer kan publicera material som gått ut från AEM Assets till varum
 >
 >En mapp kan fortfarande delas som en länk, även om den innehåller resurser som har gått ut. I det här fallet listar länken inte resurser som har gått ut och bara resurser som inte har gått ut delas.
 
-
 I följande tabell visas användningsbehörigheterna för utgångna resurser:
 
 |  | **[!UICONTROL Link share]** | **[!UICONTROL Download]** | **[!UICONTROL Properties]** | **[!UICONTROL Add to collection]** | **[!UICONTROL Delete]** |
@@ -52,7 +51,6 @@ I följande tabell visas användningsbehörigheterna för utgångna resurser:
 >
 >Om visningsprogram och redigerare hämtar en mapp med resurser som har upphört att gälla och som inte har gått ut, hämtas endast de resurser som inte har gått ut. Om en mapp bara innehåller resurser som har gått ut hämtas en tom mapp.
 
-
 ### Utgångsstatus för tillgångar {#expiration-status-of-assets}
 
 Du kan visa förfallostatusen för resurser i deras **[!UICONTROL Card View]**. En röd flagga på kortet anger att resursen har gått ut.
@@ -62,7 +60,6 @@ Du kan visa förfallostatusen för resurser i deras **[!UICONTROL Card View]**. 
 >[!NOTE]
 >
 >I list- och kolumnvyer visas inte tillgångarnas förfallostatus.
-
 
 ## Resurslänkens förfallodatum {#asset-link-expiration}
 
