@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
+source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du kan nu konfigurera Contribute-mappens egenskaper. Se [Konfigurera egenskaper]
 
 >[!NOTE]
 >
->En icke-admin-användare kan bara skapa och dela en Contribute-mapp. Se till att du ger Contribute-mappen ett lämpligt namn eftersom en icke-admin-användare inte kan ändra eller ta bort en Contribute-mapp när den har skapats.
+>En icke-admin-användare kan bara skapa och dela en resursavgiftsmapp. När bidragsmappen har skapats kan en användare som inte är administratör inte ändra eller ta bort den.
 >
->Kapsling av Contribute-mappen stöds inte. Du kan skapa flera Contribute-mappar i en mapp, men du behöver inte skapa en Contribute-mapp i en annan Contribute-mapp.
+>Kapsling av resursavgiftsmapp stöds inte. Du kan skapa flera mappar för bidrag i en mapp, men du får inte skapa en mapp för bidrag i en annan mapp för bidrag.
 
