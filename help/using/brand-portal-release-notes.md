@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Versionsinformation
-description: Få insikt i funktioner, förbättringar, åtgärdade kritiska problem och kända problem i Adobe Experience Manager Assets Brand Portal 6.4.6.2.
-seo-description: Få insikt i förbättringarna, åtgärdade kritiska problem och kända problem i Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända problem i Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+seo-description: Få en inblick i förbättringarna, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen
 
 ## Översikt {#overview}
 
-Adobe Experience Manager Assets Brand Portal (AEM) hjälper er att enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
+Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
 ## Nyheter i 6.4.6.2 {#what-s-new-in-6462}
 
@@ -41,7 +41,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 * Om du tar bort ett publicerat metadataschema från varumärkesportalen uppstår ett fel.
 
-* Om administratören konfigurerar Experience Manager Assets 6.5.4 med varumärkesportalen via Adobe Developer Console kan inte användaren på varumärkesportalen publicera resurser från varumärkesportalen till Experience Manager.
+* Om administratören konfigurerar Experience Manager Assets 6.5.4 med Brand Portal via Adobe Developer Console kan inte Brand Portal-användaren publicera materialet i mappen för bidrag från Brand Portal till Experience Manager.
 
 * Duplicerad replikering av de överordnade mapparna som orsakar konflikter.
 
@@ -56,7 +56,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 Den här versionen innehåller följande kända fel:
 
-* Om en mapp i hierarkin byter namn från AEM Resurser och den kapslade mappen som innehåller en resurs publiceras på varumärkesportalen, uppdateras inte mappens namn i varumärkesportalen förrän rotmappen publiceras igen.
+* Om en mapp i hierarkin byter namn från AEM Assets och den kapslade mappen som innehåller en resurs publiceras på varumärkesportalen, uppdateras inte mappens namn i varumärkesportalen förrän rotmappen publiceras igen.
 
 
 ## Nyheter i 6.4.6 {#what-s-new-in-646}
@@ -67,20 +67,18 @@ Den här versionen innehåller följande nya funktioner:
 
 * Captcha för gästinloggning på Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
-* Brand Portal stöds nu med molntjänsten AEM Assets. Du kan konfigurera AEM Assets så att det kan användas tillsammans med varumärkesportalen för att dela och distribuera resurser med användare på varumärkesportalen.
+* Brand Portal stöds nu med molntjänsten AEM Assets. Du kan konfigurera AEM Assets kan använda Brand Portal för att dela och distribuera resurser med Brand Portal-användare.
 Mer information finns i [Konfigurera molntjänsten AEM Assets med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Förbättringar {#enhancements-646}
 
 Den här versionen av varumärkesportalen innehåller följande förbättringar:
 
-* I AEM 6.3 och senare ändras auktoriseringskanalen mellan AEM Assets och Brand Portal. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som köper en IMS-token för auktorisering av din varumärksportal.
+* I AEM 6.3 och senare ändras behörighetskanalen mellan AEM Assets och varumärkesportalen. AEM Assets är nu konfigurerat med varumärkesportalen via Adobe Developer Console, som köper en IMS-token för auktorisering av din varumärksportal.
 
 >[!NOTE]
 >
 >Konfiguration via äldre OAuth stöds inte längre från 6 april 2020 och har ändrats till att konfigureras via Adobe Developer Console.
-
-
 
 >[!TIP]
 >
@@ -89,7 +87,6 @@ Den här versionen av varumärkesportalen innehåller följande förbättringar:
 >Äldre OAuth Gateway-konfiguration fortsätter att fungera för befintliga kunder.
 >
 >Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe Developer Console.
-
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
@@ -115,7 +112,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 Den här versionen innehåller följande kända fel:
 
-* Användare av varumärkesportalen kan inte publicera resurser i mappen för bidrag till AEM Resurser när de uppgraderar till Adobe Developer Console på AEM 6.5.4.
+* Användare av varumärkesportalen kan inte publicera resurser i mappen för bidrag till AEM Assets när de uppgraderar till Adobe Developer Console på AEM 6.5.4.
 
    Problemet åtgärdas i nästa Service Pack 6.5.5.
 
@@ -144,7 +141,7 @@ Om du vill ta reda på vilka plattformar som är certifierade för att köras me
 
 ## Länkar {#links}
 
-* [Adobe Experience Manager Product Page på adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Adobe Experience Manager produktsida på adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
 * [Dokumentation för Assets Brand Portal](https://helpx.adobe.com/se/experience-manager/brand-portal/user-guide.html)
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
