@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 9%
@@ -32,7 +32,6 @@ Om du konfigurerar AEM Assets kan du använda Brand Portal för att publicera oc
 >
 >Konfiguration via äldre OAuth stöds inte längre från 6 april 2020 och har ändrats till att konfigureras via Adobe Developer Console.
 
-
 >[!TIP]
 >
 >***Endast för befintliga kunder***
@@ -40,7 +39,6 @@ Om du konfigurerar AEM Assets kan du använda Brand Portal för att publicera oc
 >Äldre OAuth Gateway-konfiguration fortsätter att fungera för befintliga kunder.
 >
 >Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe Developer Console.
-
 
 Stegen för att konfigurera AEM Assets med varumärkesportalen skiljer sig åt beroende på din AEM-version, om du konfigurerar för första gången eller uppgraderar befintliga konfigurationer:
 
