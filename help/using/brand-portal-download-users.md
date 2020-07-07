@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Alla användare kan samtidigt hämta flera resurser och mappar som är tillgäng
 >[!NOTE]
 >
 >Endast administratörer kan hämta utgångna resurser. Mer information om utgångna resurser finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md).
-
 
 ## Steg för att hämta resurser {#steps-to-download-assets}
 
@@ -55,19 +54,19 @@ Så här hämtar du resurser eller mappar som innehåller resurser för varumär
 
    ![](assets/restrictaccess-note.png)
 
-1. Om du vill hämta återgivningar av resurser förutom resurserna väljer du **[!UICONTROL Rendition(s)]**. Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar, avmarkerar du **[!UICONTROL Exclude Auto Generated Renditions]** det som är markerat som standard.
+1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar, avmarkerar du **[!UICONTROL Exclude Auto Generated Renditions]** det som är markerat som standard.
 
    ![](assets/exclude-auto-renditions.png)
 
-   Om du bara vill hämta renderingarna avmarkerar du **[!UICONTROL Asset(s)]**.
+   To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
 
    >[!NOTE]
    >
    >Som standard hämtas bara resurserna. Originalåtergivningar av bildfiler hämtas dock inte om du inte har [behörighet av administratören att ha tillgång till de ursprungliga återgivningarna av bildfiler](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
-   * Om du vill snabba upp hämtningen av resursfiler från varumärkesportalen väljer du **[!UICONTROL Enable download acceleration]** alternativet och [följer guiden](../using/accelerated-download.md#main-pars-header-405749062). Om du vill veta mer om snabbare nedladdning av resurser kan du läsa [guiden för att snabba upp nedladdningarna från Brand Portal](../using/accelerated-download.md).
+   * To speed up the download of asset files from Brand Portal, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). Om du vill veta mer om snabbare nedladdning av resurser kan du läsa [guiden för att snabba upp nedladdningarna från Brand Portal](../using/accelerated-download.md).
 
-   * Om du vill använda en [anpassad bildförinställning på resursen och dess återgivningar](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)väljer du **[!UICONTROL Dynamic Rendition(s)]**. Ange anpassade förinställda bildegenskaper (storlek, format, färgrymd, upplösning och bildmodifiering) för att använda den anpassade bildförinställningen när resursen och dess återgivningar hämtas. Om du bara vill hämta de dynamiska återgivningarna avmarkerar du **[!UICONTROL Asset(s)]**.
+   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Ange anpassade förinställda bildegenskaper (storlek, format, färgrymd, upplösning och bildmodifiering) för att använda den anpassade bildförinställningen när resursen och dess återgivningar hämtas. Om du bara vill hämta de dynamiska återgivningarna avmarkerar du **[!UICONTROL Asset(s)]**.
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
