@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 0%
@@ -68,8 +68,6 @@ Stegen för att konfigurera AEM Assets med varumärkesportalen skiljer sig åt b
 >
 >Vi rekommenderar att du uppdaterar din AEM-instans till det senaste Service Pack-versionen.
 
-
-
 Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
 
 Se Vanliga frågor om [varumärkesportalen](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >Resurshantering i varumärkesportalen stöds i AEM 6.5.2.0 och senare.
 >
 >Funktionen stöds inte i tidigare versioner - AEM 6.3 och AEM 6.4.
-
-
 
 ### Överför resurser till mappen för bidrag {#upload-assets-in-bp}
 
@@ -153,7 +149,6 @@ På samma sätt kan du ange:
 >[!NOTE]
 >
 >Om du markerar kryssrutan **Delvis sökning** är **Ignorera skiftläge** markerat som standard.
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
