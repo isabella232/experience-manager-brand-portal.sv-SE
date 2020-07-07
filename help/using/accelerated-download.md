@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 2%
@@ -25,7 +25,6 @@ Med Brand Portal kan du förbättra hämtningsprestanda för stora filer genom a
 >[!NOTE]
 >
 >Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
-
 
 Om det här alternativet är aktiverat kan Brand Portal-användare avsevärt minska tiden det tar att hämta önskade resursfiler från Brand Portal eller via delad länk genom att installera Aspera Connect-klienten.
 
@@ -44,7 +43,7 @@ Om du vill hämta filerna snabbare bör du göra följande:
 
 Nedan följer hämtningsdomänerna för olika platser:
 
-| Regionkod | Domän |
+| Regionkod | Domain |
 |---|---|
 | NA OR1 | downloads-na1.brand-portal.adobe.com |
 | NA VA5 | downloads-na2.brand-portal.adobe.com |
