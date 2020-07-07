@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -32,6 +32,7 @@ Resurskravet avser den information som administratörer tillhandahåller för at
 Administratören kan sedan ge Brand Portal-användare/grupper åtkomst till mappen för bidrag innan den nya Contribute-mappen publiceras på varumärkesportalen.
 
 **Så här konfigurerar du bidragsmappens egenskaper:**
+
 1. Logga in på din AEM-författarinstansStandard-URL: http:// localhost:4502/aem/start.html
 1. Navigera till **[!UICONTROL Assets > Files]** och hitta mappen för bidrag.
 1. Välj mapp för bidrag och klicka på **[!UICONTROL Properties]**![](assets/properties.png). Fönstret Mappegenskaper öppnas.
@@ -40,11 +41,10 @@ Administratören kan sedan ge Brand Portal-användare/grupper åtkomst till mapp
 1. Ange en hög nivå **[!UICONTROL Description]** för mappen för bidrag.
 1. Klicka **[!UICONTROL Upload Brief]** för ![](assets/upload.png) att bläddra från den lokala datorn och ladda upp ett **tillgångskravsdokument**.
 1. I **[!UICONTROL Add User or Group]** fältet lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Med hjälp av gränssnittet Varumärksportal kan tillagda användare få åtkomst till och överföra innehåll till mappen för bidrag. För närvarande kan du inte lägga till grupper i en mapp för bidrag.
-
 1. Klicka på **[!UICONTROL Save]**.
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >Sökresultaten baseras på användarlistan för varumärkesportalen som konfigurerats i AEM Assets. Se till att du har den uppdaterade användarlistan för varumärkesportalen. Se Användarlista för [Överför varumärkesportal](brand-portal-configure-asset-sourcing.md).
-
