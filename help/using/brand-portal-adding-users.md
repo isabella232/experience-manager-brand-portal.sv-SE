@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2060'
 ht-degree: 0%
@@ -39,7 +39,6 @@ Dessa produktprofiler synkroniseras med användargränssnittet i användarportal
 >
 >Om du vill skapa grupper i varumärkesportalen från Adobe [!UICONTROL Admin Console]använder du **[!UICONTROL Products > Product Profiles]**, i stället för **[!UICONTROL User page > User Groups]**. Produktprofiler i Adobe [!UICONTROL Admin Console] används för att skapa grupper i varumärkesportalen.
 
-
 ## Lägg till en användare {#add-a-user}
 
 Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) för att skapa användare och tilldela dem till produktprofiler (*tidigare produktkonfigurationer*) som visas som grupper i varumärkesportalen. Du kan använda grupper för att utföra gruppåtgärder som rollhantering och resursdelning.
@@ -48,11 +47,9 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
 >
 >Nya användare som inte har tillgång till varumärkesportalen kan begära åtkomst från inloggningsskärmen i varumärkesportalen. Mer information finns i [Begär åtkomst till varumärkesportalen](../using/brand-portal.md#request-access-to-brand-portal). När du har fått meddelanden om åtkomstbegäran i meddelandefältet klickar du på meddelandet och sedan på **[!UICONTROL Grant Access]**. Du kan även följa länken i det e-postmeddelande om åtkomstbegäran som har tagits emot. Om du sedan vill lägga till en användare via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)följer du steg 4-7 i proceduren nedan.
 
-
 >[!NOTE]
 >
 >Du kan logga in på [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt följer du steg 4-7 i proceduren nedan för att lägga till en användare.
-
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -95,7 +92,6 @@ Produktprofiler (som tidigare kallades produktkonfigurationer) i [!UICONTROL Adm
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-7 i proceduren nedan för att lägga till en produktprofil.
 
-
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
    ![AEM-logotyp](assets/aemlogo.png)
@@ -128,7 +124,6 @@ Om du vill lägga till användare i en varumärkesportalgrupp lägger du till de
 >[!NOTE]
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt på Admin Console följer du steg 4-7 i proceduren nedan för att lägga till användare i en produktprofil.
-
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -179,7 +174,6 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
 >[!NOTE]
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-8 i proceduren nedan för att lägga till en användare i en produktprofil.
-
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -271,7 +265,6 @@ En administratör kan associera specifika behörigheter med en [grupp](../using/
 >[!NOTE]
 >
 >För de resurser som delas som länken gäller behörigheten att komma åt de ursprungliga återgivningarna av bildfiler baserat på behörigheten för den användare som delar resurserna.
-
 
 Så här ändrar du rollen och åtkomsträttigheten till de ursprungliga återgivningarna för specifika gruppmedlemmar:
 
