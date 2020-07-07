@@ -1,15 +1,15 @@
 ---
-title: Översikt över AEM Assets Brand Portal
-seo-title: Översikt över AEM Assets Brand Portal
-description: AEM Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter.
-seo-description: AEM Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter.
+title: Översikt över varumärkesportalen för AEM Assets
+seo-title: Översikt över varumärkesportalen för AEM Assets
+description: AEM Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna företagsanvändare på olika enheter.
+seo-description: AEM Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna företagsanvändare på olika enheter.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 4%
@@ -17,37 +17,36 @@ ht-degree: 4%
 ---
 
 
-# Översikt över AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Översikt över varumärkesportalen för AEM Assets {#overview-of-aem-assets-brand-portal}
 
 Som marknadsförare behöver ni ibland samarbeta med kanalpartners och interna affärsanvändare för att snabbt skapa, hantera och leverera relevant digitalt innehåll till kunder. Snabb leverans av relevant innehåll under hela kundresan är avgörande för att öka efterfrågan, konvertering, engagemang och kundlojalitet.
 
 Det är dock en utmaning att utveckla lösningar som stöder effektiv och säker delning av godkända varumärkeslogotyper, riktlinjer, kampanjresurser eller produktbilder med interna team, partners och återförsäljare.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att effektivt samarbeta med globala Brand Portal-användare genom att tillhandahålla funktioner för tillgångsdistribution och materialbidrag.
+**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att effektivt samarbeta med globala Brand Portal-användare genom att tillhandahålla funktioner för tillgångsdistribution och kapitaltillskott.
 
-Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Resursanslaget gör det möjligt för användare av varumärkesportalen att överföra resurser till varumärkesportalen och publicera dem på AEM Assets, utan att behöva ha tillgång till den utvecklingsmiljö de arbetar i. Avgiftsfunktionen kallas **Resurser i varumärkesportalen**. Tillsammans förbättrar det den övergripande varumärkesportalupplevelsen av tillgångsdistribution och bidrag från användarna på varumärkesportalen (externa byråer/team), snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst.
+Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Tillgångarnas bidrag gör det möjligt för varumärkesportalanvändarna att överföra mediefiler till varumärkesportalen och publicera dem på AEM Assets, utan att behöva ha tillgång till upphovsrättsmiljön. Avgiftsfunktionen kallas **Resurser i varumärkesportalen**. Tillsammans förbättrar det den övergripande varumärkesportalupplevelsen av tillgångsdistribution och bidrag från användarna på varumärkesportalen (externa byråer/team), snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst.
 Se [Resurser i Varumärkesportalen](brand-portal-asset-sourcing.md).
 
 I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland, söka efter, förhandsgranska och exportera resurser i godkända format.
 
 ## Konfigurera AEM Assets med varumärkesportalen {#configure-brand-portal}
 
-Adobe Experience Manager Assets (AEM) är konfigurerat med varumärkesportalen via Adobe Developer Console, som tar fram en IMS-token för auktorisering av er varumärksportal.
+Adobe Experience Manager (AEM) Assets konfigureras med Brand Portal via Adobe Developer Console, som anskaffar en IMS-token för auktorisering av din varumärksportal.
 
 >[!NOTE]
 >
->Konfigurering av AEM Assets med varumärkesportalen via Adobe Developer Console stöds av molntjänsten AEM Assets, AEM Assets 6.3 och senare.
-
+>Det går att konfigurera AEM Assets med varumärkesportalen via Adobe Developer Console i molntjänsten AEM Assets, AEM Assets 6.3 och senare.
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
 Du behöver följande för att konfigurera AEM Assets med varumärkesportalen:
 
-* En AEM Resurser-instans som körs.
+* En AEM Assets-instans som körs och är igång.
 * Varumärkesportalens klientorganisations-URL.
 * En användare med systemadministratörsbehörighet på IMS-organisationen för varumärkesportalens klient.
 
-Mer information finns i [Konfigurera AEM Resurser med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
+Mer information finns i [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Användarprofiler i varumärkesportalen {#Personas}
 
@@ -123,7 +122,7 @@ En administratör kan utföra alla uppgifter som en redigerare kan utföra:
 
 [Arbeta med rapporter](brand-portal-reports.md)
 
-Förutom ovanstående uppgifter kan en författare i AEM Resurser utföra följande uppgifter:
+Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följande uppgifter:
 
 [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md)
 
@@ -143,7 +142,6 @@ AEM Author-instansen kan dock bara [konfigureras](../using/configure-aem-assets-
 >För att få ett alias för innehavarens namn i en befintlig portal-URL måste man kontakta Adobes support för att få en ny begäran om att skapa klientalias. Denna begäran behandlas genom att först kontrollera om aliaset är tillgängligt och sedan skapa aliaset.
 >
 >Om du vill ersätta det gamla aliaset eller ta bort det gamla måste samma process följas.
-
 
 ## Begär åtkomst till varumärkesportalen {#request-access-to-brand-portal}
 
