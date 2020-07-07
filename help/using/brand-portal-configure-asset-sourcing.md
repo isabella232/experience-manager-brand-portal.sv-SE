@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -25,8 +25,6 @@ AEM-administratörer kan konfigurera **Resurser** inifrån AEM-författarinstans
 >[!NOTE]
 >
 >Innan du börjar med konfigurationen bör du kontrollera att AEM Assets-instansen har konfigurerats med Varumärksportal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-
-
 
 I följande video visas hur du konfigurerar resurskälla för din AEM-författarinstans:
 
@@ -52,7 +50,6 @@ AEM-administratörer kan överföra användarkonfigurationsfilen för varumärke
 >[!NOTE]
 >
 >CSV-filens format är detsamma som det som stöds av Admin Console för bulkanvändarimport. E-post, förnamn och efternamn är obligatoriska.
-
 
 Administratören kan lägga till nya användare i AEM Admin Console. Mer information finns i [Hantera användare](brand-portal-adding-users.md) . När du har lagt till användare i Admin Console kan dessa användare läggas till i användarkonfigurationsfilen för varumärkesportalen och sedan tilldelas behörighet att komma åt mappen för bidrag.
 
