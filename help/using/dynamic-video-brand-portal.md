@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Om du vill arbeta med dynamiska videoklipp på varumärkesportalen ska du se til
 * **Konfigurera Dynamic Media på varumärkesportalen** Baserat på Dynamic Media molnkonfigurationer på AEM Author, konfigurera [Dynamic Media-inställningar](#configure-dm-hybrid-settings) eller [[!DNL Scene 7]-inställningar](#configure-dm-scene7-settings) från administrationsverktygen för varumärkesportalen.
 Se till att [separata Brand Portal-klientorganisationer](#separate-tenants) används för AEM Author-instanser som konfigurerats med Dynamic Media Hybrid och Dynamic Media- **[!UICONTROL Scene7]** lägen, om du använder funktioner för Dynamic Media Hybrid och Dynamic Media **[!UICONTROL S7]**.
 * **Publicera mappar med videokodningar tillämpade på Brand Portal** Använd [videokodningar](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) och publicera den mapp som innehåller multimedieresurser från AEM Author-instansen till Brand Portal.
-* **Tillåt IP-adresser för Egress i SPS om säker förhandsgranskning är aktiverat** Om du använder Dynamic Media-**[!DNL Scene 7]** (med [säker förhandsgranskning aktiverad](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) för ett företag) bör **[!DNL Scene 7]** företagsadministratören [tillåta IP-adresser](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) för offentlig utgång för respektive region med hjälp av SPS (**[!UICONTROL Scene 7]** Publishing System) flash UI.
+* **Tillåtslista IP-adresser i SPS om säker förhandsgranskning är aktiverat** Om Dynamic Media-**[!DNL Scene 7]** (med [säker förhandsvisning aktiverat](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) för ett företag) används bör **[!DNL Scene 7]** företagsadministratören [tillåtslista IP-adresserna](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) för offentliga utgångar för respektive region med hjälp av SPS (**[!UICONTROL Scene 7]** Publishing System) flash-gränssnitt.
 IP-adresserna för Egress är följande:
 
 | **Län** | **IP-adress för ägg** |
@@ -88,7 +88,7 @@ Om du använder både Hybrid-funktionerna i Dynamic Media **[!DNL Scene 7]** och
 
 Kontrollera att konfigurationsinformationen - som **[!UICONTROL Title]**, **[!UICONTROL Registration ID]**, **[!UICONTROL Video Service URL]** (in **[!UICONTROL Dynamic Media Hybrid]**) och **[!UICONTROL Title]**, autentiseringsuppgifter (**[!UICONTROL Email]** och lösenord), **[!UICONTROL Region]**, **[!UICONTROL Company]** (i Dynamic Media **[!DNL Scene 7]**) - är densamma i varumärkesportalen och **[!UICONTROL AEM cloud configuration]**.
 
-### Tillåt offentliga IP-adresser för utgångar för Dynamic Media Scene 7-läge
+### Tillåtelselista publika IP-adresser för Dynamic Media Scene 7-läge
 
 Om Dynamic Media **[!UICONTROL Scene 7]** med [säker förhandsgranskning aktiverad](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)används för att skicka videomaterial till varumärkesportalen, skapar du **[!UICONTROL Scene 7]** en dedikerad bildserver för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar.
 Företagsadministratören **[!UICONTROL Scene-7]** konfigurerar därför en godkänd lista över IP-adresser för företagets **[!UICONTROL Secure Testing]** miljö via **[!UICONTROL SPS]** Flash-gränssnittet (Scene-7 Publishing System). Se till att IP-adressen för utgångar för din respektive region (från följande) läggs till i den godkända listan.
@@ -104,21 +104,24 @@ IP-adresserna för utgångar är följande:
 ## Konfigurera inställningar för Dynamic Media (Hybrid) {#configure-dm-hybrid-settings}
 
 Om AEM Author-instansen körs i läget för dynamisk mediefyllning använder du **[!UICONTROL Video]** panelen Administrationsverktyg för att konfigurera inställningarna för Dynamic Media gateway.
+
 >[!NOTE]
 >
 >Videokodningsprofilerna [publiceras inte till](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) Varumärkeportalen, utan hämtas från **[!UICONTROL Scene 7]** servern. För att videokodningar ska kunna spelas upp i Brand Portal måste du därför se till att konfigurationsinformationen är densamma som [[!UICONTROL Scene7-molnkonfigurationen]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) i din AEM Author-instans.
+
 Så här konfigurerar du Dynamic Media på innehavare av varumärkesportaler:
 
 1. Välj AEM-logotypen för att få åtkomst till administrationsverktygen från verktygsfältet högst upp i varumärkesportalen.
+1. Markera **[!UICONTROL Video]** rutan på panelen Administrationsverktyg.
 
-2. Markera **[!UICONTROL Video]** rutan på panelen Administrationsverktyg.<br />
    ![Dynamic Media Hybrid Config på varumärkesportalen](assets/DMHybrid-Video.png)
-   **[!UICONTROL Edit Dynamic Media Configuration]** sidan öppnas.<br />
+
+   **[!UICONTROL Edit Dynamic Media Configuration]** sidan öppnas.
+
    ![Hybridkonfiguration för Dynamic Media på varumärkesportalen](assets/edit-dynamic-media-config.png)
 
-3. Ange **[!UICONTROL Registration ID]** och **[!UICONTROL Video Service URL]** (URL för DM-gateway). Se till att de här detaljerna är samma som de i **[!UICONTROL Tools > Cloud Services]** din AEM Author-instans.
-
-4. Välj **Spara** för att spara konfigurationen.
+1. Ange **[!UICONTROL Registration ID]** och **[!UICONTROL Video Service URL]** (URL för DM-gateway). Se till att de här detaljerna är samma som de i **[!UICONTROL Tools > Cloud Services]** din AEM Author-instans.
+1. Välj **Spara** för att spara konfigurationen.
 
 ## Konfigurera inställningar för Dynamic Media Scene7 {#configure-dm-scene7-settings}
 
