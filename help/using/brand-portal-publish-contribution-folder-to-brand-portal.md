@@ -1,8 +1,8 @@
 ---
 title: 'Publicera Contribute-mapp på varumärkesportalen '
 seo-title: Publicera Contribute-mapp på varumärkesportalen
-description: Få insikt i hur man publicerar en mapp för bidrag från AEM Assets till Brand Portal i varumärkesportalen 6.4.5.
-seo-description: Få insikt i hur man publicerar en mapp för bidrag från AEM Assets till Brand Portal i varumärkesportalen 6.4.5.
+description: Få insikt i hur man publicerar en mapp för bidrag från AEM Assets till varumärkesportalen i varumärkesportalen 6.4.5.
+seo-description: Få insikt i hur man publicerar en mapp för bidrag från AEM Assets till varumärkesportalen i varumärkesportalen 6.4.5.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicera mapp för bidrag till varumärkesportalen {#publish-contribution-folder-to-brand-portal}
 
-När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folder-properties.md)kan AEM-användare (administratör/icke-admin-användare) publicera bidragsmappen från AEM Assets till Brand Portal. Användare/grupper på varumärkesportalen som har behörighet att komma åt bidragsmappen får ett e-postmeddelande/pulsmeddelande när publiceringsåtgärden har slutförts.
+När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folder-properties.md)kan AEM-användare (administratör/icke-admin-användare) publicera bidragsmappen från AEM Assets till varumärkesportalen. Användare/grupper på varumärkesportalen som har behörighet att komma åt bidragsmappen får ett e-postmeddelande/pulsmeddelande när publiceringsåtgärden har slutförts.
 
 **Så här publicerar du bidragsmappen:**
 
@@ -31,4 +31,4 @@ Standard-URL: http:// localhost:4502/aem/start.html
    ![](assets/publish-contribution-folder-to-bp.png)
 Du får ett meddelande när mappen för bidrag har publicerats på varumärkesportalen.
 
-Ett e-post-/pulsmeddelande skickas till Brand Portal-användare/grupper som tilldelats till mappen för bidrag. Brand Portal-användare har åtkomst till mappen för bidrag och kan börja bidra. Se [Överföra resurser till mappen](brand-portal-upload-assets-to-contribution-folder.md)Contribute.
+Ett e-post-/pulsmeddelande skickas till de Brand Portal-användare som är tilldelade till mappen för bidrag. Brand Portal-användare har åtkomst till mappen för bidrag och kan börja bidra. Se [Överföra resurser till mappen](brand-portal-upload-assets-to-contribution-folder.md)Contribute.
