@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
+source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Se till att du har gått igenom [resurskraven](brand-portal-download-asset-requi
 1. Klicka på **[!UICONTROL Publish to AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Ett e-post-/pulsmeddelande skickas till Brand Portal-användaren och AEM-administratören i olika stadier av publiceringsarbetsflödet:
-1. **Köad** - Ett meddelande skickas till användaren i varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
+Ett e-post-/pulsmeddelande skickas till Brand Portal-användare och -administratörer i olika stadier av publiceringsarbetsflödet:
+1. **Köad** - Ett meddelande skickas till användaren och administratören för varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
 
-1. **Fullständigt** - Ett meddelande skickas till Brand Portal-användaren och AEM-administratören när publiceringsarbetsflödet är klart, dvs. bidragsmappen publiceras till AEM Assets.
+1. **Complete** - Ett meddelande skickas till Brand Portal-användaren och Brand Portal-administratörerna när publiceringsarbetsflödet är klart, dvs. Contribute-mappen publiceras till AEM Assets.
 
 
