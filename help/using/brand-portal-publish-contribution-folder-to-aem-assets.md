@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Se till att du har gått igenom [resurskraven](brand-portal-download-asset-requi
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Ett e-post-/pulsmeddelande skickas till Brand Portal-användaren och AEM-administratören i olika stadier av publiceringsarbetsflödet:
-1. **Köad** - När publiceringsarbetsflödet utlöses i varumärkesportalen publiceras en mapp för bidrag från varumärkesportalen till AEM Assets.
+1. **Köad** - Ett meddelande skickas till användaren i varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
 
-1. **Fullständigt** - När publiceringsarbetsflödet är klart importeras mappen för bidrag till AEM Assets.
+1. **Fullständigt** - Ett meddelande skickas till Brand Portal-användaren och AEM-administratören när publiceringsarbetsflödet är klart, dvs. bidragsmappen publiceras till AEM Assets.
 
 
