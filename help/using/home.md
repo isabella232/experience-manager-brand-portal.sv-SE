@@ -4,9 +4,9 @@ seo-title: Användarhandbok för AEM Brand Portal
 description: Användarhandbok för AEM Brand Portal
 seo-description: Beskriver hur du använder varumärkesportalen
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '349'
 ht-degree: 6%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Introduktion
 
-Varumärkesportalen hjälper organisationer att tillgodose sina marknadsföringsbehov genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
+**Adobe Experience Manager (AEM) Assets Brand Portal** hjälper organisationer att tillgodose sina marknadsföringsbehov genom att på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 
 Avsaknaden av en säker lösning för resursdelning kan leda till:
 
@@ -32,7 +32,7 @@ Arbetsflödet i varumärkesportalen illustreras i följande bild.
 
 ![](assets/BPWorkflow1.png)
 
-## Användarhandbok för Adobe Experience Manager Brand Portal
+## Användarhandbok för Adobe Experience Manager varumärkesportal
 
 Den här användarhandboken ger dokumentinsikter om erbjudanden på varumärkesportalen och viktiga arbetsflöden. Använd den vänstra listen för att navigera i olika funktioner och fördjupa dig i för att se hur olika personer interagerar med portalen.
 
@@ -46,7 +46,7 @@ Den här användarhandboken ger dokumentinsikter om erbjudanden på varumärkesp
 | [Felsöka problem vid parallell publicering](troubleshoot-parallel-publishing.md) | Felsöka replikering mellan varumärkesportalen och AEM Assets. |
 | [Filformat som stöds](brand-portal-supported-formats.md) | Filformat som stöds i varumärkesportalen för förhandsgranskning och hämtning. |
 | [Publicera resurser på varumärkesportalen](brand-portal-sharing-folders.md) | Publicera mappar, samlingar, länkar, förinställningar, schema, ansikten och taggar i varumärkesportalen. |
-| [Resurshantering i varumärkesportalen](brand-portal-asset-sourcing.md) | Så här konfigurerar du Resurser i AEM Resurser, överför resurser i varumärkesportalen och publicerar bidragsmappen tillbaka till AEM Resurser. |
+| [Resurshantering i varumärkesportalen](brand-portal-asset-sourcing.md) | Så här konfigurerar du Resurser i AEM Assets, överför resurser i varumärkesportalen och publicerar bidragsmappen tillbaka till AEM Assets. |
 
 ### Användbara resurser
 
