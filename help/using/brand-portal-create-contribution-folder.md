@@ -10,35 +10,49 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 1%
 
 ---
 
 
 # Skapa avgiftsmapp {#create-contribution-folder}
 
-AEM-administratörer och icke-adminanvändare som har behörighet att skapa en ny mapp kan skapa en **Contribute** -mapp i AEM Assets.
-Om du vill skapa en **Contribute** -mapp skapar du en ny mapp av typen **Asset Contribution**, som ser till att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, **delade** och **NYA**, i den nya **Contribute** -mappen.
 
-**Så här skapar du en ny bidragsmapp:**
-1. Logga in på din AEM-författarinstansStandard-URL: http:// localhost:4502/aem/start.html
-1. Navigera till **[!UICONTROL Assets > Files]** Den visar alla befintliga mappar i AEM Assets-databasen.
-1. Klicka **[!UICONTROL Create]** för att skapa en ny mapp. Popup-fönstret Skapa mapp öppnas.
-1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** markera kryssrutan **[!UICONTROL Asset Contribution]**.
-Du bör använda små alfabet utan blanksteg för att namnge mappen.
-1. Klicka på **[!UICONTROL Create]**.
-   ![](assets/create-contribution-folder.png)
-1. Du kan se den nyligen skapade mappen för bidrag i AEM Assets-databasen.
-1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** skapas automatiskt i mappen för bidrag.\
-   ![](assets/contribution-folder.png)
-
-Du kan nu konfigurera Contribute-mappens egenskaper. Se [Konfigurera egenskaper](brand-portal-configure-contribution-folder-properties.md)för Contribute-mappen.
+AEM-administratörer och icke-adminanvändare som har behörighet att skapa en ny mapp kan skapa en mapp för bidrag i AEM Assets.
+Om du vill skapa en mapp för bidrag skapar du en ny mapp av typen Resursbidrag, som ser till att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas DELAD och NYTT, i bidragsmappen.
 
 >[!NOTE]
 >
->En icke-admin-användare kan bara skapa och dela en resursavgiftsmapp. När bidragsmappen har skapats kan en användare som inte är administratör inte ändra eller ta bort den.
->
->Kapsling av resursavgiftsmapp stöds inte. Du kan skapa flera mappar för bidrag i en mapp, men du får inte skapa en mapp för bidrag i en annan mapp för bidrag.
+>Du kan skapa flera mappar för bidrag i en mapp, men du får inte skapa en mapp för bidrag i en annan mapp för bidrag.
+
+
+Så här skapar du en bidragsmapp:
+1. Logga in på din AEM-författarinstans.
+
+   Standardwebbadressen är http:// localhost:4502/aem/start.html.
+
+1. Navigera till **[!UICONTROL Assets]** > **[!UICONTROL Files]**. Den visar alla befintliga mappar i AEM Assets-databasen.
+
+1. Klicka **[!UICONTROL Create]** för att skapa en ny mapp. **[!UICONTROL Create Folder]** öppnas.
+
+1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** markera mappen och markera **[!UICONTROL Asset Contribution]** kryssrutan.
+Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
+
+1. Klicka på **[!UICONTROL Create]**. Du kan se den nyligen skapade mappen för bidrag i AEM Assets-databasen.
+
+   >[!NOTE]
+   >
+   >En icke-admin-användare kan skapa och dela en resursavgiftsmapp, men kan inte ändra eller ta bort den.
+
+   ![](assets/create-contribution-folder.png)
+
+1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** skapas automatiskt i mappen för bidrag.
+
+   ![](assets/contribution-folder.png)
+
+Du kan nu [konfigurera bidragsmappens egenskaper](brand-portal-configure-contribution-folder-properties.md).
+
+
