@@ -1,8 +1,8 @@
 ---
 title: Administrera allmänna klientkonfigurationer
 seo-title: Administrera allmänna klientkonfigurationer
-description: Konfigurera hämtningsacceleration, skapa offentlig smart [!UICONTROL-samling], skapa offentlig [!UICONTROL-samling] och göra det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
-seo-description: Konfigurera hämtningsacceleration, skapa offentlig smart [!UICONTROL-samling], skapa offentlig [!UICONTROL-samling] och göra det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
+description: Konfigurera hämtningsacceleration, offentlig smart [!UICONTROL collection] generering, offentlig [!UICONTROL collection] generering och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
+seo-description: Konfigurera hämtningsacceleration, offentlig smart [!UICONTROL collection] generering, offentlig [!UICONTROL collection] generering och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 0%
 
 ---
 
@@ -56,16 +59,16 @@ Så här aktiverar/inaktiverar du dessa konfigurationer:
 
 ## Tillåt att offentliga samlingar skapas av icke-administratörer {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Tillåt skapande av offentliga samlingar]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) konfigurationskontrollerar om icke-administratörer kan skapa offentliga samlingar på varumärkesportalen. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan de förhindra att det finns många offentliga samlingar på portalen så att systemutrymmet kan sparas.
+[[!UICONTROL Allow public collections creation]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) konfigurationkontrollerar om icke-administratörer kan skapa offentliga samlingar på varumärkesportalen. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan de förhindra att det finns många offentliga samlingar på portalen så att systemutrymmet kan sparas.
 
 ## Tillåt att icke-administratörer skapar publika smarta samlingar {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Tillåt att offentliga smarta samlingar skapas]](../using/brand-portal-searching.md#main-pars-header-500620467) konfigurationskontrollerar om icke-administratörer kan spara sina sökningar som smarta samlingar och göra dem offentliga för den klienten. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan du förhindra att det finns ett stort antal publika smarta samlingar som skapats av icke-adminanvändare på organisationens varumärkesportal.
+[[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) konfigurationkontrollerar om icke-administratörer kan spara sina sökningar som smarta samlingar och göra dem offentliga för den klienten. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan du förhindra att det finns ett stort antal publika smarta samlingar som skapats av icke-adminanvändare på organisationens varumärkesportal.
 
 ## Tillåt hämtning av acceleration {#allow-download-acceleration}
 
-[Med konfigurationen [!UICONTROL Tillåt hämtningsacceleration]](../using/accelerated-download.md) kan organisationer tillåta accelererad hämtning av resurser från Brand Portal och delade länkar genom att integrera med IBM Aspera Connect som är ett program som installeras vid behov. Programmet använder tillverkarspecifik teknik för att ta bort TCP-omkostnader.
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) Med hjälp av konfigurationer kan organisationer tillåta snabbare hämtning av resurser från Brand Portal och delade länkar genom att integrera med IBM Aspera Connect som är ett program som installeras på begäran. Programmet använder tillverkarspecifik teknik för att ta bort TCP-omkostnader.
 
 ## Aktivera mapphierarki {#enable-folder-hierarchy}
 
-[Med konfigurationen [!UICONTROL Aktivera mapphierarki]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) kan administratörer styra hur icke-administratörsanvändare (redigerare, visningsprogram och gästanvändare) ser de delade mapparna efter inloggning.
+[[!UICONTROL Enable Folder Hierarchy]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) gör att administratörer kan styra hur icke-adminanvändare (redigerare, visningsprogram och gästanvändare) ser de delade mapparna efter inloggning.
