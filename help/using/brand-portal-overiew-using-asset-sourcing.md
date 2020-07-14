@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -23,4 +26,4 @@ Användare av varumärkesportalen som har behörighet att komma åt mappen för 
 
 * [Hämta resurskrav](brand-portal-download-asset-requirements.md)
 * [Överför nya resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md)
-* [Publicera mapp för bidrag till AEM Resurser](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publicera mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
