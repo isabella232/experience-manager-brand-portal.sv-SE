@@ -1,8 +1,8 @@
 ---
 title: Dela resurser som en länk
 seo-title: Dela resurser som en länk
-description: Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
-seo-description: Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+description: AEM Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+seo-description: AEM Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -11,13 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1077'
+ht-degree: 1%
 
 ---
 
 
 # Dela resurser som en länk {#share-assets-as-a-link}
 
-Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+AEM Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 
 Att dela resurser via en länk är ett bekvämt sätt att göra dem tillgängliga för externa parter eftersom mottagarna inte behöver logga in på varumärkesportalen för att få tillgång till resurserna.
 
@@ -194,7 +197,7 @@ Så här tar du bort delning av tidigare delade resurser som en länk:
 
    ![](assets/siderail.png)
 
-1. Klicka på i sidofältet **[!UICONTROL Shared Links]**.
+1. From the siderail, click **[!UICONTROL Shared Links]**.
 
    ![](assets/navigationrail.png)
 
