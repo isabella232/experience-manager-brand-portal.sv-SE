@@ -11,7 +11,7 @@ discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1435'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar
 
 [Hämta offentliga resurser](brand-portal-download-users.md)
 
-[Lägg till resurser i [!UICONTROL-ljuslåda]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Lägg till resurser i [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visningsprogram {#viewer}
 
@@ -164,6 +164,7 @@ Så här begär du åtkomst:
    1. Om du har en [!UICONTROL Adobe ID]eller [!UICONTROL Enterprise ID]flera användare klickar du [!UICONTROL Federated ID]**[!UICONTROL Sign In]**.
 The [!UICONTROL Sign in] page opens.
    1. Ange dina [!UICONTROL Adobe ID] uppgifter och klicka på **[!UICONTROL Sign in]**.<br />
+
    ![Adobe - logga in](assets/bplogin_request_access_3.png)
 
    Du omdirigeras till [!UICONTROL Request Access] sidan.<br />
@@ -174,6 +175,7 @@ The [!UICONTROL Sign in] page opens.
 The [!UICONTROL Sign up] page opens.
    1. Ange för- och efternamn, e-post-ID och lösenord.
    1. Välj **[!UICONTROL Sign up]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Du omdirigeras till [!UICONTROL Request Access] sidan.
@@ -191,7 +193,7 @@ Produktadministratörer för varumärkesportalen får åtkomstbegäranden i sitt
 För att bevilja åtkomst måste produktadministratörer klicka på meddelandet i meddelandefältet i varumärkesportalen och sedan klicka på **[!UICONTROL Grant Access]**.
 Alternativt kan produktadministratörer följa länken i e-postmeddelandet med en begäran om åtkomst för att besöka Adobe [!UICONTROL Admin Console] och lägga till användaren i den relevanta produktkonfigurationen.
 
-Du omdirigeras till startsidan för [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i varumärkesportalen. Mer information om hur du lägger till användare i [!UICONTROL Admin Console]finns i [Lägga till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
+Du omdirigeras till [Adobes [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hemsida. Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i varumärkesportalen. Mer information om hur du lägger till användare i [!UICONTROL Admin Console]finns i [Lägga till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
 
 ## Språk i varumärkesportalen {#brand-portal-language}
 
@@ -202,6 +204,7 @@ Du kan ändra språk på varumärkesportalen från Adobe [!UICONTROL Experience 
 Så här ändrar du språk:
 
 1. Välj [!UICONTROL User] > [!UICONTROL Edit Profile] i den övre menyn.<br />
+
    ![Redigera profil](assets/EditBPProfile.png)
 
 1. På [!UICONTROL Experience Cloud Settings] sidan väljer du ett språk i [!UICONTROL Language] listrutan.
