@@ -12,7 +12,7 @@ discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Gäståtkomst till varumärkesportalen {#guest-access-to-brand-portal}
 
-AEM Brand-portalen ger gäster åtkomst till portalen. En gästanvändare behöver inga autentiseringsuppgifter för att gå in på portalen och har tillgång till de offentliga resurserna (och samlingarna) på portalen. Användare i gästsessionen kan lägga till resurser i sin ljuslåda (privat samling) och hämta samma tills sessionen varar, vilket är två timmar från sessionens början, såvida inte gästanvändaren väljer att avsluta [[!UICONTROL-sessionen]](#exit-guest-session).
+AEM Brand-portalen ger gäster åtkomst till portalen. En gästanvändare behöver inga autentiseringsuppgifter för att gå in på portalen och har tillgång till de offentliga resurserna (och samlingarna) på portalen. Användare i gästsessionen kan lägga till resurser i sin ljuslåda (privat samling) och hämta samma tills sessionen varar, vilket är två timmar från sessionens början, såvida inte gästanvändaren väljer att göra det [[!UICONTROL End Session]](#exit-guest-session).
 
 Gäståtkomstfunktionen gör det möjligt för organisationer att [snabbt dela godkända resurser](../using/brand-portal-sharing-folders.md#how-to-share-folders) med den avsedda målgruppen i stor skala utan att behöva lägga in dem. Brand Portal 6.4.2 och senare är utrustad för flera samtidiga gästanvändare, vilket är 10 % av den totala användarkvoten per organisation. Genom att ge gäståtkomst sparar du tid när du hanterar och lägger in poäng för användare som behöver använda begränsade funktioner på varumärkesportalen.\
 Organisationer kan aktivera (eller inaktivera) gäståtkomst på organisationens varumärkesportalkonto med hjälp av **[!UICONTROL Allow Guest Access]** alternativ från **[!UICONTROL Access]** inställningarna på panelen Administrationsverktyg.
