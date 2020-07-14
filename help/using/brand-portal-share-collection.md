@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +41,11 @@ Så här delar du en samling:
 1. Gör något av följande i **[!UICONTROL Collections]** konsolen:
 
    * Håll pekaren över den samling du vill dela. Klicka på **[!UICONTROL Settings]** ikonen bland miniatyrbilderna för snabbåtgärder som är tillgängliga för samlingen.
+
    ![](assets/settings_thumbnail.png)
 
    * Markera den samling som du vill dela. Klicka på i verktygsfältet överst **[!UICONTROL Settings]**.
+
    ![](assets/collection-sharing.png)
 
 1. I [!UICONTROL Collection Settings] dialogrutan väljer du de användare eller grupper som du vill dela samlingen med och väljer rollen för en användare eller grupp som ska matcha deras globala roll. Tilldela till exempel redigerarrollen till en global redigerare, visningsprogramrollen till ett globalt visningsprogram.
