@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -43,6 +46,7 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
    * Om du vill överföra en bild från datorn klickar du på **[!UICONTROL Upload]**. Navigera till önskad bild och överför den.
    * Om du vill använda en befintlig Brand Portal-bild klickar du på **[!UICONTROL Select from existing]**. Välj en bild med resursväljaren.
+
    ![](assets/asset-picker.png)
 
 1. Ange en rubriktext och beskrivning för bakgrundsbilden. Spara ändringarna genom att klicka **[!UICONTROL Save]** i verktygsfältet högst upp.
@@ -56,9 +60,11 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 1. Gör följande på **[!UICONTROL Configure Branding > Wallpaper]** sidan om du vill aktivera eller inaktivera standardskrivbordsunderlägget:
 
    * Om du vill visa standardbilden för skrivbordsunderlägg på inloggningssidan för varumärkesportalen klickar du på **[!UICONTROL Deactivate Wallpaper]** i verktygsfältet högst upp. Ett meddelande bekräftar att den anpassade bilden är inaktiverad.
+
    ![](assets/chlimage_1-1.png)
 
    * Om du vill återställa den anpassade bilden på inloggningssidan för varumärkesportalen klickar du på **[!UICONTROL Activate Wallpaper]** i verktygsfältet. Ett meddelande bekräftar att bilden har återställts.
+
    ![](assets/chlimage_1-2.png)
 
    * Click **[!UICONTROL Save]** to save the changes.
@@ -106,9 +112,11 @@ Spara ändringarna genom att klicka **[!UICONTROL Save]** i verktygsfältet hög
 1. Så här aktiverar eller inaktiverar du rubrikbilden på **[!UICONTROL Configure Branding > Header Image]** sidan:
 
    * Om du inte vill att en rubrikbild ska visas på sidorna i varumärkesportalen klickar du på **[!UICONTROL Deactivate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är inaktiverad.
+
    ![](assets/chlimage_1-4.png)
 
    * Om du vill att rubrikbilden ska visas igen på sidorna för varumärkesportalen klickar du på **[!UICONTROL Activate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är aktiverad.
+
    ![](assets/chlimage_1-5.png)
 
    * Click **[!UICONTROL Save]** to save the changes.
