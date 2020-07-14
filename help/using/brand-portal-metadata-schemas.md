@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1641'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +35,7 @@ Så här skapar du ett nytt metadataschemaformulär:
 
    ![](assets/navigation-panel.png)
 
-1. På **[!UICONTROL Metadata Schema Forms]** sidan klickar du på **[!UICONTROL Create]**.
+1. På sidan **[!UICONTROL Metadata Schema Forms]** klickar du på **[!UICONTROL Create]**.
 
    ![](assets/create-metadata-schema-form.png)
 
@@ -120,7 +123,7 @@ Följande är giltiga värden för den här egenskapen:
 
 >[!NOTE]
 >
->Alla metadatafält är skrivskyddade i metadataredigeringsformuläret för en resurs. Eftersom metadata för resursen måste redigeras i AEM Resurser innan en resurs publiceras på varumärkesportalen.
+>Alla metadatafält är skrivskyddade i metadataredigeringsformuläret för en resurs. Eftersom metadata för resursen måste redigeras i AEM Assets innan en resurs publiceras på varumärkesportalen.
 
 #### Lägga till eller ta bort en flik i schemaformuläret {#add-or-delete-a-tab-in-the-schema-form}
 
