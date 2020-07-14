@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ För samverkansbaserad resurskälla kan AEM-användare (administratörer och ick
 
 AEM-användare definierar sedan tillgångskraven genom att ladda upp en översikt över vilka typer av resurser som ska läggas till i mappen för bidrag, samt en uppsättning baslinjeresurser, till mappen **SHARED** för att säkerställa att Brand Portal-användarna har den information de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nya Contribute-mappen publiceras på varumärkesportalen.
 
-I följande video visas hur du konfigurerar en Contribute-mapp i AEM Resurser:
+I följande video visas hur du konfigurerar en Contribute-mapp i AEM Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
