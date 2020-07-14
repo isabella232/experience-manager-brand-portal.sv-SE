@@ -66,7 +66,8 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 De flesta tillfällen när publiceringen inte fungerar kan det bero på att användaren som publicerar (till exempel: `mac-<tenantid>-replication` saknar den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en ny konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från AEM-författarkonfigurationen:
 
 1. Gå till `localhost:4502/crx/de/` (med tanke på att du kör författarinstansen på localhost:4502:\
-   i. delete `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+   i. delete `/etc/replication/agents.author/mp_replication`ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gå till localhost:4502/useradmin:\
    i. sök efter användare `mac-<tenantid>replication`ii. ta bort den här användaren
