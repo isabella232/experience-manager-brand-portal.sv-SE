@@ -11,13 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
 
 # Administrera användaråtkomst på varumärkesportalen {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2 och senare ger administratörer behörighet att konfigurera gäståtkomst och göra det möjligt för användare att begära åtkomst på organisationens varumärkesportal. Dessa konfigurationer har tillhandahållits som **[!UICONTROL Access Settings]** konfigurationer på administrationspanelen. Båda inställningarna är inaktiverade som standard.
+AEM Assets Brand Portal 6.4.2 och framåt ger administratörer behörighet att konfigurera gäståtkomst och göra det möjligt för användare att begära åtkomst på varumärkesportalen i sin organisation. Dessa konfigurationer har tillhandahållits som **[!UICONTROL Access Settings]** konfigurationer på administrationspanelen. Båda inställningarna är inaktiverade som standard.
 
 ![](assets/access-configs.png)
 
