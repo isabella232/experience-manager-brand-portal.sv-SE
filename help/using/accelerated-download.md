@@ -43,7 +43,7 @@ Om du vill hämta filerna snabbare bör du göra följande:
 
 Nedan följer hämtningsdomänerna för olika platser:
 
-| Regionkod | Domain |
+| Regionkod | Domän |
 |---|---|
 | NA OR1 | downloads-na1.brand-portal.adobe.com |
 | NA VA5 | downloads-na2.brand-portal.adobe.com |
