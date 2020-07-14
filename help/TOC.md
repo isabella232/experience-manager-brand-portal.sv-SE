@@ -36,7 +36,7 @@ ht-degree: 18%
 + Resurshantering i varumärkesportalen {#asset-sourcing-in-brand-portal}
    + [Översikt](using/brand-portal-asset-sourcing.md)
    + [Konfigurera resurskälla i AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Konfigurera Contribute-mappen i AEM Resurser {#configure-contribution-folder}
+   + Konfigurera Contribute-mappen i AEM Assets {#configure-contribution-folder}
       + [Översikt](using/brand-portal-contribution-folder.md)
       + [Skapa avgiftsmapp](using/brand-portal-create-contribution-folder.md)
       + [Konfigurera egenskaper för bidragsmapp](using/brand-portal-configure-contribution-folder-properties.md)
@@ -46,7 +46,7 @@ ht-degree: 18%
       + [Översikt](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Hämta resurskrav](using/brand-portal-download-asset-requirements.md)
       + [Överför resurser till mappen för bidrag](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicera mapp för bidrag till AEM Resurser](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Publicera mapp för bidrag till AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Dela resurser med användare {#share}
    + [Dela en samling](using/brand-portal-share-collection.md)
    + [Dela mappar](using/brand-portal-sharing-folders.md)
