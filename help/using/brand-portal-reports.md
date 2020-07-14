@@ -1,8 +1,8 @@
 ---
 title: Arbeta med rapporter
 seo-title: Arbeta med rapporter
-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om hur varumärkesportalen används och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
-seo-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om hur varumärkesportalen används och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
+description: Administratörer för AEM Assets Brand Portal kan visa rapporter om användning av varumärkesportalen och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
+seo-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om användning av varumärkesportalen och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 0%
 
 ---
 
