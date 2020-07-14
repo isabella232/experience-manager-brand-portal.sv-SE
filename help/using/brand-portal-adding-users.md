@@ -11,7 +11,7 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
 
 >[!NOTE]
 >
->Nya användare som inte har tillgång till varumärkesportalen kan begära åtkomst från inloggningsskärmen i varumärkesportalen. Mer information finns i [Begär åtkomst till varumärkesportalen](../using/brand-portal.md#request-access-to-brand-portal). När du har fått meddelanden om åtkomstbegäran i meddelandefältet klickar du på meddelandet och sedan på **[!UICONTROL Grant Access]**. Du kan även följa länken i det e-postmeddelande om åtkomstbegäran som har tagits emot. Om du sedan vill lägga till en användare via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)följer du steg 4-7 i proceduren nedan.
+>Nya användare som inte har tillgång till varumärkesportalen kan begära åtkomst från inloggningsskärmen i varumärkesportalen. Mer information finns i [Begär åtkomst till varumärkesportalen](../using/brand-portal.md#request-access-to-brand-portal). När du har fått meddelanden om åtkomstbegäran i meddelandefältet klickar du på meddelandet och sedan på **[!UICONTROL Grant Access]**. Du kan även följa länken i det e-postmeddelande om åtkomstbegäran som har tagits emot. För att lägga till en användare via [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)följer du steg 4-7 i proceduren nedan.
 
 >[!NOTE]
 >
@@ -66,9 +66,11 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
 1. Gör något av följande i Admin Console för att skapa en ny användare:
 
    * Klicka på i verktygsfältet överst **[!UICONTROL Overview]**. På [!UICONTROL Overview] sidan klickar du **[!UICONTROL Assign Users]** på produktkortet för varumärkesportalen.
+
    ![Admin Console - översikt](assets/admin_console_overviewadduser.png)
 
    * Klicka på i verktygsfältet överst **[!UICONTROL Users]**. På [!UICONTROL Users] sidan är [!UICONTROL Users] den vänstra listen markerad som standard. Klicka på **[!UICONTROL Add User]**.
+
    ![Admin Console Add users](assets/admin_console_adduseruserpage.png)
 
 1. I dialogrutan Lägg till användare skriver du e-post-ID:t för den användare som du vill lägga till eller väljer användaren i listan med förslag som visas när du skriver.
@@ -90,7 +92,7 @@ Produktprofiler (som tidigare kallades produktkonfigurationer) i [!UICONTROL Adm
 
 >[!NOTE]
 >
->Du kan logga in på [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-7 i proceduren nedan för att lägga till en produktprofil.
+>Du kan logga in [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-7 i proceduren nedan för att lägga till en produktprofil.
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -123,7 +125,7 @@ Om du vill lägga till användare i en varumärkesportalgrupp lägger du till de
 
 >[!NOTE]
 >
->Du kan logga in på [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt på Admin Console följer du steg 4-7 i proceduren nedan för att lägga till användare i en produktprofil.
+>Du kan logga in [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt på Admin Console följer du steg 4-7 i proceduren nedan för att lägga till användare i en produktprofil.
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
@@ -145,9 +147,11 @@ Om du vill lägga till användare i en varumärkesportalgrupp lägger du till de
 1. Så här lägger du till enskilda användare i produktprofilen:
 
    * Klicka på **[!UICONTROL Add User]**.
+
    ![Grupp att mappa produktprofil i varumärkesportalen](assets/admin_console_productprofilesalesgroup.png)
 
    * Skriv e-post-ID:t för den användare som du vill lägga till på [!UICONTROL Add User to Sales group] sidan eller markera användaren i listan med förslag som visas när du skriver.
+
    ![Lägga till användare i en grupp](assets/admin_console_addusertosalesgroup.png)
 
    * Klicka på **[!UICONTROL Save]**.
@@ -157,9 +161,11 @@ Om du vill lägga till användare i en varumärkesportalgrupp lägger du till de
 1. Så här lägger du till massanvändare i produktprofilen:
 
    * Choose **[!UICONTROL ellipsis (...) > Add users by CSV]**.
+
    ![Lägga till flera användare samtidigt](assets/admin_console_addbulkusers.png)
 
    * Hämta en CSV-mall eller dra och släpp en CSV-fil på **[!UICONTROL Add Users by CSV]** sidan.
+
    ![Lägga till användare via csv](assets/admin_console_addbulkuserscsv.png)
 
    * Klicka på **[!UICONTROL Upload]**.
@@ -173,7 +179,7 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
 
 >[!NOTE]
 >
->Du kan logga in på [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-8 i proceduren nedan för att lägga till en användare i en produktprofil.
+>Du kan logga in [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-8 i proceduren nedan för att lägga till en användare i en produktprofil.
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
 
