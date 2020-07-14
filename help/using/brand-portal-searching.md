@@ -11,6 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 4%
 
 ---
 
@@ -75,6 +78,7 @@ Använd till exempel följande standardfilter:
    * **[!UICONTROL Orientation]** om du vill söka efter resurser baserat på orienteringen (vågrät, lodrät, kvadratisk) för resurserna.
    * **[!UICONTROL Style]** om du vill söka efter resurser baserat på resursernas stil (färgad, monokrom).
    * **[!UICONTROL Video Format]** om du vill söka efter videoresurser baserat på deras format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+
    Du kan använda [anpassade sökfunktioner](../using/brand-portal-search-facets.md) på panelen Filter genom att redigera det underliggande sökformuläret.
 
    * **[!UICONTROL Property Predicate]** om det används i sökformuläret kan du söka efter resurser som matchar en metadataegenskap som predikatet är mappat till.\
@@ -90,7 +94,8 @@ Om du till exempel söker efter:
          * **klättb*** returnerar alla resurser som har ord som börjar med tecknen&quot;klättra&quot; i titelfrasen.
          * ***klättb** returnerar alla resurser med ord som slutar med tecknen &quot;klättra&quot; i titelfrasen.
          * ***klättb*** returnerar alla resurser med ord som innehåller tecknen&quot;klättra&quot; i titelfrasen.
-      **Icke-skiftlägeskänslig text** Om du vill tillåta icke-skiftlägeskänslig sökning i egenskapspredikatet markerar du kryssrutan i **[!UICONTROL Ignore Case]** Sökformulär. Som standard är textsökningen på egenskapspredikatet skiftlägeskänslig.
+
+Aktivera alternativet       **Icke-skiftlägeskänslig text** Om du vill tillåta icke-skiftlägeskänslig sökning i egenskapspredikatet markerar du kryssrutan i **[!UICONTROL Ignore Case]** Sökformulär. Som standard är textsökningen på egenskapspredikatet skiftlägeskänslig.
    >[!NOTE]
    >
    >När du markerar **[!UICONTROL Partial Search]** kryssrutan **[!UICONTROL Ignore Case]** markeras den som standard.
