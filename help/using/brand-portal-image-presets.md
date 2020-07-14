@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 1%
 
 ---
 
@@ -37,8 +40,8 @@ Observera att det endast är administratörer som kan skapa bildförinställning
 
 >[!NOTE]
 >
->Dynamiska återgivningar av en bild skapas med Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
-Om AEM-instansen (Author) körs i **läget** Dynamic Media Hybrid skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM-databasen. Om AEM-instansen (Author) körs i läget ****Dynamic Media Scene 7 finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
+>Dynamiska återgivningar av en bild skapas med hjälp av Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
+Om AEM-instansen (Author) körs i **Dynamic Media-hybridläge** skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM-databasen. Om AEM-instansen (Author) körs i **Dynamic Media Scene 7-läget**finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
 När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
 
 1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
@@ -62,7 +65,7 @@ När sådana resurser publiceras på varumärkesportalen används bildförinstä
 1. Klicka på **[!UICONTROL Save]**. Bildförinställningen skapas och visas på sidan med bildförinställningar.
 1. Om du vill ta bort en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Delete]**. Bekräfta borttagningen genom **[!UICONTROL Delete]** att klicka på på bekräftelsesidan. Bildförinställningen tas bort från sidan med bildförinställningar.
 
-## Använda bildförinställningar vid förhandsvisning av bilder {#apply-image-presets-when-previewing-images}
+## Använda bildförinställningar vid förhandsvisning av bilder  {#apply-image-presets-when-previewing-images}
 
 När du förhandsgranskar bilder och deras återgivningar kan du välja bland de befintliga förinställningarna för att formatera om bilderna enligt de specifikationer som angetts av administratören.
 
@@ -82,9 +85,11 @@ När du hämtar bilder och deras återgivningar från varumärkesportalen kan du
 1. I gränssnittet för varumärkesportalen gör du något av följande:
 
    * Håll pekaren över bilden som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen bland de tillgängliga miniatyrbilderna för snabbåtgärder.
+
    ![](assets/downloadsingleasset.png)
 
    * Markera den bild som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen i verktygsfältet överst.
+
    ![](assets/downloadassets.png)
 
 1. Välj önskade alternativ i **[!UICONTROL Download]** dialogrutan beroende på om du vill hämta resursen med eller utan dess återgivningar.
