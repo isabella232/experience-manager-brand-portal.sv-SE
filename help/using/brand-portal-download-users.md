@@ -32,9 +32,11 @@ Så här hämtar du resurser eller mappar som innehåller resurser för varumär
 1. I gränssnittet för varumärkesportalen gör du något av följande:
 
    * Markera de mappar eller resurser som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen i verktygsfältet överst.
+
    ![](assets/downloadassets-1.png)
 
    * Om du vill hämta en enskild mapp eller en resurs håller du pekaren över mappen eller resursen. Klicka på **[!UICONTROL Download]** ikonen bland de tillgängliga miniatyrbilderna för snabbåtgärder.
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -54,19 +56,20 @@ Så här hämtar du resurser eller mappar som innehåller resurser för varumär
 
    ![](assets/restrictaccess-note.png)
 
-1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar, avmarkerar du **[!UICONTROL Exclude Auto Generated Renditions]** det som är markerat som standard.
+1. Om du vill hämta återgivningar av resurser förutom resurserna väljer du **[!UICONTROL Rendition(s)]**. Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar, avmarkerar du **[!UICONTROL Exclude Auto Generated Renditions]** det som är markerat som standard.
 
    ![](assets/exclude-auto-renditions.png)
 
-   To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
+   Om du bara vill hämta renderingarna avmarkerar du **[!UICONTROL Asset(s)]**.
 
    >[!NOTE]
    >
    >Som standard hämtas bara resurserna. Originalåtergivningar av bildfiler hämtas dock inte om du inte har [behörighet av administratören att ha tillgång till de ursprungliga återgivningarna av bildfiler](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
-   * To speed up the download of asset files from Brand Portal, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). Om du vill veta mer om snabbare nedladdning av resurser kan du läsa [guiden för att snabba upp nedladdningarna från Brand Portal](../using/accelerated-download.md).
+   * Om du vill snabba upp hämtningen av resursfiler från varumärkesportalen väljer du **[!UICONTROL Enable download acceleration]** alternativet och [följer guiden](../using/accelerated-download.md#main-pars-header-405749062). Om du vill veta mer om snabbare nedladdning av resurser kan du läsa [guiden för att snabba upp nedladdningarna från Brand Portal](../using/accelerated-download.md).
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Ange anpassade förinställda bildegenskaper (storlek, format, färgrymd, upplösning och bildmodifiering) för att använda den anpassade bildförinställningen när resursen och dess återgivningar hämtas. Om du bara vill hämta de dynamiska återgivningarna avmarkerar du **[!UICONTROL Asset(s)]**.
+   * Om du vill använda en [anpassad bildförinställning på resursen och dess återgivningar](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)väljer du **[!UICONTROL Dynamic Rendition(s)]**. Ange anpassade förinställda bildegenskaper (storlek, format, färgrymd, upplösning och bildmodifiering) för att använda den anpassade bildförinställningen när resursen och dess återgivningar hämtas. Om du bara vill hämta de dynamiska återgivningarna avmarkerar du **[!UICONTROL Asset(s)]**.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -76,6 +79,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser för varumär
    * Om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser väljer du **[!UICONTROL Create separate folder for each asset]**. Som standard ignoreras mapphierarkin för varumärkesportalen och alla resurser hämtas i en mapp på det lokala systemet.
 
    * Om du vill skicka ett e-postmeddelande till användare med en länk för att hämta resurserna väljer du **[!UICONTROL Email]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
