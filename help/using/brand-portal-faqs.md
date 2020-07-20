@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1619'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,12 @@ Frågor och svar om varumärkesportalen fokuserar på frågor och problem som sl
 **Frågor. Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
 
 **Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets författarinstanser till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera AEM Assets med varumärkesportalen](configure-aem-assets-with-brand-portal.md) . För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Frågor. Jag har skapat en samling med hjälp av resurslänken som delas av administratören. Men jag kan inte skapa en delningslänk för min samling. Behövs särskild behörighet för att göra detta?**
+
+**Ans.** Funktionen är som design. Visningsprogramanvändarna har inte behörighet att dela länkar för samlingar eftersom de har begränsade behörigheter som gör att de inte kan lägga till användare för att skapa en delningslänk. Det är känt att delningslänken för samlingar är synlig för visningsprogramanvändarna. Problemet kommer att åtgärdas i den kommande versionen, och alternativet att dela länken för samlingarna kommer inte att vara tillgängligt för visningsprogramanvändarna.
+
 
 **Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter att ha uppgraderat till Adobe Developer Console. Min författarinstans finns på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
 
