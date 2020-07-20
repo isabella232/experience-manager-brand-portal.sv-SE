@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 4%
@@ -68,7 +68,7 @@ I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 
 * Gästanvändare kan bara bläddra bland, komma åt och söka resurser i gemensamma mappar och samlingar.
 
-* Visningsprogramanvändare kan visa och hämta offentliga resurser som delas med dem och lägga till dessa resurser för att skapa egna samlingar.
+* Visningsprogramanvändare kan komma åt och hämta offentliga resurser som delas med dem och kan lägga till dessa resurser för att skapa egna samlingar.
 
 >[!NOTE]
 >
