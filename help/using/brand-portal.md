@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1516'
 ht-degree: 4%
 
 ---
@@ -62,11 +62,18 @@ I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 |  | **Bläddra** | **Sökning** | **Hämta** | **Dela mappar** | **Dela en samling** | **Dela resurser som en länk** | **Åtkomst till administratörsverktyg** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Gästanvändare** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visningsprogram** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Visningsprogram** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Redigerare** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administratör** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gästanvändare kan bara bläddra bland, komma åt och söka resurser i gemensamma mappar och samlingar.
+
+* Visningsprogramanvändare kan visa och hämta offentliga resurser som delas med dem och lägga till dessa resurser för att skapa egna samlingar.
+
+>[!NOTE]
+>
+>Det finns ett känt problem med att delningslänken för samlingar är synlig för visningsprogramanvändarna. Visningsprogramanvändarna har inte behörighet att lägga till användare för att skapa en delningslänk. Problemet kommer att åtgärdas i den kommande versionen, och alternativet att dela länken för samlingarna kommer inte att vara tillgängligt för visningsprogramanvändarna.
+
 
 ### Gästanvändare {#guest-user}
 
