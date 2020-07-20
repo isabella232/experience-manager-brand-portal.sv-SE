@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,11 @@ Se till att du har gått igenom [resurskraven](brand-portal-download-asset-requi
 **Så här publicerar du bidragsmappen:**
 
 1. Logga in på din Brand Portal-instans.
-1. Välj mapp för bidrag från kontrollpanelen.
-1. Klicka på **[!UICONTROL Publish to AEM]**
 
-   ![](assets/export.png).
+1. Välj mapp för bidrag från kontrollpanelen för varumärkesportalen.
+1. Klicka på **[!UICONTROL Publish to AEM]**.
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
