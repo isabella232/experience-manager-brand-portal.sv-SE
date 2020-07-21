@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '813'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 Den här versionen innehåller följande kända fel:
 
-* Delningslänken för samlingar är för närvarande synlig för visningsprogrammen.
+* Visningsprogramanvändarna har inte behörighet att dela länkar för samlingar, men alternativet att dela är synligt för dem i produktgränssnittet.
 
 * Om en mapp i hierarkin byter namn från AEM Assets och den kapslade mappen som innehåller en resurs publiceras på varumärkesportalen, uppdateras inte mappens namn i varumärkesportalen förrän rotmappen publiceras igen.
 
