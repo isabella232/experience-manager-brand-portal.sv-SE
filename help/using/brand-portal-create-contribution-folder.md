@@ -1,8 +1,8 @@
 ---
 title: Skapa Contribute-mapp
 seo-title: Skapa Contribute-mapp
-description: 'Få insikt i hur du skapar en mapp för bidrag i AEM Assets. '
-seo-description: Få insikt i hur du skapar en mapp för bidrag i AEM Assets.
+description: 'Få information om hur du skapar en mapp för bidrag i AEM Assets. '
+seo-description: Få information om hur du skapar en mapp för bidrag i AEM Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
+source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 1%
@@ -21,16 +21,15 @@ ht-degree: 1%
 # Skapa avgiftsmapp {#create-contribution-folder}
 
 
-AEM-administratörer och icke-adminanvändare som har behörighet att skapa en ny mapp kan skapa en mapp för bidrag i AEM Assets.
+AEM administratörer och icke-adminanvändare som har behörighet att skapa en ny mapp kan skapa en mapp för bidrag i AEM Assets.
 Om du vill skapa en mapp för bidrag skapar du en ny mapp av typen Resursbidrag, som ser till att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas DELAD och NYTT, i bidragsmappen.
 
 >[!NOTE]
 >
 >Du kan skapa flera mappar för bidrag i en mapp, men du får inte skapa en mapp för bidrag i en annan mapp för bidrag.
 
-
 Så här skapar du en bidragsmapp:
-1. Logga in på din AEM-författarinstans.
+1. Logga in på AEM författarinstans.
 
    Standardwebbadressen är http:// localhost:4502/aem/start.html.
 
