@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4738'
 ht-degree: 0%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 ## Vad har ändrats i 6.4.7 {#what-changed-in-647}
 
-Utgåvan av varumärkesportalen 6.4.7 fokuserar på att förbättra dokumentvisningsprogrammets upplevelse, konfigurationen av hämtning av resurser från varumärkesportalen och de vanligaste kundförfrågningarna. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+Brand Portal 6.4.7-versionen innehåller Document Viewer, förbättrar upplevelsen vid hämtning av resurser och innehåller viktiga korrigeringar. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Document Viewer {#doc-viewer}
 
-Med *Document Viewer* förbättras PDF-visarnas upplevelse. Det ger en liknande upplevelse som Adobe Document Cloud när det gäller att visa PDF-filer i varumärkesportalen.
+Dokumentvisningsprogrammet förbättrar PDF-visningen. Det ger en liknande upplevelse som Adobe Document Cloud när du visar PDF-filerna i varumärkesportalen.
 
-Tidigare var återgivningarna bara tillgängliga för den första sidan i PDF-filen och alternativen som var tillgängliga i PDF-standardvisningsprogrammet var också begränsade.
+Tidigare fanns det begränsade alternativ för att visa PDF-filerna.
 
-I och med implementeringen av *Document Viewer* kan man se PDF-metadata och uppleva nya alternativ för att spela upp med PDF-filerna som sidvy, indexvy, direktsökning, inzoomning, utzoomning, föregående sida, nästa sida, växla till sida, anpassa till fönster, anpassa till skärmen, dölja eller visa verktygsfältet.
+Med Document Viewer kan man nu välja mellan att visa sidor, visa bokmärken, söka i text på sidan, zooma in, zooma ut, navigera till föregående och nästa sida, växla till sida, anpassa till fönster, anpassa till skärmen samt dölja eller visa verktygsfältet.
 
-I de fall där Brand Portal-användarna nu får en förbättrad PDF-visarupplevelse, förblir upplevelsen med andra format oförändrad.
+>[!NOTE]
+>
+>Visningsfunktionen för andra dokumentformat ändras inte.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Hämta inställningar {#download-configurations}
+### Hämta upplevelse {#download-configurations}
 
-Hämtningsinställningar är en ny konfiguration som gör att administratören för varumärkesportalen kan konfigurera hämtning av resurser från varumärkesportalen.
+Nedladdningen av resurser har moderniserats, vilket ger en förenklad användarupplevelse när du hämtar resurser från varumärkesportalen.
 
-Det befintliga arbetsflödet för att hämta resurser från Brand Portal följs alltid av ett popup-fönster med flera hämtningsalternativ att välja mellan.
+Det befintliga arbetsflödet för att hämta resurser från varumärkesportalen följs alltid av en **[!UICONTROL Download]** dialogruta med flera hämtningsalternativ att välja mellan.
 
-I varumärkesportalen 6.4.7 kan hämtning av resurser konfigureras från användargränssnittet i varumärkesportalen. Snabbhämtning, anpassade renderingar och systemrenderingar är de tre konfigurationer som är tillgängliga. Administratören för varumärkesportalen kan välja valfri kombination för att konfigurera hämtning av resurser. Administratören kan även aktivera eller inaktivera dessa konfigurationer.
+I varumärkesportalen 6.4.7 kan administratören konfigurera **[!UICONTROL Download]** resursinställningarna. De tillgängliga konfigurationerna är:
+* **[!UICONTROL Fast Download]**
+* **[!UICONTROL Custom Renditions]**
+* **[!UICONTROL System Renditions]**
 
-Den snabba hämtningskonfigurationen hoppar över popup-fönstrets utseende vid hämtning av resurser. Om det gäller anpassade återgivningar, systemåtergivningar eller flera konfigurationer visas popup-fönstret och den ursprungliga resursen tillsammans med resursåtergivningarna hämtas.
+Administratören för varumärkesportalen kan aktivera valfri kombination för att konfigurera hämtning av resurser.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Om alla tre konfigurationerna är avstängda hämtas resurserna utan någon ytterligare dialogruta, vilket förenklar nedladdningen för Brand Portal-användarna. Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och även när resurserna hämtas via länken Dela.
+
+* Om något av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** är aktiverat visas **[!UICONTROL Download]** dialogrutan och den ursprungliga resursen tillsammans med resursåtergivningarna hämtas. Om du aktiverar **[!UICONTROL Fast Download]** konfigurationen går hämtningen snabbare.
 
 ![](assets/download-configuration.png)
 
@@ -218,7 +235,7 @@ Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en
 
 **Användningsexempel**
 
-Nu kan du begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
+Du kan nu begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
 
 Observera att sökningar under dessa mappar endast returnerar resultat från resurser som har delats med användaren.
 
