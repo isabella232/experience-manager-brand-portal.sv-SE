@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,11 @@ Med AEM Assets Brand Portal kan organisationer konfigurera följande funktioner 
 * Borttagning av resurser av administratörer
 * Skapande av offentlig samling av icke-adminanvändare
 * Skapande av offentlig smart samling av icke-adminanvändare
-* Ladda ned acceleration
 * Överordnad hierarki för delade mappar som är synliga för användare som inte är administratörer
 
 Dessa konfigurationer har tillhandahållits som **[!UICONTROL General Settings]** konfigurationer på panelen Administrationsverktyg.
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **En** konfiguration som gör att administratörer kan ta bort resurser från varumärkesportalen. (Standard är aktiverat)
 
@@ -38,16 +37,14 @@ Dessa konfigurationer har tillhandahållits som **[!UICONTROL General Settings]*
 
 **C** Configuration som tillåter att icke-admin-användare skapar publika smarta samlingar. (Standard är aktiverat)
 
-**D** Configuration för att tillåta nedladdningsacceleration av resurser som hämtats från portalen och från delade länkar. (Standard är inaktiverat)
-
-**E** Configuration för att visa mapphierarkin (från roten) för delade mappar till icke-adminanvändare (redigerare, visningsprogram, gästanvändare). (Standard är inaktiverat)
+**D** Configuration för att visa mapphierarkin (från roten) för delade mappar till icke-adminanvändare (redigerare, visningsprogram, gästanvändare). (Standard är inaktiverat)
 
 ## Aktivera/inaktivera allmänna konfigurationer {#enable-disable-general-configurations}
 
 Så här aktiverar/inaktiverar du dessa konfigurationer:
 
 1. Logga in med administratörsbehörighet.
-1. Välj AEM-logotypen för att få tillgång till administrationsverktygen i verktygsfältet högst upp.
+1. Välj AEM logotyp för att öppna administrationsverktygen i verktygsfältet högst upp.
 1. Öppna **[!UICONTROL General]** sidan genom **[!UICONTROL General Settings]** att markera på panelen Administrationsverktyg.
 1. Använd respektive växlingsknapp för att aktivera/inaktivera någon av de allmänna konfigurationerna.
 1. **[!UICONTROL Save]** ändringarna.
@@ -65,9 +62,11 @@ Så här aktiverar/inaktiverar du dessa konfigurationer:
 
 [[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) konfigurationkontrollerar om icke-administratörer kan spara sina sökningar som smarta samlingar och göra dem offentliga för den klienten. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan du förhindra att det finns ett stort antal publika smarta samlingar som skapats av icke-adminanvändare på organisationens varumärkesportal.
 
-## Tillåt hämtning av acceleration {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) Med hjälp av konfigurationer kan organisationer tillåta snabbare hämtning av resurser från Brand Portal och delade länkar genom att integrera med IBM Aspera Connect som är ett program som installeras på begäran. Programmet använder tillverkarspecifik teknik för att ta bort TCP-omkostnader.
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## Aktivera mapphierarki {#enable-folder-hierarchy}
 
