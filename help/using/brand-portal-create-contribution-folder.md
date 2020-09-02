@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Så här skapar du en bidragsmapp:
 
 1. Klicka **[!UICONTROL Create]** för att skapa en ny mapp. **[!UICONTROL Create Folder]** öppnas.
 
-1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** markera mappen och markera **[!UICONTROL Asset Contribution]** kryssrutan.
+1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** markera **[!UICONTROL Asset Contribution]** kryssrutan.
 Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
 1. Klicka på **[!UICONTROL Create]**. Du kan se bidragsmappen i AEM Assets-databasen.
