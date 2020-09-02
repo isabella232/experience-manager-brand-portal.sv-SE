@@ -2,7 +2,7 @@
 title: Versionsinformation
 seo-title: Versionsinformation
 description: Ta reda på vilka funktioner, förbättringar, kritiska problem och kända fel som har åtgärdats i Adobe Experience Manager Assets Brand Portal 6.4.7.
-seo-description: Få en inblick i förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 6.4.7.
+seo-description: Få en inblick i förbättringarna, åtgärdade kritiska problem och kända problem i Adobe Experience Manager Assets Brand Portal 6.4.7.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 * Sökningen tar längre tid att visa resultaten för vissa nyckelord.
 
-* Kryssrutorna **[!UICONTROL Agree]** och **[!UICONTROL Disagree]** visas inte när du har valt flera licensierade och olicensierade mediefiler samtidigt under hämtningen.
+* Kryssrutorna **[!UICONTROL Agree]** och **[!UICONTROL Disagree]** visas inte när du har valt flera licensierade och olicensierade mediefiler samtidigt.
 
 * Filterbaserad sökning visar bearbetning i produktgränssnittet utan sökresultat.
 
