@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -29,6 +29,7 @@ Användare av varumärkesportalen kan sedan skapa nya resurser för bidrag och �
 >
 >Den maximala överföringsgränsen för alla varumärkesportalkonton/klientorganisationer är **10** GB.
 
+
 **Så här överför du nya resurser:**
 
 1. Logga in på din Brand Portal-instans.
@@ -41,4 +42,4 @@ Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som 
 1. Bläddra och överför nya resurser (filer/mappar) i **[!UICONTROL NEW]** mappen.
    ![](assets/upload-new-assets3.png)
 
-När överföringen är klar kan användaren på varumärkesportalen publicera bidragsmappen till AEM Assets. Se [Publicera en mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+När överföringen är klar kan användare av varumärkesportalen publicera bidragsmappen till AEM Assets. Se [Publicera en mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
