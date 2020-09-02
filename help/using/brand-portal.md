@@ -1,6 +1,6 @@
 ---
-title: Översikt över varumärkesportalen för AEM Assets
-seo-title: Översikt över varumärkesportalen för AEM Assets
+title: Översikt över AEM Assets varumärkesportal
+seo-title: Översikt över AEM Assets varumärkesportal
 description: AEM Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna företagsanvändare på olika enheter.
 seo-description: AEM Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna företagsanvändare på olika enheter.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
@@ -9,23 +9,23 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1437'
 ht-degree: 4%
 
 ---
 
 
-# Översikt över varumärkesportalen för AEM Assets {#overview-of-aem-assets-brand-portal}
+# Översikt över AEM Assets varumärkesportal {#overview-of-aem-assets-brand-portal}
 
 Som marknadsförare behöver ni ibland samarbeta med kanalpartners och interna affärsanvändare för att snabbt skapa, hantera och leverera relevant digitalt innehåll till kunder. Snabb leverans av relevant innehåll under hela kundresan är avgörande för att öka efterfrågan, konvertering, engagemang och kundlojalitet.
 
 Det är dock en utmaning att utveckla lösningar som stöder effektiv och säker delning av godkända varumärkeslogotyper, riktlinjer, kampanjresurser eller produktbilder med interna team, partners och återförsäljare.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att effektivt samarbeta med globala Brand Portal-användare genom att tillhandahålla funktioner för tillgångsdistribution och kapitaltillskott.
+**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att effektivt samarbeta med globala Brand Portal-användare genom att tillhandahålla funktioner för tillgångsdistribution och materialbidrag.
 
-Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Tillgångarnas bidrag gör det möjligt för varumärkesportalanvändarna att överföra mediefiler till varumärkesportalen och publicera dem på AEM Assets, utan att behöva ha tillgång till upphovsrättsmiljön. Avgiftsfunktionen kallas **Resurser i varumärkesportalen**. Tillsammans förbättrar det den övergripande varumärkesportalupplevelsen av tillgångsdistribution och bidrag från användarna på varumärkesportalen (externa byråer/team), snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst.
+Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Tillgångarna gör det möjligt för användarna på varumärkesportalen att överföra mediefiler till varumärkesportalen och publicera dem på AEM Assets, utan att man behöver ha tillgång till upphovsrättsmiljön. Avgiftsfunktionen kallas **Resurser i varumärkesportalen**. Tillsammans förbättrar det varumärkesportalens totala upplevelse av tillgångsdistribution och bidrag från användarna på varumärkesportalen (externa byråer/team), snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst.
 Se [Resurser i Varumärkesportalen](brand-portal-asset-sourcing.md).
 
 I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland, söka efter, förhandsgranska och exportera resurser i godkända format.
@@ -36,13 +36,13 @@ Adobe Experience Manager (AEM) Assets konfigureras med Brand Portal via Adobe De
 
 >[!NOTE]
 >
->Det går att konfigurera AEM Assets med varumärkesportalen via Adobe Developer Console i molntjänsten AEM Assets, AEM Assets 6.3 och senare.
+>Det går att konfigurera AEM Assets med varumärkesportalen via Adobe Developer Console i AEM Assets som Cloud Service, AEM Assets 6.3 och senare.
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
 Du behöver följande för att konfigurera AEM Assets med varumärkesportalen:
 
-* En AEM Assets-instans som körs och är igång.
+* En instans av AEM Assets som körs.
 * Varumärkesportalens klientorganisations-URL.
 * En användare med systemadministratörsbehörighet på IMS-organisationen för varumärkesportalens klient.
 
@@ -149,13 +149,13 @@ AEM Author-instansen kan dock bara [konfigureras](../using/configure-aem-assets-
 
 >[!NOTE]
 >
->För att få ett alias för innehavarens namn i en befintlig portal-URL måste man kontakta Adobes support för att få en ny begäran om att skapa klientalias. Denna begäran behandlas genom att först kontrollera om aliaset är tillgängligt och sedan skapa aliaset.
+>För att få ett alias för innehavarens namn i en befintlig portal-URL måste man kontakta supporten för Adobe i en ny begäran om att skapa klientalias. Denna begäran behandlas genom att först kontrollera om aliaset är tillgängligt och sedan skapa aliaset.
 >
 >Om du vill ersätta det gamla aliaset eller ta bort det gamla måste samma process följas.
 
 ## Begär åtkomst till varumärkesportalen {#request-access-to-brand-portal}
 
-Användare kan begära åtkomst till varumärkesportalen från inloggningsskärmen. Dessa förfrågningar skickas till administratörer av varumärkesportalen som ger användare åtkomst via Adobe [!UICONTROL Admin Console]. När åtkomst har beviljats får användarna ett e-postmeddelande.
+Användare kan begära åtkomst till varumärkesportalen från inloggningsskärmen. Dessa förfrågningar skickas till administratörer för varumärkesportalen som ger användare åtkomst via Adobe [!UICONTROL Admin Console]. När åtkomst har beviljats får användarna ett e-postmeddelande.
 
 Så här begär du åtkomst:
 
@@ -175,7 +175,7 @@ Så här begär du åtkomst:
 The [!UICONTROL Sign in] page opens.
    1. Ange dina [!UICONTROL Adobe ID] uppgifter och klicka på **[!UICONTROL Sign in]**.<br />
 
-   ![Adobe - logga in](assets/bplogin_request_access_3.png)
+   ![Adobe loggar in](assets/bplogin_request_access_3.png)
 
    Du omdirigeras till [!UICONTROL Request Access] sidan.<br />
    **Scenario 2**
@@ -203,11 +203,11 @@ Produktadministratörer för varumärkesportalen får åtkomstbegäranden i sitt
 För att bevilja åtkomst måste produktadministratörer klicka på meddelandet i meddelandefältet i varumärkesportalen och sedan klicka på **[!UICONTROL Grant Access]**.
 Alternativt kan produktadministratörer följa länken i e-postmeddelandet med en begäran om åtkomst för att besöka Adobe [!UICONTROL Admin Console] och lägga till användaren i den relevanta produktkonfigurationen.
 
-Du omdirigeras till [Adobes [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hemsida. Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i varumärkesportalen. Mer information om hur du lägger till användare i [!UICONTROL Admin Console]finns i [Lägga till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
+Du omdirigeras till [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hemsida. Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i varumärkesportalen. Mer information om hur du lägger till användare i [!UICONTROL Admin Console]finns i [Lägga till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
 
 ## Språk i varumärkesportalen {#brand-portal-language}
 
-Du kan ändra språk på varumärkesportalen från Adobe [!UICONTROL Experience Cloud Settings].
+Du kan byta språk på varumärkesportalen från Adobe [!UICONTROL Experience Cloud Settings].
 
 ![Begärd avisering om åtkomst](assets/BPLang.png)
 
@@ -235,5 +235,5 @@ Du kan stänga meddelandet och fortsätta använda varumärkesportalen. Det här
 
 ## Relaterade resurser {#related-resources}
 
-* [Adobes kundtjänst](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [AEM-forum](https://www.adobe.com/go/aod_forums_en)
+* [Adobe kundtjänst](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [AEM](https://www.adobe.com/go/aod_forums_en)
