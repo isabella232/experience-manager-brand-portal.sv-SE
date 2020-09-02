@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 2%
 
 ---
@@ -26,15 +26,16 @@ Med Brand Portal kan du förbättra hämtningsprestanda för stora filer genom a
 >
 >Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
 
-Om det här alternativet är aktiverat kan Brand Portal-användare avsevärt minska tiden det tar att hämta önskade resursfiler från Brand Portal eller via delad länk genom att installera Aspera Connect-klienten.
 
-![](assets/enable-fast-file-download.png)
+Konfigurationen är som standard aktiverad, vilket minskar den tid det tar att hämta önskade resursfiler från varumärkesportalen avsevärt. **[!UICONTROL Fast Download]**
+
+![](assets/download-configuration.png)
 
 ## Förutsättningar för snabbare filhämtning {#prerequisites-to-accelerate-file-download}
 
 Om du vill hämta filerna snabbare bör du göra följande:
 
-* **[!UICONTROL Enable Download Acceleration]** (som är inaktiverat som standard) på [!UICONTROL General Settings] panelen Administrationsverktyg.
+* Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att **[!UICONTROL Fast Download]** konfigurationen är aktiverad i **[!UICONTROL Download Settings]**.
 * Port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om krav finns i dokumentationen till [Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Installera Aspera Connect med administratörsbehörighet.
 * Plattformsstöd för Aspera-överföringsklienter finns i [supportmatrisen](https://www.asperasoft.com/company/support/transfer-clients/)för Aspera Connect-plattformen.
@@ -72,8 +73,8 @@ I följande tabell visas hämtningsprestanda för 2 GB-filer med Aspera Connect-
 Så här hämtar du resurser snabbare från varumärkesportalen:
 
 1. Logga in på varumärkesportalen med en webbläsare som stöds.
-1. Bläddra och välj den resursfil, mapp eller samling som du vill hämta. Tryck/klicka på nedladdningsalternativet.
-Hämtningsdialogrutan visas med alternativet [Aktivera nedladdningsacceleration] markerat.
+1. Bläddra och välj de mappar eller resurser som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen i verktygsfältet överst. dialogrutan visas med **[!UICONTROL Download]** kryssrutorna **[!UICONTROL Asset(s)]** och **[!UICONTROL Enable download acceleration]** .
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,19 +83,25 @@ Hämtningsdialogrutan visas med alternativet [Aktivera nedladdningsacceleration]
 
    ![](assets/fast-download-emailchk.png)
 
-1. Tryck/klicka på **[!UICONTROL Download]** alternativet.
-Om du vill få en snabbare nedladdning på ditt varumärkesportal-klientkonto måste du ha Aspera Connect-klientprogrammet installerat på datorn.
+1. Klicka på **[!UICONTROL Download]**.
 
-1. **Ladda ned Aspera Connect Client** Om Aspera Connect-klienten inte är installerad på datorn eller om den befintliga Aspera Connect-klienten är inaktuell visas ett meddelande på webbläsarsidan där du kan hämta den systemspecifika Aspera Connect-klienten genom att välja **[!UICONTROL Download Latest Version]**.
+   Om du vill få en snabbare nedladdning på ditt varumärkesportal-klientkonto måste du ha Aspera Connect-klientprogrammet installerat i webbläsartillägget.
+
+1. **Ladda ned Aspera Connect Client**
+
+   Om Aspera Connect-klienten inte är installerad på datorn eller om den befintliga Aspera Connect-klienten är inaktuell, visas ett meddelande på webbläsarsidan där du kan hämta den systemspecifika Aspera Connect-klienten genom att välja **[!UICONTROL Download Latest Version]**.
 
    ![](assets/aspera-not-launched.png)
 
    Om du vill hämta den senaste versionen av Aspera Connect från [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/)väljer du **[!UICONTROL Download Now]** och följer instruktionerna.
 
-1. **Installera Aspera Connect Client** Installera klientinstallationen av IBM Aspera Connect genom att köra installationsprogrammet från MSI-filen för klientprogrammet IBM Aspera Connect och följa installationsguiden.
+1. **Installera Aspera Connect Client**
 
-1. När klienten har installerats uppdaterar du webbläsarsidan och startar hämtningsstegen igen eller väljer **[!UICONTROL Restart]** i **[!UICONTROL Download]** dialogrutan Resurser (steg 2).
-När du använder Aspera Connect för första gången uppmanas webbläsaren att öppna länken med **[!UICONTROL IBM Aspera Connect]**. Aktivera om du vill hoppa över den här dialogrutan i framtiden **[!UICONTROL Remember my choice for FASP links]**.
+   Om du vill installera installationsprogrammet för IBM Aspera Connect-klienten kör du installationsprogrammet från MSI-filen för klientprogrammet IBM Aspera Connect och följer installationsguiden.
+
+1. När klienten har installerats uppdaterar du webbläsarsidan och startar hämtningsstegen igen.
+
+   När du använder Aspera Connect för första gången uppmanas webbläsaren att öppna länken med **[!UICONTROL IBM Aspera Connect]**. Aktivera om du vill hoppa över den här dialogrutan i framtiden **[!UICONTROL Remember my choice for FASP links]**.
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ När hämtningen är klar visas en dialogruta där resurserna hämtas till anvä
 
 >[!NOTE]
 >
->Det finns en känd begränsning i Aspera Connect-klientprogrammet att ingen uppmaning om att välja hämtningsplats visas om **[!UICONTROL Always ask me where to save downloaded files]** är aktiverat under fliken [!UICONTROL Transfers] i [!UICONTROL Preferences]. Ange platsen i textrutan innan hämtningen börjar **[!UICONTROL Save downloaded files to]**.
+>Det finns en känd begränsning i Aspera Connect-klientprogrammet att ingen uppmaning om att välja hämtningsplats visas om **[!UICONTROL Always ask me where to save downloaded files]** är aktiverat under fliken **[!UICONTROL Transfers]** i **[!UICONTROL Preferences]**. Ange platsen i textrutan innan hämtningen börjar **[!UICONTROL Save downloaded files to]**.
 
 ## Använda filacceleratorn i webbläsaren Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,8 +128,8 @@ Microsoft Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunikati
 
 Om du vill använda accelererad nedladdningsfunktion i Microsoft Edge tar du bort webbplatsen för varumärkesportalen från listan över betrodda webbplatser.
 
-1. Öppna Kontrollpanelen (tryck på **[!UICONTROL Window key + X]** och välj sedan **[!UICONTROL Control Panel]**).
-1. Gå till **[!UICONTROL Network and Internet > Internet Options]**. Click the **[!UICONTROL Security]** tab.
+1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** och välj sedan **[!UICONTROL Control Panel]**).
+1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Click the **[!UICONTROL Security]** tab.
 1. Klicka på **[!UICONTROL Trusted sites zone]** och sedan på **[!UICONTROL Sites]**.
 1. Ta bort webbplatsen för varumärkesportalen från listan.
 
