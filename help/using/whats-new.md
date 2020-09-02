@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
 workflow-type: tm+mt
-source-wordcount: '4738'
+source-wordcount: '4739'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Dokumentvisningsprogrammet förbättrar PDF-visningen. Det ger en liknande upple
 
 Tidigare fanns det begränsade alternativ för att visa PDF-filerna.
 
-Med Document Viewer kan man nu välja mellan att visa sidor, visa bokmärken, söka i text på sidan, zooma in, zooma ut, navigera till föregående och nästa sida, växla till sida, anpassa till fönster, anpassa till skärmen samt dölja eller visa verktygsfältet.
+Med Document Viewer har nu användare av varumärkesportalen möjlighet att visa sidor, visa bokmärken, söka i text på sidan, zooma in, zooma ut, navigera till föregående och nästa sida, växla till sida, anpassa till fönster, anpassa till skärmen samt dölja eller visa verktygsfältet.
 
 >[!NOTE]
 >
@@ -61,16 +61,18 @@ Administratören för varumärkesportalen kan aktivera valfri kombination för a
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Om alla tre konfigurationerna är avstängda hämtas resurserna utan någon ytterligare dialogruta, vilket förenklar nedladdningen för Brand Portal-användarna. Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och även när resurserna hämtas via länken Dela.
+* Om både **[!UICONTROL Custom Renditions]** och **[!UICONTROL System Renditions]** konfigurationer är inaktiverade hämtas de ursprungliga återgivningarna av resurserna utan någon ytterligare dialogruta, vilket förenklar hämtningen för Brand Portal-användarna.
 
 * Om något av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** är aktiverat visas **[!UICONTROL Download]** dialogrutan och den ursprungliga resursen tillsammans med resursåtergivningarna hämtas. Om du aktiverar **[!UICONTROL Fast Download]** konfigurationen går hämtningen snabbare.
+
+Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser med hjälp av delningslänken.
 
 ![](assets/download-configuration.png)
 
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-I varumärkesportalen 6.4.6 ändras behörighetskanalen mellan AEM Assets och varumärkesportalen. Brand Portal stöds nu i AEM Assets molntjänst, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, där en IMS-token för auktorisering av din varumärksportal används.
+I varumärkesportalen 6.4.6 ändras behörighetskanalen mellan AEM Assets och varumärkesportalen. Varumärkesportalen stöds nu i AEM Assets som Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, där en IMS-token för auktorisering av din varumärksportal används.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -121,7 +123,7 @@ Se Vanliga frågor om [varumärkesportalen](brand-portal-faqs.md).
 ## Vad har ändrats i 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas **[Resurser i varumärkesportalen](brand-portal-asset-sourcing.md)**och förbättrar kundupplevelsen genom att erbjuda en tvåvägsfunktion för användare som både bidrar och delar resurser med andra globalt distribuerade Brand Portal-användare.
+Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas **[Resurser i varumärkesportalen](brand-portal-asset-sourcing.md)** och förbättrar kundupplevelsen genom att erbjuda en tvåvägsfunktion för användare som både bidrar och delar resurser med andra globalt distribuerade Brand Portal-användare.
 
 ### Resurshantering i varumärkesportalen {#asset-sourcing-in-bp}
 
@@ -194,7 +196,7 @@ På samma sätt kan du ange:
 
 >[!NOTE]
 >
->Om du markerar kryssrutan **Delvis sökning** är **Ignorera skiftläge** markerat som standard.
+>När du markerar kryssrutan **Delvis sökning** är **Ignorera skiftläge** markerat som standard.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -235,7 +237,7 @@ Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en
 
 **Användningsexempel**
 
-Du kan nu begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
+Nu kan du begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
 
 Observera att sökningar under dessa mappar endast returnerar resultat från resurser som har delats med användaren.
 
@@ -383,7 +385,7 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 
 ### Adobe I/O-gränssnitt för att konfigurera autentiseringsintegreringar
 
-Brand Portal 6.4.2 och senare använder gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera Auth-integreringar så att AEM Assets kan integreras med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 och senare använder gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera autenticeringsintegreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
