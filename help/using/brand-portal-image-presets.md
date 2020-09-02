@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -23,28 +23,31 @@ Precis som ett makro är en bildförinställning en fördefinierad samling komma
 
 En bildförinställning används för att generera dynamiska återgivningar av bilder som kan förhandsvisas och hämtas. När du förhandsgranskar bilder och deras återgivningar kan du välja en förinställning för att formatera om bilder enligt de specifikationer som angetts av administratören.
 
-Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-återgivning finns i AEM-författarinstansen som du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen. Det finns inget sätt att generera PTIFF-återgivningen från Brand Portal.
+(*Om AEM (Författare)-instansen körs i läget *****Dynamic Media Hybrid) Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-återgivning finns i den AEM författarinstansen från vilken du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen.
 
 >[!NOTE]
 >
 >När du hämtar bilder och återgivningar av dem finns det inget alternativ att välja bland de befintliga förinställningarna. Du kan i stället ange egenskaper för en anpassad bildförinställning. Mer information finns i [Använda bildförinställningar vid hämtning av bilder](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Mer information om de parametrar som krävs när du skapar bildförinställningar finns i [Hantera bildförinställningar](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Skapa en bildförinställning {#create-an-image-preset}
 
-Administratörer kan skapa bildförinställningar som visas som dynamiska återgivningar på resursdetaljsidan. Du kan skapa en bildförinställning från grunden eller spara en befintlig med ett nytt namn. När du skapar en bildförinställning väljer du en storlek för bildleverans och formateringskommandona. När en bild levereras för visning optimeras dess utseende enligt de valda kommandona.
-Observera att det endast är administratörer som kan skapa bildförinställningar i varumärkesportalen.
+AEM administratörer kan skapa bildförinställningar som visas som dynamiska återgivningar på resursdetaljsidan. Du kan skapa en bildförinställning från grunden eller spara en befintlig med ett nytt namn. När du skapar en bildförinställning väljer du en storlek för bildleverans och formateringskommandona. När en bild levereras för visning optimeras dess utseende enligt de valda kommandona.
 
-Observera att det endast är administratörer som kan skapa bildförinställningar i varumärkesportalen.
 
 >[!NOTE]
 >
 >Dynamiska återgivningar av en bild skapas med hjälp av Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
-Om AEM-instansen (Author) körs i **Dynamic Media-hybridläge** skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM-databasen. Om AEM-instansen (Author) körs i **Dynamic Media Scene 7-läget**finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
-När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
+>
+>Om AEM (Author)-instansen körs i **läget** Dynamic Media Hybrid skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
+>
+>Om AEM (Författare) körs i läget ****Dynamic Media Scene 7 finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
+>När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
 
-1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
+
+1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
 1. Klicka på panelen Administrationsverktyg **[!UICONTROL Image Presets]**.
 
