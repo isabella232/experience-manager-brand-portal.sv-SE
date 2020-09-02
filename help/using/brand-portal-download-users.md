@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -79,7 +79,8 @@ Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fris
 * Om både **[!UICONTROL Custom Renditions]** och **[!UICONTROL System Renditions]** konfigurationer är inaktiverade hämtas de ursprungliga återgivningarna av resurserna utan att någon ytterligare dialogruta visas för användarna.
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * Om någon av **[!UICONTROL Custom Renditions]** - eller **[!UICONTROL System Renditions]** konfigurationerna är aktiverad visas ytterligare en **[!UICONTROL Download]** dialogruta där du kan välja om du vill hämta den ursprungliga resursen tillsammans med dess återgivningar eller bara hämta specifika återgivningar.
@@ -180,7 +181,7 @@ Filhämtningen kan variera för användare på olika platser på klienten, beroe
 | Västra USA (N) Kalifornien) | 18 millisekunder | 7,68 MB/s | 4 minuter |
 | Västra USA (Oregon) | 42 millisekunder | 3,84 MB/s | 9 minuter |
 | Östra USA (N) Virginia) | 85 millisekunder | 1,61 MB/s | 21 minuter |
-| APAC (Tokyo) | 124 millisekunder | 1,13 MB/s | 10 minuter |
+| APAC (Tokyo) | 124 millisekunder | 1,13 MB/s | 30 minuter |
 | Noida | 275 millisekunder | 0,5 MB/s | 68 minuter |
 | Sydney | 175 millisekunder | 0,49 MB/s | 69 minuter |
 | London | 179 millisekunder | 0,32 MB/s | 106 minuter |
