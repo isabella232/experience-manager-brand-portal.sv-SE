@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Användare av varumärkesportalen kan sedan skapa nya resurser för bidrag och �
 
 >[!NOTE]
 >
->Användare av varumärkesportalen kan bara överföra innehåll/resurser till mappen **NEW** . De har inte behörighet att ta bort en överförd resurs.
+>Användare av varumärkesportalen kan bara överföra innehåll/resurser till mappen **NEW** .
 >
 >Den maximala överföringsgränsen för alla varumärkesportalkonton/klientorganisationer är **10** GB.
 
