@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '4739'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Med Document Viewer har nu användare av varumärkesportalen möjlighet att visa
 
 ### Hämta upplevelse {#download-configurations}
 
-Nedladdningen av resurser har moderniserats, vilket ger en förenklad användarupplevelse när du hämtar resurser från varumärkesportalen.
+Nedladdningen av resurser har moderniserats, vilket ger en förenklad användarupplevelse samtidigt som du [hämtar resurser från varumärkesportalen](brand-portal-download-users.md).
 
 Det befintliga arbetsflödet för att hämta resurser från varumärkesportalen följs alltid av en **[!UICONTROL Download]** dialogruta med flera hämtningsalternativ att välja mellan.
 
