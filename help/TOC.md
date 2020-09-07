@@ -3,10 +3,10 @@ cloud: experience-cloud
 product: adobe experience manager
 sub-product: varumärkesportal för Experience Manager
 audience: end-user
-user-guide-title: AEM Brand Portal
+user-guide-title: AEM varumärkesportal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 18%
@@ -47,7 +47,7 @@ ht-degree: 18%
       + [Översikt](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Hämta resurskrav](using/brand-portal-download-asset-requirements.md)
       + [Överför resurser till mappen för bidrag](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicera mapp för bidrag till AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Publicera bidragsmapp till AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Dela resurser med användare {#share}
    + [Dela en samling](using/brand-portal-share-collection.md)
    + [Dela mappar](using/brand-portal-sharing-folders.md)
@@ -56,7 +56,7 @@ ht-degree: 18%
    + [Sök efter resurser på varumärkesportalen](using/brand-portal-searching.md)
    + [Använd anpassade sökfaktorer](using/brand-portal-search-facets.md)
 + Använd nedladdningsfunktioner {#download}
-   + [Hämta resurser](using/brand-portal-download-users.md)
+   + [Hämta resurser](using/brand-portal-download-assets.md)
    + [Stöd för dynamisk video på varumärkesportalen](using/dynamic-video-brand-portal.md)
    + [Hantera ljuslådesamlingen](using/brand-portal-light-box.md)
    + [Hantera digitala rättigheter för resurser](using/manage-digital-rights-of-assets.md)
