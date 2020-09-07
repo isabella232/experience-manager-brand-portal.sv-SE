@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Precis som ett makro är en bildförinställning en fördefinierad samling komma
 
 En bildförinställning används för att generera dynamiska återgivningar av bilder som kan förhandsvisas och hämtas. När du förhandsgranskar bilder och deras återgivningar kan du välja en förinställning för att formatera om bilder enligt de specifikationer som angetts av administratören.
 
-(*Om AEM (Författare)-instansen körs i läget *****Dynamic Media Hybrid) Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-återgivning finns i den AEM författarinstansen från vilken du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen.
+(*Om AEM författarinstans körs i **läget***Dynamic Media Hybrid) Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-återgivning finns i den AEM författarinstansen från vilken du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen.
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ AEM administratörer kan skapa bildförinställningar som visas som dynamiska å
 >
 >Dynamiska återgivningar av en bild skapas med hjälp av Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
 >
->Om AEM (Author)-instansen körs i **läget** Dynamic Media Hybrid skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
+>Om AEM författarinstans körs i läget **** Dynamic Media Hybrid skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
 >
->Om AEM (Författare) körs i läget ****Dynamic Media Scene 7 finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
+>Om AEM författarinstans körs i läget ****Dynamic Media Scene 7 finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
 >När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
 
 
