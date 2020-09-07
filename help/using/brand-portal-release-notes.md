@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 5%
@@ -45,7 +45,7 @@ Den här versionen innehåller följande nya funktioner:
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Framsteg i hämtningen av resurser som förbättrar användarupplevelsen på varumärkesportalen när resurser [hämtas från varumärkesportalen](brand-portal-download-users.md). Administratörer för varumärkesportaler kan konfigurera **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]** och **[!UICONTROL System Renditions]** från **[!UICONTROL Download]** inställningarna.
+* Framsteg i hämtningen av resurser som förbättrar användarupplevelsen på varumärkesportalen när resurser [hämtas från varumärkesportalen](brand-portal-download-assets.md). Administratörer för varumärkesportaler kan konfigurera **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]** och **[!UICONTROL System Renditions]** från **[!UICONTROL Download]** inställningarna.
 
 Mer information finns i [nyheter i varumärkesportalen 6.4.7](whats-new.md).
 
