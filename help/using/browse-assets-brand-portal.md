@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Assets Brand Portal innehåller olika funktioner och element i användargränssnittet som gör det enklare att bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ.
 
-AEM-logotypen i AEM-verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen med administrationsverktyg.
+AEM logotyp i det AEM verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
 
 ![](assets/aemlogo.png)
 
@@ -57,7 +57,7 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Typ
 * Titel
 * Namn
-* Datum och tid när resursen publicerades på varumärkesportalen från AEM
+* Datum och tid när resursen publicerades till varumärkesportalen från AEM
 * Storlek
 * Dimensioner
 
@@ -142,7 +142,7 @@ När en resurs är markerad i kolumnvyn visas en visuell representation av resur
 * Titel
 * Namn
 * Dimensioner
-* Datum och tid när resursen publicerades på varumärkesportalen från AEM
+* Datum och tid när resursen publicerades till varumärkesportalen från AEM
 * Storlek
 * Typ
 * Alternativet Mer information, för att gå till detaljsidan för resursen
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -261,4 +261,4 @@ Om du vill öppna sidan med resursegenskaper använder du **[!UICONTROL Properti
 
 ![](assets/asset-properties.png)
 
-Du kan också visa en lista över alla relaterade resurser (källresurser eller härledda resurser på AEM) på en tillgångs egenskapssida, eftersom resursrelationen också publiceras från AEM till varumärksportal.
+Du kan också visa en lista över alla relaterade resurser (källresurser eller härledda resurser på AEM) på en tillgångs egenskapssida, eftersom resursrelationen också publiceras från AEM till varumärkesportalen.
