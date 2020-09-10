@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
+source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Beroende på felen rekommenderar vi att du loggar en supportanmälan så att vå
 
 Publiceringsjobbet misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
-Utför följande steg för att konfigurera replikeringsagenten:
+Utför följande steg för att konfigurera replikeringsagenterna:
 1. Logga in på din AEM Assets-författarinstans.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. Klicka på på sidan Replikering **[!UICONTROL Agents on author]**. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
