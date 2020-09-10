@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,44 @@ ht-degree: 0%
 
 # Överför resurser till mappen för bidrag {#uplad-new-assets-to-contribution-folder}
 
-Varumärkesportalanvändare [hämtar tillgångskraven](brand-portal-download-asset-requirements.md) - kortfattat dokument som bifogas till mappen för bidrag och hämtar baslinjeresurser från mappen **SHARED** för att förstå behovet av bidrag.
-Användare av varumärkesportalen kan sedan skapa nya resurser för bidrag och överföra dem till mappen **NEW** i mappen för bidrag.
+Brand Portal-användare kan [hämta tillgångskraven](brand-portal-download-asset-requirements.md) för att förstå behovet av bidrag.
+De kan sedan skapa nya resurser för bidrag och överföra dem till mappen NYTT i mappen för bidrag.
 
 >[!NOTE]
 >
->Användare av varumärkesportalen kan bara överföra innehåll/resurser till mappen **NEW** .
+>Användare av varumärkesportalen kan bara överföra resurser till mappen NEW.
 >
->Den maximala överföringsgränsen för alla varumärkesportalkonton/klientorganisationer är **10** GB.
+>Den maximala överföringsgränsen för alla innehavare av varumärkesportaler är **10** GB, som tillämpas kumulativt på alla bidragsmappar.
+
+
+När de nyskapade resurserna har publicerats till AEM Assets kan Brand Portal-användarna ta bort dem från mappen NEW. Administratören för varumärkesportalen kan ta bort resurserna både från mappen NEW och SHARED.
+
+När målet att skapa bidragsmappen är uppnått kan administratören för varumärkesportalen ta bort bidragsmappen och frigöra överföringsutrymmet för andra användare.
+
+>[!NOTE]
+>
+>Vi rekommenderar att du frigör överföringsutrymmet när du har publicerat avgiftsbelagda mappar till AEM Assets så att de är tillgängliga för övriga Brand Portal-användare.
+>
+>Om du behöver utöka din varumärkesportaltenants överföringsgräns med mer än **10** GB kontaktar du Adobe Support och anger kraven.
 
 
 **Så här överför du nya resurser:**
 
 1. Logga in på din Brand Portal-instans.
-Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som är tillåtna för användaren på varumärkesportalen tillsammans med den nyligen delade mappen för bidrag.
-1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i mappen för bidrag.
-1. Klicka på **[!UICONTROL NEW]** mapp.
+Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som är tillåtna för användaren av varumärkesportalen tillsammans med den nyligen delade mappen för bidrag.
+
+1. Markera mappen för bidrag och klicka för att öppna den. Mappen för bidrag innehåller två undermappar - **[!UICONTROL SHARED]** och **[!UICONTROL NEW]**.
+
+1. Klicka på **[!UICONTROL NEW]** mappen.
+
    ![](assets/upload-new-assets1.png)
-1. Klicka **[!UICONTROL Create > Files]** för ![](assets/upload.png) att överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
+
+1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Files]** för att överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
+
    ![](assets/upload-new-assets2.png)
-1. Bläddra och överför nya resurser (filer/mappar) i **[!UICONTROL NEW]** mappen.
+
+1. Bläddra och överför resurser (filer eller mappar) till **[!UICONTROL NEW]** mappen.
+
    ![](assets/upload-new-assets3.png)
 
-När överföringen är klar kan användare av varumärkesportalen publicera bidragsmappen till AEM Assets. Se [Publicera en mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+När du har överfört alla resurser eller mappar till mappen NEW publicerar du mappen för bidrag till AEM Assets. Se [Publicera en mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
