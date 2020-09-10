@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Felsöka problem vid parallell publicering till varumärkesportalen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Varumärkesportalen är konfigurerad med AEM Assets för att innehålla godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När den har [konfigurerats](../using/configure-aem-assets-with-brand-portal.md)använder AEM Author en replikeringsagent för att replikera de markerade resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används från och med AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 för parallell publicering med hög hastighet.
+Varumärkesportalen är konfigurerad med AEM Assets för att innehålla godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När AEM Author har [konfigurerats](../using/configure-aem-assets-with-brand-portal.md)används en replikeringsagent för att replikera de valda resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
 
 >[!NOTE]
 >
->Adobe rekommenderar att du uppgraderar till AEM 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med varumärkesportalen och replikeringen misslyckas.
+>Adobe rekommenderar att du uppgraderar till AEM 6.4.1.0 för att säkerställa att AEM Assets varumärkesportal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med varumärkesportalen och replikeringen misslyckas.
 
-När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar flera resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
+När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar många resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
 
-Publiceringen kan emellertid misslyckas ibland på grund av stora snedningsjobb, utökat nätverk och **[!UICONTROL Disk I/O]** på AEM Author-instansen eller långsammare prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
+Publiceringen kan emellertid misslyckas ibland på grund av stora avförsäljningsjobb, ökat nätverk och **[!UICONTROL Disk I/O]** på AEM Author-instansen eller långsammare prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
 
 ![](assets/test-connection.png)
 
@@ -49,7 +49,7 @@ Om molntjänsten inte konfigureras korrekt upprepade gånger ska du rapportera e
 
 Visa logg, om fel påträffas i replikeringsloggen:
 
-1. Kontakta Adobes support.
+1. Kontakta supporten för Adobe.
 
 1. Försök [rensa upp](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) igen och skapa publiceringskonfigurationen igen.
 
@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Rensa befintliga Brand Portal-publiceringskonfigurationer {#clean-up-existing-config}
 
-De flesta tillfällen när publiceringen inte fungerar kan det bero på att användaren som publicerar (till exempel: `mac-<tenantid>-replication` saknar den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en ny konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från AEM-författarkonfigurationen:
+De flesta gånger som publiceringen inte fungerar kan orsaken vara att användaren som publicerar (till exempel: `mac-<tenantid>-replication` har inte den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en ny konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från AEM författarinställningar:
 
 1. Gå till `localhost:4502/crx/de/` (med tanke på att du kör författarinstansen på localhost:4502:\
    i. delete `/etc/replication/agents.author/mp_replication`ii. delete 
@@ -82,7 +82,7 @@ Det finns ett känt fel i det här användargränssnittet som innebär att för 
 
 JWT-programmet kanske inte visas korrekt. Du bör därför anteckna/bokmärka URL-adressen när du skapar ett JWT-program.
 
-## Konfigurationen som körs slutar fungera {#running-configuration-stops-working}
+## Konfigurationen slutar fungera {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -109,26 +109,24 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Om en replikeringsagent (som publicerades på en varumärkesportal helt okej) slutar bearbeta publiceringsjobb bör du kontrollera replikeringsloggarna. AEM har automatisk återförsöksinstallation, så om en viss resurspublicering misslyckas provas den automatiskt igen. Om det uppstår något tillfälligt problem, t.ex. ett nätverksfel, kan det lyckas under ett nytt försök.
+Om en replikeringsagent (som publicerades på en varumärkesportal helt okej) slutar bearbeta publiceringsjobb bör du kontrollera replikeringsloggarna. AEM har automatiskt gjort ett nytt försök, så om en viss resurspublicering misslyckas görs ett nytt försök automatiskt. Om det uppstår något tillfälligt problem, t.ex. ett nätverksfel, kan det lyckas under ett nytt försök.
 
 Om det finns kontinuerliga publiceringsfel och kön är blockerad bör du kontrollera **[!UICONTROL test connection]** och försöka lösa de fel som rapporteras.
 
-Beroende på felen rekommenderar vi att du loggar en supportanmälan så att konstruktörerna på Brand Portal kan hjälpa dig att lösa problem.
+Beroende på felen rekommenderar vi att du loggar en supportanmälan så att vårt team på Brand Portal kan hjälpa dig att lösa problem.
 
 
 ## Konfigurera replikeringsagenter för att undvika timeoutfel i anslutningen {#connection-timeout}
 
-**Problem**: Jag kan inte publicera resurser från AEM Assets till varumärkesportalen. Replikeringsloggen anger att anslutningen gjorde timeout.
-
-**Upplösning**: Publiceringen misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
+Publiceringsjobbet misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
 Utför följande steg för att konfigurera replikeringsagenten:
-1. Logga in på AEM Assets författarinstans.
+1. Logga in på din AEM Assets-författarinstans.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. Klicka på på sidan Replikering **[!UICONTROL Agents on author]**. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
 1. Klicka på replikeringsagentens URL för att öppna agentinformationen.
 1. Klicka **[!UICONTROL Edit]** för att ändra inställningarna för replikeringsagenten.
-1. Klicka på fliken **[!UICONTROL Extended]** i Agentinställningar.
-1. Aktivera **[!UICONTROL Close Connection]** kryssrutan.
+1. Klicka på **[!UICONTROL Extended]** fliken i Agentinställningar.
+1. Select the **[!UICONTROL Close Connection]** check box.
 1. Upprepa steg 4 till 7 för att konfigurera alla fyra replikeringsagenterna.
 1. Starta om servern.
