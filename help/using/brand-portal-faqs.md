@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
