@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
+source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -117,11 +117,14 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
 
       ![](assets/licensed-asset-download-1.png)
 
-      >[!NOTE]
-      >
-      >Se till att du väljer alla återgivningar av resurser när du hämtar dem från sidan med resursinformation och klicka på **[!UICONTROL Download]**. De valda återgivningarna hämtas till din lokala dator.
-      > 
-      >När du har hämtat är knappen inaktiverad så att du inte behöver skapa kopior av de hämtade återgivningarna. **[!UICONTROL Download]** Om du vill hämta mer (saknas eller någon annan kopia av återgivningar) uppdaterar du webbläsaren för att aktivera hämtningsknappen igen.
+      <!--
+     >>[!NOTE]
+     >
+     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
+     > 
+     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
+     >
+     -->
 
       Om någon av **[!UICONTROL Custom Renditions]** eller **[!UICONTROL System Renditions]** konfiguration är aktiverad i **[!UICONTROL Download Settings]** visas **[!UICONTROL Download]** dialogrutan med **[!UICONTROL Asset(s)]** kryssrutan markerad som standard. Om **[!UICONTROL Fast Download]** konfigurationen är aktiverad är kryssrutan markerad som standard **[!UICONTROL Enable download acceleration]** .
 
