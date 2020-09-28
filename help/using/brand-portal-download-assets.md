@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,12 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
 
       ![](assets/licensed-asset-download-1.png)
 
+      >[!NOTE]
+      >
+      >Se till att du väljer alla återgivningar av resurser när du hämtar dem från sidan med resursinformation och klicka på **[!UICONTROL Download]**. De valda återgivningarna hämtas till din lokala dator.
+      > 
+      >När du har hämtat är knappen inaktiverad så att du inte behöver skapa kopior av de hämtade återgivningarna. **[!UICONTROL Download]** Om du vill hämta mer (saknas eller någon annan kopia av återgivningar) uppdaterar du webbläsaren för att aktivera hämtningsknappen igen.
+
       Om någon av **[!UICONTROL Custom Renditions]** eller **[!UICONTROL System Renditions]** konfiguration är aktiverad i **[!UICONTROL Download Settings]** visas **[!UICONTROL Download]** dialogrutan med **[!UICONTROL Asset(s)]** kryssrutan markerad som standard. Om **[!UICONTROL Fast Download]** konfigurationen är aktiverad är kryssrutan markerad som standard **[!UICONTROL Enable download acceleration]** .
 
       ![](assets/download-dialog.png)
@@ -181,7 +187,7 @@ Filhämtningen kan variera för användare på olika platser på klienten, beroe
 | Västra USA (N) Kalifornien) | 18 millisekunder | 7,68 MB/s | 4 minuter |
 | Västra USA (Oregon) | 42 millisekunder | 3,84 MB/s | 9 minuter |
 | Östra USA (N) Virginia) | 85 millisekunder | 1,61 MB/s | 21 minuter |
-| APAC (Tokyo) | 124 millisekunder | 1,13 MB/s | 10 minuter |
+| APAC (Tokyo) | 124 millisekunder | 1,13 MB/s | 30 minuter |
 | Noida | 275 millisekunder | 0,5 MB/s | 68 minuter |
 | Sydney | 175 millisekunder | 0,49 MB/s | 69 minuter |
 | London | 179 millisekunder | 0,32 MB/s | 106 minuter |
