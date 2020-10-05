@@ -1,18 +1,18 @@
 ---
-title: Användarhandbok för AEM Brand Portal
-seo-title: Användarhandbok för AEM Brand Portal
-description: Användarhandbok för AEM Brand Portal
+title: Adobe Experience Manager Assets Brand Portal Guide
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
+description: Adobe Experience Manager Assets Brand Portal Guide
 seo-description: Beskriver hur du använder varumärkesportalen
 translation-type: tm+mt
-source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
+source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 6%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
+# Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
 
 **Adobe Experience Manager Assets Brand Portal** hjälper organisationer att tillgodose sina marknadsföringsbehov genom att på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 
