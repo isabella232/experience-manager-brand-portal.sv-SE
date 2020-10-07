@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
 workflow-type: tm+mt
-source-wordcount: '4739'
+source-wordcount: '4736'
 ht-degree: 0%
 
 ---
@@ -212,10 +212,12 @@ Administratörer kan nu konfigurera hur mapparna visas för icke-adminanvändare
 * **inaktiverat** visas endast de delade mapparna på landningssidan.
 
 ![](assets/enable-folder-hierarchy.png)
-**Användningsexempel**
 
 Funktionen [Aktivera mapphierarki](../using/brand-portal-general-configuration.md) (när den är aktiverad) hjälper dig att särskilja mappar med samma namn som delas från olika hierarkier. När du loggar in kan användare som inte är administratörer nu se de virtuella överordnade (och överordnade) mapparna för de delade mapparna.
-![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 De delade mapparna ordnas i respektive katalog i virtuella mappar. Du känner igen dessa virtuella mappar med en låsikon.
 
@@ -231,7 +233,8 @@ Observera att standardminiatyrbilden för de virtuella mapparna är miniatyrbild
 
 * Administratörsanvändare kan använda Sökvägsläsaren för att navigera till valfri mappkatalog på varumärkesportalen.
 * Användare som inte är administratörer kan bara använda Sökväg för att navigera till de mappar (och gå tillbaka till de överordnade mapparna) som de har delat med sig av.
-Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en icke-admin-användare. Användaren kan söka efter resurser i mappen C med hjälp av Sökvägsläsaren. Den här användaren kan även navigera till folderB och folderA (eftersom de är överordnade för den folderC som delas med användaren).
+
+   Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en icke-admin-användare. Användaren kan söka efter resurser i mappen C med hjälp av Sökvägsläsaren. Den här användaren kan även navigera till folderB och folderA (eftersom de är överordnade för den folderC som delas med användaren).
 
 ![](assets/edit-search-form.png)
 
