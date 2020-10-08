@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler, och hantera sina roller med användargränssnittet i Brand Portal. Det här privilegiet är inte tillgängligt för granskare och redigerare.
 
-I [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)kan du visa alla produkter som är kopplade till din organisation. En produkt kan vara en valfri Experience Cloud-lösning, som Adobe Analytics, Adobe Target eller AEM Brand Portal. Du måste välja produkt för AEM Brand Portal och skapa produktprofiler.
+I [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)kan du visa alla produkter som är kopplade till din organisation. En produkt kan vara en valfri Experience Cloud-lösning, som Adobe Analytics, Adobe Target eller AEM Brand Portal. Du måste välja AEM Brand Portal och skapa produktprofiler.
 
 <!--
 Comment Type: draft
@@ -37,11 +37,11 @@ Dessa produktprofiler synkroniseras med användargränssnittet i användarportal
 
 >[!NOTE]
 >
->Om du vill skapa grupper i varumärkesportalen från Adobe [!UICONTROL Admin Console]använder du **[!UICONTROL Products > Product Profiles]**, i stället för **[!UICONTROL User page > User Groups]**. Produktprofiler i Adobe [!UICONTROL Admin Console] används för att skapa grupper i varumärkesportalen.
+>Om du vill skapa grupper i varumärkesportalen använder du Adobe [!UICONTROL Admin Console]i stället **[!UICONTROL Products > Product Profiles]** för **[!UICONTROL User page > User Groups]**. Produktprofiler i Adobe [!UICONTROL Admin Console] används för att skapa grupper i varumärkesportalen.
 
 ## Lägg till en användare {#add-a-user}
 
-Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) för att skapa användare och tilldela dem till produktprofiler (*tidigare produktkonfigurationer*) som visas som grupper i varumärkesportalen. Du kan använda grupper för att utföra gruppåtgärder som rollhantering och resursdelning.
+Om du är produktadministratör kan du använda Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) för att skapa användare och tilldela dem till produktprofiler (*tidigare produktkonfigurationer*) som visas som grupper i varumärkesportalen. Du kan använda grupper för att utföra gruppåtgärder som rollhantering och resursdelning.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
 >
 >Du kan logga in på [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt följer du steg 4-7 i proceduren nedan för att lägga till en användare.
 
-1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
+1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
-   ![AEM logo](assets/aemlogo.png)
+   ![AEM logotyp](assets/aemlogo.png)
 
 1. Klicka på panelen Administrationsverktyg **[!UICONTROL Users]**.
 
@@ -61,17 +61,17 @@ Om du är produktadministratör använder du Adobe [[!UICONTROL Admin Console]](
 
 1. Klicka på [!UICONTROL User Roles] fliken på **[!UICONTROL Management]** sidan och sedan på **[!UICONTROL Launch Admin Console]**.
 
-   ![Användarroller som startar Admin Console](assets/launch_admin_console.png)
+   ![Användarroller att starta Admin Console](assets/launch_admin_console.png)
 
 1. Gör något av följande i Admin Console för att skapa en ny användare:
 
    * Klicka på i verktygsfältet överst **[!UICONTROL Overview]**. På [!UICONTROL Overview] sidan klickar du **[!UICONTROL Assign Users]** på produktkortet för varumärkesportalen.
 
-   ![Admin Console - översikt](assets/admin_console_overviewadduser.png)
+   ![Översikt över Admin Console](assets/admin_console_overviewadduser.png)
 
    * Klicka på i verktygsfältet överst **[!UICONTROL Users]**. På [!UICONTROL Users] sidan är [!UICONTROL Users] den vänstra listen markerad som standard. Klicka på **[!UICONTROL Add User]**.
 
-   ![Admin Console Add users](assets/admin_console_adduseruserpage.png)
+   ![Admin Console Lägg till användare](assets/admin_console_adduseruserpage.png)
 
 1. I dialogrutan Lägg till användare skriver du e-post-ID:t för den användare som du vill lägga till eller väljer användaren i listan med förslag som visas när du skriver.
 
@@ -94,9 +94,9 @@ Produktprofiler (som tidigare kallades produktkonfigurationer) i [!UICONTROL Adm
 >
 >Du kan logga in [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-7 i proceduren nedan för att lägga till en produktprofil.
 
-1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
+1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
-   ![AEM-logotyp](assets/aemlogo.png)
+   ![AEM](assets/aemlogo.png)
 
 1. Klicka på panelen Administrationsverktyg **[!UICONTROL Users]**.
 
@@ -127,9 +127,9 @@ Om du vill lägga till användare i en varumärkesportalgrupp lägger du till de
 >
 >Du kan logga in [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in direkt på Admin Console följer du steg 4-7 i proceduren nedan för att lägga till användare i en produktprofil.
 
-1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
+1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
-   ![AEM-logotyp](assets/aemlogo.png)
+   ![AEM](assets/aemlogo.png)
 
 1. Klicka på panelen Administrationsverktyg **[!UICONTROL Users]**.
 
@@ -181,7 +181,7 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
 >
 >Du kan logga in [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direkt eller från varumärkesportalen. Om du loggar in [!UICONTROL Admin Console] direkt följer du steg 4-8 i proceduren nedan för att lägga till en användare i en produktprofil.
 
-1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
+1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
    ![AEMLogo](assets/aemlogo.png)
 
@@ -209,7 +209,6 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
    >
    >Varumärksportal har endast stöd för systemadministratörs- och produktadministratörsroller.
    >
-   >
    >Adobe rekommenderar att du undviker att använda systemadministratörsrollen eftersom den ger administratörsbehörighet för hela organisationen för alla produkter i en organisation. En systemadministratör för en organisation som inkluderar tre molnprodukter för marknadsföring har till exempel hela uppsättningen behörigheter för alla tre produkterna. Endast en systemadministratör kan konfigurera AEM Assets så att resurser kan publiceras från AEM Assets till varumärkesportalen. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >Produktadministratörsrollen ger däremot administratörsbehörighet för en viss produkt. Om du vill använda en mer detaljerad åtkomstkontroll i varumärkesportalen använder du rollen Produktadministratör och väljer produkten som varumärkesportal.
@@ -233,7 +232,7 @@ Förutom administratörsrollen har varumärkesportalen stöd för följande roll
 * [!UICONTROL Viewer]: Användare med den här rollen kan visa filer och mappar som en administratör delar med sig. Visningsprogram kan även söka efter och hämta resurser. Visningsprogram kan dock inte dela innehåll (filer, mappar [!UICONTROL collections]) med andra användare.
 * [!UICONTROL Editor]: Användare med den här rollen har alla behörigheter som finns för ett visningsprogram. Dessutom kan redigerare dela innehåll (mappar, [!UICONTROL collections]länkar) med andra användare.
 
-1. I AEM-verktygsfältet överst klickar du på Adobes logotyp för att öppna administrationsverktygen.
+1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
    ![AEMLogo](assets/aemlogo.png)
 
@@ -286,7 +285,6 @@ Så här ändrar du rollen och åtkomsträttigheten till de ursprungliga återgi
    >
    >Om en användare läggs till i flera grupper och en av dessa grupper har begränsningar, gäller begränsningarna den användaren.
    >
-   >
    >Begränsningar för åtkomst till ursprungliga återgivningar av bildfiler gäller inte för administratörer även om de är medlemmar i begränsade grupper.
 
 1. Klicka på **[!UICONTROL Save]**. Rollen ändras för motsvarande grupper.
@@ -294,4 +292,3 @@ Så här ändrar du rollen och åtkomsträttigheten till de ursprungliga återgi
    >[!NOTE]
    >
    >Associationen användare-till-grupp, eller gruppmedlemskapet för en användare, synkroniseras till varumärkesportalen var 8:e timme. Ändringar i användar- eller grupproller börjar gälla efter att nästa synkroniseringsjobb har körts.
-
