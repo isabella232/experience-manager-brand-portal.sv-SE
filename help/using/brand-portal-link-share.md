@@ -1,8 +1,8 @@
 ---
 title: Dela resurser som en länk
 seo-title: Dela resurser som en länk
-description: AEM Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
-seo-description: AEM Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+description: Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+seo-description: Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Dela resurser som en länk {#share-assets-as-a-link}
 
-AEM Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 
 Att dela resurser via en länk är ett bekvämt sätt att göra dem tillgängliga för externa parter eftersom mottagarna inte behöver logga in på varumärkesportalen för att få tillgång till resurserna.
 
@@ -31,7 +31,6 @@ Mer information finns i [Hantera användare, grupper och användarroller](../usi
 >[!NOTE]
 >
 >Upp till 5 GB ZIP-nedladdning är tillåtet med hjälp av länkdelningsfunktionen i varumärkesportalen.
-
 
 Så här delar du resurser som en länk:
 
@@ -79,7 +78,7 @@ Så här delar du resurser som en länk:
 
 ## Hämta resurser från delade länkar {#download-assets-from-shared-links}
 
-Klicka på länken i e-postmeddelandet för att visa den delade resursen. Sidan AEM Link Share (Dela) öppnas.
+Klicka på länken i e-postmeddelandet för att visa den delade resursen. Sidan AEM länkdelning öppnas.
 
 Så här hämtar du de delade resurserna:
 
@@ -106,7 +105,7 @@ Så här hämtar du de delade resurserna:
 
 1. Om du vill hämta återgivningar av resurser utöver resurserna från den delade länken väljer du **[!UICONTROL Rendition(s)]** . När du gör det visas ett **[!UICONTROL Exclude System Renditions]** alternativ som är markerat som standard. Detta förhindrar att färdiga återgivningar laddas ned tillsammans med godkända resurser eller anpassade återgivningar av dem.
 
-   Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar avmarkerar du **[!UICONTROL Exclude System Renditions]** alternativet.
+   Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar, avmarkerar du **[!UICONTROL Exclude System Renditions]** alternativet.
 
    >[!NOTE]
    >
@@ -190,7 +189,7 @@ I följande förklaring förklaras symbolerna som används i matrisen:
 | ✓ | Det här filformatet stöder den här funktionen |
 | ✕ | Det här filformatet stöder inte den här funktionen |
 | NA | Den här funktionen gäller inte för det här filformatet |
-| * | Den här funktionen kräver tilläggsstöd för det här filformatet på AEM-författarinstansen, men inte på varumärkesportalen, när resurserna har publicerats på varumärkesportalen |
+| * | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på varumärkesportalen efter att resurser har publicerats på varumärkesportalen |
 
 ## Dela inte resurser som delas som en länk {#unshare-assets-shared-as-a-link}
 
