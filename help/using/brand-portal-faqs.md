@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -187,20 +187,13 @@ Brand Portal-användarna kommer åt **Contribute** -mappen och överför innehå
 **Ans.** I AEM bevaras loggar för varje gång en mapp publiceras på varumärkesportalen. Vid publiceringen placeras alla resurser som inte publiceras på varumärkesportalen i en replikeringskö. Alla resurser som läggs till i mappen efter att publiceringsjobbet har utlösts publiceras inte på varumärkesportalen. När AEM publicerar mappen igen publiceras endast resurser som inte publicerades tidigare (som finns i replikeringskön) på varumärkesportalen.
 Detta gäller för alla mappar som publiceras från AEM Assets till varumärkesportalen och för delade mappar i en Contribute-mapp.
 
-
-
 **Frågor. Vem kontaktar jag med frågor?**
 
 **Ans.** Kontakta kontohanteraren för Adobe eller kundsupporten.
 
-
 >[!NOTE]
 >
 >Releasedatan är preliminärt och kan komma att ändras. Kontakta kontohanteraren eller kundsupporten för Adobe för att få det uppdaterade releaseschemat.
-
-
-
-
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
 
