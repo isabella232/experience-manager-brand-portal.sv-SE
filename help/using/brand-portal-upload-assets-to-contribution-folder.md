@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -29,7 +29,6 @@ De kan sedan skapa nya resurser för bidrag och överföra dem till mappen NYTT 
 >
 >Den maximala överföringsgränsen för alla innehavare av varumärkesportaler är **10** GB, som tillämpas kumulativt på alla bidragsmappar.
 
-
 När de nyskapade resurserna har publicerats till AEM Assets kan Brand Portal-användarna ta bort dem från mappen NEW. Administratören för varumärkesportalen kan ta bort resurserna både från mappen NEW och SHARED.
 
 När målet att skapa bidragsmappen är uppnått kan administratören för varumärkesportalen ta bort bidragsmappen och frigöra överföringsutrymmet för andra användare.
@@ -39,7 +38,6 @@ När målet att skapa bidragsmappen är uppnått kan administratören för varum
 >Vi rekommenderar att du frigör överföringsutrymmet när du har publicerat avgiftsbelagda mappar till AEM Assets så att de är tillgängliga för övriga Brand Portal-användare.
 >
 >Om du behöver utöka din varumärkesportaltenants överföringsgräns med mer än **10** GB kontaktar du Adobe Support och anger kraven.
-
 
 **Så här överför du nya resurser:**
 
