@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -28,7 +28,6 @@ Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom at
 >[!NOTE]
 >
 >Installera IBM Aspera Connect 3.9.9 i webbläsartillägget innan du hämtar materialet från Brand Portal.
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >Endast administratörer kan hämta utgångna resurser. Mer information om utgångna resurser finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md).
-
 
 ## Steg för att hämta resurser {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
       >
       >Brand Portal har stöd för att konfigurera Dynamic Media i både Hybird- och Scene 7-läge.
       >
-      >(*Om AEM författarinstans körs i **läget***Dynamic Media Hybrid)      >Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras på varumärkesportalen publiceras även dess Pyramid-återgivning.
+      >(*Om AEM författarinstans körs i **läget***Dynamic Media Hybrid)
+      >
+      >Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras på varumärkesportalen publiceras även dess Pyramid-återgivning.
 
    * Markera kryssrutan om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser **[!UICONTROL Create separate folder for each asset]** . Som standard ignoreras mapphierarkin för varumärkesportalen och alla resurser hämtas i en mapp i det lokala systemet.
 
@@ -179,7 +179,6 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
    >[!NOTE]
    >
    >Resurser som hämtas individuellt visas i resurshämtningsrapporten. Om en mapp som innehåller resurser däremot hämtas visas inte mappen och resurserna i hämtningsrapporten för resurser.
-
 
 ## Hämtningsprestanda förväntades {#expected-download-performance}
 
@@ -199,4 +198,3 @@ Filhämtningen kan variera för användare på olika platser på klienten, beroe
 >[!NOTE]
 >
 >Citerade data observeras under testförhållanden, som kan variera för användare på olika platser där olika fördröjningar och bandbredd kan förekomma.
-
