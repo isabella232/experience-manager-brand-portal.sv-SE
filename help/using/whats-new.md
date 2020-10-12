@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '5334'
 ht-degree: 0%
@@ -101,7 +101,6 @@ På fliken **[!UICONTROL Groups]** på **[!UICONTROL User Roles]** sidan kan adm
 >[!NOTE]
 >
 >Om en användare läggs till i flera grupper och om en av grupperna har begränsningar, gäller begränsningarna användaren.
-
 
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
