@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Versionsinformation
-description: Ta reda på vilka funktioner, förbättringar, kritiska problem och kända fel som har åtgärdats i Adobe Experience Manager Assets Brand Portal 6.4.7.
-seo-description: Få en inblick i förbättringarna, åtgärdade kritiska problem och kända problem i Adobe Experience Manager Assets Brand Portal 6.4.7.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2020.10.0.
+seo-description: Få insikt i förbättringarna, åtgärdade allvarliga problem och kända fel i Adobe Experience Manager Assets Brand Portal 2020.10.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '486'
 ht-degree: 5%
 
 ---
@@ -20,59 +20,92 @@ ht-degree: 5%
 
 # Versionsinformation {#release-notes}
 
-Få insikt i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 6.4.7.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2020.10.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.7 |
-| Date | Augusti 2020 |
+| Version | 2020.10.0 |
+| Date | Oktober 2020 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter i 6.4.7 {#whats-new-in-647}
+## Nyheter 2020.10.0 {#whats-new-in-2020.10.0}
 
 ### Nya funktioner {#new-features}
 
 Den här versionen innehåller följande nya funktioner:
 
-* Document Viewer har introducerats för att förbättra PDF-visningen. Det finns nya alternativ för att visa PDF-filerna i varumärkesportalen.
+* Dialogrutan har gjorts om i en listvy med ytterligare alternativ för att utesluta de återgivningar som inte behövs, använda samma uppsättning regler för liknande resurstyper och hämta de valda återgivningarna. **[!UICONTROL Download]**
+
+<!--
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
+-->
+
+* Navigera till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** är nu möjligt från alla sidor i varumärkesportalen med ett klick.
+
+* På **[!UICONTROL Renditions]** panelen på sidan med tillgångsinformation kan du nu välja den ursprungliga resursen och (eller) specifika resursåtergivningar och hämta dem direkt från **[!UICONTROL Renditions]** panelen utan att behöva öppna **[!UICONTROL Download]** dialogrutan.
+
+<!--
+Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
+-->
+
+* Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
+
+
+### Allvarliga problem har åtgärdats {#critical-issues-fixed}
+
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
+
+* Användarna kan inte visa PDF-sidorna om PDF-filen innehåller underresurser.
+
+
+### Kända fel {#known-issues}
+
+Den här versionen innehåller följande kända fel:
+
+* Om användaren hämtar resursen med hjälp av delningslänken hämtas den ursprungliga resursen även när alternativet att **[!UICONTROL Allow download of original file]** inaktivera är inaktiverat.
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Framsteg i hämtningen av resurser som förbättrar användarupplevelsen på varumärkesportalen när resurser [hämtas från varumärkesportalen](brand-portal-download-assets.md). Administratörer för varumärkesportaler kan konfigurera **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]** och **[!UICONTROL System Renditions]** från **[!UICONTROL Download]** inställningarna.
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-Mer information finns i [nyheter i varumärkesportalen 6.4.7](whats-new.md).
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
-### Allvarliga problem har åtgärdats {#critical-issues-fixed-647}
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
-Den här versionen innehåller korrigeringar av följande allvarliga problem:
+### Critical Issues Fixed {#critical-issues-fixed-647}
 
-* Visningsprogramanvändarna har inte behörighet att dela länkar för samlingar, men alternativet att dela är synligt för dem i produktgränssnittet.
+This release includes fixes to the following critical issues:
 
-* Knappen **[!UICONTROL Download]** i alternativfältet visar inte alla licensierade mediefiler i den valda mappen.
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* Sökningen tar längre tid att visa resultaten för vissa nyckelord.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* Kryssrutorna **[!UICONTROL Agree]** och **[!UICONTROL Disagree]** visas inte när du har valt flera licensierade och olicensierade mediefiler samtidigt.
+* The search takes longer to show the results for certain keywords.
 
-* Filterbaserad sökning visar bearbetning i produktgränssnittet utan sökresultat.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* Resurserna hämtas inte från delningslänken om den delade mappen innehåller flera och stora resurser.
+* Filter-based search shows processing on the product interface with no search result. 
 
-
-### Kända fel {#known-issues-647}
-
-Den här versionen innehåller följande kända fel:
-
-* Om flera mediefiler är markerade visas inte licenstexten när du klickar på Villkor på licensavtalssidan vid hämtning via länken Dela.
+* The assets do not download from share link if the shared folder contains numerous and large assets.
 
 
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
+
+-->
 
 ## Språk {#languages}
 
