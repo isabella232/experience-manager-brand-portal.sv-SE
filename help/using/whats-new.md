@@ -1,8 +1,8 @@
 ---
 title: Nyheter i AEM Assets Brand Portal
 seo-title: Nyheter i AEM Assets Brand Portal
-description: Ta en titt på de nya funktionerna och förbättringarna i 6.4.7.
-seo-description: Ta en titt på de nya funktionerna och förbättringarna i 6.4.7.
+description: Ta en titt på de nya funktionerna och förbättringarna för 2020.10.0.
+seo-description: Ta en titt på de nya funktionerna och förbättringarna för 2020.10.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4736'
+source-wordcount: '5334'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 0%
 # Nyheter i AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande varumärkesportalupplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+
+## Vad ändrades 2020.10.0 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0 är en förbättringsrelease som fokuserar på att förenkla nedladdningen av resurser och innehåller viktiga korrigeringar. Förbättringen innefattar nytt och förbättrat arbetsflöde för hämtning av resurser, ytterligare alternativ för att utesluta renderingar, direkt hämtning från **[!UICONTROL Renditions]** panelen, konfiguration för att ge åtkomst och hämtningsrättigheter för en viss grupp användare samt enkel navigering till filer, samlingar och delade länkar från alla sidor på varumärkesportalen. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+
+
+### Förenklad nedladdning {#download-dialog}
+
+Tidigare visades en dialogruta med flera alternativ, t.ex. skapa en separat mapp för varje resurs, e-postresurs, välja originalresurs, anpassade återgivningar, dynamiska återgivningar, exkludera systemåtergivningar och aktivera hämtningsacceleration, som var tvetydig för icke-tekniska eller nya användare särskilt när flera resurser eller mappar valdes för hämtning. **[!UICONTROL Download]** Dessutom kunde användaren inte se alla resursrenderingar eller exkludera en specifik anpassad eller dynamisk rendering.
+
+Den nya **[!UICONTROL Download]** dialogrutan generaliserar resursmarkerings- och filtreringsprocessen, vilket gör det enklare för Brand Portal-användarna att fatta effektiva beslut när de hämtar resursåtergivningarna. Här visas alla markerade resurser och deras återgivningar beroende på [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfiguration och **[!UICONTROL Download]** inställningar.
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+I **[!UICONTROL Download]** dialogrutan kan användarna
+
+* Visa alla tillgängliga återgivningar av alla resurser i hämtningslistan.
+* Undanta återgivningar av resurser som inte behövs för hämtning.
+* Använd samma uppsättning renderingar för alla liknande resurstyper med ett klick.
+* Använd olika uppsättningar återgivningar för olika resurstyper.
+* Skapa separata mappar för varje resurs.
+* Hämta markerade resurser och deras återgivningar.
+
+Hämtningsarbetsflödet förblir konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser via länken Dela.
+
+![download-dialog](assets/download-dialog-box.png)
+
+### Snabb navigering  {#quick-navigation}
+
+Tidigare var alternativet att visa **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** dolda och flera klick krävdes varje gång användaren ville växla till en annan vy.
+
+I Brand Portal 2020.10.0 kan användarna navigera till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** från alla sidor i varumärkesportalen med en musklickning via snabblänkarna.
+
+![samling-navigering](assets/collection-navigation.png)
+
+### Förbättrad renderingspanel {#rendition-panel}
+
+Tidigare kunde användarna bara visa den ursprungliga resursen och dess återgivningar på **[!UICONTROL Renditions]** panelen om någon av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** var aktiverad i **[!UICONTROL Download]** konfigurationen. Användarna var också tvungna att hämta alla resursrenderingar eftersom det inte fanns något filter för att exkludera vissa anpassade eller dynamiska renderingar som inte behövdes.
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+I Brand Portal 2020.10.0 kan användarna exkludera vissa återgivningar och direkt hämta de valda återgivningarna från panelen på sidan med resursinformation utan att behöva öppna **[!UICONTROL Renditions]** **[!UICONTROL Download]** dialogrutan.
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![renditions-panel](assets/rendition-panel.png)
+
+
+### Konfigurera hämtningsbehörigheter {#download-permissions}
+
+Förutom de befintliga [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
+
+Tidigare var inställningarna bara tillgängliga för att hindra gruppanvändarna från att hämta den ursprungliga resursen.
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+På fliken **[!UICONTROL Groups]** på **[!UICONTROL User Roles]** sidan kan administratörer konfigurera inställningar för visning och hämtning:
+
+* Om både **[!UICONTROL Download Original]** och **[!UICONTROL Download Renditions]** inställningar är aktiverade kan användarna i den valda gruppen visa och hämta de ursprungliga resurserna och deras återgivningar.
+* Om båda inställningarna är inaktiverade kan användarna bara visa de ursprungliga resurserna. Resursåtergivningarna är inte synliga för användarna på sidan med resursinformation.
+* Om bara **[!UICONTROL Download Original]** inställningen är aktiverad kan användarna bara visa och hämta de ursprungliga resurserna från sidan med resursinformation.
+* Om bara **[!UICONTROL Download Renditions]** inställningen är aktiverad kan användarna visa den ursprungliga resursen, men de kan inte hämta den. Användaren kan dock visa och hämta resursrenderingarna.
+
+![view-download-permission](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>Om en användare läggs till i flera grupper och om en av grupperna har begränsningar, gäller begränsningarna användaren.
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## Vad har ändrats i 6.4.7 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ Observera att standardminiatyrbilden för de virtuella mapparna är miniatyrbild
 
 ![](assets/edit-search-form.png)
 
-**Användningsexempel**
 
 Nu kan du begränsa resurssökningen i en viss mapp som du har bläddrat till i stället för att börja i rotmappen.
 
@@ -252,7 +339,8 @@ Användare vars AEM Author-instans är i läget Dynamic Media kan förhandsgrans
 
 För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratörer ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway URL) och registrerings-ID för att hämta den dynamiska videon) i **Video** -konfigurationen från administratörsverktygspanelen.
 
-**Användningsexemplet** Dynamic Media-videor kan förhandsvisas på:
+
+Dynamiska medievideor kan förhandsgranskas på:
 
 * Sidan Resursinformation
 * Resursvy
@@ -274,6 +362,7 @@ Arbetsflödet för publicering av resurser (och mappar) från [AEM (6.4.2.0)](ht
 Publicerade resurser kan också tas bort från portalen vid ett senare datum (tid) genom att schemalägga arbetsflödet för att avpublicera från varumärkesportalen.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -287,7 +376,7 @@ En organisation med befintlig domän **geomettrix.brand-portal.adobe.com** kan t
 
 AEM Author-instansen kan dock bara [konfigureras](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
-**Man kan anpassa portalwebbadressen** istället för att följa Adobe webbadressen.
+Man kan anpassa portalens URL istället för att följa Adobe:s webbadress.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -295,8 +384,8 @@ AEM Author-instansen kan dock bara [konfigureras](https://helpx.adobe.com/experi
 
 Versionen ger en förenklad nedladdningsupplevelse med ett reducerat antal klick och varningar:
 
-* välja att bara hämta återgivningarna (och inte de ursprungliga resurserna).
-* hämta resurserna när åtkomsten till de ursprungliga återgivningarna är begränsad.
+* Om du väljer att endast hämta återgivningarna (och inte de ursprungliga resurserna).
+* Hämtning av resurserna när åtkomsten till de ursprungliga återgivningarna är begränsad.
 
 ## Vad har ändrats i 6.4.2 {#what-changed-in-1}
 
