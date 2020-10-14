@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 1%
@@ -31,6 +31,7 @@ Mer information finns i [Hantera användare, grupper och användarroller](../usi
 >[!NOTE]
 >
 >Upp till 5 GB ZIP-nedladdning är tillåtet med hjälp av länkdelningsfunktionen i varumärkesportalen.
+
 
 Så här delar du resurser som en länk:
 
@@ -105,7 +106,7 @@ Så här hämtar du de delade resurserna:
 
 1. Om du vill hämta återgivningar av resurser utöver resurserna från den delade länken väljer du **[!UICONTROL Rendition(s)]** . När du gör det visas ett **[!UICONTROL Exclude System Renditions]** alternativ som är markerat som standard. Detta förhindrar att färdiga återgivningar laddas ned tillsammans med godkända resurser eller anpassade återgivningar av dem.
 
-   Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar, avmarkerar du **[!UICONTROL Exclude System Renditions]** alternativet.
+   Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar avmarkerar du **[!UICONTROL Exclude System Renditions]** alternativet.
 
    >[!NOTE]
    >
