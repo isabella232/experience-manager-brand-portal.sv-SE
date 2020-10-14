@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -45,6 +45,7 @@ Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
    >[!NOTE]
    >
    >En icke-admin-användare kan skapa och dela en resursavgiftsmapp, men kan inte ändra eller ta bort den.
+
 
    ![](assets/create-contribution-folder.png)
 
