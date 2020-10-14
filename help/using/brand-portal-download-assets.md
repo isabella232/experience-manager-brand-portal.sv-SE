@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -107,11 +107,13 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
       >
       >Om du hämtar materialet för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att installera Aspera Download Accelerator.
 
+
       >[!NOTE]
       >
       >Om de mediefiler du hämtar också innehåller licensierade mediefiler omdirigeras du till **[!UICONTROL Copyright Management]** sidan. På den här sidan markerar du resurserna, klickar **[!UICONTROL Agree]** och sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas inte licensierade mediefiler.
       > 
       >Licensskyddade mediefiler har [licensavtal som är kopplade](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) till dem, vilket görs genom att objektets [metadataegenskap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ställs in i Experience Manager Assets.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
       >
       >Administratören kan anpassa e-postmeddelanden, det vill säga logotyp, beskrivning och sidfot, med hjälp av [funktionen Varumärke](../using/brand-portal-branding.md) .
 
+
    * Du kan välja en fördefinierad bildförinställning eller skapa en anpassad dynamisk återgivning i **[!UICONTROL Download]** dialogrutan.
 
       Om du vill använda en [anpassad bildförinställning för resursen och dess återgivningar](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)markerar du **[!UICONTROL Dynamic Rendition(s)]** kryssrutan. Ange de förinställda bildegenskaperna (till exempel storlek, format, färgrymd, upplösning och bildmodifiering) för att använda den anpassade bildförinställningen när resursen och dess återgivningar hämtas. Om du bara vill hämta de dynamiska återgivningarna avmarkerar du **[!UICONTROL Asset(s)]** kryssrutan.
@@ -166,6 +169,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
       >
       >Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras på varumärkesportalen publiceras även dess Pyramid-återgivning.
 
+
    * Markera kryssrutan om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser **[!UICONTROL Create separate folder for each asset]** . Som standard ignoreras mapphierarkin för varumärkesportalen och alla resurser hämtas i en mapp i det lokala systemet.
 
 1. Klicka på **[!UICONTROL Download]**.
@@ -177,6 +181,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från varumä
    >[!NOTE]
    >
    >Resurser som hämtas individuellt visas i resurshämtningsrapporten. Om en mapp som innehåller resurser däremot hämtas visas inte mappen och resurserna i hämtningsrapporten för resurser.
+
 
 ## Hämtningsprestanda förväntades {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Filhämtningen kan variera för användare på olika platser på klienten, beroe
 | London | 179 millisekunder | 0,32 MB/s | 106 minuter |
 | Singapore | 196 millisekunder | 0,5 MB/s | 68 minuter |
 
+
 >[!NOTE]
 >
 >Citerade data observeras under testförhållanden, som kan variera för användare på olika platser där olika fördröjningar och bandbredd kan förekomma.
+
