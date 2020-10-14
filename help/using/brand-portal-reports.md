@@ -1,15 +1,15 @@
 ---
 title: Arbeta med rapporter
 seo-title: Arbeta med rapporter
-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om användning av varumärkesportalen och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
-seo-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om användning av varumärkesportalen och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
+description: Administratörer för AEM Assets Brand Portal kan visa rapporter om hur varumärkesportalen används samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
+seo-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om hur varumärkesportalen används samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Rapporthanteringsgränssnittet är intuitivt och innehåller detaljerade alterna
 
 Så här visar du en rapport:
 
-1. Tryck/klicka på AEM-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
+1. Tryck/klicka på AEM logotyp i verktygsfältet längst upp för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -79,7 +79,6 @@ Så här visar du en rapport:
    >
    >I länkdelningsrapporten visas inte användare som har åtkomst till resursen som delas via länken eller som har hämtat resursen via länken.
    >
-   >
    >Om du vill spåra nedladdningar via den delade länken måste du generera en nedladdningsrapport när du har valt **[!UICONTROL Only Link Share Downloads]** alternativ på **[!UICONTROL Create Report]** sidan. Användaren (hämtas av) är dock anonym i det här fallet.
 
 ## Generera rapporter {#generate-reports}
@@ -94,7 +93,7 @@ Administratörer kan generera och hantera följande standardrapporter som sedan 
 
 Kolumnerna i rapporten Download, Expiration och Publish kan anpassas för visning. Så här skapar du en rapport:
 
-1. Tryck/klicka på AEM-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
+1. Tryck/klicka på AEM logotyp i verktygsfältet längst upp för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
