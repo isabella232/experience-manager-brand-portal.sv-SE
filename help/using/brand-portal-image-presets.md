@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -29,6 +29,7 @@ En bildförinställning används för att generera dynamiska återgivningar av b
 >
 >När du hämtar bilder och återgivningar av dem finns det inget alternativ att välja bland de befintliga förinställningarna. Du kan i stället ange egenskaper för en anpassad bildförinställning. Mer information finns i [Använda bildförinställningar vid hämtning av bilder](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Mer information om de parametrar som krävs när du skapar bildförinställningar finns i [Hantera bildförinställningar](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Skapa en bildförinställning {#create-an-image-preset}
@@ -44,6 +45,7 @@ AEM administratörer kan skapa bildförinställningar som visas som dynamiska å
 >Om AEM författarinstans körs i läget **** Dynamic Media Scene 7 finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
 >
 >När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
+
 
 1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
