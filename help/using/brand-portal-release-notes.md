@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '531'
 ht-degree: 5%
 
 ---
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
 
+### Förbättringar {#enhancements}
 
-### Allvarliga problem har åtgärdats {#critical-issues-fixed}
+Den här versionen innehåller följande förbättringar:
 
-Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* Tröskelvärdet för sessionstimeout för gästanvändare har reducerats från 2 timmar till 15 minuter.
+* Det extra **[!UICONTROL View pages]** alternativet har tagits bort för flersidiga PDF-filer eftersom användaren nu kan visa PDF-sidorna i Adobe Document Cloud Viewer.
 
-* Användarna kan inte visa PDF-sidorna om PDF-filen innehåller underresurser.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Kända fel {#known-issues}
 
 Den här versionen innehåller följande kända fel:
 
-* Om användaren hämtar resursen med hjälp av delningslänken hämtas den ursprungliga resursen även när alternativet att **[!UICONTROL Allow download of original file]** inaktivera är inaktiverat.
+* Sök i **[!UICONTROL Asset Reports]** visningsgränssnittet utan sökresultat.
+* DM-videokoderna är inte synliga för användare som inte är administratörer på sidan med resursinformation.
+* Justeringen av storleken på de enskilda materialåtergivningarna och den totala hämtningsstorleken förvrängs i dialogrutan Hämta.
 
 
 
