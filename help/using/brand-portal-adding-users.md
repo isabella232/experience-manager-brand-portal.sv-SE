@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -223,6 +223,7 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
    >
    >Om du vill återkalla administratörsbehörighet för en användare gör du önskade ändringar på **[!UICONTROL Edit Admin]** sidan och klickar sedan på **[!UICONTROL Save]**.
 
+
 ## Hantera användarroller {#manage-user-roles}
 
 En administratör kan ändra roller för användare i varumärkesportalen.
@@ -250,9 +251,11 @@ Förutom administratörsrollen har varumärkesportalen stöd för följande roll
    >
    >Listan över [!UICONTROL Role] administratörsanvändare är inaktiverad. Du kan inte välja dessa användare för att ändra deras roller.
 
+
    >[!NOTE]
    >
    >Användarrollen är också inaktiverad om användaren är medlem i gruppen Redigerare. Om du vill återkalla redigeringsbehörighet för användaren tar du antingen bort användaren från gruppen Redigeraren eller ändrar rollen för hela gruppen till Visningsprogram.
+
 
 1. Klicka på **[!UICONTROL Save]**. Rollen ändras för motsvarande användare. Om du har valt flera användare ändras rollerna för alla användare samtidigt.
 
@@ -287,8 +290,10 @@ Så här ändrar du rollen och åtkomsträttigheten till de ursprungliga återgi
    >
    >Begränsningar för åtkomst till ursprungliga återgivningar av bildfiler gäller inte för administratörer även om de är medlemmar i begränsade grupper.
 
+
 1. Klicka på **[!UICONTROL Save]**. Rollen ändras för motsvarande grupper.
 
    >[!NOTE]
    >
    >Associationen användare-till-grupp, eller gruppmedlemskapet för en användare, synkroniseras till varumärkesportalen var 8:e timme. Ändringar i användar- eller grupproller börjar gälla efter att nästa synkroniseringsjobb har körts.
+
