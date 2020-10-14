@@ -19,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -43,6 +43,7 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >
 >Resurshantering stöds inte som Cloud Service i AEM Assets.
 
+
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Källa för varumärkesportalresurser](assets/asset-sourcing.png)
@@ -55,6 +56,7 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >Problemet är åtgärdat i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack-versionen AEM 6.5.5 och [uppgradera dina konfigurationer](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 >
 >För att åtgärda AEM 6.5.4 rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din författarinstans.
+
 
 ## Se även {#reference-articles}
 
