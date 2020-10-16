@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5334'
 ht-degree: 0%
@@ -249,7 +249,7 @@ När överföringen är klar till mappen **NEW** kan Brand Portal-användare sed
 
 Utgåvan av varumärkesportalen 6.4.4 fokuserar på förbättringar av textsökning och de vanligaste kundförfrågningarna. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
 
-### Förbättrade sökfunktioner {#search-enhancements}
+### Förbättrade sökfunktioner
 
 Från och med varumärkesportalen 6.4.4 stöds partiell textsökning på egenskapsprediat i filtreringsrutan. Om du vill tillåta partiell textsökning måste du aktivera **partiell sökning** i egenskapspredikatet i sökformuläret.
 
