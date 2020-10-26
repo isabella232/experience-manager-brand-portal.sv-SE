@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5334'
+source-wordcount: '5379'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Brand Portal 2020.10.0 är en förbättringsrelease som fokuserar på att fören
 Tidigare visades en dialogruta med flera alternativ, t.ex. skapa en separat mapp för varje resurs, e-postresurs, välja originalresurs, anpassade återgivningar, dynamiska återgivningar, exkludera systemåtergivningar och aktivera hämtningsacceleration, som var tvetydig för icke-tekniska eller nya användare särskilt när flera resurser eller mappar valdes för hämtning. **[!UICONTROL Download]** Dessutom kunde användaren inte se alla resursrenderingar eller exkludera en specifik anpassad eller dynamisk rendering.
 
 Den nya **[!UICONTROL Download]** dialogrutan generaliserar resursmarkerings- och filtreringsprocessen, vilket gör det enklare för Brand Portal-användarna att fatta effektiva beslut när de hämtar resursåtergivningarna. Här visas alla markerade resurser och deras återgivningar beroende på [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfiguration och **[!UICONTROL Download]** inställningar.
+
+>[!NOTE]
+>
+>Alla användare har nu **[!UICONTROL Fast Download]** aktiverat som standard och kräver att IBM Aspera Connect 3.9.9 är installerat i webbläsartillägget innan de hämtar materialet från Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-I Brand Portal 2020.10.0 kan användarna exkludera vissa återgivningar och direkt hämta de valda återgivningarna från panelen på sidan med resursinformation utan att behöva öppna **[!UICONTROL Renditions]** **[!UICONTROL Download]** dialogrutan.
+I Brand Portal 2020.10.0 kan användarna exkludera vissa återgivningar och direkt [hämta de valda återgivningarna från **[!UICONTROL Renditions]** panelen](brand-portal-download-assets.md#download-assets-from-asset-details-page) på sidan med resursinformation utan att behöva öppna **[!UICONTROL Download]** dialogrutan.
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![renditions-panel](assets/rendition-panel.png)
+![renditions-panel](assets/renditions-panel.png)
 
 
 ### Konfigurera hämtningsbehörigheter {#download-permissions}
 
-Förutom de befintliga [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
+Förutom de befintliga [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation.
+
+Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+På **[!UICONTROL User Roles]** sidan går du till **[!UICONTROL Groups]** fliken för att konfigurera vyn och (eller) hämtningsbehörighet för användargrupperna
 
 Tidigare var inställningarna bara tillgängliga för att hindra gruppanvändarna från att hämta den ursprungliga resursen.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 På fliken **[!UICONTROL Groups]** på **[!UICONTROL User Roles]** sidan kan administratörer konfigurera inställningar för visning och hämtning:
 
