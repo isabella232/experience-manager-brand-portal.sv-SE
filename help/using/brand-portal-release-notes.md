@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 8881e9d171c3a4e750a906caadd8aa26f6fc0674
+source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '527'
 ht-degree: 5%
 
 ---
@@ -144,7 +144,9 @@ Om du vill ta reda på vilka plattformar som är certifierade för att köras me
 
 Dessa webbplatser är bara tillgängliga för kunder. Om du är kund och behöver åtkomst kontaktar du din kontoansvarige på Adobe.
 
-* [https://daycare.day.com](https://daycare.day.com)
+<!--
+* [https://daycare.day.com](https://daycare.day.com) 
+-->
 
 * [Produktåtkomst](https://login.marketing.adobe.com)
 
