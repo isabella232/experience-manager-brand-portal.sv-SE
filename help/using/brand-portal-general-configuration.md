@@ -1,8 +1,8 @@
 ---
 title: Administrera allmänna klientkonfigurationer
 seo-title: Administrera allmänna klientkonfigurationer
-description: Konfigurera hämtningsacceleration, offentlig smart [!UICONTROL collection] generering, offentlig [!UICONTROL collection] generering och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
-seo-description: Konfigurera hämtningsacceleration, offentlig smart [!UICONTROL collection] generering, offentlig [!UICONTROL collection] generering och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
+description: Konfigurera hämtningsacceleration, offentliga smarta samlingar, skapande av offentliga samlingar och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
+seo-description: Konfigurera hämtningsacceleration, offentliga smarta samlingar, skapande av offentliga samlingar och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
