@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
    Klicka på en resurs för att visa tillgängliga återgivningar och markera kryssrutorna för de återgivningar som du vill hämta.
 
-   Du kan välja eller exkludera återgivningar manuellt för enskilda resurser eller klicka på ikonen **Använd** om du vill använda samma uppsättning återgivningar för alla liknande resurstyper (alla bildfiler i det här exemplet) som har valts för hämtning. Klicka **[!UICONTROL Done]** för att bekräfta den använda regeln.
+   Du kan välja eller exkludera återgivningar manuellt för enskilda resurser eller klicka på ikonen **Använd** för att välja samma uppsättning återgivningar som ska hämtas för liknande resurstyper (alla bildfiler i det här exemplet). I **[!UICONTROL Apply All]** dialogrutan klickar du på **[!UICONTROL Done]** för att tillämpa regeln på alla liknande resurser.
 
    ![apply-all](assets/apply.png)
 
