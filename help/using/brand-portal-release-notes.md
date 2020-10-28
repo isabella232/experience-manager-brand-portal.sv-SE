@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 5%
+source-wordcount: '572'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 Den här versionen innehåller följande nya funktioner:
 
-* Dialogrutan har gjorts om i en listvy med ytterligare alternativ för att exkludera de återgivningar som inte är obligatoriska, använda samma uppsättning regler för liknande resurstyper och hämta de valda återgivningarna. **[!UICONTROL Download]**
+* Dialogrutan har gjorts om i en listvy med ytterligare alternativ för att exkludera de återgivningar som inte är obligatoriska, använda samma uppsättning regler för liknande resurstyper och hämta de valda återgivningarna. **[!UICONTROL Download]** Se [Steg för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Den här versionen innehåller följande nya funktioner:
 
 * Navigera till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** är nu möjligt från alla sidor i varumärkesportalen med ett klick.
 
-* På **[!UICONTROL Renditions]** panelen på sidan med tillgångsinformation kan du nu välja den ursprungliga resursen och (eller) specifika resursåtergivningar och hämta dem direkt från **[!UICONTROL Renditions]** panelen utan att behöva öppna **[!UICONTROL Download]** dialogrutan.
+* På **[!UICONTROL Renditions]** panelen på sidan med tillgångsinformation kan du nu välja den ursprungliga resursen och (eller) specifika resursåtergivningar och hämta dem direkt från **[!UICONTROL Renditions]** panelen utan att behöva öppna **[!UICONTROL Download]** dialogrutan. Se [Hämta resurser från sidan](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)med resursinformation.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
+* Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även [konfigurera behörigheter för olika användargrupper](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) att visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
 
 ### Förbättringar {#enhancements}
 
