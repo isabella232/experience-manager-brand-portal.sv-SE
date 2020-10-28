@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5379'
+source-wordcount: '5412'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ I **[!UICONTROL Download]** dialogrutan kan användarna
 * Skapa separata mappar för varje resurs.
 * Hämta markerade resurser och deras återgivningar.
 
-Hämtningsarbetsflödet förblir konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser via länken Dela.
+Hämtningsarbetsflödet förblir konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser via länken Dela. Se [stegen för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-I Brand Portal 2020.10.0 kan användarna exkludera vissa återgivningar och direkt [hämta de valda återgivningarna från **[!UICONTROL Renditions]** panelen](brand-portal-download-assets.md#download-assets-from-asset-details-page) på sidan med resursinformation utan att behöva öppna **[!UICONTROL Download]** dialogrutan.
+I Brand Portal 2020.10.0 kan användarna exkludera vissa återgivningar och direkt [hämta de valda återgivningarna från panelen](brand-portal-download-assets.md#download-assets-from-asset-details-page) Återgivningar på sidan med resursinformation utan att behöva öppna **[!UICONTROL Download]** dialogrutan.
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Konfigurera hämtningsbehörigheter {#download-permissions}
 
-Förutom de befintliga [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation.
+Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation.
 
 Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
@@ -99,6 +99,8 @@ På fliken **[!UICONTROL Groups]** på **[!UICONTROL User Roles]** sidan kan adm
 * Om båda inställningarna är inaktiverade kan användarna bara visa de ursprungliga resurserna. Resursåtergivningarna är inte synliga för användarna på sidan med resursinformation.
 * Om bara **[!UICONTROL Download Original]** inställningen är aktiverad kan användarna bara visa och hämta de ursprungliga resurserna från sidan med resursinformation.
 * Om bara **[!UICONTROL Download Renditions]** inställningen är aktiverad kan användarna visa den ursprungliga resursen, men de kan inte hämta den. Användaren kan dock visa och hämta resursrenderingarna.
+
+Se [Konfigurera hämtning](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)av resurser.
 
 ![view-download-permission](assets/download-permissions.png)
 
