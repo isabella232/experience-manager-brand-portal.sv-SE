@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -35,9 +35,9 @@ Konfigurationen är som standard aktiverad, vilket minskar den tid det tar att h
 Om du vill hämta filerna snabbare bör du göra följande:
 
 * Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att **[!UICONTROL Fast Download]** konfigurationen är aktiverad i **[!UICONTROL Download Settings]**.
-* Port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om krav finns i dokumentationen till [Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* Installera Aspera Connect med administratörsbehörighet.
-* Plattformsstöd för Aspera-överföringsklienter finns i [supportmatrisen](https://www.asperasoft.com/company/support/transfer-clients/)för Aspera Connect-plattformen.
+* Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om förutsättningarna finns i dokumentationen [för](https://downloads.asperasoft.com/en/documentation/8)IBM Aspera Connect Client.
+* [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) i webbläsartillägget med administratörsbehörighet.
+* Plattformsstöd för Aspera-överföringsklienter finns i [IBM Aspera Connect-plattformens supportmatris](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Hämta domäner {#download-domains}
 
