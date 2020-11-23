@@ -1,15 +1,15 @@
 ---
 title: Dela mappar
 seo-title: Dela mappar
-description: Varumärkesportalen stöder inte tillgångsintag och därför måste resurser publiceras på varumärkesportalen från en förkonfigurerad AEM Author-instans. Publicerade resurser är inte tillgängliga för icke-adminanvändare av Brand Portal, såvida de inte konfigureras när de konfigurerar replikering med AEM-instansen och måste delas med dem.
-seo-description: Varumärkesportalen stöder inte tillgångsintag och därför måste resurser publiceras på varumärkesportalen från en förkonfigurerad AEM Author-instans. Publicerade resurser är inte tillgängliga för icke-adminanvändare av Brand Portal, såvida de inte konfigureras när de konfigurerar replikering med AEM-instansen och måste delas med dem.
+description: Varumärkesportalen stöder inte tillgångsintag och därför måste resurser publiceras till Varumärkesportalen från en förkonfigurerad AEM Author-instans. Publicerade resurser är inte tillgängliga för icke-adminanvändare av Brand Portal, om de inte konfigureras när replikeringen konfigureras med AEM och måste delas med dem.
+seo-description: Varumärkesportalen stöder inte tillgångsintag och därför måste resurser publiceras till Varumärkesportalen från en förkonfigurerad AEM Author-instans. Publicerade resurser är inte tillgängliga för icke-adminanvändare av Brand Portal, om de inte konfigureras när replikeringen konfigureras med AEM och måste delas med dem.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 0%
@@ -39,7 +39,7 @@ På samma sätt har användargrupper (eller användare) som bara har behörighet
 
 ### Publicering av offentlig mapp {#public-folder-publish}
 
-Såvida inte **[!UICONTROL Public Folder Publish]** alternativet är markerat när du konfigurerar varumärkesportalreplikering har icke-adminanvändare (som redigerare och visningsprogram) inte tillgång till resurser som publicerats från AEM Assets till varumärkesportalen.
+Såvida inte **[!UICONTROL Public Folder Publish]** alternativet är markerat när du konfigurerar Brand Portal-replikering har icke-adminanvändare (som redigerare och visningsprogram) inte åtkomst till resurser som publicerats från AEM Assets till Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
@@ -62,7 +62,7 @@ I följande matris beskrivs åtkomsträttigheter och rättigheter att dela/ta bo
 
 >[!NOTE]
 >
->Som standard är **[!UICONTROL Public Folder Publish]** alternativet inaktiverat när replikering av varumärkesportalen med AEM Author konfigureras. Om alternativet är aktiverat är de mappar som publiceras på varumärkesportalen som standard tillgängliga för alla användare (även icke-adminanvändare).
+>Som standard är **[!UICONTROL Public Folder Publish]** alternativet inaktiverat när replikering av varumärkesportalen konfigureras med AEM Author. Om alternativet är aktiverat är de mappar som publiceras på varumärkesportalen som standard tillgängliga för alla användare (även icke-adminanvändare).
 
 ### Åtkomst till delade mappar som inte är administratörsanvändare {#non-admin-user-access-to-shared-folders}
 
@@ -124,6 +124,7 @@ Om du vill dela mappen med endast gästanvändare och inga andra användare väl
 
 1. Om det behövs klickar du på **[!UICONTROL Change Thumbnail]** för att ändra miniatyrbilden för mappen.
 1. Klicka på **[!UICONTROL Save]**.
+
 1. Om du vill komma åt den delade mappen loggar du in på varumärkesportalen med inloggningsuppgifterna för den användare som du delade mappen med. Granska den delade mappen i gränssnittet.
 
 ## Dela inte mappar {#unshare-the-folders}
