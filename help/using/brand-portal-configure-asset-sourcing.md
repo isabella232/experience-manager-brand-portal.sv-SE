@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ Bläddra från den lokala datorn och överför **konfigurationsfilen** (.csv) so
    ![](assets/upload-user-list2.png)
 
 
-Administratörer kan ge åtkomst till specifika användare/grupper från den här användarlistan när de konfigurerar mappen för bidrag.
+Administratörer kan ge åtkomst till specifika användare från den här användarlistan när de konfigurerar mappen för bidrag.
 
 Mer information finns i [Konfigurera mapp](brand-portal-contribution-folder.md)för bidrag.
