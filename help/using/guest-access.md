@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,11 @@ Om du vill ange varumärkesportalen anonymt väljer du **[!UICONTROL Click here]
 
 ## Gästsessionens varaktighet {#guest-session-duration}
 
-En gästanvändarsession är fortfarande aktiv i 2 timmar. Det innebär att statusen för **[!UICONTROL Lightbox]** bevaras till 1 timme från sessionens starttid och efter 2 timmar startas den aktuella gästsessionen om så att ljuslådans tillstånd försvinner.\
-En gästanvändare loggar till exempel in på varumärkesportalen 1 500 timmar och lägger till resurser i ljuslådan för hämtning 16:50 timmar. Om användaren inte hämtar **[!UICONTROL Lightbox]** samlingen (eller dess resurser) före 17:00 timmar, **[!UICONTROL Lightbox]** blir samlingen tom eftersom användaren måste starta om sessionen i slutet av 1 timme (dvs. 1 700 timmar).
+
+En gästanvändarsession är aktiv i 15 minuter.
+Det innebär att statusen för **[!UICONTROL Lightbox]** den bevaras i 15 minuter från sessionens starttid, och efter det startas den aktuella gästsessionen om så att ljuslådans läge försvinner.
+
+En gästanvändare loggar till exempel in på Brand Portal vid 1 500 timmar och lägger till resurser **[!UICONTROL Lightbox]** för hämtning kl. 15:05. Om användaren inte hämtar **[!UICONTROL Lightbox]** samlingen (eller dess resurser) före 15:15 timmar (inom 15 minuter efter inloggningen) måste användaren starta om sessionen. Det **[!UICONTROL Lightbox]** är tomt, vilket innebär att de överförda resurserna inte längre är tillgängliga om sessionen förlorades.
 
 ## Tillåtna samtidiga gästsessioner {#concurrent-guest-sessions-allowed}
 
