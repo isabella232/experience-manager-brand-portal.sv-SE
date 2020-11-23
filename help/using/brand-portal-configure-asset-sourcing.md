@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -55,11 +55,14 @@ Administratören kan lägga till nya användare i AEM Admin Console. Mer informa
 
 **Så här överför du användarlistan för varumärkesportalen:**
 1. Logga in på AEM författarinstansStandard-URL: http:// localhost:4502/aem/start.html
-1. From **Tools** ![](assets/tools.png) panel, navigate to **[!UICONTROL Assets > Brand Portal Users]**
+1. From **Tools**  panel, navigate to **[!UICONTROL Assets > Brand Portal Users]**
+
    ![](assets/upload-user-list1.png)
+
 1. Fönstret för ladda upp medverkande på varumärkesportalen öppnas.
 Bläddra från den lokala datorn och överför **konfigurationsfilen** (.csv) som innehåller listan över aktiva Brand Portal-användare.
 1. Klicka på **[!UICONTROL Save]**.
+
    ![](assets/upload-user-list2.png)
 
 
