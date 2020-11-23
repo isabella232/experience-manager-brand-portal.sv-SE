@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ I följande matris definieras om en användare har åtkomst till återgivningarn
 | AV | AV | PÅ | PÅ | Visa och hämta originalresurs |
 | PÅ | AV | PÅ | PÅ | Visa och hämta ursprungliga resurser och anpassade återgivningar |
 | AV | PÅ | PÅ | PÅ | Visa och hämta ursprungliga resurs- och systemåtergivningar |
-| PÅ | AV | AV | AV | Visa ursprunglig resurs |
+| PÅ | OFF | AV | AV | Visa ursprunglig resurs |
 | AV | PÅ | AV | AV | Visa ursprunglig resurs |
 | AV | AV | AV | PÅ | Visa ursprunglig resurs |
 | AV | AV | PÅ | AV | Visa och hämta originalresurs |
@@ -191,9 +191,8 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
 >[!NOTE]
 >
->Om fler än 20 resurser har valts för hämtning hoppas dialogrutan över och alla återgivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas direkt till en zip-mapp. **[!UICONTROL Download]**
->
->Samma beteende används när mappar som innehåller resurser och samlingar hämtas. De tillgängliga återgivningarna, exklusive de dynamiska återgivningarna, hämtas direkt till en zip-mapp.
+>Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en zip-mapp. **[!UICONTROL Download]** Resursåtergivningarna hämtas i en separat mapp för varje resurs i zip-mappen.
+
 
 >[!NOTE]
 >
