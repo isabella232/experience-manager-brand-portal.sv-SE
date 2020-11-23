@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicera mapp för bidrag till varumärkesportalen {#publish-contribution-folder-to-brand-portal}
 
-När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folder-properties.md)kan AEM användare (administratör/icke-admin-användare) publicera bidragsmappen från AEM Assets till varumärkesportalen. Användare/grupper på varumärkesportalen som har behörighet att komma åt bidragsmappen får ett e-postmeddelande/pulsmeddelande när publiceringsåtgärden har slutförts.
+När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folder-properties.md)kan AEM användare (administratör/icke-admin-användare) publicera bidragsmappen från AEM Assets till varumärkesportalen. Användare av varumärkesportalen som har behörighet att komma åt bidragsmappen får ett meddelande via e-post/puls när publiceringsåtgärden har slutförts.
 
 
 **Så här publicerar du bidragsmappen:**
