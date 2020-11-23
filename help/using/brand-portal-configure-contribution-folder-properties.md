@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,30 +21,32 @@ ht-degree: 0%
 
 # Konfigurera egenskaper för bidragsmapp {#configure-contribution-folder-properties}
 
-AEM-administratören utför följande åtgärder när egenskaperna för en avgiftsmapp konfigureras.
+AEM utför följande åtgärder när du konfigurerar egenskaperna för en avgiftsmapp.
 
 * **Lägg till beskrivning**: Ange en beskrivning av bidragsmappen på hög nivå.
 * **Överför i korthet**:  Överför tillgångskravsdokument som innehåller resursrelaterad information.
-* **Lägg till medverkande**: Lägg till Brand Portal-användare eller -grupper för att ge dem åtkomst till mappen för bidrag.
+* **Lägg till medverkande**: Lägg till Brand Portal-användare för att ge dem åtkomst till mappen för bidrag.
 
 Resurskravet avser den information som administratörer tillhandahåller för att hjälpa medverkande (varumärkesportalanvändare) att förstå behovet och kraven av bidragsmappen. Administratören överför ett tillgångskravsdokument som innehåller en sammanfattning om vilken typ av resurser som ska läggas till i avgiftsmappen och resursrelaterad information, till exempel syfte, typ av bilder, maxstorlek osv.
 
-Administratören kan sedan ge Brand Portal-användare/grupper åtkomst till mappen för bidrag innan den nya Contribute-mappen publiceras på varumärkesportalen.
+Administratören kan sedan ge Brand Portal-användare åtkomst till mappen för bidrag innan den nya Contribute-mappen publiceras på varumärkesportalen.
 
 **Så här konfigurerar du bidragsmappens egenskaper:**
 
-1. Logga in på din AEM-författarinstansStandard-URL: http:// localhost:4502/aem/start.html
+1. Logga in på AEM författarinstansStandard-URL: http:// localhost:4502/aem/start.html
 1. Navigera till **[!UICONTROL Assets > Files]** och hitta mappen för bidrag.
 1. Välj mapp för bidrag och klicka på **[!UICONTROL Properties]**![](assets/properties.png). Fönstret Mappegenskaper öppnas.
    ![](assets/contribution-folder-property1.png)
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Ange en hög nivå **[!UICONTROL Description]** för mappen för bidrag.
 1. Klicka **[!UICONTROL Upload Brief]** för ![](assets/upload.png) att bläddra från den lokala datorn och ladda upp ett **tillgångskravsdokument**.
-1. I **[!UICONTROL Add User or Group]** fältet lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Med hjälp av gränssnittet Varumärksportal kan tillagda användare få åtkomst till och överföra innehåll till mappen för bidrag. För närvarande kan du inte lägga till grupper i en mapp för bidrag.
+1. I **[!UICONTROL Add User or Group]** fältet lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Dessa användare kan komma åt och överföra innehåll till mappen för bidrag via gränssnittet för varumärkesportalen.
 1. Klicka på **[!UICONTROL Save]**.
 
 ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
->Sökresultaten baseras på användarlistan för varumärkesportalen som konfigurerats i AEM Assets. Se till att du har den uppdaterade användarlistan för varumärkesportalen. Se Användarlista för [Överför varumärkesportal](brand-portal-configure-asset-sourcing.md).
+>För närvarande kan du inte lägga till grupper i en mapp för bidrag.
+>
+>Sökresultaten baseras på användarlistan i varumärkesportalen som konfigurerats i AEM Assets. Se till att du har den uppdaterade användarlistan för varumärkesportalen. Se Användarlista för [Överför varumärkesportal](brand-portal-configure-asset-sourcing.md).
