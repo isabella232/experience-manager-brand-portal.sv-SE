@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,22 @@ Administratören kan sedan ge Brand Portal-användare/grupper åtkomst till mapp
 
 1. Logga in på AEM författarinstansStandard-URL: http:// localhost:4502/aem/start.html
 1. Navigera till **[!UICONTROL Assets > Files]** och hitta mappen för bidrag.
-1. Välj mapp för bidrag och klicka på **[!UICONTROL Properties]**![](assets/properties.png). Fönstret Mappegenskaper öppnas.
+1. Välj mapp för bidrag och klicka på **[!UICONTROL Properties]** för att öppna fönstret Mappegenskaper.
+
+   ![](assets/properties.png)
+
    ![](assets/contribution-folder-property1.png)
+
 1. Navigate to **[!UICONTROL Asset Contribution]** tab.
 1. Ange en hög nivå **[!UICONTROL Description]** för mappen för bidrag.
-1. Klicka **[!UICONTROL Upload Brief]** för ![](assets/upload.png) att bläddra från den lokala datorn och ladda upp ett **tillgångskravsdokument**.
-1. I **[!UICONTROL Add User or Group]** fältet lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Med hjälp av gränssnittet Varumärksportal kan tillagda användare få åtkomst till och överföra innehåll till mappen för bidrag. För närvarande kan du inte lägga till grupper i en mapp för bidrag.
+1. Klicka **[!UICONTROL Upload Brief]** för att bläddra från den lokala datorn och ladda upp ett **tillgångskravsdokument**.
+
+   ![](assets/upload.png)
+
+1. I **[!UICONTROL Add User or Group]** fältet lägger du till Brand Portal-användare som du vill dela mappen för bidrag med. Dessa användare kan komma åt och överföra innehåll till mappen för bidrag via gränssnittet för varumärkesportalen.
 1. Klicka på **[!UICONTROL Save]**.
 
-![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
