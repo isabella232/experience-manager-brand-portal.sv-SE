@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
+source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ De tillgängliga inställningarna är:
 
    Aktiverar hämtning av anpassade och (eller) dynamiska återgivningar av resurserna.
 
-   Alla resursåtergivningar som inte är den ursprungliga resursen och systemgenererade återgivningar kallas anpassade återgivningar. Den innehåller både statiska och dynamiska renderingar som är tillgängliga för resursen. Alla användare kan skapa en anpassad statisk återgivning i AEM Assets, medan bara AEM kan skapa anpassade dynamiska återgivningar. Mer information finns i [Använda bildförinställningar eller dynamiska återgivningar](../using/brand-portal-image-presets.md).
+   Alla resursåtergivningar som inte är den ursprungliga resursen och systemgenererade återgivningar kallas anpassade återgivningar. Den innehåller statiska och dynamiska återgivningar som är tillgängliga för resursen. Alla användare kan skapa en anpassad statisk återgivning i AEM Assets, medan bara AEM kan skapa anpassade dynamiska återgivningar. Mer information finns i [Använda bildförinställningar eller dynamiska återgivningar](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]**
 
@@ -197,11 +197,11 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
 >[!NOTE]
 >
->Brand Portal har stöd för konfiguration av dynamiska media i både läget Hybrid och Scene 7.
+>Brand Portal har stöd för att konfigurera Dynamic Media i både hybridläge och Scene7-läge.
 >
 >(*Om AEM författarinstans körs i **läget***Dynamic Media Hybrid)
 >
->Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från AEM till varumärkesportalen publiceras även dess Pyramid-tiff-rendering.
+>Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns i den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från AEM till varumärkesportalen publiceras även dess Pyramid-tiff-rendering.
 
 
 
