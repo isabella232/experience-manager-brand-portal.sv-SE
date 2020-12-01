@@ -35,9 +35,9 @@ Så här skapar du en bidragsmapp:
 
 1. Navigera till **[!UICONTROL Assets]** > **[!UICONTROL Files]**. Den visar alla befintliga mappar i AEM Assets-databasen.
 
-1. Klicka **[!UICONTROL Create]** för att skapa en ny mapp. **[!UICONTROL Create Folder]** öppnas.
+1. Klicka på **[!UICONTROL Create]** för att skapa en ny mapp. **[!UICONTROL Create Folder]** öppnas.
 
-1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** markera **[!UICONTROL Asset Contribution]** kryssrutan.
+1. Ange **[!UICONTROL Title]** och **[!UICONTROL Name]** för mappen och markera kryssrutan **[!UICONTROL Asset Contribution]**.
 Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
 1. Klicka på **[!UICONTROL Create]**. Du kan se bidragsmappen i AEM Assets-databasen.
@@ -49,7 +49,7 @@ Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
    ![](assets/create-contribution-folder.png)
 
-1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** skapas automatiskt i mappen för bidrag.
+1. Klicka för att öppna mappen för bidrag så ser du att två undermappar -**[!UICONTROL SHARED]** och **[!UICONTROL NEW]** skapas automatiskt i mappen för bidrag.
 
    ![](assets/contribution-folder.png)
 
