@@ -1,6 +1,6 @@
 ---
-title: Publicera till Contribute-mapp på AEM Assets
-seo-title: Publicera till Contribute-mapp på AEM Assets
+title: Publicera i Contribute-mapp till AEM Assets
+seo-title: Publicera i Contribute-mapp till AEM Assets
 description: Få insikt i hur du publicerar bidragsmappen till AEM Assets i varumärkesportalen.
 seo-description: Få insikt i hur du publicerar bidragsmappen till AEM Assets i varumärkesportalen.
 uuid: null
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Publicera mapp för bidrag till AEM Assets {#publish-contribution-folder-to-aem}
+# Publicera bidragsmapp till AEM Assets {#publish-contribution-folder-to-aem}
 
-Användare av varumärkesportalen kan publicera bidragsmappen till AEM Assets utan att behöva ha tillgång till AEM-författarinstansen.
+Användare av varumärkesportalen kan publicera bidragsmappen till AEM Assets utan att behöva ha tillgång till AEM författarinstans.
 
-Se till att du har gått igenom [resurskraven](brand-portal-download-asset-requirements.md) och överfört de nyskapade resurserna i mappen **NEW** i mappen för bidrag. Se [Överför resurser till mappen](brand-portal-upload-assets-to-contribution-folder.md)för bidrag.
+Kontrollera att du har gått igenom [resurskraven](brand-portal-download-asset-requirements.md) och överför de nyskapade resurserna i **mappen NEW** i mappen för bidrag. Se [Överför resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md).
 
 **Så här publicerar du bidragsmappen:**
 
@@ -36,8 +36,8 @@ Se till att du har gått igenom [resurskraven](brand-portal-download-asset-requi
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Ett e-post-/pulsmeddelande skickas till Brand Portal-användare och -administratörer i olika stadier av publiceringsarbetsflödet:
-1. **Köad** - Ett meddelande skickas till användaren och administratören för varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
+1. **Köad**  - Ett meddelande skickas till användaren och administratören för varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
 
-1. **Fullständigt** - Ett meddelande skickas till Brand Portal-användaren och Brand Portal-administratörerna när bidragsmappen har publicerats i AEM Assets.
+1. **Fullständigt**  - Ett meddelande skickas till Brand Portal-användaren och Brand Portal-administratörerna när mappen för bidrag har publicerats i AEM Assets.
 
 
