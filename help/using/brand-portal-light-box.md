@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Hantera ljuslådesamlingen {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv licens **[!UICONTROL Lightbox]** som skapas automatiskt första gången de loggar in på varumärkesportalen. Det går inte att ta bort **[!UICONTROL Lightbox]** samlingen.
+**[!UICONTROL Lightbox]** är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv **[!UICONTROL Lightbox]** som skapas automatiskt första gången de loggar in på varumärkesportalen. Det går inte att ta bort samlingen **[!UICONTROL Lightbox]**.
 
-## Lägga till resurser i ljuslådan {#add-assets-to-lightbox}
+## Lägg till resurser i ljuslådan {#add-assets-to-lightbox}
 
-Så här lägger du till resurser **[!UICONTROL Lightbox]** i:
+Så här lägger du till resurser i **[!UICONTROL Lightbox]**:
 
-1. Navigera till platsen för resurserna som du vill lägga till **[!UICONTROL Lightbox]** och markera resurserna.
+1. Navigera till platsen för resurserna som du vill lägga till i **[!UICONTROL Lightbox]** och markera resurserna.
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -33,23 +33,23 @@ Så här lägger du till resurser **[!UICONTROL Lightbox]** i:
 
    ![](assets/add_to_collection.png)
 
-1. På **[!UICONTROL Add To Collection]** sidan är **[!UICONTROL Lightbox]** samlingen markerad som standard.
+1. På sidan **[!UICONTROL Add To Collection]** är samlingen **[!UICONTROL Lightbox]** markerad som standard.
 
    Klicka på **[!UICONTROL Add]**. De valda resurserna läggs till i **[!UICONTROL Lightbox]**.
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. Om du vill granska de resurser som lagts till i **[!UICONTROL Lightbox]** klickar du **[!UICONTROL Collections]** på den vänstra listen och sedan på **[!UICONTROL Lightbox]** samlingen.
+1. Om du vill granska de resurser som lagts till i **[!UICONTROL Lightbox]** klickar du på **[!UICONTROL Collections]** till vänster och sedan på samlingen **[!UICONTROL Lightbox]**.
 
    ![](assets/collections_lightbox.png)
 
-   Resurserna som läggs till visas **[!UICONTROL Lightbox]** på **[!UICONTROL Lightbox]** sidan.
+   Resurserna som läggs till i **[!UICONTROL Lightbox]** visas på sidan **[!UICONTROL Lightbox]**.
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Ta bort resurser från ljuslådan {#remove-assets-from-lightbox}
 
-1. Om du vill granska resurserna i [!UICONTROL Lightbox]klickar du **[!UICONTROL Collections]** på den vänstra listen och sedan på [!UICONTROL Lightbox] samlingen.
+1. Om du vill granska resurserna i [!UICONTROL Lightbox] klickar du på **[!UICONTROL Collections]** på den vänstra listen och sedan på samlingen [!UICONTROL Lightbox].
 
    ![](assets/collections_lightbox-1.png)
 
@@ -57,6 +57,6 @@ Så här lägger du till resurser **[!UICONTROL Lightbox]** i:
 
    ![](assets/collections_lightboxdelete.png)
 
-1. Klicka i varningsmeddelanderutan för **[!UICONTROL Remove]** att bekräfta borttagningen.
+1. Klicka på **[!UICONTROL Remove]** i varningsmeddelanderutan för att bekräfta borttagningen.
 
-Mappen tas bort från **[!UICONTROL Lightbox]** samlingen.
+Mappen tas bort från samlingen **[!UICONTROL Lightbox]**.
