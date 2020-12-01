@@ -26,18 +26,18 @@ Med Brand Portal kan du förbättra hämtningsprestanda för stora filer genom a
 >
 >Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
 
-Konfigurationen är som standard aktiverad, vilket minskar den tid det tar att hämta önskade resursfiler från varumärkesportalen avsevärt. **[!UICONTROL Fast Download]**
+Konfigurationen **[!UICONTROL Fast Download]** är som standard aktiverad, vilket minskar den tid det tar att hämta önskade resursfiler från varumärkesportalen avsevärt.
 
 ![](assets/download-configuration.png)
 
-## Förutsättningar för snabbare filhämtning {#prerequisites-to-accelerate-file-download}
+## Förutsättningar för att snabba upp filnedladdningen {#prerequisites-to-accelerate-file-download}
 
 Om du vill hämta filerna snabbare bör du göra följande:
 
-* Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att **[!UICONTROL Fast Download]** konfigurationen är aktiverad i **[!UICONTROL Download Settings]**.
-* Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om förutsättningarna finns i dokumentationen [för](https://downloads.asperasoft.com/en/documentation/8)IBM Aspera Connect Client.
+* Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att konfigurationen **[!UICONTROL Fast Download]** är aktiverad i **[!UICONTROL Download Settings]**.
+* Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om förutsättningarna finns i [dokumentationen för IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) i webbläsartillägget med administratörsbehörighet.
-* Plattformsstöd för Aspera-överföringsklienter finns i [IBM Aspera Connect-plattformens supportmatris](https://www.asperasoft.com/company/support/transfer-clients/).
+* Plattformsstöd för Aspera-överföringsklient finns i [supportmatris för IBM Aspera Connect-plattformen](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Hämta domäner {#download-domains}
 
@@ -50,7 +50,7 @@ Nedan följer hämtningsdomänerna för olika platser:
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
 | APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
-## Exempel på nedladdningsprestanda med filaccelerator {#expected-download-performance-using-file-accelerator}
+## Exempel på hämtningsprestanda med filacceleratorn {#expected-download-performance-using-file-accelerator}
 
 I följande tabell visas hämtningsprestanda för 2 GB-filer med Aspera Connect-filhämtningsacceleratorn:
 
@@ -67,12 +67,12 @@ I följande tabell visas hämtningsprestanda för 2 GB-filer med Aspera Connect-
 | London | 179 | 35 | 58 |
 | Singapore | 196 | 34 | 60 |
 
-## Hämta arbetsflöde med filaccelerator {#download-workflow-using-file-accelerator}
+## Hämta arbetsflöde med filacceleratorn {#download-workflow-using-file-accelerator}
 
 Så här hämtar du resurser snabbare från varumärkesportalen:
 
 1. Logga in på varumärkesportalen med en webbläsare som stöds.
-1. Bläddra och välj de mappar eller resurser som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen i verktygsfältet överst. dialogrutan visas med **[!UICONTROL Download]** kryssrutorna **[!UICONTROL Asset(s)]** och **[!UICONTROL Enable download acceleration]** .
+1. Bläddra och välj de mappar eller resurser som du vill hämta. Klicka på ikonen **[!UICONTROL Download]** i verktygsfältet överst. Dialogrutan **[!UICONTROL Download]** visas med kryssrutorna **[!UICONTROL Asset(s)]** och **[!UICONTROL Enable download acceleration]** markerade som standard.
 
    ![](assets/download-assetsbp.png)
 
@@ -92,7 +92,7 @@ Så här hämtar du resurser snabbare från varumärkesportalen:
 
    ![](assets/aspera-not-launched.png)
 
-   Om du vill hämta den senaste versionen av Aspera Connect från [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/)väljer du **[!UICONTROL Download Now]** och följer instruktionerna.
+   Om du vill hämta den senaste versionen av Aspera Connect från [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) väljer du **[!UICONTROL Download Now]** och följer instruktionerna.
 
 1. **Installera Aspera Connect Client**
 
@@ -100,16 +100,16 @@ Så här hämtar du resurser snabbare från varumärkesportalen:
 
 1. När klienten har installerats uppdaterar du webbläsarsidan och startar hämtningsstegen igen.
 
-   När du använder Aspera Connect för första gången uppmanas webbläsaren att öppna länken med **[!UICONTROL IBM Aspera Connect]**. Aktivera om du vill hoppa över den här dialogrutan i framtiden **[!UICONTROL Remember my choice for FASP links]**.
+   När du använder Aspera Connect för första gången uppmanas webbläsaren att öppna länken med **[!UICONTROL IBM Aspera Connect]**. Aktivera **[!UICONTROL Remember my choice for FASP links]** om du vill hoppa över den här dialogrutan i framtiden.
 
    >[!NOTE]
    >
    >Det här meddelandet skiljer sig åt i olika webbläsare.
 
-1. En dialogruta bekräftar om överföringen ska fortsätta eller inte. Välj **[!UICONTROL Allow]** att börja.
-Aktivera om du vill hoppa över den här dialogrutan i framtiden **[!UICONTROL Use my choice for all connections with this host]**.
-Hämtningen börjar. En dialogruta visar hämtningens förlopp. Använd dialogrutan för att **[!UICONTROL pause]**, **[!UICONTROL resume]** eller hämta **[!UICONTROL cancel]** .
-Aspera Connect-programmet tillhandahåller ett aktivitetsfönster i systemet där användaren kan visa och hantera alla överföringssessioner. Mer information finns i dokumentationen för [Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
+1. En dialogruta bekräftar om överföringen ska fortsätta eller inte. Välj **[!UICONTROL Allow]** för att börja.
+Aktivera **[!UICONTROL Use my choice for all connections with this host]** om du vill hoppa över den här dialogrutan i framtiden.
+Hämtningen börjar. En dialogruta visar hämtningens förlopp. Använd dialogrutan för att **[!UICONTROL pause]**, **[!UICONTROL resume]** eller **[!UICONTROL cancel]** hämta filen.
+Aspera Connect-programmet tillhandahåller ett aktivitetsfönster i systemet där användaren kan visa och hantera alla överföringssessioner. Mer information finns i [Aspera Connect Client-dokumentationen](https://downloads.asperasoft.com/en/documentation/8).
 
 ![](assets/aspera-activity-window.png)
 
@@ -117,9 +117,9 @@ När hämtningen är klar visas en dialogruta där resurserna hämtas till anvä
 
 >[!NOTE]
 >
->Det finns en känd begränsning i Aspera Connect-klientprogrammet att ingen uppmaning om att välja hämtningsplats visas om **[!UICONTROL Always ask me where to save downloaded files]** är aktiverat under fliken **[!UICONTROL Transfers]** i **[!UICONTROL Preferences]**. Ange platsen i textrutan innan hämtningen börjar **[!UICONTROL Save downloaded files to]**.
+>Det finns en känd begränsning i Aspera Connect-klientprogrammet att ingen uppmaning om att välja hämtningsplats visas om **[!UICONTROL Always ask me where to save downloaded files]** är aktiverat under fliken **[!UICONTROL Transfers]** i **[!UICONTROL Preferences]**. Ange platsen i textrutan **[!UICONTROL Save downloaded files to]** innan hämtningen börjar.
 
-## Använda filacceleratorn i webbläsaren Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
+## Använda filacceleratorn i Microsoft Edge-webbläsaren {#using-file-accelerator-on-microsoft-edge-browser}
 
 Microsoft Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunikation med Aspera Connect-servern, samtidigt som programmet finns i samma privata nätverk eller med en betrodd plats. Därför visas ett popup-fönster varje gång en anslutning till servern upprättas.
 
@@ -127,12 +127,12 @@ Microsoft Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunikati
 
 Om du vill använda accelererad nedladdningsfunktion i Microsoft Edge tar du bort webbplatsen för varumärkesportalen från listan över betrodda webbplatser.
 
-1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** och välj sedan **[!UICONTROL Control Panel]**).
-1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Click the **[!UICONTROL Security]** tab.
+1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** och välj **[!UICONTROL Control Panel]**).
+1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klicka på fliken **[!UICONTROL Security]**.
 1. Klicka på **[!UICONTROL Trusted sites zone]** och sedan på **[!UICONTROL Sites]**.
 1. Ta bort webbplatsen för varumärkesportalen från listan.
 
-## Inställningar för Aspera Connect-klient {#aspera-connect-client-preferences}
+## Klientinställningar för Aspera Connect {#aspera-connect-client-preferences}
 
 Det finns några användbara inställningar som du kan ange i inställningarna för IBM Aspera Connect Client genom att högerklicka på ikonen och välja **[!UICONTROL Preferences]**.
 
@@ -158,7 +158,7 @@ Om det inte går att hämta acceleration felsöker du följande steg:
 
    Om bandbredden är några få (1-10 Mbit/s) eller i kbit/s använder du inställningarna för Aspera och försöker begränsa den bandbredd som är lika med den tillgängliga bandbredden.
 
-1. Använd [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user)för att kontrollera om hämtningarna från Aspera-demoservern fungerar.\
+1. Använd [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user) för att kontrollera om hämtningarna från Aspera-demoservern fungerar.\
    (inloggning:  asperaweb, lösenord:  demoaspera )
 
 1. Om ingen av ovanstående felsökningssteg fungerar avmarkerar du alternativet Aktivera acceleration för hämtning och använder den normala nedladdningen.
