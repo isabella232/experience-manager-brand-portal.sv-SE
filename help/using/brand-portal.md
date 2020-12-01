@@ -23,10 +23,10 @@ Som marknadsförare behöver ni ibland samarbeta med kanalpartners och interna a
 
 Det är dock en utmaning att utveckla lösningar som stöder effektiv och säker delning av godkända varumärkeslogotyper, riktlinjer, kampanjresurser eller produktbilder med interna team, partners och återförsäljare.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** fokuserar på marknadsförarens behov av att effektivt samarbeta med globala Brand Portal-användare genom att tillhandahålla funktioner för tillgångsdistribution och materialbidrag.
+**Adobe Experience Manager (AEM) Assets Brand** Portaler fokuserar på marknadsförarens behov av att effektivt samarbeta med globala Brand Portal-användare genom att tillhandahålla funktioner för tillgångsdistribution och materialbidrag.
 
 Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Tillgångarna gör det möjligt för användarna på varumärkesportalen att överföra mediefiler till varumärkesportalen och publicera dem på AEM Assets, utan att man behöver ha tillgång till upphovsrättsmiljön. Avgiftsfunktionen kallas **Resurser i varumärkesportalen**. Tillsammans förbättrar det varumärkesportalens totala upplevelse av tillgångsdistribution och bidrag från användarna på varumärkesportalen (externa byråer/team), snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst.
-Se [Resurser i Varumärkesportalen](brand-portal-asset-sourcing.md).
+Se [Resurshantering i varumärkesportalen](brand-portal-asset-sourcing.md).
 
 I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland, söka efter, förhandsgranska och exportera resurser i godkända format.
 
@@ -38,7 +38,7 @@ Adobe Experience Manager (AEM) Assets konfigureras med Brand Portal via Adobe De
 >
 >Det går att konfigurera AEM Assets med varumärkesportalen via Adobe Developer Console i AEM Assets som Cloud Service, AEM Assets 6.3 och senare.
 
-### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+### Krav för att konfigurera AEM Assets med varumärkesportalen {#prerequisites}
 
 Du behöver följande för att konfigurera AEM Assets med varumärkesportalen:
 
@@ -46,7 +46,7 @@ Du behöver följande för att konfigurera AEM Assets med varumärkesportalen:
 * Varumärkesportalens klientorganisations-URL.
 * En användare med systemadministratörsbehörighet på IMS-organisationen för varumärkesportalens klient.
 
-Mer information finns i [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
+Mer information finns i [konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Användarprofiler i varumärkesportalen {#Personas}
 
@@ -78,7 +78,7 @@ I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 
 ### Gästanvändare {#guest-user}
 
-Alla användare som har begränsad åtkomst till resurser på varumärkesportalen utan att behöva utföra autentisering är gästanvändare. Gästsessionen ger användarna åtkomst till gemensamma mappar och samlingar. Som gästanvändare kan du bläddra bland tillgångsinformation och ha en fullständig resursvy över medlemmar i gemensamma mappar och samlingar. Du kan söka efter, hämta och lägga till offentliga resurser i [!UICONTROL Lightbox] samlingen.
+Alla användare som har begränsad åtkomst till resurser på varumärkesportalen utan att behöva utföra autentisering är gästanvändare. Gästsessionen ger användarna åtkomst till gemensamma mappar och samlingar. Som gästanvändare kan du bläddra bland tillgångsinformation och ha en fullständig resursvy över medlemmar i gemensamma mappar och samlingar. Du kan söka efter, hämta och lägga till offentliga resurser i [!UICONTROL Lightbox]-samlingen.
 
 Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar och dela dem ytterligare. Användare i en gästsession har inte åtkomst till inställningar för mappar och samlingar och kan inte dela resurser som länkar. Här är en lista över uppgifter som en gästanvändare kan utföra:
 
@@ -88,7 +88,7 @@ Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar
 
 [Hämta offentliga resurser](brand-portal-download-assets.md)
 
-[Lägg till resurser i [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Lägg till resurser i  [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visningsprogram {#viewer}
 
@@ -100,7 +100,7 @@ En standardanvändare i varumärkesportalen är vanligtvis en användare med rol
 
 [Hämta resurser](brand-portal-download-assets.md)
 
-### Redigerare {#editor}
+### Redigeraren {#editor}
 
 En användare med rollen Redigerare kan utföra alla uppgifter som en visningsprogram kan utföra. Dessutom kan redigeraren visa de filer och mappar som en administratör delar. Användaren som har rollen som redigerare kan även dela innehåll (filer, mappar, samlingar) med andra.
 
@@ -114,7 +114,7 @@ Förutom de uppgifter som en visningsprogram kan utföra kan en redigerare utfö
 
 ### Administratör {#administrator}
 
-En administratör inkluderar en användare som är markerad som systemadministratör eller produktadministratör för varumärkesportal i [!UICONTROL Admin Console]. En administratör kan lägga till och ta bort systemadministratörer och användare, definiera förinställningar, skicka e-post till användare och visa portalanvändning och lagringsrapporter.
+En administratör inkluderar en användare som är markerad som systemadministratör eller produktadministratör för varumärkesportalen i [!UICONTROL Admin Console]. En administratör kan lägga till och ta bort systemadministratörer och användare, definiera förinställningar, skicka e-post till användare och visa portalanvändning och lagringsrapporter.
 
 En administratör kan utföra alla uppgifter som en redigerare kan utföra:
 
@@ -141,9 +141,9 @@ Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följand
 ## Alternativt alias för varumärksportal-URL {#tenant-alias-for-portal-url}
 
 Från och med varumärkesportalen 6.4.3 kan organisationer ha en alternativ (alias) URL för sin varumärksportal-klient. Du kan skapa alias-URL:en genom att ha ett alternativt prefix i URL:en.\
-Observera att bara prefixet för varumärksportal-URL:en kan anpassas och inte hela URL:en. En organisation med befintlig domän **[!UICONTROL geomettrix.brand-portal.adobe.com]** kan till exempel **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** skapas på begäran.
+Observera att bara prefixet för varumärksportal-URL:en kan anpassas och inte hela URL:en. En organisation med den befintliga domänen **[!UICONTROL geomettrix.brand-portal.adobe.com]** kan till exempel få **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** skapad på begäran.
 
-AEM Author-instansen kan dock bara [konfigureras](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
+AEM Author-instansen kan bara vara [konfigurerad](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
 >[!NOTE]
 >
@@ -153,40 +153,40 @@ AEM Author-instansen kan dock bara [konfigureras](../using/configure-aem-assets-
 
 ## Begär åtkomst till varumärkesportalen {#request-access-to-brand-portal}
 
-Användare kan begära åtkomst till varumärkesportalen från inloggningsskärmen. Dessa förfrågningar skickas till administratörer för varumärkesportalen som ger användare åtkomst via Adobe [!UICONTROL Admin Console]. När åtkomst har beviljats får användarna ett e-postmeddelande.
+Användare kan begära åtkomst till varumärkesportalen från inloggningsskärmen. Dessa förfrågningar skickas till administratörer för varumärkesportalen, som ger användare åtkomst via Adobe [!UICONTROL Admin Console]. När åtkomst har beviljats får användarna ett e-postmeddelande.
 
 Så här begär du åtkomst:
 
-1. På inloggningssidan för varumärkesportalen väljer du **[!UICONTROL Click here]** motsvarande **[!UICONTROL Need Access?]**. Om du vill ange gästsessionen markerar du den **[!UICONTROL Click here]** som motsvarar **[!UICONTROL Guest Access?]**.
+1. På inloggningssidan för varumärkesportalen väljer du **[!UICONTROL Click here]** som motsvarar **[!UICONTROL Need Access?]**. Om du vill ange gästsessionen väljer du **[!UICONTROL Click here]** som motsvarar **[!UICONTROL Guest Access?]**.
 
    ![Inloggningsskärm för varumärkesportal](assets/bp-login-requestaccess.png)
 
-   The [!UICONTROL Request Access] page opens.
+   Sidan [!UICONTROL Request Access] öppnas.
 
-1. Om du vill begära åtkomst till en organisations varumärkesportal måste du ha ett giltigt namn [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]eller [!UICONTROL Federated ID].
+1. Om du vill begära åtkomst till en organisations varumärkesportal måste du ha en giltig [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] eller [!UICONTROL Federated ID].
 
-   Logga in med ditt ID (scenario 1) eller skapa ett [!UICONTROL Request Access] (scenario 2) på [!UICONTROL Adobe ID] sidan:<br />
+   På sidan [!UICONTROL Request Access] loggar du in med ditt ID (scenario 1) eller skapar ett [!UICONTROL Adobe ID] (scenario 2):<br />
    ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
 
    **Scenario 1**
-   1. Om du har en [!UICONTROL Adobe ID]eller [!UICONTROL Enterprise ID]flera användare klickar du [!UICONTROL Federated ID]**[!UICONTROL Sign In]**.
-The [!UICONTROL Sign in] page opens.
-   1. Ange dina [!UICONTROL Adobe ID] uppgifter och klicka på **[!UICONTROL Sign in]**.<br />
+   1. Om du har en [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] eller [!UICONTROL Federated ID] klickar du på **[!UICONTROL Sign In]**.
+Sidan [!UICONTROL Sign in] öppnas.
+   1. Ange dina [!UICONTROL Adobe ID]-autentiseringsuppgifter och klicka på **[!UICONTROL Sign in]**.<br />
 
    ![Adobe loggar in](assets/bplogin_request_access_3.png)
 
-   Du omdirigeras till [!UICONTROL Request Access] sidan.<br />
+   Du omdirigeras till sidan [!UICONTROL Request Access].<br />
    **Scenario 2**
-   1. Om du inte har någon [!UICONTROL Adobe ID]kan du skapa en genom att klicka **[!UICONTROL Get an Adobe ID]** på [!UICONTROL Request Access] sidan.
-The [!UICONTROL Sign in] page opens.
+   1. Om du inte har ett [!UICONTROL Adobe ID]-konto klickar du på **[!UICONTROL Get an Adobe ID]** på sidan [!UICONTROL Request Access] för att skapa ett.
+Sidan [!UICONTROL Sign in] öppnas.
    1. Klicka på **[!UICONTROL Get an Adobe ID]**.
-The [!UICONTROL Sign up] page opens.
+Sidan [!UICONTROL Sign up] öppnas.
    1. Ange för- och efternamn, e-post-ID och lösenord.
    1. Välj **[!UICONTROL Sign up]**.<br />
 
    ![](assets/bplogin_request_access_5.png)
 
-   Du omdirigeras till [!UICONTROL Request Access] sidan.
+   Du omdirigeras till sidan [!UICONTROL Request Access].
 
 1. På nästa sida visas ditt namn och e-post-ID som används för att begära åtkomst. Lämna en kommentar till administratören och klicka på **[!UICONTROL Submit]**.<br />
 
@@ -198,26 +198,26 @@ Produktadministratörer för varumärkesportalen får åtkomstbegäranden i sitt
 
 ![Begärd avisering om åtkomst](assets/bplogin_request_access_7.png)
 
-För att bevilja åtkomst måste produktadministratörer klicka på meddelandet i meddelandefältet i varumärkesportalen och sedan klicka på **[!UICONTROL Grant Access]**.
-Alternativt kan produktadministratörer följa länken i e-postmeddelandet med en begäran om åtkomst för att besöka Adobe [!UICONTROL Admin Console] och lägga till användaren i den relevanta produktkonfigurationen.
+För att bevilja åtkomst måste produktadministratörer klicka på motsvarande meddelande i meddelandefältet i varumärkesportalen och sedan klicka på **[!UICONTROL Grant Access]**.
+Alternativt kan produktadministratörer följa länken i e-postmeddelandet om åtkomstbegäran för att besöka Adobe [!UICONTROL Admin Console] och lägga till användaren i den relevanta produktkonfigurationen.
 
-Du omdirigeras till [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hemsida. Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i varumärkesportalen. Mer information om hur du lägger till användare i [!UICONTROL Admin Console]finns i [Lägga till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
+Du omdirigeras till startsidan för [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i varumärkesportalen. Mer information om hur du lägger till användare i [!UICONTROL Admin Console] finns i [Lägg till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
 
 ## Språk i varumärkesportalen {#brand-portal-language}
 
-Du kan byta språk på varumärkesportalen från Adobe [!UICONTROL Experience Cloud Settings].
+Du kan ändra språk på varumärkesportalen från Adobe [!UICONTROL Experience Cloud Settings].
 
 ![Begärd avisering om åtkomst](assets/BPLang.png)
 
 Så här ändrar du språk:
 
-1. Välj [!UICONTROL User] > [!UICONTROL Edit Profile] i den övre menyn.<br />
+1. Välj [!UICONTROL User] > [!UICONTROL Edit Profile] på den översta menyn.<br />
 
    ![Redigera profil](assets/EditBPProfile.png)
 
-1. På [!UICONTROL Experience Cloud Settings] sidan väljer du ett språk i [!UICONTROL Language] listrutan.
+1. Välj ett språk i listrutan [!UICONTROL Language] på sidan [!UICONTROL Experience Cloud Settings].
 
-## Underrättelse om varumärkesportalunderhåll {#brand-portal-maintenance-notification}
+## Underhållsmeddelande för varumärkesportal {#brand-portal-maintenance-notification}
 
 Innan Brand Portal är schemalagd för underhåll visas ett meddelande som en banderoll när du har loggat in på Brand Portal. Ett exempelmeddelande:
 
@@ -225,7 +225,7 @@ Innan Brand Portal är schemalagd för underhåll visas ett meddelande som en ba
 
 Du kan stänga meddelandet och fortsätta använda varumärkesportalen. Det här meddelandet visas i varje ny session.
 
-## Versionsinformation och systeminformation {#release-and-system-information}
+## Versions- och systeminformation {#release-and-system-information}
 
 * [Nyheter](whats-new.md)
 * [Versionsinformation](brand-portal-release-notes.md)
