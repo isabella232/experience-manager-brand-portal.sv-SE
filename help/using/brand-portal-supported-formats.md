@@ -60,7 +60,7 @@ Varje AEM Assets Brand Portal har stöd för särskilda filformat, vilket anges 
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MP3 | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
-| Mp4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
+| MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
 | Mpg | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | OGA | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
@@ -88,4 +88,4 @@ I följande förklaring förklaras symbolerna som används i matrisen:
 | ✓ | Det här filformatet har stöd för den här funktionen. |
 | ✕ | Det här filformatet stöder inte den här funktionen. |
 | NA | Den här funktionen gäller inte för det här filformatet. |
-| * | Den här funktionen kräver tilläggsstöd för det här filformatet på AEM-författarinstansen, men inte på varumärkesportalen, när resurserna har publicerats på varumärkesportalen. |
+| * | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på varumärkesportalen efter att resurserna har publicerats på varumärkesportalen. |
