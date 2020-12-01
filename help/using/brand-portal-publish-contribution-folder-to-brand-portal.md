@@ -20,18 +20,18 @@ ht-degree: 0%
 
 # Publicera mapp för bidrag till varumärkesportalen {#publish-contribution-folder-to-brand-portal}
 
-När [bidragsmappen har konfigurerats](brand-portal-configure-contribution-folder-properties.md)kan AEM användare (administratör/icke-admin-användare) publicera bidragsmappen från AEM Assets till varumärkesportalen. Användare av varumärkesportalen som har behörighet att komma åt bidragsmappen får ett meddelande via e-post/puls när publiceringsåtgärden har slutförts.
+När mappen [för bidrag har konfigurerats](brand-portal-configure-contribution-folder-properties.md) kan AEM användare (administratör/icke-admin-användare) publicera mappen för bidrag från AEM Assets till varumärkesportalen. Användare av varumärkesportalen som har behörighet att komma åt bidragsmappen får ett meddelande via e-post/puls när publiceringsåtgärden har slutförts.
 
 
 **Så här publicerar du bidragsmappen:**
 
 1. Logga in på AEM författarinstans.
 Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigera till **[!UICONTROL Assets > Files]** och leta upp den mapp där du vill publicera till varumärkesportalen.
+1. Navigera till **[!UICONTROL Assets > Files]** och leta reda på mappen där du vill publicera till varumärkesportalen.
 1. Välj mapp för bidrag och klicka på **[!UICONTROL Quick Publish > Publish to Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    Du får ett meddelande när mappen för bidrag har publicerats på varumärkesportalen.
 
-Ett e-post-/pulsmeddelande skickas till de Brand Portal-användare som är tilldelade till mappen för bidrag. Brand Portal-användare har åtkomst till mappen för bidrag och kan börja bidra. Se [Överföra resurser till mappen](brand-portal-upload-assets-to-contribution-folder.md)Contribute.
+Ett e-post-/pulsmeddelande skickas till de Brand Portal-användare som är tilldelade till mappen för bidrag. Brand Portal-användare har åtkomst till mappen för bidrag och kan börja bidra. Se [Överför resurser till mappen Contribute](brand-portal-upload-assets-to-contribution-folder.md).
