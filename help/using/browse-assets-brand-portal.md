@@ -61,7 +61,7 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Storlek
 * Dimensioner
 
-Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (för att undvika snabbåtgärder) eller uppåt igen genom att använda [kolumnerna i sidhuvudet](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (för att undvika snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningar i rubriken](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -81,7 +81,7 @@ Alternativet Översikt är tillgängligt för användare som inte är administra
 * i verktygsfältet högst upp när du väljer en resurs/mapp.
 * i listrutan när du väljer järnvägsväljaren.
 
-När användaren väljer **[!UICONTROL Overview]** alternativet när en resurs/mapp är markerad kan han eller hon se titeln, sökvägen och tidpunkten när resursen skapades. Om du väljer alternativet Översikt på sidan med tillgångsinformation kan användarna se metadata för resursen.
+När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. Om du väljer alternativet Översikt på sidan med tillgångsinformation kan användarna se metadata för resursen.
 
 ![](assets/overview-option.png)
 
@@ -89,7 +89,7 @@ När användaren väljer **[!UICONTROL Overview]** alternativet när en resurs/m
 
 #### Visa inställningar i kortvyn
 
-**[!UICONTROL View Settings]** öppnas när du väljer **[!UICONTROL View Settings]** från vyväljaren. Du kan ändra storlek på miniatyrbilderna för resursen i kortvyn. På så sätt kan du anpassa visningen och styra antalet miniatyrbilder som visas.
+**[!UICONTROL View Settings]** öppnas när du väljer  **[!UICONTROL View Settings]** från vyväljaren. Du kan ändra storlek på miniatyrbilderna för resursen i kortvyn. På så sätt kan du anpassa visningen och styra antalet miniatyrbilder som visas.
 
 ![](assets/cardviewsettings.png)
 
@@ -110,7 +110,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Mappsökväg som visar resurshierarki<sup>*</sup>
 * Datum för publicering av tillgången på varumärkesportalen
 
-Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka på/klicka på resursnamnet och säkerhetskopiera genom att använda [kolumnmapparna i sidhuvudet](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Visa inställningar i listvyn
 
-I listvyn visas resurs **[!UICONTROL Name]** som första kolumn som standard. Ytterligare information, som **[!UICONTROL Title]** resurser, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]** publiceringsstatus, visas också. Du kan dock välja vilka kolumner som ska visas med **[!UICONTROL View Settings]**.
+I listvyn visas resursen **[!UICONTROL Name]** som första kolumn som standard. Ytterligare information, som resurs **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, publiceringsstatus visas också. Du kan dock välja vilka kolumner som ska visas med **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -243,7 +243,7 @@ Navigera från innehållshierarkin till önskad resurs.
 
 ![](assets/content-tree.png)
 
-## Tillgångsinformation {#asset-details}
+## Resursinformation {#asset-details}
 
 På sidan med tillgångsinformation kan du visa en resurs, hämta, dela resursens länk, flytta den till en samling eller visa dess egenskapssida. Du kan även navigera på informationssidan för andra resurser i samma mapp i följd.
 
@@ -257,7 +257,7 @@ Du kan visa alla tillgängliga återgivningar av resursen på sidan med resursin
 
 ![](assets/renditions.png)
 
-Om du vill öppna sidan med resursegenskaper använder du **[!UICONTROL Properties (p)]** alternativet i det övre fältet.
+Om du vill öppna sidan med resursegenskaper använder du alternativet **[!UICONTROL Properties (p)]** i det övre fältet.
 
 ![](assets/asset-properties.png)
 
