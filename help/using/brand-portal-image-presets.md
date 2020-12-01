@@ -17,13 +17,13 @@ ht-degree: 1%
 ---
 
 
-# Använda bildförinställningar eller dynamiska återgivningar {#apply-image-presets-or-dynamic-renditions}
+# Använd bildförinställningar eller dynamiska återgivningar {#apply-image-presets-or-dynamic-renditions}
 
 Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan AEM Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper.
 
 En bildförinställning används för att generera dynamiska återgivningar av bilder som kan förhandsvisas och hämtas. När du förhandsgranskar bilder och deras återgivningar kan du välja en förinställning för att formatera om bilder enligt de specifikationer som angetts av administratören.
 
-(*Om AEM författarinstans körs i **läget***Dynamic Media Hybrid) Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-återgivning finns i den AEM författarinstansen från vilken du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen.
+(*Om AEM författarinstans körs på&#x200B;**Dynamiskt mediaplyläge***) Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-tiff-återgivning finns på den AEM författarinstansen som du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen.
 
 >[!NOTE]
 >
@@ -40,35 +40,35 @@ AEM administratörer kan skapa bildförinställningar som visas som dynamiska å
 >
 >Dynamiska återgivningar av en bild skapas med hjälp av Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
 >
->Om AEM författarinstans körs i läget **** Dynamic Media Hybrid skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
+>Om AEM författarinstans körs på **Dynamic Media Hybrid-läget** skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
 >
->Om AEM författarinstans körs i läget **** Dynamic Media Scene 7 finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
+>Om AEM författarinstans körs i läget **Dynamic Media Scene 7** finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
 >
 >När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
 
 
 1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
-1. Klicka på panelen Administrationsverktyg **[!UICONTROL Image Presets]**.
+1. Klicka på **[!UICONTROL Image Presets]** på panelen Administrationsverktyg.
 
    ![](assets/admin-tools-panel-4.png)
 
-1. Klicka på på sidan med bildförinställningar **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]** på sidan med bildförinställningar.
 
    ![](assets/image_preset_homepage.png)
 
-1. In the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Förinställningarna visas i den vänstra rutan och kan användas direkt tillsammans med andra resurser.
+1. På sidan **[!UICONTROL Edit Image Preset]** anger du värden på flikarna **[!UICONTROL Basic]** och **[!UICONTROL Advanced]**, inklusive ett namn. Alternativen beskrivs i [Alternativ för bildförinställningar](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Förinställningarna visas i den vänstra rutan och kan användas direkt tillsammans med andra resurser.
 
    ![](assets/image_preset_create.png)
 
    >[!NOTE]
    >
-   >Du kan också använda **[!UICONTROL Edit Image Preset]** sidan för att redigera egenskaperna för en befintlig bildförinställning. Om du vill redigera en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Edit]**.
+   >Du kan också använda sidan **[!UICONTROL Edit Image Preset]** för att redigera egenskaperna för en befintlig bildförinställning. Om du vill redigera en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Edit]**.
 
 1. Klicka på **[!UICONTROL Save]**. Bildförinställningen skapas och visas på sidan med bildförinställningar.
-1. Om du vill ta bort en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Delete]**. Bekräfta borttagningen genom **[!UICONTROL Delete]** att klicka på på bekräftelsesidan. Bildförinställningen tas bort från sidan med bildförinställningar.
+1. Om du vill ta bort en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Delete]**. Bekräfta borttagningen genom att klicka på **[!UICONTROL Delete]** på bekräftelsesidan. Bildförinställningen tas bort från sidan med bildförinställningar.
 
-## Använda bildförinställningar vid förhandsvisning av bilder  {#apply-image-presets-when-previewing-images}
+## Använd bildförinställningar vid förhandsgranskning av bilder {#apply-image-presets-when-previewing-images}
 
 När du förhandsgranskar bilder och deras återgivningar kan du välja bland de befintliga förinställningarna för att formatera om bilderna enligt de specifikationer som angetts av administratören.
 
@@ -77,29 +77,29 @@ När du förhandsgranskar bilder och deras återgivningar kan du välja bland de
 
    ![](assets/image-preset-previewrenditions.png)
 
-1. I **[!UICONTROL Renditions]** listan väljer du lämplig dynamisk återgivning, till exempel **[!UICONTROL Thumbnail]**. Förhandsvisningsbilden återges baserat på vad du väljer för återgivningen.
+1. I listan **[!UICONTROL Renditions]** väljer du lämplig dynamisk återgivning, till exempel **[!UICONTROL Thumbnail]**. Förhandsvisningsbilden återges baserat på vad du väljer för återgivningen.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Använda bildförinställningar vid hämtning av bilder {#apply-image-presets-when-downloading-images}
+## Använd bildförinställningar vid hämtning av bilder {#apply-image-presets-when-downloading-images}
 
 När du hämtar bilder och deras återgivningar från varumärkesportalen kan du inte välja bland de befintliga bildförinställningarna. Du kan dock anpassa förinställda bildegenskaper baserat på vilka du vill formatera om bilder.
 
 1. I gränssnittet för varumärkesportalen gör du något av följande:
 
-   * Håll pekaren över bilden som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen bland de tillgängliga miniatyrbilderna för snabbåtgärder.
+   * Håll pekaren över bilden som du vill hämta. Klicka på ikonen **[!UICONTROL Download]** i miniatyrbilderna för snabbåtgärder som är tillgängliga.
 
    ![](assets/downloadsingleasset.png)
 
-   * Markera den bild som du vill hämta. Klicka på **[!UICONTROL Download]** ikonen i verktygsfältet överst.
+   * Markera den bild som du vill hämta. Klicka på ikonen **[!UICONTROL Download]** i verktygsfältet överst.
 
    ![](assets/downloadassets.png)
 
-1. Välj önskade alternativ i **[!UICONTROL Download]** dialogrutan beroende på om du vill hämta resursen med eller utan dess återgivningar.
+1. I dialogrutan **[!UICONTROL Download]** väljer du önskade alternativ beroende på om du vill hämta resursen med eller utan dess renderingar.
 
    ![](assets/donload-assets-dialog.png)
 
-1. Om du vill hämta dynamiska återgivningar av resursen väljer du **[!UICONTROL Dynamic Rendition(s)]** alternativet.
+1. Om du vill hämta dynamiska återgivningar av resursen väljer du alternativet **[!UICONTROL Dynamic Rendition(s)]**.
 1. Anpassa egenskaper för bildförinställningar utifrån vilka du vill formatera om bilden och dess återgivningar dynamiskt under hämtningen. Ange storlek, format, färgrymd, upplösning och bildmodifiering.
 
    ![](assets/dynamicrenditions.png)
