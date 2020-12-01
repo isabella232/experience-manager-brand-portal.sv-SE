@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Överför resurser till mappen för bidrag {#uplad-new-assets-to-contribution-folder}
+# Överför resurser till avgiftsmappen {#uplad-new-assets-to-contribution-folder}
 
 Brand Portal-användare kan [hämta tillgångskraven](brand-portal-download-asset-requirements.md) för att förstå behovet av bidrag.
 De kan sedan skapa nya resurser för bidrag och överföra dem till mappen NYTT i mappen för bidrag.
@@ -38,7 +38,7 @@ När målet att skapa bidragsmappen är uppnått kan administratören för varum
 >
 >Vi rekommenderar att du frigör överföringsutrymmet när du har publicerat avgiftsbelagda mappar till AEM Assets så att de är tillgängliga för övriga Brand Portal-användare.
 >
->Om du behöver utöka din varumärkesportaltenants överföringsgräns med mer än **10** GB kontaktar du Adobe Support och anger kraven.
+>Om du behöver utöka din varumärkesportaltenants överföringsgräns utöver **10** GB kontaktar du Adobe Support och anger kraven.
 
 
 **Så här överför du nya resurser:**
@@ -48,15 +48,15 @@ Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som 
 
 1. Markera mappen för bidrag och klicka för att öppna den. Mappen för bidrag innehåller två undermappar - **[!UICONTROL SHARED]** och **[!UICONTROL NEW]**.
 
-1. Klicka på **[!UICONTROL NEW]** mappen.
+1. Klicka på mappen **[!UICONTROL NEW]**.
 
    ![](assets/upload-new-assets1.png)
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Files]** för att överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]** om du vill överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
 
    ![](assets/upload-new-assets2.png)
 
-1. Bläddra och överför resurser (filer eller mappar) till **[!UICONTROL NEW]** mappen.
+1. Bläddra och överför resurser (filer eller mappar) till mappen **[!UICONTROL NEW]**.
 
    ![](assets/upload-new-assets3.png)
 
