@@ -39,28 +39,28 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 Den här versionen innehåller följande nya funktioner:
 
-* Dialogrutan har gjorts om i en listvy med ytterligare alternativ för att exkludera de återgivningar som inte är obligatoriska, använda samma uppsättning regler för liknande resurstyper och hämta de valda återgivningarna. **[!UICONTROL Download]** Se [stegen för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* Dialogrutan **[!UICONTROL Download]** har gjorts om i en listvy med ytterligare alternativ för att exkludera de återgivningar som inte krävs, använda samma uppsättning regler för liknande resurstyper och hämta de valda återgivningarna. Se [steg för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* Navigera till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** är nu möjligt från alla sidor i varumärkesportalen med ett klick.
+* Navigering till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** är nu möjligt från alla sidor på varumärkesportalen med ett klick.
 
-* På **[!UICONTROL Renditions]** panelen på sidan med tillgångsinformation kan du nu välja den ursprungliga resursen och (eller) specifika resursåtergivningar och hämta dem direkt från **[!UICONTROL Renditions]** panelen utan att behöva öppna **[!UICONTROL Download]** dialogrutan. Se [Hämta resurser från sidan](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)med resursinformation.
+* På panelen **[!UICONTROL Renditions]** på sidan med tillgångsinformation kan du nu välja den ursprungliga resursen och (eller) specifika resursåtergivningar och hämta dem direkt från panelen **[!UICONTROL Renditions]** utan att behöva öppna dialogrutan **[!UICONTROL Download]**. Se [Hämta resurser från sidan med resursinformation](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även [konfigurera behörigheter för olika användargrupper](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) att visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
+* Förutom de befintliga **[!UICONTROL Download]**-konfigurationerna kan administratören för varumärkesportalen även [konfigurera behörigheter för olika användargrupper](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) för att visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
 
 ### Förbättringar {#enhancements}
 
 Den här versionen innehåller följande förbättringar:
 
 * Tröskelvärdet för sessionstimeout för gästanvändare har reducerats från 2 timmar till 15 minuter.
-* Det extra **[!UICONTROL View pages]** alternativet har tagits bort för flersidiga PDF-filer eftersom användaren nu kan visa PDF-sidorna i Adobe Document Cloud Viewer.
+* Det extra **[!UICONTROL View pages]**-alternativet har tagits bort för flersidiga PDF-filer eftersom användaren nu kan visa PDF-sidorna i Adobe Document Cloud Viewer.
 
 
 <!--
@@ -75,7 +75,7 @@ This release includes fixes to the following critical issue:
 
 Den här versionen innehåller följande kända fel:
 
-* Sök i **[!UICONTROL Asset Reports]** visningsgränssnittet utan sökresultat.
+* Vid sökning på **[!UICONTROL Asset Reports]** visas bearbetning i produktgränssnittet utan sökresultat.
 * DM-videokoderna är inte synliga för användare som inte är administratörer på sidan med resursinformation.
 * Justeringen av storleken på de enskilda materialåtergivningarna och den totala hämtningsstorleken förvrängs i dialogrutan Hämta.
 
@@ -133,7 +133,7 @@ Användargränssnittet Brand Portal finns på följande språk:
 
 ## Certifierade plattformar {#certified-platforms}
 
-Om du vill ta reda på vilka plattformar som är certifierade för att köras med den här versionen av varumärkesportalen läser du i kolumnen **Stöd för pekoptimerat användargränssnitt** i tabellen i **webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Information om vilka plattformar som är certifierade att köras med den här versionen av varumärkesportalen finns i **Stöd för Touchoptimerat användargränssnitt** i tabellen i **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Länkar {#links}
 
