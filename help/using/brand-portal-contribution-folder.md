@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Konfigurera bidragsmapp {#configure-contribution-folder}
 
-För samverkansbaserad resurskälla kan AEM-användare (administratörer och icke-adminanvändare som har behörighet) skapa nya mappar av typen **Asset Contribution**, så att den nya mappen som skapas är öppen för att skickas av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, **delade** och **NYA**, i den nya **Contribute** -mappen.
+För samverkansbaserad resurskälla kan AEM användare (administratörer och icke-adminanvändare med behörighet) skapa nya mappar av typen **Resursbidrag** och säkerställa att den nya mappen som skapas är öppen för att skickas av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NYTT**, i den nyligen skapade **Contribute**-mappen.
 
-AEM-användare definierar sedan tillgångskraven genom att ladda upp en översikt över vilka typer av resurser som ska läggas till i mappen för bidrag, samt en uppsättning baslinjeresurser, till mappen **SHARED** för att säkerställa att Brand Portal-användarna har den information de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nya Contribute-mappen publiceras på varumärkesportalen.
+AEM användare definierar sedan tillgångskraven genom att ladda upp en översikt över vilka typer av resurser som ska läggas till i bidragsmappen, samt en uppsättning baslinjeresurser, till mappen **SHARED** för att säkerställa att Brand Portal-användarna har den information de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nya Contribute-mappen publiceras på varumärkesportalen.
 
 I följande video visas hur du konfigurerar en Contribute-mapp i AEM Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-AEM-användare utför följande åtgärder när de konfigurerar en mapp för bidrag:
+AEM utför följande åtgärder när en avgiftsmapp konfigureras:
 
 * [Skapa avgiftsmapp](brand-portal-create-contribution-folder.md)
 * [Överför tillgångskrav](brand-portal-configure-contribution-folder-properties.md)
