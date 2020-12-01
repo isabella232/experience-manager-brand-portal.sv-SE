@@ -15,7 +15,7 @@ ht-degree: 16%
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Guide {#using}
+# Handbok för Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Handbok för varumärkesportal](using/home.md)
 + Introduktion {#introduction}
@@ -62,7 +62,7 @@ ht-degree: 16%
    + [Hantera ljuslådesamlingen](using/brand-portal-light-box.md)
    + [Hantera digitala rättigheter för resurser](using/manage-digital-rights-of-assets.md)
    + [Guide to Accelerate Downloads from Brand Portal](using/accelerated-download.md)
-+ Använda administrationsverktyg {#admin-tools}
++ Använd administrationsverktyg {#admin-tools}
    + [Administrera användaråtkomst på varumärkesportalen](using/access-configurations-brand-portal.md)
    + [Administrera allmänna klientkonfigurationer](using/brand-portal-general-configuration.md)
    + [Första gången du loggar in](using/brand-portal-onboarding.md)
