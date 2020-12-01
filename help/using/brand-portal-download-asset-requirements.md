@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Hämta resurskrav {#using-asset-souring-in-bp}
 
-Brand Portal-användare får automatiskt e-post-/pulsmeddelanden varje gång en avgiftsmapp delas av AEM-användaren, så att de kan hämta det korta (resurskrav) dokumentet samt hämta basresurserna (referensinnehåll) från **SHARED** -mappen för att vara säkra på att de förstår vad som krävs.
+Brand Portal-användare får automatiskt e-post-/pulsmeddelanden varje gång en avgiftsmapp delas av den AEM användaren, så att de kan hämta det korta (resurskrav) dokumentet samt hämta basresurserna (referensinnehåll) från mappen **SHARED** för att vara säkra på att de förstår vad som krävs för mediefilen.
 
 Användare av varumärkesportalen utför följande aktiviteter för att hämta tillgångskrav:
 
@@ -35,13 +35,13 @@ Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som 
 1. Välj mapp för bidrag från kontrollpanelen för varumärkesportalen.
 1. Klicka på **[!UICONTROL Properties]** ![](assets/properties.png). Egenskapsfönstret öppnas med information om mappen Resursbidrag.
    ![](assets/download-asset-requirement1.png)
-1. Klicka **[!UICONTROL Download Brief]** om du ![](assets/download.png) vill hämta tillgångskravsdokumentet på den lokala datorn.
+1. Klicka på **[!UICONTROL Download Brief]** ![](assets/download.png) för att hämta dokumentet om resurskrav på den lokala datorn.
    ![](assets/download-asset-requirement2.png)
 1. Gå tillbaka till kontrollpanelen för varumärkesportalen.
-1. Klicka för att öppna mappen för bidrag, du kan se två undermappar **[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i mappen för bidrag. Mappen SHARED innehåller alla baslinjeresurser (referensinnehåll) som delas av administratörerna.
-1. Du kan hämta den **[!UICONTROL SHARED]** mapp som innehåller alla baslinjeresurser på den lokala datorn.
-Du kan också öppna **[!UICONTROL SHARED]** mappen och klicka på **ikonen Hämta** om du ![](assets/download.png) vill hämta enskilda filer/mappar.
+1. Klicka för att öppna mappen för bidrag, du kan se två undermappar -**[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i mappen för bidrag. Mappen SHARED innehåller alla baslinjeresurser (referensinnehåll) som delas av administratörerna.
+1. Du kan hämta mappen **[!UICONTROL SHARED]** som innehåller alla baslinjeresurser på den lokala datorn.
+Du kan också öppna mappen **[!UICONTROL SHARED]** och klicka på **ikonen Hämta** ![](assets/download.png) för att hämta enskilda filer/mappar.
    ![](assets/download-asset-requirement3.png)
 
-Gå igenom översikten (tillgångskravsdokument) och hänvisa till bastillgångarna för att förstå tillgångskraven. Nu kan du skapa nya resurser för bidrag och överföra dem till mappen för bidrag. Se [Överför resurser till mappen](brand-portal-upload-assets-to-contribution-folder.md)för bidrag.
+Gå igenom översikten (tillgångskravsdokument) och hänvisa till bastillgångarna för att förstå tillgångskraven. Nu kan du skapa nya resurser för bidrag och överföra dem till mappen för bidrag. Se [Överför resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md).
 
