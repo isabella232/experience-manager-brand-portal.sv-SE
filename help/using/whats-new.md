@@ -18,30 +18,30 @@ ht-degree: 0%
 ---
 
 
-# Nyheter i AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Nyheter i AEM Assets varumärkesportal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande varumärkesportalupplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
 
 ## Vad ändrades 2020.10.0 {#what-changed-in-oct-2020}
 
-Brand Portal 2020.10.0 är en förbättringsrelease som fokuserar på att förenkla nedladdningen av resurser och innehåller viktiga korrigeringar. Förbättringen innefattar nytt och förbättrat arbetsflöde för hämtning av resurser, ytterligare alternativ för att utesluta renderingar, direkt hämtning från **[!UICONTROL Renditions]** panelen, konfiguration för att ge åtkomst och hämtningsrättigheter för en viss grupp användare samt enkel navigering till filer, samlingar och delade länkar från alla sidor på varumärkesportalen. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+Brand Portal 2020.10.0 är en förbättringsrelease som fokuserar på att förenkla nedladdningen av resurser och innehåller viktiga korrigeringar. Förbättringen innefattar ett nytt och förbättrat arbetsflöde för hämtning av resurser, ytterligare alternativ för att exkludera renderingar, direkt hämtning från panelen **[!UICONTROL Renditions]**, konfiguration som tillåter åtkomst och hämtningsrättigheter för en viss grupp användare samt enkel navigering till filer, samlingar och delade länkar från alla sidor på varumärkesportalen. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
 
 ### Förenklad nedladdning {#download-dialog}
 
-Tidigare visades en dialogruta med flera alternativ, t.ex. skapa en separat mapp för varje resurs, e-postresurs, välja originalresurs, anpassade återgivningar, dynamiska återgivningar, exkludera systemåtergivningar och aktivera hämtningsacceleration, som var tvetydig för icke-tekniska eller nya användare särskilt när flera resurser eller mappar valdes för hämtning. **[!UICONTROL Download]** Dessutom kunde användaren inte se alla resursrenderingar eller exkludera en specifik anpassad eller dynamisk rendering.
+Tidigare visades dialogrutan **[!UICONTROL Download]** med flera alternativ, som att skapa separata mappar för varje resurs, e-postresurs, välja originalresurs, anpassade återgivningar, dynamiska återgivningar, exkludera systemåtergivningar och aktivera hämtningsacceleration, som var tvetydig för icke-tekniska eller nya användare särskilt när flera resurser eller mappar valdes för hämtning. Dessutom kunde användaren inte se alla resursrenderingar eller exkludera en specifik anpassad eller dynamisk rendering.
 
-Den nya **[!UICONTROL Download]** dialogrutan generaliserar resursmarkerings- och filtreringsprocessen, vilket gör det enklare för Brand Portal-användarna att fatta effektiva beslut när de hämtar resursåtergivningarna. Här visas alla markerade resurser och deras återgivningar beroende på [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfiguration och **[!UICONTROL Download]** inställningar.
+Den nya dialogrutan **[!UICONTROL Download]** generaliserar resursmarkerings- och filtreringsprocessen, vilket gör det enklare för Brand Portal-användarna att fatta effektiva beslut när de hämtar resursrenderingarna. Här visas alla markerade resurser och deras återgivningar beroende på [**[!UICONTROL Download]**](brand-portal-download-assets.md)-konfigurationen och **[!UICONTROL Download]**-inställningarna.
 
 >[!NOTE]
 >
->Alla användare har nu **[!UICONTROL Fast Download]** aktiverat som standard och kräver att [IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) är installerat i webbläsartillägget innan de hämtar materialet från Brand Portal.
+>Alla användare har nu **[!UICONTROL Fast Download]** aktiverat som standard och kräver [IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) installerat i webbläsartillägget innan de hämtar resurserna från Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
-I **[!UICONTROL Download]** dialogrutan kan användarna
+I dialogrutan **[!UICONTROL Download]** kan användarna:
 
 * Visa alla tillgängliga återgivningar av alla resurser i hämtningslistan.
 * Undanta återgivningar av resurser som inte behövs för hämtning.
@@ -50,28 +50,28 @@ I **[!UICONTROL Download]** dialogrutan kan användarna
 * Skapa separata mappar för varje resurs.
 * Hämta markerade resurser och deras återgivningar.
 
-Hämtningsarbetsflödet förblir konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser via länken Dela. Se [stegen för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+Hämtningsarbetsflödet förblir konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser via länken Dela. Se [steg för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
-### Snabb navigering  {#quick-navigation}
+### Snabbnavigering {#quick-navigation}
 
-Tidigare var alternativet att visa **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** dolda och flera klick krävdes varje gång användaren ville växla till en annan vy.
+Tidigare var alternativet att visa **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** dolt och flera klick krävdes varje gång användaren ville växla till en annan vy.
 
-I Brand Portal 2020.10.0 kan användarna navigera till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** från alla sidor i varumärkesportalen med en musklickning via snabblänkarna.
+I Brand Portal 2020.10.0 kan användarna navigera till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** från alla sidor i Brand Portal med ett klick via snabblänkarna.
 
 ![samling-navigering](assets/collection-navigation.png)
 
 ### Förbättrad renderingspanel {#rendition-panel}
 
-Tidigare kunde användarna bara visa den ursprungliga resursen och dess återgivningar på **[!UICONTROL Renditions]** panelen om någon av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** var aktiverad i **[!UICONTROL Download]** konfigurationen. Användarna var också tvungna att hämta alla resursrenderingar eftersom det inte fanns något filter för att exkludera vissa anpassade eller dynamiska renderingar som inte behövdes.
+Tidigare kunde användarna bara visa den ursprungliga resursen och dess återgivningar på panelen **[!UICONTROL Renditions]** om någon av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** var aktiverad i konfigurationen **[!UICONTROL Download]**. Användarna var också tvungna att hämta alla resursrenderingar eftersom det inte fanns något filter för att exkludera vissa anpassade eller dynamiska renderingar som inte behövdes.
 
 <!--
 Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-I Brand Portal 2020.10.0 kan användarna exkludera vissa återgivningar och direkt [hämta de valda återgivningarna från panelen](brand-portal-download-assets.md#download-assets-from-asset-details-page) Återgivningar på sidan med resursinformation utan att behöva öppna **[!UICONTROL Download]** dialogrutan.
+I Brand Portal 2020.10.0 kan användarna exkludera specifika återgivningar och direkt [hämta de valda återgivningarna från panelen Återgivningar](brand-portal-download-assets.md#download-assets-from-asset-details-page) på sidan med resursinformation utan att behöva öppna dialogrutan **[!UICONTROL Download]**.
 
 
 <!-- 
@@ -85,22 +85,22 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Konfigurera hämtningsbehörigheter {#download-permissions}
 
-Förutom de befintliga **[!UICONTROL Download]** konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation.
+Förutom de befintliga **[!UICONTROL Download]**-konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med resursinformation.
 
 Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
-På **[!UICONTROL User Roles]** sidan går du till **[!UICONTROL Groups]** fliken för att konfigurera vyn och (eller) hämtningsbehörighet för användargrupperna
+På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera vyn och (eller) hämtningsbehörigheterna för användargrupperna
 
 Tidigare var inställningarna bara tillgängliga för att hindra gruppanvändarna från att hämta den ursprungliga resursen.
 
-På fliken **[!UICONTROL Groups]** på **[!UICONTROL User Roles]** sidan kan administratörer konfigurera inställningar för visning och hämtning:
+På fliken **[!UICONTROL Groups]** på sidan **[!UICONTROL User Roles]** kan administratörer konfigurera inställningar för visning och hämtning:
 
-* Om både **[!UICONTROL Download Original]** och **[!UICONTROL Download Renditions]** inställningar är aktiverade kan användarna i den valda gruppen visa och hämta de ursprungliga resurserna och deras återgivningar.
+* Om både **[!UICONTROL Download Original]**- och **[!UICONTROL Download Renditions]**-inställningarna är aktiverade kan användarna i den valda gruppen visa och hämta de ursprungliga resurserna och deras återgivningar.
 * Om båda inställningarna är inaktiverade kan användarna bara visa de ursprungliga resurserna. Resursåtergivningarna är inte synliga för användarna på sidan med resursinformation.
-* Om bara **[!UICONTROL Download Original]** inställningen är aktiverad kan användarna bara visa och hämta de ursprungliga resurserna från sidan med resursinformation.
-* Om bara **[!UICONTROL Download Renditions]** inställningen är aktiverad kan användarna visa den ursprungliga resursen, men de kan inte hämta den. Användaren kan dock visa och hämta resursrenderingarna.
+* Om bara **[!UICONTROL Download Original]**-inställningen är aktiverad kan användarna bara visa och hämta de ursprungliga resurserna från sidan med resursinformation.
+* Om bara **[!UICONTROL Download Renditions]**-inställningen är aktiverad kan användarna visa den ursprungliga resursen, men de kan inte hämta den. Användaren kan dock visa och hämta resursrenderingarna.
 
-Se [Konfigurera hämtning](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)av resurser.
+Se [konfigurera hämtning av resurser](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -118,7 +118,7 @@ Se [Konfigurera hämtning](https://docs.adobe.com/content/help/en/experience-man
 
 ## Vad har ändrats i 6.4.7 {#what-changed-in-647}
 
-Brand Portal 6.4.7-versionen innehåller Document Viewer, förbättrar upplevelsen vid hämtning av resurser och innehåller viktiga korrigeringar. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+Brand Portal 6.4.7-versionen innehåller Document Viewer, förbättrar upplevelsen vid hämtning av resurser och innehåller viktiga korrigeringar. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -139,13 +139,13 @@ Med Document Viewer har nu användare av varumärkesportalen möjlighet att visa
 
 ![](assets/doc-viewer.png)
 
-### Hämta upplevelse {#download-configurations}
+### Hämta upplevelsen {#download-configurations}
 
-Nedladdningen av resurser har moderniserats, vilket ger en förenklad användarupplevelse samtidigt som du [hämtar resurser från varumärkesportalen](brand-portal-download-assets.md).
+Nedladdningsprocessen för resurser har moderniserats, vilket ger en förenklad användarupplevelse när [resurser hämtas från varumärkesportalen](brand-portal-download-assets.md).
 
-Det befintliga arbetsflödet för att hämta resurser från varumärkesportalen följs alltid av en **[!UICONTROL Download]** dialogruta med flera hämtningsalternativ att välja mellan.
+Det befintliga arbetsflödet för att hämta resurser från varumärkesportalen följs oundvikligen av en **[!UICONTROL Download]**-dialogruta med flera hämtningsalternativ att välja mellan.
 
-I varumärkesportalen 6.4.7 kan administratören konfigurera **[!UICONTROL Download]** resursinställningarna. De tillgängliga konfigurationerna är:
+I varumärkesportalen 6.4.7 kan administratören konfigurera inställningarna för resursen **[!UICONTROL Download]**. De tillgängliga konfigurationerna är:
 * **[!UICONTROL Fast Download]**
 * **[!UICONTROL Custom Renditions]**
 * **[!UICONTROL System Renditions]**
@@ -154,9 +154,9 @@ Administratören för varumärkesportalen kan aktivera valfri kombination för a
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Om både **[!UICONTROL Custom Renditions]** och **[!UICONTROL System Renditions]** konfigurationer är inaktiverade hämtas de ursprungliga återgivningarna av resurserna utan någon ytterligare dialogruta, vilket förenklar hämtningen för Brand Portal-användarna.
+* Om både **[!UICONTROL Custom Renditions]**- och **[!UICONTROL System Renditions]**-konfigurationerna är inaktiverade hämtas de ursprungliga återgivningarna av resurserna utan någon ytterligare dialogruta som förenklar hämtningen för Brand Portal-användarna.
 
-* Om något av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** är aktiverat visas **[!UICONTROL Download]** dialogrutan och den ursprungliga resursen tillsammans med resursåtergivningarna hämtas. Om du aktiverar **[!UICONTROL Fast Download]** konfigurationen går hämtningen snabbare.
+* Om någon av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** är aktiverad visas dialogrutan **[!UICONTROL Download]** och den ursprungliga resursen tillsammans med resursåtergivningarna hämtas. Om du aktiverar **[!UICONTROL Fast Download]**-konfigurationen går hämtningen snabbare.
 
 Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser med hjälp av delningslänken.
 
@@ -209,23 +209,23 @@ Stegen för att konfigurera AEM Assets med varumärkesportalen varierar beroende
 >
 >Vi rekommenderar att du uppdaterar din AEM till den senaste Service Pack-versionen.
 
-Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
-Se Vanliga frågor om [varumärkesportalen](brand-portal-faqs.md).
+Se [Vanliga frågor om varumärkesportalen](brand-portal-faqs.md).
 
 ## Vad har ändrats i 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas **[Resurser i varumärkesportalen](brand-portal-asset-sourcing.md)** och förbättrar kundupplevelsen genom att erbjuda en tvåvägsfunktion för användare som både bidrar och delar resurser med andra globalt distribuerade Brand Portal-användare.
+Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas **[Resurshantering i varumärkesportalen](brand-portal-asset-sourcing.md)** och kommer att förbättra kundupplevelsen genom att erbjuda en tvåvägsfunktion för användare som både bidrar och delar resurser med andra globalt distribuerade Brand Portal-användare.
 
 ### Resurshantering i varumärkesportalen {#asset-sourcing-in-bp}
 
-Med Resurshantering kan AEM användare (administratörer/icke-admin-användare) skapa nya mappar med en extra **Asset Contribution** -egenskap, vilket säkerställer att den nya mappen som skapas är öppen för att skickas av Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas NYTT och DELAT, i den nyligen skapade **Contribute** -mappen.
+Med Resurshantering kan AEM användare (administratörer/icke-admin-användare) skapa nya mappar med en extra **Asset Contribution**-egenskap, vilket säkerställer att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas NYTT och DELAT, i den nyligen skapade **Contribute**-mappen.
 
-Den AEM användaren definierar sedan behovet genom att [ladda upp en översikt](brand-portal-configure-contribution-folder-properties.md) om vilka typer av resurser som ska läggas till i avgiftsmappen samt [överföra baslinjeresurser](brand-portal-upload-baseline-assets.md)till **SHARED** -mappen för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nya **Contribute** -mappen publiceras på varumärkesportalen.
+Den AEM användaren definierar sedan kravet genom att [ladda upp en översikt](brand-portal-configure-contribution-folder-properties.md) om vilka typer av resurser som ska läggas till i bidragsmappen samt [ladda upp basresurser](brand-portal-upload-baseline-assets.md) till mappen **SHARED** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nyskapade **Contribute**-mappen publiceras på Brand Portal.
 
 
-När användaren är klar med att lägga till innehåll i mappen **NEW** kan han eller hon publicera mappen för bidrag i den AEM författarmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i AEM Assets.
+När användaren är klar med att lägga till innehåll i mappen **NEW** kan han eller hon publicera bidragsmappen i den AEM författarmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i AEM Assets.
 
 Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesportalen kan visa, söka efter och hämta resurser från bidragsmappen samt från andra tillåtna mappar. Administratörer kan dessutom dela mappen för bidrag ytterligare, ändra egenskaper och lägga till resurser i samlingar.
 
@@ -235,9 +235,9 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 >
 >Funktionen stöds inte i tidigare versioner - AEM 6.3 och AEM 6.4.
 
-### Överför resurser till mappen för bidrag {#upload-assets-in-bp}
+### Överför resurser till avgiftsmappen {#upload-assets-in-bp}
 
-Brand Portal-användare med rätt behörigheter kan [hämta tillgångskraven](brand-portal-download-asset-requirements.md) för att förstå behovet av bidrag och överföra flera resurser eller mappar som innehåller flera resurser till bidragsmappen. Observera dock att användare av varumärkesportalen endast kan överföra resurser till undermappen **NEW** . Mappen **DELAD** är avsedd för distribution av krav och baslinjeresurser. Se, [Överför resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md)
+Brand Portal-användare med lämpliga behörigheter kan [hämta tillgångskraven](brand-portal-download-asset-requirements.md) för att förstå behovet av bidrag och överföra flera resurser eller mappar som innehåller flera resurser till bidragsmappen. Observera dock att användare av varumärkesportalen endast kan överföra resurser till undermappen **NEW**. Mappen **SHARED** är avsedd för distribution av krav och baslinjeresurser. Se [Överför resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -246,28 +246,29 @@ Brand Portal-användare med rätt behörigheter kan [hämta tillgångskraven](br
 
 ### Publicera bidragsmapp till AEM Assets {#publish-assets-to-aem}
 
-När överföringen är klar till mappen **NEW** kan Brand Portal-användare sedan publicera bidragsmappen till AEM. Det kan ta några minuter att importera och spegla det publicerade innehållet/resurserna i AEM Assets. Se, [Publicera avgiftsmapp till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+När överföringen är klar till mappen **NEW** kan Brand Portal-användare sedan publicera bidragsmappen till AEM. Det kan ta några minuter att importera och spegla det publicerade innehållet/resurserna i AEM Assets. Se [Publicera en mapp för bidrag till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)
 
 ## Vad har ändrats i 6.4.4 {#what-changed-in-644}
 
-Utgåvan av varumärkesportalen 6.4.4 fokuserar på förbättringar av textsökning och de vanligaste kundförfrågningarna. Se de senaste versionskommentarerna [för varumärkesportalen](brand-portal-release-notes.md).
+Utgåvan av varumärkesportalen 6.4.4 fokuserar på förbättringar av textsökning och de vanligaste kundförfrågningarna. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
 ### Förbättrade sökfunktioner
 
-Från och med varumärkesportalen 6.4.4 stöds partiell textsökning på egenskapsprediat i filtreringsrutan. Om du vill tillåta partiell textsökning måste du aktivera **partiell sökning** i egenskapspredikatet i sökformuläret.
+Från och med varumärkesportalen 6.4.4 stöds partiell textsökning på egenskapsprediat i filtreringsrutan. Om du vill tillåta partiell textsökning måste du aktivera **Delvis sökning** i Egenskapspredikat i sökformuläret.
 
 Läs vidare om du vill veta mer om partiell textsökning och jokerteckensökning.
 
-#### Sökning efter delvis fras {#partial-phrase-search}
+#### Delvis frassökning {#partial-phrase-search}
 
 Nu kan du söka efter resurser genom att endast ange en del - det vill säga ett eller två - av den sökda frasen i filtreringsrutan.
 
-**Använd skiftlägeskänslig** frassökning är användbart när du är osäker på den exakta kombinationen av ord som förekommer i den sökta frasen.
+**Använd**
+caseDelvis frassökning är användbart när du är osäker på den exakta kombinationen av ord som förekommer i den sökda frasen.
 
-Om ditt sökformulär i Varumärkeportal till exempel använder egenskapspredikatet för partiell sökning efter resurstitel, kommer alla resurser med ordet läger att returneras när du anger termen **läger** .
+Om ditt sökformulär i varumärkesportalen t.ex. använder egenskapspredikatet för partiell sökning i resurstiteln, returnerar termen **läger** alla resurser med ordet läger i titelfrasen.
 
 ![](assets/partialphrasesearch.png)
 
@@ -275,17 +276,18 @@ Om ditt sökformulär i Varumärkeportal till exempel använder egenskapspredika
 
 På varumärkesportalen kan du använda asterisken (*) i sökfrågan tillsammans med en del av ordet i den sökbara frasen.
 
-**Använd skiftläge** Om du inte är säker på exakt vilka ord som förekommer i den sökda frasen kan du använda en jokerteckenssökning för att fylla i luckorna i sökfrågan.
+**Använd**
+skiftlägeOm du inte är säker på exakt vilka ord som finns i den sökfrasen kan du använda en jokerteckenssökning för att fylla i luckorna i sökfrågan.
 
-Om du till exempel anger **klättb*** returneras alla resurser som har ord som börjar med tecknen **klättra** i titelfrasen om sökformuläret i varumärkesportalen använder egenskapspredikatet för partiell sökning på resurstiteln.
+Om du till exempel anger **klättb*** returneras alla resurser som har ord som börjar med tecknen **klättb** i titelfrasen om sökformuläret i varumärkesportalen använder egenskapspredikat för partiell sökning på resurstitel.
 
 ![](assets/wildcard-prop.png)
 
 På samma sätt kan du ange:
 
-* ***klättb** returnerar alla resurser med ord som slutar med tecken som **klättrar** i sin titelfras.
+* ***** klättrar upp för alla resurser som har ord som slutar med  **** tecken som klättrar i sin titelfras.
 
-* ***klättb*** returnerar alla resurser med ord som innehåller tecknen **klättra** i sin titelfras.
+* ***klättb*** returnerar alla resurser som innehåller ord som innehåller tecknen  **** klättrar i deras titelfras.
 
 >[!NOTE]
 >
@@ -299,14 +301,14 @@ Brand Portal 6.4.3 fokuserar på - att ge organisationer ett alternativt alias u
 
 ### Mapphierarkinavigering för icke-administratörer
 
-Administratörer kan nu konfigurera hur mapparna visas för icke-adminanvändare (redigerare, visningsprogram och gästanvändare) vid inloggning. [Konfigurationen Aktivera mapphierarki](../using/brand-portal-general-configuration.md) har lagts till i **Allmänna inställningar** på panelen Administrationsverktyg. Om konfigurationen är:
+Administratörer kan nu konfigurera hur mapparna visas för icke-adminanvändare (redigerare, visningsprogram och gästanvändare) vid inloggning. [Aktivera ](../using/brand-portal-general-configuration.md) mapphierarkiConfiguration läggs till i  **Allmänna inställningar** på panelen Administrationsverktyg. Om konfigurationen är:
 
-* **aktiverat**&#x200B;är mappträdet som börjar från rotmappen synligt för icke-admin-användare. Det innebär att de får en navigeringsupplevelse som liknar administratörerna.
+* **aktiverat** är mappträdet som börjar från rotmappen synligt för icke-admin-användare. Det innebär att de får en navigeringsupplevelse som liknar administratörerna.
 * **inaktiverat** visas endast de delade mapparna på landningssidan.
 
 ![](assets/enable-folder-hierarchy.png)
 
-Funktionen [Aktivera mapphierarki](../using/brand-portal-general-configuration.md) (när den är aktiverad) hjälper dig att särskilja mappar med samma namn som delas från olika hierarkier. När du loggar in kan användare som inte är administratörer nu se de virtuella överordnade (och överordnade) mapparna för de delade mapparna.
+Funktionen [Aktivera mapphierarki](../using/brand-portal-general-configuration.md) (när den är aktiverad) hjälper dig att differentiera mapparna med samma namn som delas från olika hierarkier. När du loggar in kan användare som inte är administratörer nu se de virtuella överordnade (och överordnade) mapparna för de delade mapparna.
 
 ![](assets/disabled-folder-hierarchy1-2.png)
 
@@ -322,12 +324,12 @@ Observera att standardminiatyrbilden för de virtuella mapparna är miniatyrbild
 
 ### Sök i en viss mapphierarki eller sökväg
 
-**Predikatet för sökvägsläsare** introducerades i sökformuläret för att tillåta sökning av resurser i en viss katalog. Standardsöksökvägen för sökpredikatet för sökvägsläsaren är `/content/dam/mac/<tenant-id>/`, som kan konfigureras genom att du redigerar standardsökformuläret.
+**Sökvägsläsarpredikatet** introduceras i sökformuläret för att tillåta sökning av resurser i en viss katalog. Standardsöksökvägen för sökpredikatet för sökvägsläsaren är `/content/dam/mac/<tenant-id>/`, som kan konfigureras genom att redigera standardsökformuläret.
 
 * Administratörsanvändare kan använda Sökvägsläsaren för att navigera till valfri mappkatalog på varumärkesportalen.
 * Användare som inte är administratörer kan bara använda Sökväg för att navigera till de mappar (och gå tillbaka till de överordnade mapparna) som de har delat med sig av.
 
-   Delas till exempel `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en icke-admin-användare. Användaren kan söka efter resurser i mappen C med hjälp av Sökvägsläsaren. Den här användaren kan även navigera till folderB och folderA (eftersom de är överordnade för den folderC som delas med användaren).
+   Till exempel delas `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` med en icke-admin-användare. Användaren kan söka efter resurser i mappen C med hjälp av Sökvägsläsaren. Den här användaren kan även navigera till folderB och folderA (eftersom de är överordnade för den folderC som delas med användaren).
 
 ![](assets/edit-search-form.png)
 
@@ -344,7 +346,7 @@ Observera att sökningar under dessa mappar endast returnerar resultat från res
 
 Användare vars AEM Author-instans är i läget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, utöver de ursprungliga videofilerna.
 
-För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratörer ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway URL) och registrerings-ID för att hämta den dynamiska videon) i **Video** -konfigurationen från administratörsverktygspanelen.
+För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratörer ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway) och registrerings-ID för att hämta den dynamiska videon) i **Video**-konfigurationen från administratörsverktygspanelen.
 
 
 Dynamiska medievideor kan förhandsgranskas på:
@@ -364,7 +366,7 @@ Dynamic Media Video-kodningar kan hämtas från:
 
 ### Schemalagd publicering på varumärkesportalen
 
-Arbetsflödet för publicering av resurser (och mappar) från [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Författarinstans till Varumärkeportal kan schemaläggas för ett senare datum och tid.
+Arbetsflödet för publicering av resurser (och mappar) från [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Författarinstansen till Författarportalen kan schemaläggas för ett senare datum och tid.
 
 Publicerade resurser kan också tas bort från portalen vid ett senare datum (tid) genom att schemalägga arbetsflödet för att avpublicera från varumärkesportalen.
 
@@ -379,9 +381,9 @@ Publicerade resurser kan också tas bort från portalen vid ett senare datum (ti
 Organisationer kan anpassa sin portal-URL genom att ha ett alternativt prefix i URL:en. För att få ett alias för innehavarens namn i deras befintliga portal-URL måste man kontakta supporten för Adobe.
 
 Observera att bara prefixet för varumärksportal-URL:en kan anpassas och inte hela URL:en.\
-En organisation med befintlig domän **geomettrix.brand-portal.adobe.com** kan till exempel få **geomettrixinc.brand-portal.adobe.com** som skapats på begäran.
+En organisation med den befintliga domänen **geomettrix.brand-portal.adobe.com** kan till exempel få **geomettrixinc.brand-portal.adobe.com** som skapats på begäran.
 
-AEM Author-instansen kan dock bara [konfigureras](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
+AEM Author-instansen kan bara vara [konfigurerad](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
 Man kan anpassa portalens URL istället för att följa Adobe:s webbadress.
 
@@ -410,11 +412,11 @@ En gästsession är aktiv i två timmar. Ljuslådans tillstånd bevaras därför
 
 ### Snabbare nedladdningar
 
-Brand Portal-användare kan utnyttja de snabba nedladdningarna i IBM Aspera Connect för att få upp till 25 gånger snabbare och smidigt ladda ned oavsett var i världen de befinner sig. Om du vill hämta resurserna snabbare från varumärkesportalen eller den delade länken måste du välja alternativet **Aktivera hämtningsacceleration** i hämtningsdialogrutan, förutsatt att hämtningsacceleration är aktiverat i organisationen.
+Brand Portal-användare kan utnyttja de snabba nedladdningarna i IBM Aspera Connect för att få upp till 25 gånger snabbare och smidigt ladda ned oavsett var i världen de befinner sig. Om du vill hämta resurserna snabbare från varumärkesportalen eller den delade länken måste användarna välja alternativet **Aktivera hämtningsacceleration** i hämtningsdialogrutan, förutsatt att hämtningsacceleration är aktiverat i organisationen.
 
 ![](assets/donload-assets-dialog-2.png)
 
-Om du vill aktivera IBM Aspera-baserad accelererad hämtning för organisationen **aktiverar administratörerna alternativet Download Acceleration** (som är inaktiverat som standard) i [Allmänna inställningar](brand-portal-general-configuration.md#allow-download-acceleration) på panelen Administrationsverktyg. Om du vill veta mer om krav och felsökningssteg för att hämta resursfiler snabbare från varumärkesportalen och delade länkar kan du läsa [Handbok för att snabba upp hämtningar från varumärkesportalen](../using/accelerated-download.md#main-pars-header).
+Om du vill aktivera IBM Aspera-baserad accelererad hämtning för organisationen **aktiverar administratörerna alternativet Hämta acceleration** (som är inaktiverat som standard) från [Allmänna inställningar](brand-portal-general-configuration.md#allow-download-acceleration) på panelen Administrationsverktyg. Om du vill veta mer om krav och felsökningssteg för att hämta resursfiler snabbare från varumärkesportalen och delade länkar läser du [Handbok för att snabba upp hämtningar från varumärkesportalen](../using/accelerated-download.md#main-pars-header).
 
 ### Rapport om användarinloggningar
 
@@ -480,9 +482,9 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe I/O-gränssnitt för att konfigurera autentiseringsintegreringar
+### Adobe I/O användargränssnitt för att konfigurera autentiseringsintegreringar
 
-Brand Portal 6.4.2 och senare använder gränssnittet Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) för att skapa JWT-program, som gör det möjligt att konfigurera autenticeringsintegreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med varumärkesportalen för publicering av resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 och senare använder Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)-gränssnittet för att skapa JWT-program, som gör att konfigurerar autentiseringsintegreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med varumärkesportalen för att publicera resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
@@ -499,7 +501,7 @@ Brand Portal 6.4.1 är en plattformsuppgraderingsrelease som innehåller flera n
 
 ![](assets/contenttree-2.png)
 
-* Nya kortkommandon introducerades, till exempel _(p)_ för navigering till egenskapssidan, _(e)_ för redigering och _(ctrl+c)_ för kopieringsåtgärder.
+* Introducerade nya kortkommandon, till exempel _(p)_ för navigering till egenskapssidan, _(e)_ för redigering och _(ctrl+c)_ för kopieringsåtgärder.
 * Förbättrad rullning, lat inläsningsgränssnitt i kort- och listvyn för att bläddra bland ett stort antal resurser.
 * Förbättrad kortvy med stöd för kort i olika storlekar baserat på visningsinställningar.
 
@@ -511,7 +513,7 @@ Brand Portal 6.4.1 är en plattformsuppgraderingsrelease som innehåller flera n
 
 ![](assets/columnmoredetail.png)
 
-* I listvyn visas nu filnamn för resurser i den första kolumnen som standard, förutom språk, resurstyp, dimensioner, storlek, klassificering och publiceringsinformation. Nya **visningsinställningar** kan användas för att konfigurera mängden detaljer som ska visas i listvyn.
+* I listvyn visas nu filnamn för resurser i den första kolumnen som standard, förutom språk, resurstyp, dimensioner, storlek, klassificering och publiceringsinformation. Nya **Visa inställningar** kan användas för att konfigurera mängden detaljer som ska visas i listvyn.
 
 * Förbättrad upplevelse av tillgångsinformation med möjlighet att navigera fram och tillbaka mellan resurser med nya navigeringsknappar och visa antal resurser.
 
@@ -550,15 +552,18 @@ Brand Portal 6.4.1 är en plattformsuppgraderingsrelease som innehåller flera n
 
 ### Förbättrade rapporteringsfunktioner
 
-**Introducerad länkdelningsrapport** En ny rapport har lagts till för att ge information om delade länkar. I rapporten Länkdelning visas alla URL:er till resurserna som delas med interna och externa användare i organisationen inom den angivna tidsramen. Den informerar också när länken delades, av vem och när upphör den att gälla.
+**Introducerad**
+rapport om länkdelningEn ny rapport med information om delade länkar har lagts till. I rapporten Länkdelning visas alla URL:er till resurserna som delas med interna och externa användare i organisationen inom den angivna tidsramen. Den informerar också när länken delades, av vem och när upphör den att gälla.
 
 ![](assets/navigatereport.png)
 
-**Ingångspunkten har ändrats så att den får åtkomst till användningsrapporten** Användning har nu konsoliderats med andra rapporter och kan nu visas från konsolen Resursrapporter. Om du vill nå konsolen Resursrapporter går du till **Skapa/hantera rapporter** från panelen Administrationsverktyg.
+**Ingångspunkten har ändrats så att den får åtkomst till**
+användningsrapporten. Användningsrapporten har nu konsoliderats med andra rapporter och kan nu visas från konsolen Resursrapporter. Om du vill nå konsolen Resursrapporter går du till **Skapa/hantera rapporter** från panelen Administrationsverktyg.
 
 ![](assets/accessassetreport.png)
 
-**Förbättrad användarupplevelse med rapportgränssnitt** på varumärkesportalen har blivit mer intuitiv och ger bättre kontroll åt organisationer. Förutom att skapa olika rapporter kan administratörer nu gå tillbaka till de genererade rapporterna och hämta eller ta bort dem, eftersom dessa rapporter sparas i varumärkesportalen.
+**Förbättrad användarupplevelse med**
+rapporteringRapportgränssnittet på varumärkesportalen har blivit mer intuitivt och ger bättre kontroll åt organisationer. Förutom att skapa olika rapporter kan administratörer nu gå tillbaka till de genererade rapporterna och hämta eller ta bort dem, eftersom dessa rapporter sparas i varumärkesportalen.
 
 Var och en av de rapporter som skapas kan anpassas genom att du lägger till eller tar bort standardkolumner. Du kan dessutom lägga till anpassade kolumner i rapporter om hämtning, förfallodatum och publicering för att kontrollera deras detaljrikedom.
 
@@ -580,7 +585,7 @@ Brand Portal 6.3.2 innehåller nya och förbättrade funktioner som är inriktad
 
 ### Begär åtkomst till varumärkesportalen {#request-access-to-brand-portal}
 
-Användare kan nu begära åtkomst till varumärkesportalen med hjälp av den nya **åtkomstfunktionen** som finns på inloggningsskärmen i varumärkesportalen.
+Användare kan nu begära åtkomst till varumärkesportalen med den nya **funktionen need access** som finns på inloggningsskärmen i varumärkesportalen.
 
 ![](assets/bplogin_request_access.png)
 
@@ -588,23 +593,23 @@ Beroende på om användare har en Adobe ID eller behöver skapa en Adobe ID kan 
 
 Mer information finns i [Begär åtkomst till varumärkesportalen](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Förbättring i rapporten över hämtade resurser {#enhancement-in-the-assets-downloaded-report}
+### Förbättring i rapporten {#enhancement-in-the-assets-downloaded-report} för hämtade resurser
 
 Den hämtade rapporten innehåller nu antalet nedladdade resurser per användare inom det angivna datumet och tidsintervallet. Användare kan hämta den här rapporten i CSV-format och kompilera data som det totala antalet nedladdningar för en licensierad mediefil.
 
 ![](assets/reports_download_downloaded_by.png)
 
-Mer information finns i steg 3 och 6 i [Skapa och hantera ytterligare rapporter](../using/brand-portal-reports.md#createandmanageadditionalreports).
+Mer information finns i Steg 3 och 6 i [Skapa och hantera ytterligare rapporter](../using/brand-portal-reports.md#createandmanageadditionalreports).
 
-### Underrättelse om varumärkesportalunderhåll {#brand-portal-maintenance-notification}
+### Underhållsmeddelande för varumärkesportal {#brand-portal-maintenance-notification}
 
 Brand Portal visar nu en meddelandebanderoll några dagar före en kommande underhållsaktivitet. Ett exempelmeddelande:
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Mer information finns i Underhållsmeddelande [för varumärkesportalen](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+Mer information finns i [Underhållsmeddelande för varumärkesportalen](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
 
-### Förbättring av licensierat material som delas med hjälp av funktionen för länkdelning {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
+### Förbättring av licensierade resurser som delas med hjälp av länkdelningsfunktionen {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
 När du hämtar licensierade mediefiler med hjälp av funktionen för länkdelning uppmanas du nu att godkänna licensavtalet för dessa mediefiler.
 
@@ -616,7 +621,7 @@ Mer information finns i Steg 12 i [Dela resurser som en länk](../using/brand-po
 
 Prestandan för användarväljaren har förbättrats så att den passar behoven hos kunder med en stor användarbas.
 
-### Byta varumärke i molnet {#experience-cloud-branding-changes}
+### Utnyttja ändringar i molnbranding {#experience-cloud-branding-changes}
 
 Varumärkesportalen följer nu nya Adobe Experience Cloud branding.
 
@@ -656,7 +661,7 @@ För att anpassa användarupplevelsen för Brand Portal till AEM, övergår Adob
 
 * I listan över resurser i en mapp visas den senaste resursen som överförts högst upp.
 
-### Förbättrade sökfunktioner {#enhanced-search-experience}
+### Förbättrad sökfunktion {#enhanced-search-experience}
 
 * Med den nya Omni-sökfunktionen får du snabb åtkomst till relevant innehåll, funktioner eller taggar genom automatiska förslag när du skriver söknyckelord. Omni-sökning är tillgänglig för alla sökfunktioner.
 
@@ -683,7 +688,7 @@ När du har hämtat en kapslad mapp kan du bevara den ursprungliga mapphierarkin
 
 Förbättringar av funktionerna för bläddring, sökning och hämtning förbättrar prestandan för varumärkesportalen avsevärt.
 
-### New digital rights management for assets {#new-digital-rights-management-for-assets}
+### Ny hantering av digitala rättigheter för resurser {#new-digital-rights-management-for-assets}
 
 Administratörer kan ange förfallodatum och förfallotid för resurser innan de delar dem. När en mediefil har upphört att gälla är den synlig för tittare och redigerare, men kan inte hämtas. När en mediefil förfaller får administratörer ett meddelande.
 
