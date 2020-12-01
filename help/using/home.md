@@ -12,9 +12,9 @@ ht-degree: 6%
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
+# Handbok för Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** hjälper organisationer att tillgodose sina marknadsföringsbehov genom att på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
+**Adobe Experience Manager Assets Brand** PortableMedia-organisationer kan på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 
 Avsaknaden av en säker lösning för resursdelning kan leda till:
 
