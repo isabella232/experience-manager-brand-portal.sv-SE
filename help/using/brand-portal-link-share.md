@@ -39,7 +39,7 @@ Så här delar du resurser som en länk:
 
    ![](assets/siderail.png)
 
-1. Klicka i sidofältet till vänster för **[!UICONTROL Files]** att dela mappar eller bilder. Om du vill dela samlingar klickar du på **[!UICONTROL Collections]**.
+1. Klicka på **[!UICONTROL Files]** i sidofältet till vänster för att dela mappar eller bilder. Om du vill dela samlingar klickar du på **[!UICONTROL Collections]**.
 
    ![](assets/navigationrail.png)
 
@@ -47,15 +47,15 @@ Så här delar du resurser som en länk:
 
    ![](assets/asset-link-share.png)
 
-1. Klicka på **[!UICONTROL Share Link]** ikonen i verktygsfältet överst.
+1. Klicka på ikonen **[!UICONTROL Share Link]** i verktygsfältet överst.
 
-   The **[!UICONTROL Link Sharing]** dialog box appears.
+   Dialogrutan **[!UICONTROL Link Sharing]** visas.
 
    ![](assets/link-sharing.png)
 
    >[!NOTE]
    >
-   >I **[!UICONTROL Share Link]** fältet visas en automatiskt skapad resurslänk. Standardförfallotiden för den här länken är 7 dagar. Du kan kopiera länken och dela den separat med användare eller dela den från **[!UICONTROL Link Sharing]** dialogrutan.
+   >Fältet **[!UICONTROL Share Link]** visar en automatiskt skapad resurslänk. Standardförfallotiden för den här länken är 7 dagar. Du kan kopiera länken och dela den separat med användare eller dela den från dialogrutan **[!UICONTROL Link Sharing]**.
 
 1. I rutan E-postadress skriver du e-post-ID för den användare som du vill dela länken med. Du kan dela länken med flera användare.
 
@@ -63,11 +63,11 @@ Så här delar du resurser som en länk:
 
    ![](assets/link-sharing-text.png)
 
-1. I **[!UICONTROL Subject]** rutan anger du ett ämne för resursen som du vill dela.
-1. Skriv ett meddelande i **[!UICONTROL Message]** rutan om det behövs.
-1. I **[!UICONTROL Expiration]** fältet använder du datumväljaren för att ange ett förfallodatum och en förfallotid för länken. Som standard är förfallodatumet 7 dagar från det datum då du delar länken.
+1. I rutan **[!UICONTROL Subject]** anger du ett ämne för resursen som du vill dela.
+1. Skriv ett meddelande i rutan **[!UICONTROL Message]** om det behövs.
+1. I fältet **[!UICONTROL Expiration]** använder du datumväljaren för att ange ett förfallodatum och en förfallotid för länken. Som standard är förfallodatumet 7 dagar från det datum då du delar länken.
 
-   Resurserna som delas via länken går ut efter att ha passerat det datum och den tid som anges i **[!UICONTROL Expiration]** fältet. Mer information om beteendet hos tillgångar som gått ut och ändringar i de tillåtna aktiviteterna baserat på användarroller i varumärkesportalen finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Resurserna som delas via länken går ut när det datum och den tid som anges i fältet **[!UICONTROL Expiration]** har passerats. Mer information om beteendet för utgångna resurser och ändringar i de tillåtna aktiviteterna baserat på användarroller i varumärkesportalen finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
 1. Klicka på **[!UICONTROL Share]**. Ett meddelande bekräftar att länken delas med användarna. Användarna får ett e-postmeddelande med länken.
 
@@ -75,7 +75,7 @@ Så här delar du resurser som en länk:
 
    >[!NOTE]
    >
-   >Administratörer kan anpassa e-postmeddelanden, som bland annat kan anpassas efter logotyp, beskrivning och sidfot med [funktionen Varumärkning](../using/brand-portal-branding.md) .
+   >Administratörer kan anpassa e-postmeddelandena, som bland annat omfattar anpassning av logotyp, beskrivning och sidfot med funktionen [Varumärkning](../using/brand-portal-branding.md).
 
 ## Hämta resurser från delade länkar {#download-assets-from-shared-links}
 
@@ -83,34 +83,34 @@ Klicka på länken i e-postmeddelandet för att visa den delade resursen. Sidan 
 
 Så här hämtar du de delade resurserna:
 
-1. Klicka på resurserna och sedan på **[!UICONTROL Download]** ikonen i verktygsfältet.
+1. Klicka på resurserna och sedan på ikonen **[!UICONTROL Download]** i verktygsfältet.
 
    ![](assets/assets-shared-link.png)
 
    >[!NOTE]
    >
-   >För närvarande kan du bara generera en förhandsvisning och en miniatyrbild för vissa resurser, beroende på filformatet. Mer information om vilka filformat som stöds finns i [Förhandsvisa och miniatyrstöd för resursformat](#preview-thumbnail-support).
+   >För närvarande kan du bara generera en förhandsvisning och en miniatyrbild för vissa resurser, beroende på filformatet. Mer information om vilka filformat som stöds finns i [Stöd för förhandsgranskning och miniatyrbilder för resursformat](#preview-thumbnail-support).
 
    >[!NOTE]
    >
-   >Om de mediefiler du hämtar också innehåller licensierade mediefiler omdirigeras du till **[!UICONTROL Copyright Management]** sidan. På den här sidan väljer du de licensierade resurserna, klickar på **[!UICONTROL Agree]** och sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas bara de olicensierade resurserna.\
-   >Licensskyddade mediefiler har ett [licensavtal som är kopplat](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) till dem, vilket görs genom att objektets [metadataegenskap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ställs in i [!DNL AEM Assets].
+   >Om de resurser du hämtar även innehåller licensierade resurser omdirigeras du till sidan **[!UICONTROL Copyright Management]**. På den här sidan väljer du de licensierade resurserna, klickar på **[!UICONTROL Agree]** och sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas bara de olicensierade resurserna.\
+   >Licensskyddade resurser har [licensavtal som är kopplade](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) till sig, vilket görs genom att ställa in resursens [metadataegenskap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) i [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
 
-   The **[!UICONTROL Download]** dialog box appears.
+   Dialogrutan **[!UICONTROL Download]** visas.
 
    ![](assets/download-linkshare.png)
 
-   * Om du vill snabba upp hämtningen av resursfiler som delas som länk väljer du **[!UICONTROL Enable download acceleration]** alternativet och [följer guiden](../using/accelerated-download.md#download-workflow-using-file-accelerator). Om du vill veta mer om den snabba hämtningen av resurser på varumärkesportalen kan du läsa [Guide för att snabba upp hämtningarna från varumärkesportalen](../using/accelerated-download.md).
+   * Om du vill snabba upp hämtningen av resursfiler som delas som länk väljer du **[!UICONTROL Enable download acceleration]** och [följer guiden](../using/accelerated-download.md#download-workflow-using-file-accelerator). Mer information om snabb hämtning av resurser på varumärkesportalen finns i [Handboken som snabbar upp hämtningar från varumärkesportalen](../using/accelerated-download.md).
 
-1. Om du vill hämta återgivningar av resurser utöver resurserna från den delade länken väljer du **[!UICONTROL Rendition(s)]** . När du gör det visas ett **[!UICONTROL Exclude System Renditions]** alternativ som är markerat som standard. Detta förhindrar att färdiga återgivningar laddas ned tillsammans med godkända resurser eller anpassade återgivningar av dem.
+1. Om du vill hämta återgivningar av resurser utöver resurserna från den delade länken väljer du alternativet **[!UICONTROL Rendition(s)]**. När du gör det visas **[!UICONTROL Exclude System Renditions]**-alternativet som är markerat som standard. Detta förhindrar att färdiga återgivningar laddas ned tillsammans med godkända resurser eller anpassade återgivningar av dem.
 
-   Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar avmarkerar du **[!UICONTROL Exclude System Renditions]** alternativet.
+   Om du vill tillåta att automatiskt genererade återgivningar hämtas tillsammans med anpassade återgivningar avmarkerar du alternativet **[!UICONTROL Exclude System Renditions]**.
 
    >[!NOTE]
    >
-   >Originalåtergivningar hämtas inte med den delade länken om användaren som delade resurserna som en länk inte har [behörighet av administratören att ha åtkomst till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Originalåtergivningar hämtas inte med den delade länken om användaren som delade resurserna som en länk inte [har behörighet av administratören att ha åtkomst till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
    ![](assets/download-linkshare-autoren.png)
 
@@ -200,12 +200,12 @@ Så här tar du bort delning av tidigare delade resurser som en länk:
 
    ![](assets/siderail.png)
 
-1. From the siderail, click **[!UICONTROL Shared Links]**.
+1. Klicka på **[!UICONTROL Shared Links]** i sidofältet.
 
    ![](assets/navigationrail.png)
 
 1. Granska länkarna som du delade från den lista som visas.
-1. Om du vill ta bort delningen av en länk från listan markerar du den och klickar på papperskorgsikonen bredvid länkposten, eller så klickar du på **[!UICONTROL Unshare]** ikonen i verktygsfältet längst upp.
+1. Om du vill ta bort delningen av en länk från listan markerar du den och klickar på papperskorgsikonen bredvid länkposten eller **[!UICONTROL Unshare]**-ikonen i verktygsfältet högst upp.
 
    ![](assets/unshare-links.jpg)
 
@@ -213,4 +213,4 @@ Så här tar du bort delning av tidigare delade resurser som en länk:
    >
    >Visningen av delade länkar är användarspecifik. Den här funktionen visar inte alla länkar som delas av alla användare av en klientorganisation.
 
-1. Klicka i varningsmeddelanderutan på **[!UICONTROL Continue]** för att bekräfta att du inte vill dela. Posten för länken tas bort från listan med delade länkar.
+1. Klicka på **[!UICONTROL Continue]** i varningsmeddelanderutan för att bekräfta att du inte vill dela. Posten för länken tas bort från listan med delade länkar.
