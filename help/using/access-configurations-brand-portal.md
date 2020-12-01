@@ -20,22 +20,22 @@ ht-degree: 0%
 
 # Administrera användaråtkomst på varumärkesportalen {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2 och framåt ger administratörer behörighet att konfigurera gäståtkomst och göra det möjligt för användare att begära åtkomst på varumärkesportalen i sin organisation. Dessa konfigurationer har tillhandahållits som **[!UICONTROL Access Settings]** konfigurationer på administrationspanelen. Båda inställningarna är inaktiverade som standard.
+Från och med AEM Assets Brand Portal 6.4.2 ger administratörer behörighet att konfigurera gäståtkomst och göra det möjligt för användare att begära åtkomst på organisationens varumärkesportal. Dessa konfigurationer har angetts som **[!UICONTROL Access Settings]**-konfigurationer på administrationspanelen. Båda inställningarna är inaktiverade som standard.
 
 ![](assets/access-configs.png)
 
-**En** konfiguration som tillåter gäståtkomst på varumärkesportalen med hjälp av **[!UICONTROL Guest Access?]** länken på välkomstskärmen i varumärkesportalen. (Standard är inaktiverat)
+****   AConfiguration som tillåter gäståtkomst på varumärkesportalen med hjälp av  **[!UICONTROL Guest Access?]** länken på välkomstskärmen för varumärkesportalen. (Standard är inaktiverat)
 
-**B** Configuration som tillåter användare att begära åtkomst till varumärkesportalen via **[!UICONTROL Need access?]** länken på välkomstskärmen i varumärkesportalen. (Standard är inaktiverat)
+**BConfiguration**   som tillåter användare att begära åtkomst till varumärkesportalen med hjälp av  **[!UICONTROL Need access?]** länken på välkomstskärmen för varumärkesportalen. (Standard är inaktiverat)
 
 ## Tillåt gäståtkomst {#allow-guest-access}
 
 Genom att tillåta gäståtkomst kan användarna komma åt de offentliga resurserna utan att behöva logga in på varumärkesportalen.
 Administratören måste utföra följande steg för att tillåta gäståtkomst:
 
-1. Välj AEM-logotypen för att få tillgång till administrationsverktygen i verktygsfältet högst upp.
-1. På panelen Administrationsverktyg väljer du **[!UICONTROL Access]** för att öppna **[!UICONTROL Access Settings]** sidan.
-1. Aktivera **[!UICONTROL Allow Guest Access]** konfigurationen.
+1. Välj AEM logotyp för att öppna administrationsverktygen i verktygsfältet högst upp.
+1. På panelen Administrationsverktyg väljer du **[!UICONTROL Access]** för att öppna sidan **[!UICONTROL Access Settings]**.
+1. Aktivera **[!UICONTROL Allow Guest Access]**-konfigurationen.
 1. **[!UICONTROL Save]** ändringarna.
 1. Logga ut för att ändringarna ska börja gälla.
 
@@ -43,12 +43,12 @@ Administratören måste utföra följande steg för att tillåta gäståtkomst:
 
 ## Tillåt användare att begära åtkomst {#allow-users-to-request-access}
 
-Administratörer kan tillåta att organisationsanvändare begär åtkomst till varumärkesportalen från välkomstskärmen. Administratörer måste dock aktivera konfigurationen så att länken för åtkomst av begäran visas på välkomstskärmen. **[!UICONTROL Allow Users to Request Access]**
+Administratörer kan tillåta att användarna i organisationen begär åtkomst till varumärkesportalen från välkomstskärmen. Administratörer måste dock aktivera konfigurationen **[!UICONTROL Allow Users to Request Access]** så att länken för åtkomstbegäran visas på välkomstskärmen.
 
 För att organisationsanvändare ska kunna begära åtkomst på varumärkesportalen måste administratörerna:
 
-1. Välj AEM-logotypen för att få tillgång till administrationsverktygen i verktygsfältet högst upp.
-1. På panelen Administrationsverktyg väljer du **[!UICONTROL Access]** för att öppna **[!UICONTROL Access Settings]** sidan.
-1. Aktivera **[!UICONTROL Allow Users to Request Access]** konfigurationen.
+1. Välj AEM logotyp för att öppna administrationsverktygen i verktygsfältet högst upp.
+1. På panelen Administrationsverktyg väljer du **[!UICONTROL Access]** för att öppna sidan **[!UICONTROL Access Settings]**.
+1. Aktivera **[!UICONTROL Allow Users to Request Access]**-konfigurationen.
 1. **[!UICONTROL Save]** ändringarna.
 1. Logga ut för att ändringarna ska börja gälla.
