@@ -1,21 +1,17 @@
 ---
-source-git-commit: dca4fd9dfa7a021491cb77391b4d98d6fe61eafc
+source-git-commit: c33730d076788b874c7c3b4f2e3341b0f3a56d7b
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 # Dokumentation för Adobe Experience Manager varumärkesportal
 
-| EXL-PR | EXL | Förhandsgranska | Aktivera | Publicerad | Hjälp |
-|--- |--- |--- |--- |--- |--- |
-| [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/lastBuild/) | [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/lastBuild) | [Förhandsgranska URL](https://experienceleague.corp.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [Redigeringshandbok](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
-
 Det här är databasen för Adobe Experience Manager Brand Portal-dokumentation.
 
 Dina bidrag till dokumentationen är välkomna. Se följande resurser:
 
-* [contribute.md](contributing.md) En översikt över hur du kan bidra till dokumentationen.
-* [guidelines.md](guidelines.md) För en översikt över vad som förväntas i bidragen och hur du komponerar dina dokumentationsbidrag.
-* [code-of-behavior.md](code-of-conduct.md) En översikt över de beteendestandarder vi förväntar oss när du bidrar till detta dokumentationsprojekt.
+* [contribute.](contributing.md) mdEn översikt över hur du kan bidra till dokumentationen.
+* [guidelines.](guidelines.md) mdEn översikt över vad som förväntas i bidragen och hur du komponerar dokumentationsbidragen.
+* [code-of-behavior.](code-of-conduct.md) mdFör en översikt över de beteendestandarder vi förväntar oss när du bidrar till detta dokumentationsprojekt.
