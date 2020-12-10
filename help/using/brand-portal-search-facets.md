@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
@@ -69,6 +69,12 @@ Så här lägger du till ett sökpredikat på panelen **[!UICONTROL Filters]**:
    >När du markerar kryssrutan **[!UICONTROL Partial Search]** är **[!UICONTROL Ignore Case]** markerat som standard.
 
 1. Öppna egenskapsväljaren i fältet **[!UICONTROL Property Name]** och välj den egenskap som sökningen baseras på. Du kan också ange ett namn för egenskapen. Skriv till exempel `  jcr :content/metadata/dc:title` eller `./jcr:content/metadata/dc:title`.
+
+   >[!NOTE]
+   >
+   >I varumärkesportalen indexeras alla egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` i `dam:asset` som standard.
+   >
+   >Alla egenskaper som är indexerade kan användas när ett egenskapsprediat skapas. Om en egenskap som inte är indexerad är konfigurerad kanske sökfrågan för en egenskap som inte är indexerad inte ger något sökresultat.
 
    ![](assets/title-prop.png)
 
