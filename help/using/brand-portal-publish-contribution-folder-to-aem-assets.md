@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,16 @@ Ett e-post-/pulsmeddelande skickas till Brand Portal-användare och -administrat
 1. **Köad**  - Ett meddelande skickas till användaren och administratören för varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
 
 1. **Fullständigt**  - Ett meddelande skickas till Brand Portal-användaren och Brand Portal-administratörerna när mappen för bidrag har publicerats i AEM Assets.
+
+
+**Status för publiceringsjobb**
+
+Det finns två rapporter som administratörer kan använda för att visa statusen för resursavgiftsmapparna som publicerats från Brand Portal till AEM Assets.
+
+* Gå till **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** i varumärkesportalen. Den här rapporten visar statusen för alla publiceringsjobb inklusive de olika stegen i publiceringsarbetsflödet (köade och fullständiga).
+
+* I AEM Assets-författarinstansen går du till **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Den här rapporten visar endast de publiceringsjobb som är i väntande tillstånd.
+
+
 
 
