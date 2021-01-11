@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom at
 
 ## Konfigurera hämtning av resurser {#configure-download}
 
-Administratörer för varumärkesportalen kan konfigurera resurshämtningsinställningar och behörigheter för dem som använder varumärkesportalen så att de kan komma åt och hämta resursåtergivningar från gränssnittet för varumärkesportalen.
+Administratörer för varumärkesportalen kan konfigurera hämtnings- och användargruppsinställningar för användare i varumärkesportalen så att de kan komma åt och hämta resursåtergivningar från gränssnittet för varumärkesportalen.
 
-Åtkomst till och hämtning av återgivningar från varumärkesportalen definieras av följande konfigurationer:
+>[!NOTE]
+>
+>De hämtningsinställningar som används i användargränssnittet underlättar för användarna på varumärkesportalen att enkelt konfigurera och hämta resursrenderingarna. Det begränsar inte hämtningen av resurser i programlagret, till exempel kan användarna fortfarande komma åt och hämta resursåtergivningarna med den fullständiga URL-sökvägen.
+
+Åtkomst till och hämtning av resursåtergivningar från gränssnittet för varumärkesportalen definieras av följande konfigurationer:
 
 * Aktivera hämtningsinställningar
-* Konfigurera hämtningsbehörigheter
+* Konfigurera inställningar för användargrupp
 
 ### Aktivera hämtningsinställningar {#enable-download-settings}
 
@@ -75,11 +79,11 @@ Administratörerna kan aktivera valfri kombination av inställningar så att Bra
 >
 >Endast administratörer kan hämta utgångna resurser. Mer information om utgångna resurser finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md).
 
-### Konfigurera hämtningsbehörigheter {#configure-download-permissions}
+### Konfigurera inställningar för användargrupp {#configure-user-group-settings}
 
-Förutom **[!UICONTROL Download Settings]** kan administratören för varumärkesportalen ytterligare konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta originalresurserna och deras återgivningar.
+Förutom **[!UICONTROL Download Settings]** kan administratören för varumärkesportalen konfigurera inställningar för olika användargrupper så att de kan visa och (eller) hämta originalresurserna och deras återgivningar.
 
-Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**. På sidan **[!UICONTROL User Roles]** navigerar du till fliken **[!UICONTROL Groups]** för att konfigurera vyn och (eller) hämtningsbehörighet för användargrupperna.
+Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**. På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera inställningar för visning och (eller) hämtning för användargrupperna.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fris
 
 I följande matris definieras om en användare ska ha åtkomst till renderingarna beroende på [hämtningskonfigurationerna](#configure-download):
 
-| **Hämtningsinställningar: Anpassade återgivningar** | **Hämtningsinställningar: Systemåtergivningar** | **Behörigheter för användargrupp: Hämta original** | **Behörigheter för användargrupp: Hämta återgivningar** | **Resultat** |
+| **Hämtningsinställningar: Anpassade återgivningar** | **Hämtningsinställningar: Systemåtergivningar** | **Inställningar för användargrupp: Hämta original** | **Inställningar för användargrupp: Hämta återgivningar** | **Resultat** |
 |---|---|---|---|---|
 | PÅ | PÅ | PÅ | PÅ | Visa och hämta alla återgivningar |
 | PÅ | PÅ | AV | AV | Visa ursprunglig resurs |
@@ -112,7 +116,7 @@ Användare av varumärkesportalen kan hämta flera resurser, mappar med resurser
 
 >[!NOTE]
 >
->Kontakta administratören för varumärkesportalen om du inte har behörighet att komma åt eller hämta återgivningarna.
+>Kontakta administratören för varumärkesportalen om du inte har behörighet att komma åt eller hämta resursåtergivningarna.
 
 Om användaren har åtkomst till återgivningar får användaren den förbättrade **[!UICONTROL Download]**-dialogrutan med följande funktioner:
 * Visa alla tillgängliga återgivningar av alla resurser i hämtningslistan.
@@ -196,9 +200,9 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
 >[!NOTE]
 >
->Brand Portal har stöd för konfiguration av dynamiska media i både läget Hybrid och Scene 7.
+>Brand Portal stöder konfigurering av Dynamic Media i både läget Hybrid och Scene 7.
 >
->(*Om AEM författarinstans körs på&#x200B;**Dynamiskt medias hybrid-läge***)
+>(*Om AEM författarinstans körs på&#x200B;**Dynamic Media hybridläge***)
 >
 >Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från AEM till varumärkesportalen publiceras även dess Pyramid-tiff-rendering.
 
