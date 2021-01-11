@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,13 @@ Ett e-post-/pulsmeddelande skickas till Brand Portal-användare och -administrat
 
 Det finns två rapporter som administratörer kan använda för att visa statusen för resursavgiftsmapparna som publicerats från Brand Portal till AEM Assets.
 
-* Gå till **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** i varumärkesportalen. Den här rapporten visar statusen för alla publiceringsjobb inklusive de olika stegen i publiceringsarbetsflödet (köade och fullständiga).
+* Gå till **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** i varumärkesportalen. Den här rapporten visar statusen för alla publiceringsjobb i olika faser av publiceringsarbetsflödet.
 
-* I AEM Assets-författarinstansen går du till **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Den här rapporten visar endast de publiceringsjobb som är i väntande tillstånd.
+   ![](assets/contribution-folder-status.png)
+
+* I AEM Assets-författarinstansen går du till **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
+
+   ![](assets/publishing-status.png)
 
 
 
