@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -68,11 +68,16 @@ De tillgängliga inställningarna är:
 
    Det här är miniatyrbilder som skapas automatiskt i AEM Assets baserat på arbetsflödet&quot;DAM-uppdateringsresurs&quot;.
 
+* **[!UICONTROL Asset Download]**
+
+   Möjliggör hämtning av återgivningarna i en separat mapp för varje resurs. Den här inställningen gäller för hämtning av mappar, samlingar och massnedladdning av resurser (fler än 20 resurser).
+
+
 Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
 
 Administratörerna kan aktivera valfri kombination av inställningar så att Brand Portal-användarna kan komma åt och hämta renderingar.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Om användaren har åtkomst till återgivningar får användaren den förbättra
 * Undanta återgivningar av resurser som inte behövs för hämtning.
 * Använd samma uppsättning renderingar för alla liknande resurstyper med ett klick.
 * Använd olika uppsättningar återgivningar för olika resurstyper.
-* Skapa en separat mapp för varje resursåtergivning.
+* Skapa en separat mapp för varje resurs.
 * Hämta markerade resurser och deras återgivningar.
 
 ![download-dialog](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
    ![remove](assets/remove.png)
 
-   Om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser markerar du kryssrutan **[!UICONTROL Create separate folder for each asset]**. Som standard ignoreras mapphierarkin för varumärkesportalen och alla resurser hämtas till en zip-mapp.
+   Om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser markerar du kryssrutan **[!UICONTROL Create separate folder for each asset]**.
 
    Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**.
 
@@ -195,7 +200,9 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
 >[!NOTE]
 >
->Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en ZIP-mapp. Resursåtergivningarna hämtas i en separat mapp för varje resurs i zip-mappen.
+>Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en ZIP-mapp.
+>
+>Om inställningen **[!UICONTROL Asset Download]** är aktiverad i **[!UICONTROL Download Settings]** hämtas resursåtergivningarna i en separat mapp för varje resurs i zip-mappen.
 
 
 >[!NOTE]
