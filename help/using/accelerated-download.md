@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Med Brand Portal kan du förbättra hämtningsprestanda för stora filer genom a
 
 Konfigurationen **[!UICONTROL Fast Download]** är som standard aktiverad, vilket minskar den tid det tar att hämta önskade resursfiler från varumärkesportalen avsevärt.
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## Förutsättningar för att snabba upp filnedladdningen {#prerequisites-to-accelerate-file-download}
 
