@@ -1,8 +1,8 @@
 ---
 title: Nyheter i AEM Assets Brand Portal
 seo-title: Nyheter i AEM Assets Brand Portal
-description: Ta en titt på de nya funktionerna och förbättringarna för 2020.10.0.
-seo-description: Ta en titt på de nya funktionerna och förbättringarna för 2020.10.0.
+description: Ta en titt på de nya funktionerna och förbättringarna för 2021.02.0.
+seo-description: Ta en titt på de nya funktionerna och förbättringarna för 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5420'
+source-wordcount: '5720'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,44 @@ ht-degree: 0%
 # Nyheter i AEM Assets varumärkesportal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande varumärkesportalupplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+
+## Vad ändrades 2021.02.0 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0 är en förbättringsrelease som fokuserar på att förbättra upplevelsen av nedladdning av resurser och innehåller viktiga korrigeringar. Det gör att administratörer kan konfigurera standardhämtningsbeteendet för mappar, samlingar och masshämtning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
+
+
+### Resurshämtning {#asset-download-setting}
+
+Förutom den befintliga **[!UICONTROL Download Settings]**-inställningen kan administratören för varumärkesportalen nu konfigurera inställningen **[!UICONTROL Asset Download]**. Med den här inställningen kan administratörer styra standardhämtningsbeteendet för mappar, samlingar och masshämtning av resurser (fler än 20 resurser) på klientnivå.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+Tidigare hämtades alla resursåtergivningar direkt i en zip-mapp. Dialogrutan **[!UICONTROL Download]** hoppades över för mappar och samlingar och det fanns ingen metod för att kontrollera hämtningsbeteendet för resurserna, vilket gör det svårt att söka efter en viss återgivning från ett stort antal nedladdningar.
+
+**[!UICONTROL Asset Download]** När du anger det finns nu ett alternativ för att skapa en separat mapp för varje resurs när du hämtar mappar, samlingar eller masshämtning av resurser.
+
+Om **[!UICONTROL Asset Download]**-inställningen är inaktiverad hämtas mapparna eller samlingarna i en ZIP-mapp som innehåller alla resursåtergivningar under samma mapp, med undantag för att resurserna hämtas med hjälp av delningslänken.
+
+
+Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]**. Administratörerna kan aktivera inställningen **[!UICONTROL Asset Download]** för att skapa en separat mapp för varje resurs när mappar, samlingar och masshämtning av resurser hämtas.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### Användningsrapport {#usage-report}
+
+Varumärkesportalen **[!UICONTROL Usage Report]** har ändrats så att den endast speglar de aktiva varumärkesportalanvändarna. De användare på varumärkesportalen som inte är tilldelade någon produktprofil i Admin Console betraktas som inaktiva användare och återspeglas inte i **[!UICONTROL Usage Report]**.
+
+Tidigare visades både aktiva och inaktiva användare i användningsrapporten.
+
+![](assets/usage-report.png)
 
 ## Vad ändrades 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### Konfigurera hämtningsbehörigheter {#download-permissions}
+### Konfigurera hämtningsinställningar {#download-permissions}
 
-Förutom de befintliga **[!UICONTROL Download]**-konfigurationerna kan administratören för varumärkesportalen även konfigurera behörigheter för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med resursinformation.
+Förutom de befintliga **[!UICONTROL Download]**-konfigurationerna kan administratören för varumärkesportalen även konfigurera inställningar för olika användargrupper så att de kan visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med resursinformation.
 
 Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
-På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera vyn och (eller) hämtningsbehörigheterna för användargrupperna
+På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera inställningar för visning och (eller) hämtning för användargrupperna.
 
 Tidigare var inställningarna bara tillgängliga för att hindra gruppanvändarna från att hämta den ursprungliga resursen.
 
@@ -159,8 +197,6 @@ Administratören för varumärkesportalen kan aktivera valfri kombination för a
 * Om någon av **[!UICONTROL Custom Rendition]** eller **[!UICONTROL System Rendition]** är aktiverad visas dialogrutan **[!UICONTROL Download]** och den ursprungliga resursen tillsammans med resursåtergivningarna hämtas. Om du aktiverar **[!UICONTROL Fast Download]**-konfigurationen går hämtningen snabbare.
 
 Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser med hjälp av delningslänken.
-
-![](assets/download-configuration.png)
 
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
@@ -342,20 +378,20 @@ Observera att sökningar under dessa mappar endast returnerar resultat från res
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Stöd för videoåtergivningar i Dynamic Media
+### Stöd för videoåtergivningar från Dynamic Media
 
-Användare vars AEM Author-instans är i läget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, utöver de ursprungliga videofilerna.
+Användare vars AEM Author-instans är i hybridläget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, utöver de ursprungliga videofilerna.
 
-För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratörer ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway) och registrerings-ID för att hämta den dynamiska videon) i **Video**-konfigurationen från administratörsverktygspanelen.
+För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratörer ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway) och registrerings-ID för att hämta den dynamiska videon) i **Video**-konfigurationen från administratörspanelen.
 
 
-Dynamiska medievideor kan förhandsgranskas på:
+Dynamic Media videor kan förhandsgranskas på:
 
 * Sidan Resursinformation
 * Resursvy
 * Förhandsgranska länkdelning
 
-Dynamic Media Video-kodningar kan hämtas från:
+Dynamic Media Video encodes kan laddas ned från:
 
 * Varumärkesportal
 * Delad länk
@@ -484,7 +520,7 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 
 ### Adobe I/O användargränssnitt för att konfigurera autentiseringsintegreringar
 
-Brand Portal 6.4.2 och senare använder Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)-gränssnittet för att skapa JWT-program, som gör att konfigurerar autentiseringsintegreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med varumärkesportalen för att publicera resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 och senare använder Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)-gränssnittet för att skapa JWT-program, som gör det möjligt att konfigurera autentiseringsintegreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med varumärkesportalen för att publicera resurser och samlingar på varumärkesportalen finns i [Konfigurera AEM Assets-integrering med varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
@@ -569,7 +605,7 @@ Var och en av de rapporter som skapas kan anpassas genom att du lägger till ell
 
 ### Förbättrade administrationsverktyg
 
-Förbättrad egenskapsväljare i administrationsverktygen för metadata, sökning och rapporter med Type ahead-funktioner och bläddringsfunktioner som förenklar administratörsupplevelsen.
+Förbättrad egenskapsväljare i administrationsverktygen för metadata, sökning och rapporter med Type ahead-funktioner och bläddringsfunktioner för att förenkla administratörsupplevelsen.
 
 ### Andra förbättringar
 
