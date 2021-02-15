@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Versionsinformation
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2020.10.0.
-seo-description: Få insikt i förbättringarna, åtgärdade allvarliga problem och kända fel i Adobe Experience Manager Assets Brand Portal 2020.10.0.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.02.0.
+seo-description: Få insikt i förbättringarna, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.02.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,75 +10,95 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
+source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 4%
+source-wordcount: '503'
+ht-degree: 5%
 
 ---
 
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2020.10.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2021.02.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2020.10.0 |
-| Date | Oktober 2020 |
+| Version | 2021.02.0 |
+| Date | Februari 2021 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2020.10.0 {#whats-new-in-2020.10.0}
+## Nyheter i 2021.02.0 {#whats-new-in-2021.02.0}
 
 ### Nya funktioner {#new-features}
 
 Den här versionen innehåller följande nya funktioner:
 
-* Dialogrutan **[!UICONTROL Download]** har gjorts om i en listvy med ytterligare alternativ för att exkludera de återgivningar som inte krävs, använda samma uppsättning regler för liknande resurstyper och hämta de valda återgivningarna. Se [steg för att hämta resurser från varumärkesportalen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* Ytterligare en **[!UICONTROL Asset Download]**-inställning har införts under **[!UICONTROL Download Settings]**. En separat mapp skapas för varje resurs när mappar, samlingar eller masshämtning av resurser hämtas. Se [hämtningsinställningar](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+
+<!-- 
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+-->
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* Navigering till **[!UICONTROL Files]**, **[!UICONTROL Collections]** och **[!UICONTROL Shared Links]** är nu möjligt från alla sidor på varumärkesportalen med ett klick.
+<!-- 
+* Navigation to the **[!UICONTROL Files]**, **[!UICONTROL Collections]**, and **[!UICONTROL Shared Links]** is now possible from all the Brand Portal pages in one-click.  
 
-* På panelen **[!UICONTROL Renditions]** på sidan med tillgångsinformation kan du nu välja den ursprungliga resursen och (eller) specifika resursåtergivningar och hämta dem direkt från panelen **[!UICONTROL Renditions]** utan att behöva öppna dialogrutan **[!UICONTROL Download]**. Se [Hämta resurser från sidan med resursinformation](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+* The **[!UICONTROL Renditions]** panel in the asset details page now allows the Brand Portal users to select the original asset and (or) specific asset renditions, and directly download them from the **[!UICONTROL Renditions]** panel without having to open the **[!UICONTROL Download]** dialog. See [download assets from asset details page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+-->
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Förutom de befintliga **[!UICONTROL Download]**-konfigurationerna kan administratören för varumärkesportalen även [konfigurera behörigheter för olika användargrupper](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) för att visa och (eller) hämta den ursprungliga resursen och dess återgivningar från sidan med tillgångsinformation. Dessa konfigurationer definierar vem som kan komma åt och (eller) hämta resursrenderingarna.
+<!-- 
+* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+-->
 
 ### Förbättringar {#enhancements}
 
 Den här versionen innehåller följande förbättringar:
 
-* Tröskelvärdet för sessionstimeout för gästanvändare har reducerats från 2 timmar till 15 minuter.
-* Det extra **[!UICONTROL View pages]**-alternativet har tagits bort för flersidiga PDF-filer eftersom användaren nu kan visa PDF-sidorna i Adobe Document Cloud Viewer.
-
+* För mapphämtning skapas en separat mapp för varje resurs med hjälp av en delningslänk oavsett **[!UICONTROL Download Settings]**.
+* Varumärksportalen **[!UICONTROL Usage Report]** har ändrats så att den endast speglar de aktiva varumärkesportalsanvändarna.
 
 <!--
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issue:
-
-* The users are not able to view the PDF pages if the PDF contains sub assets.
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
 -->
 
-### Kända fel {#known-issues}
 
-Den här versionen innehåller följande kända fel:
+### Åtgärdade kritiska problem {#critical-issues-fixed}
 
-* Vid sökning på **[!UICONTROL Asset Reports]** visas bearbetning i produktgränssnittet utan sökresultat.
-* DM-videokoderna är inte synliga för användare som inte är administratörer på sidan med resursinformation.
-* Justeringen av storleken på de enskilda materialåtergivningarna och den totala hämtningsstorleken förvrängs i dialogrutan Hämta.
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
+* Om bara de ursprungliga resurserna hämtas, visar resursen ett eget filnamnstillägg och öppnas inte förrän filnamnstillägget ändras manuellt till zip.
+* Användargränssnittet för samlingsmappen svarar inte när du klickar på navigeringspilen.
+* **[!UICONTROL Create]** -knappen visas i  **[!UICONTROL Column]** vyn även när mapparna är tomma.
+* **[!UICONTROL Omni search]** misslyckas med ett 414-felmeddelande (Request-URI Too Long) om dispatchern kringgås vid åtkomst till Brand Portal-instansen.
+* En tom ZIP-mapp hämtas om resursen innehåller ett kommatecken (`,`) i filnamnet.
+* Visningsprogramanvändarna kan lägga till användare i den samling de har skapat.
+* Inkonsekvent beteende uppstår när en resurs (miniatyrbild eller webbåtergivning) laddas ned via delningslänk.
+
+Se [vad som är nytt i Brand Portal 2021.02.0](whats-new.md).
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* Search on the **[!UICONTROL Asset Reports]** shows processing on the product interface with no search result.
+* The video DM encodes are not visible to the non-admin users on the asset details page.
+* The alignment of the size of individual asset renditions and total download size is distorted in the Download dialog.
+-->
 
 
 <!--
