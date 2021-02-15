@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5720'
+source-wordcount: '5718'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Förutom den befintliga **[!UICONTROL Download Settings]**-inställningen kan ad
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Tidigare hämtades alla resursåtergivningar direkt i en zip-mapp. Dialogrutan **[!UICONTROL Download]** hoppades över för mappar och samlingar och det fanns ingen metod för att kontrollera hämtningsbeteendet för resurserna, vilket gör det svårt att söka efter en viss återgivning från ett stort antal nedladdningar.
+Tidigare hämtades alla resursåtergivningar direkt i en zip-mapp. Dialogrutan **[!UICONTROL Download]** hoppades över för mappar och samlingar och det fanns ingen metod för att kontrollera hämtningsbeteendet för resurserna, vilket gör det svårt att söka efter en viss återgivning från ett stort antal hämtningar.
 
 **[!UICONTROL Asset Download]** När du anger det finns nu ett alternativ för att skapa en separat mapp för varje resurs när du hämtar mappar, samlingar eller masshämtning av resurser.
 
