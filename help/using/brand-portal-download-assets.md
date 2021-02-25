@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ De tillgängliga inställningarna är:
 
 * **[!UICONTROL Asset Download]**
 
-   Möjliggör hämtning av återgivningarna i en separat mapp för varje resurs. Den här inställningen gäller för hämtning av mappar, samlingar och massnedladdning av resurser (fler än 20 resurser).
+   Möjliggör hämtning av återgivningarna i en separat mapp för varje resurs. Inställningen gäller för mappar, samlingar och masshämtning av resurser (fler än 20 resurser).
 
 
 Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
@@ -135,7 +135,7 @@ Om användaren har åtkomst till återgivningar får användaren den förbättra
 
 >[!NOTE]
 >
->Dialogrutan **[!UICONTROL Download]** visas bara om resurserna har valts för hämtning och **[!UICONTROL Custom Renditions]** eller **[!UICONTROL System Renditions]** är aktiverat i **[!UICONTROL Download Settings]**.
+>Dialogrutan **[!UICONTROL Download]** visas bara om **[!UICONTROL Custom Renditions]** och (eller) **[!UICONTROL System Renditions]** är aktiverat i **[!UICONTROL Download Settings]**.
 
 
 ### Steg för att hämta resurser {#bulk-download}
@@ -157,7 +157,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
       >[!NOTE]
       >
-      >Om du hämtar materialet för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att installera Aspera Download Accelerator.
+      >Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att [installera Aspera Download Accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
    Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**.
 
-   ![download-dialog](assets/download-dialog-new.png)
+   ![download-dialog](assets/download-dialog-box-new.png)
 
 1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
 
    Om du vill fortsätta använda **[!UICONTROL Fast Download]** klickar du på **[!UICONTROL Allow]**. Alla valda återgivningar laddas ned i en zip-mapp med hjälp av IBM Aspera Connect.
 
-   Om du inte vill använda IBM Aspera Connect klickar du på **[!UICONTROL Deny]**. Om **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på knappen **[!UICONTROL Normal Download]** för att fortsätta hämta resurserna. De valda återgivningarna laddas ned i en zip-mapp utan att använda IBM Aspera Connect.
+   Om du inte vill använda IBM Aspera Connect klickar du på **[!UICONTROL Deny]**. Om **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på knappen **[!UICONTROL Normal Download]** för att fortsätta hämta resurserna.
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Så här hämtar du resursåtergivningar från sidan med resursinformation:
 
    Om du vill fortsätta använda **[!UICONTROL Fast Download]** klickar du på **[!UICONTROL Allow]**. Alla valda återgivningar laddas ned i en zip-mapp med hjälp av IBM Aspera Connect.
 
-   Om du nekar med **[!UICONTROL Fast Download]** fylls ett felmeddelande i. Klicka på knappen **[!UICONTROL Normal Download]** för att fortsätta nedladdningen. De valda återgivningarna laddas ned i en zip-mapp utan att använda IBM Aspera Connect.
+   Om du nekar med **[!UICONTROL Fast Download]** fylls ett felmeddelande i. Klicka på knappen **[!UICONTROL Normal Download]** för att fortsätta hämta resurserna.
 
 >[!NOTE]
 >
