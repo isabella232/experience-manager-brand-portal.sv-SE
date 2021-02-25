@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,12 @@ Så här visar du en rapport:
 
    >[!NOTE]
    >
-   >Användningsrapport finns som standard i varumärkesportalen. Den kan inte skapas eller tas bort. Du kan dock skapa, hämta och ta bort rapporterna Hämta, Förfallotid, Publicera, Länkdelning och Användarinloggning.
+   >Användningsrapport är en standardrapport som genereras i varumärkesportalen. Den kan inte skapas eller tas bort. Du kan dock skapa, hämta och ta bort rapporterna Hämta, Förfallotid, Publicera, Länkdelning och Användarinloggning.
 
-   Om du vill visa en rapport trycker/klickar du på rapportlänken. Du kan också markera rapporten och trycka/klicka på ikonen Visa i verktygsfältet.
+   Om du vill visa en rapport klickar du på rapportlänken. Du kan också markera rapporten och trycka/klicka på ikonen Visa i verktygsfältet.
 
-   **[!UICONTROL Usage Report]** visar information om antalet aktuella Brand Portal-användare, det lagringsutrymme som används av alla resurser och det totala antalet resurser i Brand Portal. Rapporten visar även tillåten kapacitet för var och en av dessa informationsmått.
+   **[!UICONTROL Usage Report]** visar information om antalet aktiva Brand Portal-användare, det lagringsutrymme som används av alla resurser och det totala antalet resurser i Brand Portal. De användare på varumärkesportalen som inte är tilldelade någon produktprofil i Admin Console betraktas som inaktiva användare och återspeglas inte i **[!UICONTROL Usage Report]**.
+Rapporten visar även tillåten kapacitet för var och en av dessa informationsmått.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Administratörer kan generera och hantera följande standardrapporter, när de h
 Kolumnerna i rapporten Download, Expiration och Publish kan anpassas för visning. Så här skapar du en rapport:
 
 1. Tryck/klicka på AEM logotyp i verktygsfältet längst upp för att öppna administrationsverktygen.
-
-   ![](assets/aemlogo.png)
 
 1. Öppna sidan **[!UICONTROL Asset Reports]** genom att trycka/klicka på **[!UICONTROL Create/Manage Reports]** på panelen Administrationsverktyg.
 
