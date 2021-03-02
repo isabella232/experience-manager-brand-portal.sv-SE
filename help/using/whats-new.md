@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5718'
+source-wordcount: '5829'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,14 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 ## Vad ändrades 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 är en förbättringsrelease som fokuserar på att förbättra upplevelsen av nedladdning av resurser och innehåller viktiga korrigeringar. Det gör att administratörer kan konfigurera standardhämtningsbeteendet för mappar, samlingar och masshämtning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 är en förbättrad release som fokuserar på att underlätta funktionen för resurshantering på AEM Assets som en Cloud Service, förbättringar i upplevelsen vid nedladdning av resurser samt viktiga korrigeringar. Det gör att administratörer kan konfigurera standardhämtningsbeteendet för mappar, samlingar och masshämtning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
+
+### Resurshantering på AEM Assets som Cloud Service {#asset-sourcing-on-cloud-service}
+
+Funktionen Resurser är nu tillgänglig i AEM Assets som Cloud Service. Funktionerna är som standard aktiverade för alla användare av molntjänster. Tillåtna Brand Portal-användare kan bidra till resurskälla genom att överföra nya resurser till bidragsmapparna och publicera bidragsmappen från Brand Portal till AEM Assets som en Cloud Service-instans. Administratörerna kan granska och godkänna varumärkesportalanvändarnas bidrag för att vidaredistribuera dem till andra Brand Portal-användare.
+
+Tidigare var Resurser endast tillgängligt på AEM Assets (lokal och hanterad tjänst).
 
 ### Resurshämtning {#asset-download-setting}
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare a
 
 Med Resurshantering kan AEM användare (administratörer/icke-admin-användare) skapa nya mappar med en extra **Asset Contribution**-egenskap, vilket säkerställer att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas NYTT och DELAT, i den nyligen skapade **Contribute**-mappen.
 
-Den AEM användaren definierar sedan kravet genom att [ladda upp en översikt](brand-portal-configure-contribution-folder-properties.md) om vilka typer av resurser som ska läggas till i bidragsmappen samt [ladda upp basresurser](brand-portal-upload-baseline-assets.md) till mappen **SHARED** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nyskapade **Contribute**-mappen publiceras på Brand Portal.
+AEM användare definierar sedan behovet genom att ladda upp en översikt över de typer av resurser som ska läggas till i mappen för bidrag, samt ladda upp baslinjeresurser, till mappen **SHARED** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nyskapade **Contribute**-mappen publiceras på Brand Portal.
 
 
 När användaren är klar med att lägga till innehåll i mappen **NEW** kan han eller hon publicera bidragsmappen i den AEM författarmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i AEM Assets.
@@ -273,7 +279,7 @@ Dessutom ändras inte alla befintliga funktioner. Användare av varumärkesporta
 
 ### Överför resurser till avgiftsmappen {#upload-assets-in-bp}
 
-Brand Portal-användare med lämpliga behörigheter kan [hämta tillgångskraven](brand-portal-download-asset-requirements.md) för att förstå behovet av bidrag och överföra flera resurser eller mappar som innehåller flera resurser till bidragsmappen. Observera dock att användare av varumärkesportalen endast kan överföra resurser till undermappen **NEW**. Mappen **SHARED** är avsedd för distribution av krav och baslinjeresurser. Se [Överför resurser till mappen för bidrag](brand-portal-upload-assets-to-contribution-folder.md)
+Brand Portal-användare med lämpliga behörigheter kan hämta tillgångskraven för att förstå behovet av bidrag och överföra flera resurser eller mappar som innehåller flera resurser till bidragsmappen. Observera dock att användare av varumärkesportalen endast kan överföra resurser till undermappen **NEW**. Mappen **SHARED** är avsedd för distribution av krav och baslinjeresurser.
 
 ![](assets/upload-asset6.png)
 
