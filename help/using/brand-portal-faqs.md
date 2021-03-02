@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ För uppdateringar och versionsändringar bör du spåra [versionsinformationen]
 
 **Frågor. Behöver jag som varumärkesportalanvändare vidta någon åtgärd?**
 
-**Ans.** Brand Portal 6.4.5 innehåller en ny funktion som heter Asset Source. AEM måste konfigurera funktionen Resurshantering i AEM Assets för att aktivera funktionen för användare på varumärkesportalen. Mer information finns i [Aktivera resurskälla](brand-portal-configure-asset-sourcing.md).
+**Ans.** Brand Portal 6.4.5 innehåller en ny funktion som heter Asset Source. AEM måste konfigurera funktionen Resurshantering i AEM Assets för att aktivera funktionen för användare på varumärkesportalen. Mer information finns i [Aktivera resurskälla](brand-portal-asset-sourcing.md).
 
 
 
@@ -138,7 +138,7 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 >[!NOTE]
 >
->Om du inte är en befintlig Brand Portal-användare ber du AEM att skapa din användare i AEM Admin Console och lägga till din profil i användarkonfigurationsfilen i listan med Brand Portal-användare. Mer information finns i [Lägga till användare för varumärkesportalen](brand-portal-configure-asset-sourcing.md).
+>Om du inte är en befintlig Brand Portal-användare ber du AEM att skapa din användare i AEM Admin Console och lägga till din profil i användarkonfigurationsfilen i listan med Brand Portal-användare.
 
 **Frågor. Vilket format har CSV-filen för användarimport?**
 
@@ -172,7 +172,7 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 **Frågor. Hur överför jag nya resurser i en Contribute-mapp?**
 
-**Ans.** Mer information finns i den detaljerade dokumentationen om hur du  [överför resurser till Contribute-mappen](brand-portal-upload-assets-to-contribution-folder.md).
+**Ans.** Mer information finns i den detaljerade dokumentationen om hur du  [överför resurser till Contribute-mappen](brand-portal-publish-contribution-folder-to-brand-portal.md).
 
 
 
