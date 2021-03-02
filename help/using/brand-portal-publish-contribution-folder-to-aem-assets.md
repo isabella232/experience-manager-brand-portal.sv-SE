@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ När de nyskapade resurserna har publicerats till AEM Assets kan Brand Portal-an
 
 När målet att skapa bidragsmappen är uppnått kan administratören för varumärkesportalen ta bort bidragsmappen och frigöra överföringsutrymmet för andra användare.
 
-**Status för publiceringsjobb**
+## Status för publiceringsjobb {#publishing-job-status}
 
 Det finns två rapporter som administratörer kan använda för att visa statusen för resursavgiftsmapparna som publicerats från Brand Portal till AEM Assets.
 
@@ -129,13 +129,27 @@ Det finns två rapporter som administratörer kan använda för att visa statuse
 
    ![](assets/contribution-folder-status.png)
 
-* I AEM Assets-författarinstansen går du till **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
+* I AEM Assets (lokal eller hanterad tjänst) går du till **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
 
    ![](assets/publishing-status.png)
 
+* I AEM Assets som Cloud Service går du till **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Reports]**.
+
+   Klicka på **[!UICONTROL Create]** och välj **[!UICONTROL Publish]** för att skapa en publiceringsrapport.
+
+   ![](assets/create-publish-report.png)
+
+   Ange **[!UICONTROL Title]** och **[!UICONTROL Description]**, markera **[!UICONTROL Folder Path]** i mappen för bidrag och schemalägg rapporten för **[!UICONTROL Now]**. Klicka på **[!UICONTROL Next]**.
+
+   ![](assets/create-publish-report1.png)
+
+   Välj de fältattribut du vill använda i rapporten och generera den. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
+
+<!--
 >[!NOTE]
 >
->Användargränssnittet i AEM Assets som Cloud Service kan ha en viss skillnad, men arbetsflödet ändras inte.
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
