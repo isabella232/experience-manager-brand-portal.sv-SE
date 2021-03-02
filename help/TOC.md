@@ -7,9 +7,9 @@ user-guide-title: AEM varumärkesportal
 breadcrumb-title: Handbok för varumärkesportal
 user-guide-description: Använd AEM Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '283'
 ht-degree: 16%
 
 ---
@@ -36,19 +36,9 @@ ht-degree: 16%
    + [Publicera taggar på varumärkesportalen](using/brand-portal-publish-tags.md)
    + [Publicera förinställningar, schema och ansikten på varumärkesportalen](using/publish-schema-search-facets-presets.md)
 + Resurshantering i varumärkesportalen {#asset-sourcing-in-brand-portal}
-   + [Översikt](using/brand-portal-asset-sourcing.md)
-   + [Konfigurera resurskälla i AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Konfigurera Contribute-mappen i AEM Assets {#configure-contribution-folder}
-      + [Översikt](using/brand-portal-contribution-folder.md)
-      + [Skapa avgiftsmapp](using/brand-portal-create-contribution-folder.md)
-      + [Konfigurera egenskaper för bidragsmapp](using/brand-portal-configure-contribution-folder-properties.md)
-      + [Överför baslinjeresurser](using/brand-portal-upload-baseline-assets.md)
-      + [Publicera mapp för bidrag till varumärkesportalen](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Använda resurskälla i varumärkesportalen {#using-asset-sourcing}
-      + [Översikt](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Hämta resurskrav](using/brand-portal-download-asset-requirements.md)
-      + [Överför resurser till mappen för bidrag](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicera bidragsmapp till AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Resurskälla - översikt](using/brand-portal-asset-sourcing.md)
+   + [Konfigurera bidragsmappen i AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Publicera bidragsmapp till AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Dela resurser med användare {#share}
    + [Dela en samling](using/brand-portal-share-collection.md)
    + [Dela mappar](using/brand-portal-sharing-folders.md)
