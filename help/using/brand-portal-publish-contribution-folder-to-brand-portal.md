@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ AEM utför följande åtgärder när en avgiftsmapp konfigureras:
 AEM administratörer och icke-adminanvändare som har behörighet att skapa en ny mapp kan skapa en mapp för bidrag i AEM Assets.
 Om du vill skapa en mapp för bidrag skapar du en ny mapp av typen Resursbidrag, som ser till att den nya mappen som skapas är öppen för att skickas in av Brand Portal-användare.  Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas DELAD och NYTT, i bidragsmappen.
 
+
 >[!NOTE]
 >
 >Du kan skapa flera bidragsmappar i en mapp. Skapa inte en mapp för bidrag i en annan mapp för bidrag.
+
+Du kan konfigurera bidragsmappens egenskaper separat och samtidigt som du skapar bidragsmappen. I det här exemplet konfigurerar vi egenskaperna separat.
 
 **Så här skapar du en bidragsmapp:**
 1. Logga in på din AEM Assets-instans.
@@ -68,7 +71,6 @@ Vi rekommenderar att du använder gemener utan blanksteg för att namnge mappen.
 
    ![](assets/contribution-folder.png)
 
-Du kan också konfigurera bidragsmappens egenskaper när du skapar bidragsmappen.
 
 ## Konfigurera egenskaper för bidragsmapp {#configure-contribution-folder-properties}
 
