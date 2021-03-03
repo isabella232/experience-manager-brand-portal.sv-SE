@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '568'
 ht-degree: 4%
 
 ---
@@ -91,6 +91,13 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 * Inkonsekvent beteende uppstår när en resurs (miniatyrbild eller webbåtergivning) laddas ned via delningslänk.
 
 Se [vad som är nytt i Brand Portal 2021.02.0](whats-new.md).
+
+
+### Kända fel {#known-issues}
+
+Den här versionen innehåller följande kända fel:
+
+* Användarna får inga e-postmeddelanden om publiceringsarbetsflödena för Resurser.
 
 <!--
 ### Known Issues {#known-issues}
