@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som 
 
 1. Logga in på din Brand Portal-instans.
 1. Välj mapp för bidrag från kontrollpanelen för varumärkesportalen.
-1. Klicka på **[!UICONTROL Properties]** ![](assets/properties.png). Egenskapsfönstret öppnas med information om mappen Resursbidrag.
-   ![](assets/download-asset-requirement1.png)
-1. Klicka på **[!UICONTROL Download Brief]** ![](assets/download.png) för att hämta dokumentet om resurskrav på den lokala datorn.
+1. Klicka på **[!UICONTROL Properties]**. Fönstret Egenskap som innehåller informationen om bidragsmappen öppnas.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. Klicka på alternativet **[!UICONTROL Download Brief]** om du vill hämta tillgångskravsdokumentet på den lokala datorn.
+
+   ![](assets/download.png)
+
 1. Gå tillbaka till kontrollpanelen för varumärkesportalen.
 1. Klicka för att öppna mappen för bidrag, du kan se två undermappar -**[!UICONTROL SHARED]** och **[!UICONTROL NEW]** i mappen för bidrag. Mappen SHARED innehåller alla baslinjeresurser (referensinnehåll) som delas av administratörerna.
 1. Du kan hämta mappen **[!UICONTROL SHARED]** som innehåller alla baslinjeresurser på den lokala datorn.
-Du kan också öppna mappen **[!UICONTROL SHARED]** och klicka på **ikonen Hämta** ![](assets/download.png) för att hämta enskilda filer/mappar.
-   ![](assets/download-asset-requirement3.png)
+Du kan också öppna mappen **[!UICONTROL SHARED]** och klicka på ikonen **Hämta** för att hämta enskilda filer/mappar.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 Gå igenom översikten (tillgångskravsdokument) och hänvisa till bastillgångarna för att förstå tillgångskraven. Nu kan du skapa nya resurser för bidrag och överföra dem till mappen för bidrag.
 
@@ -82,15 +91,15 @@ Kontrollpanelen för varumärkesportalen innehåller alla befintliga mappar som 
 
 1. Klicka på mappen **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Files]** om du vill överföra enskilda filer eller mappar (.zip) som innehåller flera resurser.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Bläddra och överför resurser (filer eller mappar) till mappen **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 När du har överfört alla resurser eller mappar till mappen NEW publicerar du mappen för bidrag till AEM Assets.
 
@@ -110,7 +119,7 @@ Se till att du har gått igenom resurskraven och överför de nyskapade resurser
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 Ett e-post-/pulsmeddelande skickas till Brand Portal-användare och -administratörer i olika stadier av publiceringsarbetsflödet:
 1. **Köad**  - Ett meddelande skickas till användaren och administratören för varumärkesportalen när ett publiceringsarbetsflöde utlöses i varumärkesportalen.
@@ -129,21 +138,17 @@ Det finns två rapporter som administratörer kan använda för att visa statuse
 
    ![](assets/contribution-folder-status.png)
 
-* I AEM Assets (lokal eller hanterad tjänst) går du till **[!UICONTROL Tools]** > **[!UICONTROL Jobs]**. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
+* I AEM Assets (lokal eller hanterad tjänst) går du till **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
 
    ![](assets/publishing-status.png)
 
-* I AEM Assets som Cloud Service går du till **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Reports]**.
+* I AEM Assets som Cloud Service går du till **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**.
 
-   Klicka på **[!UICONTROL Create]** och välj **[!UICONTROL Publish]** för att skapa en publiceringsrapport.
+   Du kan också navigera direkt till **[!UICONTROL Jobs]** från den globala navigeringen.
 
-   ![](assets/create-publish-report.png)
+   Den här rapporten visar det slutliga läget (Slutfört eller Fel) för alla publiceringsjobb, inklusive import av resurser från Brand Portal till AEM Assets som Cloud Service.
 
-   Ange **[!UICONTROL Title]** och **[!UICONTROL Description]**, markera **[!UICONTROL Folder Path]** i mappen för bidrag och schemalägg rapporten för **[!UICONTROL Now]**. Klicka på **[!UICONTROL Next]**.
-
-   ![](assets/create-publish-report1.png)
-
-   Välj de fältattribut du vill använda i rapporten och generera den. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
