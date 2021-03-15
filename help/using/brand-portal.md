@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
+source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 4%
+source-wordcount: '1466'
+ht-degree: 2%
 
 ---
 
@@ -32,19 +32,15 @@ I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland,
 
 ## Konfigurera AEM Assets med varumärkesportalen {#configure-brand-portal}
 
-Adobe Experience Manager (AEM) Assets konfigureras med Brand Portal via Adobe Developer Console, som anskaffar en IMS-token för auktorisering av din varumärksportal.
+När du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du publicera resurser, distribuera resurser och bidra med resurser för dem som använder Brand Portal.
 
 >[!NOTE]
 >
->Det går att konfigurera AEM Assets med varumärkesportalen via Adobe Developer Console i AEM Assets som Cloud Service, AEM Assets 6.3 och senare.
+>Konfigurering av AEM Assets med varumärkesportalen stöds i AEM Assets som en Cloud Service, AEM Assets 6.3 och senare.
 
-### Krav för att konfigurera AEM Assets med varumärkesportalen {#prerequisites}
+AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
 
-Du behöver följande för att konfigurera AEM Assets med varumärkesportalen:
-
-* En instans av AEM Assets som körs.
-* Varumärkesportalens klientorganisations-URL.
-* En användare med systemadministratörsbehörighet på IMS-organisationen för varumärkesportalens klient.
+AEM Assets (lokalt och Managed Services) konfigureras manuellt med Brand Portal via Adobe Developer Console, som köper en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
 
 Mer information finns i [konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
 
