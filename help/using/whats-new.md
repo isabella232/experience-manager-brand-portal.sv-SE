@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '5975'
+source-wordcount: '6043'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0 är en förbättringsrelease som innehåller automatiseri
 
 ### Automatisering av varumärkesportalen på AEM Assets som Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. En Cloud Manager-användare utlöser aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
+AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager.
 
 Tidigare konfigurerades AEM Assets som Cloud Service manuellt med varumärkesportalen med hjälp av Adobe Developer Console.
+
+En Cloud Manager-användare utlöser aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
+
+Så här aktiverar du Brand Portal på din AEM Assets som Cloud Service:
+
+1. Logga in på Adobe Cloud Manager och navigera till **[!UICONTROL Environments]**.
+1. Välj miljöer (en efter en) i listan för att visa miljöinformationen. När du har hittat den miljö som är kopplad till varumärkesportalen klickar du på knappen **[!UICONTROL Activate Brand Portal]** för att starta aktiveringsarbetsflödet.
+1. När klienten för varumärkesportalen har aktiverats ändras statusen till Aktiverad.
+
+![Visa status](assets/create-environment5.png)
 
 Se [aktivera varumärksportal på AEM Assets som en Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
