@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
 workflow-type: tm+mt
-source-wordcount: '5829'
+source-wordcount: '5991'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,23 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 ## Vad ändrades 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 är en förbättrad release som fokuserar på att underlätta funktionen för resurshantering på AEM Assets som en Cloud Service, förbättringar i upplevelsen vid nedladdning av resurser samt viktiga korrigeringar. Det gör att administratörer kan konfigurera standardhämtningsbeteendet för mappar, samlingar och masshämtning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 är en förbättringsrelease som innehåller automatiseringsarbetsflödet i varumärkesportalen på AEM Assets som Cloud Service, underlättar funktionen Resurser på AEM Assets som Cloud Service, förbättrar upplevelsen vid nedladdning av resurser samt innehåller viktiga korrigeringar. Det gör det även möjligt för administratörer att konfigurera standardnedladdningsbeteendet för mappar, samlingar och massnedladdning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
+### Automatisering av varumärkesportalen på AEM Assets som Cloud Service {#bp-automation-on-cloud-service}
+
+AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. En Cloud Manager-användare utlöser aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
+
+Tidigare konfigurerades AEM Assets som Cloud Service manuellt med Brand Portal med hjälp av Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+
+Se [aktivera varumärksportal på AEM Assets som en Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
 ### Resurshantering på AEM Assets som Cloud Service {#asset-sourcing-on-cloud-service}
 
-Funktionen Resurser är nu tillgänglig i AEM Assets som Cloud Service. Funktionerna är som standard aktiverade för alla användare av molntjänster. Tillåtna Brand Portal-användare kan bidra till resurskälla genom att överföra nya resurser till bidragsmapparna och publicera bidragsmappen från Brand Portal till AEM Assets som en Cloud Service-instans. Administratörerna kan granska och godkänna varumärkesportalanvändarnas bidrag för att vidaredistribuera dem till andra Brand Portal-användare.
+Funktionen Resurser är nu tillgänglig i AEM Assets som Cloud Service. Funktionen är aktiverad som standard för alla användare av molntjänster. Tillåtna Brand Portal-användare kan bidra till resurskälla genom att överföra nya resurser till bidragsmapparna och publicera bidragsmappen från Brand Portal till AEM Assets som en Cloud Service-instans. Administratörerna kan granska och godkänna varumärkesportalanvändarnas bidrag för att vidaredistribuera dem till andra Brand Portal-användare.
 
 Tidigare var Resurser endast tillgängligt på AEM Assets (lokal och hanterad tjänst).
+
+Se [Resurshantering i varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
 
 ### Resurshämtning {#asset-download-setting}
 
@@ -52,6 +61,7 @@ Logga in som administratör på din varumärkesportal och navigera till **[!UICO
 
 ![](assets/download-settings-new.png)
 
+Se [hämta resurser från varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -223,7 +233,7 @@ I varumärkesportalen 6.4.6 ändras behörighetskanalen mellan AEM Assets och va
 
    -->
 
-Stegen för att konfigurera AEM Assets med varumärkesportalen varierar beroende på vilken version du har, om du konfigurerar för första gången eller om du uppgraderar de befintliga konfigurationerna:
+Stegen för att konfigurera AEM Assets med varumärkesportalen skiljer sig åt beroende på vilken version du har AEM och om du konfigurerar för första gången eller uppgraderar de befintliga konfigurationerna:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -339,7 +349,7 @@ På samma sätt kan du ange:
 
 ## Vad har ändrats i 6.4.3 {#what-changed-in}
 
-Brand Portal 6.4.3 fokuserar på - att ge organisationer ett alternativt alias utöver sitt klient-ID i Brand Portal-URL:en, ny mapphierarkikonfiguration, bättre videosupport, schemalagd publicering från AEM Author-instansen till Brand Portal, förbättringar av verksamheten samt att tillgodose kundernas önskemål.
+Utgåvan av Brand Portal 6.4.3 fokuserar på - att ge organisationer ett alternativt alias utöver deras klient-ID i åtkomst-URL:en för Brand Portal, ny konfiguration av mapphierarki, bättre videosupport, schemalagd publicering från AEM Author-instansen till Brand Portal, förbättringar av driften - samt att tillgodose kundernas önskemål.
 
 ### Mapphierarkinavigering för icke-administratörer
 
@@ -438,7 +448,7 @@ Versionen ger en förenklad nedladdningsupplevelse med ett reducerat antal klick
 * Om du väljer att endast hämta återgivningarna (och inte de ursprungliga resurserna).
 * Hämtning av resurserna när åtkomsten till de ursprungliga återgivningarna är begränsad.
 
-## Vad har ändrats i 6.4.2 {#what-changed-in-1}
+## Vad har ändrats i 6.4.6 {#what-changed-in-1}
 
 Brand Portal 6.4.2 innehåller en rad funktioner för att hantera resursdistributionsbehov i organisationer och hjälpa dem att nå ut till ett stort antal användare globalt via Gäst-åtkomst och få en optimal upplevelse vid snabbare nedladdningar. Varumärkesportalen ger också bättre kontroll till organisationer genom nya konfigurationer för administratörer, nytillagda rapporter och tar hänsyn till kundförfrågningar.
 
