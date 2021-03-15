@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '575'
 ht-degree: 4%
 
 ---
@@ -39,9 +39,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 Den här versionen innehåller följande nya funktioner:
 
+* AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager.
+
 * Funktionen Resurser är nu tillgänglig i AEM Assets som Cloud Service. Det gör det möjligt för Brand Portal-användare att överföra resurser till tillåtna avgiftsbelagda mappar och publicera bidragsmappen från Brand Portal till AEM Assets som en Cloud Service-instans.
 
-* Ytterligare en **[!UICONTROL Asset Download]**-inställning har införts under **[!UICONTROL Download Settings]**. En separat mapp skapas för varje resurs när mappar, samlingar eller masshämtning av resurser hämtas. Se [hämtningsinställningar](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* Ytterligare en **[!UICONTROL Asset Download]**-inställning har införts under **[!UICONTROL Download Settings]**. En separat mapp skapas för varje resurs när mappar, samlingar eller masshämtning av resurser hämtas.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
