@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bfb0c38bf8d5b542caf9d0d20d3168cdcac649b3
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
@@ -24,11 +24,11 @@ När du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du pub
 
 Konfigurering av AEM Assets med varumärkesportalen stöds på:
 * AEM Assets as a Cloud Service
-* AEM Assets (lokal och Managed Services) 6.3 och senare
+* AEM Assets (lokal och hanterad tjänst) 6.3 och senare
 
 AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
 
-AEM Assets (lokalt och Managed Services) konfigureras manuellt med Brand Portal via Adobe Developer Console, som köper en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+AEM Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med hjälp av Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ AEM Assets (lokalt och Managed Services) konfigureras manuellt med Brand Portal 
 
 >[!TIP]
 >
->***Endast för befintliga kunder (lokalt och Managed Services)***
+>***Endast för befintliga kunder (lokal och hanterad tjänst)***
 >
 >Äldre OAuth Gateway-konfiguration fortsätter att fungera för befintliga kunder.
 >
