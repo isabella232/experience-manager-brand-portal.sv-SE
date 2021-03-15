@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '5991'
+source-wordcount: '5975'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Brand Portal 2021.02.0 är en förbättringsrelease som innehåller automatiseri
 
 AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. En Cloud Manager-användare utlöser aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
 
-Tidigare konfigurerades AEM Assets som Cloud Service manuellt med Brand Portal med hjälp av Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+Tidigare konfigurerades AEM Assets som Cloud Service manuellt med varumärkesportalen med hjälp av Adobe Developer Console.
 
 Se [aktivera varumärksportal på AEM Assets som en Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
@@ -448,7 +448,7 @@ Versionen ger en förenklad nedladdningsupplevelse med ett reducerat antal klick
 * Om du väljer att endast hämta återgivningarna (och inte de ursprungliga resurserna).
 * Hämtning av resurserna när åtkomsten till de ursprungliga återgivningarna är begränsad.
 
-## Vad har ändrats i 6.4.6 {#what-changed-in-1}
+## Vad har ändrats i 6.4.2 {#what-changed-in-1}
 
 Brand Portal 6.4.2 innehåller en rad funktioner för att hantera resursdistributionsbehov i organisationer och hjälpa dem att nå ut till ett stort antal användare globalt via Gäst-åtkomst och få en optimal upplevelse vid snabbare nedladdningar. Varumärkesportalen ger också bättre kontroll till organisationer genom nya konfigurationer för administratörer, nytillagda rapporter och tar hänsyn till kundförfrågningar.
 
