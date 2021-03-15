@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1467'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ När du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du pub
 
 AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
 
-AEM Assets (lokalt och Managed Services) konfigureras manuellt med Brand Portal via Adobe Developer Console, som köper en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+AEM Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med hjälp av Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
 
 Mer information finns i [konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md).
 
