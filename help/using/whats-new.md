@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6043'
+source-wordcount: '6056'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,15 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 ## Vad ändrades 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 är en förbättringsrelease som innehåller automatiseringsarbetsflödet i varumärkesportalen på AEM Assets som Cloud Service, underlättar funktionen Resurser på AEM Assets som Cloud Service, förbättrar upplevelsen vid nedladdning av resurser samt innehåller viktiga korrigeringar. Det gör det även möjligt för administratörer att konfigurera standardnedladdningsbeteendet för mappar, samlingar och massnedladdning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 är en förbättringsrelease som innehåller aktiveringsarbetsflödet i varumärkesportalen på AEM Assets som Cloud Service, underlättar funktionen Resurser på AEM Assets som Cloud Service, förbättrar upplevelsen vid nedladdning av resurser samt innehåller viktiga korrigeringar. Det gör det även möjligt för administratörer att konfigurera standardnedladdningsbeteendet för mappar, samlingar och massnedladdning av resurser på klientnivå. Varumärkeportalen **[!UICONTROL Usage Report]** har också ändrats så att den återspeglar de aktiva användarna på Varumärkeportal. Se den senaste [versionsinformationen för varumärkesportalen](brand-portal-release-notes.md).
 
-### Automatisering av varumärkesportalen på AEM Assets som Cloud Service {#bp-automation-on-cloud-service}
+### Aktivera varumärkesportalen på AEM Assets som Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager.
+AEM Assets som Cloud Service har nu rätt att ha en förkonfigurerad Brand Portal-instans. Cloud Manager-användaren kan aktivera Brand Portal på AEM Assets som en Cloud Service-instans.
 
 Tidigare konfigurerades AEM Assets som Cloud Service manuellt med varumärkesportalen med hjälp av Adobe Developer Console.
 
-En Cloud Manager-användare utlöser aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
+Cloud Manager-användaren aktiverar aktiveringsarbetsflödet, vilket skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
 
 Så här aktiverar du Brand Portal på din AEM Assets som Cloud Service:
 
@@ -225,7 +225,7 @@ Administratören för varumärkesportalen kan aktivera valfri kombination för a
 Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser med hjälp av delningslänken.
 
 
-## Vad har ändrats i 6.4.6 {#what-changed-in-646}
+## Vad har ändrats i 6.4.2 {#what-changed-in-646}
 
 I varumärkesportalen 6.4.6 ändras behörighetskanalen mellan AEM Assets och varumärkesportalen. Varumärkesportalen stöds nu i AEM Assets som Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades varumärkesportalen tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, där en IMS-token för auktorisering av din varumärksportal används.
 
