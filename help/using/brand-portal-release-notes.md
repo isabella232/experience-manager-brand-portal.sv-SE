@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 
 Den här versionen innehåller följande nya funktioner:
 
-* AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager.
+* AEM Assets som Cloud Service har nu rätt att ha en förkonfigurerad Brand Portal-instans. Cloud Manager-användaren kan aktivera Brand Portal på AEM Assets som en Cloud Service-instans.
 
 * Funktionen Resurser är nu tillgänglig i AEM Assets som Cloud Service. Det gör det möjligt för Brand Portal-användare att överföra resurser till tillåtna avgiftsbelagda mappar och publicera bidragsmappen från Brand Portal till AEM Assets som en Cloud Service-instans.
 
