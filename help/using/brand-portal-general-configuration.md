@@ -9,10 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
+role: Administratör
 translation-type: tm+mt
-source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
