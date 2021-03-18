@@ -9,10 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
+role: Administratör
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Administratören måste utföra följande steg för att tillåta gäståtkomst:
 
 ## Tillåt användare att begära åtkomst {#allow-users-to-request-access}
 
-Administratörer kan tillåta att användarna i organisationen begär åtkomst till varumärkesportalen från välkomstskärmen. Administratörer måste dock aktivera konfigurationen **[!UICONTROL Allow Users to Request Access]** så att länken för åtkomstbegäran visas på välkomstskärmen.
+Administratörer kan tillåta att organisationsanvändare begär åtkomst till varumärkesportalen från välkomstskärmen. Administratörer måste dock aktivera konfigurationen **[!UICONTROL Allow Users to Request Access]** så att länken för åtkomstbegäran visas på välkomstskärmen.
 
 För att organisationsanvändare ska kunna begära åtkomst på varumärkesportalen måste administratörerna:
 
