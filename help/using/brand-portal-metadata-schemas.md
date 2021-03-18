@@ -8,10 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
+role: Administratör
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1642'
 ht-degree: 6%
 
 ---
@@ -68,7 +69,7 @@ Så här redigerar du ett metadatamatchemaformulär:
 
    Sidan **[!UICONTROL Metadata Schema Editor]** öppnas med fliken **[!UICONTROL Basic]** öppen till vänster och fliken **[!UICONTROL Build Form]** öppen till höger.
 
-1. Anpassa sidan **[!UICONTROL Metadata Schema Editor]** för resursen genom att dra en eller flera komponenter från en lista med komponenttyper på fliken **[!UICONTROL Build Form]** till fliken **[!UICONTROL Basic]** på sidan &lt;a0/>.**[!UICONTROL Properties]**
+1. På sidan **[!UICONTROL Metadata Schema Editor]** anpassar du sidan **[!UICONTROL Properties]** för resursen genom att dra en eller flera komponenter från en lista med komponenttyper på fliken **[!UICONTROL Build Form]** till fliken **[!UICONTROL Basic]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
