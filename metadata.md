@@ -1,20 +1,15 @@
 ---
 cloud: experience-cloud
-solution-title: Läs mer & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
-solution-image: null
-getting-started-title: Komma igång
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html
-tutorials-title: Tutorials
-tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.sv-SE
 solution: Experience Manager
+feature-set: Experience Manager Assets
+type: Dokumentation
 index: y
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 8%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
