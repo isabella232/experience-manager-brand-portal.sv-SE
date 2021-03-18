@@ -11,7 +11,6 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 product: experience-manager
 sub-product: resurser
-feature: varumärkesportal
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -19,9 +18,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5a61c42762e111b824163ce7d054d413a4da56bc
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
