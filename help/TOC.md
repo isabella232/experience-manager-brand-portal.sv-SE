@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 sub-product: varumärkesportal för Experience Manager
 audience: end-user
@@ -9,7 +9,7 @@ user-guide-description: Använd AEM Assets Brand Portal för att tillgodose mark
 feature: Varumärkesportal
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
+source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 16%
