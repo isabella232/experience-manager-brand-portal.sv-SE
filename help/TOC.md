@@ -7,12 +7,12 @@ user-guide-title: AEM varumärkesportal
 breadcrumb-title: Handbok för varumärkesportal
 user-guide-description: Använd AEM Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 feature: Varumärkesportal
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
 translation-type: tm+mt
-source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
+source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 16%
+source-wordcount: '281'
+ht-degree: 17%
 
 ---
 
@@ -60,7 +60,6 @@ ht-degree: 16%
    + [Första gången du loggar in](using/brand-portal-onboarding.md)
    + [Hantera användare, grupper och användarroller](using/brand-portal-adding-users.md)
    + [Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden](using/brand-portal-branding.md)
-   + [Använd anpassade sökfaktorer](using/brand-portal-search-facets.md)
    + [Använd metadatamatchformuläret](using/brand-portal-metadata-schemas.md)
    + [Använda bildförinställningar eller dynamiska återgivningar](using/brand-portal-image-presets.md)
    + [Arbeta med rapporter](using/brand-portal-reports.md)
