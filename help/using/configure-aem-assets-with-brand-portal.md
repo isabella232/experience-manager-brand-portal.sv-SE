@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-role: Administratör
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 6b9433bd5a225a2bbaddc09980c9f7b866a75fe8
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ audience: end-user
 user-guide-title: AEM varumärkesportal
 breadcrumb-title: Handbok för varumärkesportal
 user-guide-description: Använd AEM Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
-feature: Varumärkesportal
+feature: Brand Portal
 role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
