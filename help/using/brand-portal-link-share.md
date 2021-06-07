@@ -1,28 +1,27 @@
 ---
 title: Dela resurser som en länk
 seo-title: Dela resurser som en länk
-description: Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
-seo-description: Administratörer för AEM Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+description: AEM Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+seo-description: AEM Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
+source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
-
 # Dela resurser som en länk {#share-assets-as-a-link}
 
-Administratörer för Adobe Experience Manager Assets Brand Portal kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+Adobe Experience Manager Assets Brand Portal-administratörer kan dela länkar mellan olika resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
 
-Att dela resurser via en länk är ett bekvämt sätt att göra dem tillgängliga för externa parter eftersom mottagarna inte behöver logga in på varumärkesportalen för att få tillgång till resurserna.
+Att dela resurser via en länk är ett bekvämt sätt att göra dem tillgängliga för externa parter eftersom mottagarna inte behöver logga in på Brand Portal för att få tillgång till resurserna.
 
 <!-- Link sharing access is restricted to editors and administrators. 
 -->
@@ -31,12 +30,12 @@ Mer information finns i [Hantera användare, grupper och användarroller](../usi
 
 >[!NOTE]
 >
->Upp till 5 GB ZIP-nedladdning är tillåtet med hjälp av länkdelningsfunktionen i varumärkesportalen.
+>Upp till 5 GB ZIP-nedladdning tillåts med hjälp av länkdelningsfunktionen i Brand Portal.
 
 
 Så här delar du resurser som en länk:
 
-1. Logga in på din klient för varumärkesportalen. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
 1. Markera de resurser eller mappar som du vill dela, eller navigera till vyn **[!UICONTROL Collections]** för att dela de samlingar som du har skapat.
 
@@ -57,7 +56,7 @@ Så här delar du resurser som en länk:
    * I fältet **[!UICONTROL Expiration]** använder du datumväljaren för att ange ett förfallodatum och en förfallotid för länken. Som standard är förfallodatumet 7 dagar från det datum då du delar länken.
    * Aktivera kryssrutan **[!UICONTROL Allow downlod of original file]** för att tillåta mottagarna att hämta den ursprungliga återgivningen.
 
-   Resurserna som delas via länken går ut när det datum och den tid som anges i fältet **[!UICONTROL Expiration]** har passerats. Mer information om beteendet för utgångna resurser och ändringar i de tillåtna aktiviteterna baserat på användarroller i varumärkesportalen finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Resurserna som delas via länken går ut när det datum och den tid som anges i fältet **[!UICONTROL Expiration]** har passerats. Mer information om beteendet för utgångna resurser och ändringar i de tillåtna aktiviteterna baserat på användarroller i Brand Portal finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -97,7 +96,9 @@ Så här hämtar du de delade resurserna:
 
    >[!NOTE]
    >
-   >Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en ZIP-mapp. En separat mapp skapas för varje resurs i zip-mappen.
+   >En separat mapp skapas för varje resurs när resurserna hämtas från en delad länk.
+   >
+   >Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas i en ZIP-mapp som innehåller en separat mapp för varje resurs.
 
    >[!NOTE]
    >
@@ -106,7 +107,7 @@ Så här hämtar du de delade resurserna:
 
 >[!NOTE]
 >
->Brand Portal begränsar nedladdningen av resurser som är större än 5 GB per filstorlek.
+>Brand Portal begränsar nedladdning av resurser som är större än 5 GB per filstorlek.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -134,7 +135,7 @@ Så här hämtar du de delade resurserna:
 
 ## Stöd för förhandsgranskning och miniatyrbilder för resursformat {#preview-thumbnail-support}
 
-I följande matris visas de resursformat som Brand Portal har stöd för miniatyrbilder och förhandsvisning för:
+I följande matris visas de resursformat som Brand Portal stöder miniatyrbilder och förhandsvisning för:
 
 | Resursformat | Stöd för miniatyrbilder | Stöd för förhandsgranskning |
 |--------------|-------------------|-----------------|
@@ -202,13 +203,13 @@ I följande förklaring förklaras symbolerna som används i matrisen:
 | ✓ | Det här filformatet stöder den här funktionen |
 | ✕ | Det här filformatet stöder inte den här funktionen |
 | NA | Den här funktionen gäller inte för det här filformatet |
-| * | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på varumärkesportalen efter att resurser har publicerats på varumärkesportalen |
+| * | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på Brand Portal efter att resurserna har publicerats i Brand Portal |
 
 ## Dela inte resurser som delas som en länk {#unshare-assets-shared-as-a-link}
 
 Så här tar du bort delning av tidigare delade resurser som en länk:
 
-1. När du loggar in på varumärkesportalen öppnas vyn **[!UICONTROL File]** som standard. Navigera till vyn **[!UICONTROL Shared Links]** om du vill visa de resurser du har delat som länkar.
+1. När du loggar in på Brand Portal öppnas vyn **[!UICONTROL File]** som standard. Navigera till vyn **[!UICONTROL Shared Links]** om du vill visa de resurser du har delat som länkar.
 
 1. Granska länkarna som du delade från den lista som visas.
 
