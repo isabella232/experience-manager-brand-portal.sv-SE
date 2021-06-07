@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 0999d50f9e33d079c082afda28d7690015a13303
+source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 0%
@@ -195,7 +195,6 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 >[!NOTE]
 >
 >Om **[!UICONTROL Fast Download]**-inställningen är inaktiverad av administratören hämtas de valda återgivningarna direkt till en zip-mapp utan att använda IBM Aspera Connect.
-
 
 >[!NOTE]
 >
