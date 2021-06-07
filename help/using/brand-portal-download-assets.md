@@ -9,39 +9,38 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
+source-git-commit: 0999d50f9e33d079c082afda28d7690015a13303
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
 
-
-# Hämta resurser från varumärkesportalen {#download-assets-from-bp}
+# Hämta resurser från Brand Portal {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom att användarna samtidigt kan hämta flera resurser och mappar som är tillgängliga för dem från Brand Portal. På så sätt kan godkända varumärkesresurser distribueras säkert för användning offline. Läs vidare om du vill veta hur du hämtar godkända resurser från varumärkesportalen och vad du kan förvänta dig av [hämtningsprestanda](../using/brand-portal-download-assets.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom att man kan ladda ned flera resurser och mappar som är tillgängliga för dem från Brand Portal samtidigt. På så sätt kan godkända varumärkesresurser distribueras säkert för användning offline. Läs vidare om du vill veta hur du hämtar godkända resurser från Brand Portal och vad du kan förvänta dig av [hämtningsprestanda](../using/brand-portal-download-assets.md#expected-download-performance).
 
 
 >[!NOTE]
 >
->I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) i webbläsartillägget innan du hämtar materialet från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från varumärkesportalen](../using/accelerated-download.md).
+>I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) i webbläsartillägget innan du laddar ned materialet från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från Brand Portal](../using/accelerated-download.md).
 >
->Om du inte vill använda IBM Aspera Connect och fortsätta med den normala hämtningsprocessen kontaktar du administratören för varumärkesportalen och inaktiverar **[!UICONTROL Fast Download]**-inställningen.
+>Om du inte vill använda IBM Aspera Connect och fortsätta med den normala hämtningsprocessen kontaktar du Brand Portal-administratören för att inaktivera **[!UICONTROL Fast Download]**-inställningen.
 
 ## Konfigurera hämtning av resurser {#configure-download}
 
-Administratörer för varumärkesportalen kan konfigurera hämtnings- och användargruppsinställningar för användare i varumärkesportalen så att de kan komma åt och hämta resursåtergivningar från gränssnittet för varumärkesportalen.
+Brand Portal-administratörer kan konfigurera resurshämtning och användargruppinställningar för Brand Portal-användare så att de kan komma åt och hämta resursåtergivningar från Brand Portal gränssnitt.
 
 >[!NOTE]
 >
->De hämtningsinställningar som används i användargränssnittet underlättar för användarna på varumärkesportalen att enkelt konfigurera och hämta resursrenderingarna. Det begränsar inte hämtningen av resurser i programlagret, till exempel kan användarna fortfarande komma åt och hämta resursåtergivningarna med den fullständiga URL-sökvägen.
+>De hämtningsinställningar som används i användargränssnittet underlättar för Brand Portal-användare att själva konfigurera och hämta resursrenderingarna. Det begränsar inte hämtningen av resurser i programlagret, till exempel kan användarna fortfarande komma åt och hämta resursåtergivningarna med den fullständiga URL-sökvägen.
 
-Åtkomst till och hämtning av resursåtergivningar från gränssnittet för varumärkesportalen definieras av följande konfigurationer:
+Åtkomst till och hämtning av resursåtergivningar från Brand Portal-gränssnittet definieras av följande konfigurationer:
 
 * Aktivera hämtningsinställningar
 * Konfigurera inställningar för användargrupp
@@ -73,9 +72,9 @@ De tillgängliga inställningarna är:
    Möjliggör hämtning av återgivningarna i en separat mapp för varje resurs. Inställningen gäller för mappar, samlingar och masshämtning av resurser (fler än 20 resurser).
 
 
-Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
+Logga in på din Brand Portal-klient som administratör och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
 
-Administratörerna kan aktivera valfri kombination av inställningar så att Brand Portal-användarna kan komma åt och hämta renderingar.
+Administratörerna kan aktivera valfri kombination av inställningar som Brand Portal-användare kan använda för att komma åt och hämta renderingar.
 
 ![](assets/download-settings-new.png)
 
@@ -86,9 +85,9 @@ Administratörerna kan aktivera valfri kombination av inställningar så att Bra
 
 ### Konfigurera inställningar för användargrupp {#configure-user-group-settings}
 
-Förutom **[!UICONTROL Download Settings]** kan administratören för varumärkesportalen konfigurera inställningar för olika användargrupper så att de kan visa och (eller) hämta originalresurserna och deras återgivningar.
+Förutom **[!UICONTROL Download Settings]** kan Brand Portal-administratörer ytterligare konfigurera inställningar för olika användargrupper så att de kan visa och (eller) hämta originalresurserna och deras återgivningar.
 
-Logga in som administratör på din varumärkesportal och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**. På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera inställningar för visning och (eller) hämtning för användargrupperna.
+Logga in på din Brand Portal-klient som administratör och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**. På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera inställningar för visning och (eller) hämtning för användargrupperna.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -117,11 +116,11 @@ I följande matris definieras om en användare ska ha åtkomst till renderingarn
 
 ## Hämta resurser {#download-assets}
 
-Användare av varumärkesportalen kan hämta flera resurser, mappar med resurser och samlingar från gränssnittet för varumärkesportalen.
+Brand Portal-användare kan hämta flera resurser, mappar med resurser och samlingar från Brand Portal gränssnitt.
 
 >[!NOTE]
 >
->Kontakta administratören för varumärkesportalen om du inte har behörighet att komma åt eller hämta resursåtergivningarna.
+>Kontakta Brand Portal-administratören om du inte har behörighet att komma åt eller hämta resursåtergivningarna.
 
 Om användaren har åtkomst till återgivningar får användaren den förbättrade **[!UICONTROL Download]**-dialogrutan med följande funktioner:
 * Visa alla tillgängliga återgivningar av alla resurser i hämtningslistan.
@@ -140,9 +139,9 @@ Om användaren har åtkomst till återgivningar får användaren den förbättra
 
 ### Steg för att hämta resurser {#bulk-download}
 
-Så här hämtar du resurser eller mappar som innehåller resurser från gränssnittet för varumärkesportalen:
+Så här hämtar du resurser eller mappar som innehåller resurser från Brand Portal-gränssnittet:
 
-1. Logga in på din klient för varumärkesportalen. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
    Gör något av följande:
 
@@ -181,7 +180,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
    ![remove](assets/remove.png)
 
-   Om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser markerar du kryssrutan **[!UICONTROL Create separate folder for each asset]**.
+   Markera kryssrutan **[!UICONTROL Create separate folder for each asset]** om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser.
 
    Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**.
 
@@ -200,10 +199,11 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 
 >[!NOTE]
 >
->Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en ZIP-mapp.
->
 >Om inställningen **[!UICONTROL Asset Download]** är aktiverad i **[!UICONTROL Download Settings]** hämtas resursåtergivningarna i en separat mapp för varje resurs i zip-mappen.
-
+>  
+>Om resurserna hämtas från en delad länk hämtas resursåtergivningarna i en separat mapp för varje resurs i zip-mappen.
+>
+>Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en ZIP-mapp.
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från gränss
 >
 >(*Om AEM författarinstans körs på&#x200B;**Dynamic Media hybridläge***)
 >
->Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från AEM till varumärkesportalen publiceras även dess Pyramid-tiff-rendering.
+>Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från AEM till Brand Portal publiceras även dess Pyramid-återgivning.
 
 
 
@@ -234,7 +234,7 @@ Användarna kan förhandsgranska olika återgivningar, välja specifika återgiv
 
 Så här hämtar du resursåtergivningar från sidan med resursinformation:
 
-1. Logga in på din innehavare av varumärkesportalen och klicka på resursen för att öppna sidan med resursinformation.
+1. Logga in på din Brand Portal-klient och klicka på resursen för att öppna sidan med resursinformation.
 1. Klicka på övertäckningsikonen till vänster och klicka sedan på **[!UICONTROL Renditions]**.
 
    ![återgivningsnavigering](assets/rendition-navigation.png)
@@ -402,7 +402,7 @@ Following are the steps to download assets or folders containing assets from Bra
 
 ## Hämtningsprestanda {#expected-download-performance} förväntades
 
-Filhämtningen kan variera för användare på olika platser på klienten, beroende på faktorer som lokal Internetanslutning och serverfördröjning. Den förväntade hämtningsprestandan för 2-GB-filer som observeras på olika klientplatser är följande, med Brand Portal-servern på Oregon i USA:
+Filhämtningen kan variera för användare på olika platser på klienten, beroende på faktorer som lokal Internetanslutning och serverfördröjning. Den förväntade hämtningsprestandan för 2-GB-filer som observeras på olika klientplatser är följande, med Brand Portal server på Oregon i USA:
 
 | Klientplats | Latens mellan klient och server | Förväntad hämtningshastighet | Tidsåtgång för att hämta en 2 GB-fil |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
@@ -419,4 +419,3 @@ Filhämtningen kan variera för användare på olika platser på klienten, beroe
 >[!NOTE]
 >
 >Citerade data observeras under testförhållanden, som kan variera för användare på olika platser där olika fördröjningar och bandbredd kan förekomma.
-
