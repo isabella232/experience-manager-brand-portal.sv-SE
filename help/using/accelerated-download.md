@@ -1,6 +1,6 @@
 ---
-title: Snabba upp nedladdningen av varumärkesportalen
-seo-title: Snabba upp nedladdningen av varumärkesportalen
+title: Snabba upp nedladdningen av Brand Portal
+seo-title: Snabba upp nedladdningen av Brand Portal
 description: Förbättra hämtningsprestanda från Brand Portal och de delade länkarna.
 seo-description: Förbättra hämtningsprestanda från Brand Portal och de delade länkarna.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
@@ -9,16 +9,15 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: cf28df58-c6dd-4b12-8279-01351892009f
+source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 3%
 
 ---
 
-
-# Snabba upp nedladdningen av varumärkesportalen {#guide-to-accelerate-downloads-from-brand-portal}
+# Snabba upp Brand Portal nedladdningar {#guide-to-accelerate-downloads-from-brand-portal}
 
 Med Adobe Experience Manager Assets Brand Portal kan du förbättra hämtningsprestanda för stora filer genom att integrera med IBM Aspera Connect, som är ett program som installeras vid behov. Programmet använder tillverkarspecifik teknik för att ta bort TCP-omkostnader och förbättrar överföringshastigheten för resursfilerna. Integreringen ger en förbättrad nedladdningsupplevelse.
 
@@ -26,7 +25,7 @@ Med Adobe Experience Manager Assets Brand Portal kan du förbättra hämtningspr
 >
 >Nedladdningshastigheten varierar för användarna eftersom den beror på t.ex. nätverkets bandbredd, serverns latens och klienternas geografiska placering.
 
-Konfigurationen **[!UICONTROL Fast Download]** är som standard aktiverad, vilket minskar den tid det tar att hämta önskade resursfiler från varumärkesportalen avsevärt.
+Konfigurationen **[!UICONTROL Fast Download]** är som standard aktiverad, vilket minskar den tid det tar att hämta önskade resursfiler från Brand Portal avsevärt.
 
 ![](assets/download-settings-new.png)
 
@@ -54,7 +53,7 @@ Nedan följer hämtningsdomänerna för olika platser:
 
 I följande tabell visas hämtningsprestanda för 2 GB-filer med Aspera Connect-filhämtningsacceleratorn:
 
-*De observerade resultaten varierar beroende på faktorer som nätverksbandbredd, serverfördröjning och klientplats, med tanke på att Brand Portal-servern är i Oregon (USA).*
+*Resultatet som observeras varierar beroende på faktorer som nätverksbandbredd, serverfördröjning och klientplacering, eftersom Brand Portal-servern är i Oregon (USA).*
 
 | Klientplats | Latens mellan klient och server (millisekunder) | Snabba upp med Aspera Connect File Transfer Accelerator (MBps) | Tid för hämtning av 2 GB fil med Aspera File Transfer Accelerator (sekunder) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -69,9 +68,9 @@ I följande tabell visas hämtningsprestanda för 2 GB-filer med Aspera Connect-
 
 ## Hämta arbetsflöde med filacceleratorn {#download-workflow-using-file-accelerator}
 
-Så här hämtar du resurser snabbare från varumärkesportalen:
+Så här hämtar du resurser snabbare från Brand Portal:
 
-1. Logga in på din klient för varumärkesportalen. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
    Gör något av följande:
 
@@ -85,7 +84,7 @@ Så här hämtar du resurser snabbare från varumärkesportalen:
 
 1. Dialogrutan **[!UICONTROL Download]** där alla markerade resurser visas.
 
-   Om du vill bevara mapphierarkin för varumärkesportalen när du hämtar resurser markerar du kryssrutan **[!UICONTROL Create separate folder for each asset]**.
+   Markera kryssrutan **[!UICONTROL Create separate folder for each asset]** om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser.
 
    Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder regler finns i [Hämta resurser](../using/brand-portal-download-assets.md#download-assets).
 
@@ -180,12 +179,12 @@ Microsoft Edge körs i EPM (Enhanced Protected Mode) som förhindrar kommunikati
 
 ![](assets/switchapps-msedge.png)
 
-Om du vill använda accelererad nedladdningsfunktion i Microsoft Edge tar du bort webbplatsen för varumärkesportalen från listan över betrodda webbplatser.
+Om du vill använda accelererad nedladdningsfunktion på Microsoft Edge tar du bort Brand Portal webbplats från listan över tillförlitliga webbplatser.
 
 1. Öppna Kontrollpanelen (**[!UICONTROL Window key + X]** och välj **[!UICONTROL Control Panel]**).
 1. Gå till **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klicka på fliken **[!UICONTROL Security]**.
 1. Klicka på **[!UICONTROL Trusted sites zone]** och sedan på **[!UICONTROL Sites]**.
-1. Ta bort webbplatsen för varumärkesportalen från listan.
+1. Ta bort Brand Portal webbplats från listan.
 
 ## Klientinställningar för Aspera Connect {#aspera-connect-client-preferences}
 
