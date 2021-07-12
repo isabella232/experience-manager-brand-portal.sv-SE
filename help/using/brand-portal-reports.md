@@ -1,26 +1,25 @@
 ---
 title: Arbeta med rapporter
 seo-title: Arbeta med rapporter
-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om hur varumärkesportalen används samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
-seo-description: Administratörer för AEM Assets Brand Portal kan visa rapporter om hur varumärkesportalen används samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via varumärkesportalen.
+description: AEM Assets Brand Portal administratörer kan visa rapporter om Brand Portal användning samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
+seo-description: AEM Assets Brand Portal administratörer kan visa rapporter om Brand Portal användning samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
 
-
 # Arbeta med rapporter {#work-with-reports}
 
-Rapporteringsfunktionen är avgörande för att bedöma användningen av varumärkesportalen och för att veta hur interna och externa användare interagerar med godkända resurser. Administratörer kan visa användningsrapporten för varumärkesportalen, som alltid är tillgänglig på sidan Resursrapporter. Rapporter om användarinloggningar och resurser som hämtats, gått ut, publicerats och delats via länkar kan dock genereras och visas från sidan Resursrapporter. Dessa rapporter är till hjälp när det gäller att analysera resursdistributionen, vilket gör att ni kan ta fram viktiga framgångsmått för att mäta användningen av godkända resurser inom och utanför organisationen.
+Rapporteringsfunktionen är avgörande vid bedömning av Brand Portal användning och för att veta hur interna och externa användare interagerar med godkända resurser. Administratörer kan visa Brand Portal användningsrapport, som alltid är tillgänglig på sidan Resursrapporter. Rapporter om användarinloggningar och resurser som hämtats, gått ut, publicerats och delats via länkar kan dock genereras och visas från sidan Resursrapporter. Dessa rapporter är till hjälp när det gäller att analysera resursdistributionen, vilket gör att ni kan ta fram viktiga framgångsmått för att mäta användningen av godkända resurser inom och utanför organisationen.
 
 Rapporthanteringsgränssnittet är intuitivt och innehåller detaljerade alternativ och kontroller för att komma åt sparade rapporter. Du kan visa, hämta eller ta bort rapporter från sidan Resursrapporter, där alla tidigare genererade rapporter listas.
 
@@ -40,16 +39,16 @@ Så här visar du en rapport:
 
    >[!NOTE]
    >
-   >Användningsrapport är en standardrapport som genereras i varumärkesportalen. Den kan inte skapas eller tas bort. Du kan dock skapa, hämta och ta bort rapporterna Hämta, Förfallotid, Publicera, Länkdelning och Användarinloggning.
+   >Användningsrapport är en standardrapport som genereras i Brand Portal. Den kan inte skapas eller tas bort. Du kan dock skapa, hämta och ta bort rapporterna Hämta, Förfallotid, Publicera, Länkdelning och Användarinloggning.
 
    Om du vill visa en rapport klickar du på rapportlänken. Du kan också markera rapporten och trycka/klicka på ikonen Visa i verktygsfältet.
 
-   **[!UICONTROL Usage Report]** visar information om antalet aktiva Brand Portal-användare, det lagringsutrymme som används av alla resurser och det totala antalet resurser i Brand Portal. De användare på varumärkesportalen som inte är tilldelade någon produktprofil i Admin Console betraktas som inaktiva användare och återspeglas inte i **[!UICONTROL Usage Report]**.
+   **[!UICONTROL Usage Report]** visar information om antalet aktiva Brand Portal-användare, det lagringsutrymme som används av alla resurser och det totala antalet mediefiler i Brand Portal. De användare på varumärkesportalen som inte är tilldelade någon produktprofil i Admin Console betraktas som inaktiva användare och återspeglas inte i **[!UICONTROL Usage Report]**.
 Rapporten visar även tillåten kapacitet för var och en av dessa informationsmått.
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL User Logins]** rapporten innehåller information om de användare som loggade in på varumärkesportalen. Rapporten innehåller visningsnamn, e-post-ID:n, profiler (admin, visningsprogram, redigerare, gäst), grupper, senaste inloggning, aktivitetsstatus och antal inloggningar för varje användare från distributionen av Brand Portal 6.4.2 fram till tidpunkten för rapportgenereringen.
+   **[!UICONTROL User Logins]** rapporten innehåller information om de användare som loggade in på Brand Portal. Rapporten innehåller visningsnamn, e-post-ID:n, profiler (admin, visningsprogram, redigerare, gäst), grupper, senaste inloggning, aktivitetsstatus och antal inloggningar för varje användare från distributionen av Brand Portal 6.4.2 fram till rapportgenereringen.
 
    ![](assets/user-logins.png)
 
@@ -59,21 +58,21 @@ Rapporten visar även tillåten kapacitet för var och en av dessa informationsm
 
    >[!NOTE]
    >
-   >Resurserna i **[!UICONTROL Download]**-rapporten visar bara de resurser som har valts separat och hämtats från varumärkesportalen. Om en användare har hämtat en mapp som innehåller resurser visas inte mappen eller resurserna i mappen i rapporten.
+   >Resurserna i **[!UICONTROL Download]**-rapporten visar bara de resurser som har valts ut individuellt och hämtats från Brand Portal. Om en användare har hämtat en mapp som innehåller resurser visas inte mappen eller resurserna i mappen i rapporten.
 
    **[!UICONTROL Expiration]** rapporten innehåller en lista med och information om alla resurser som har gått ut inom en viss tidsram.
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]** rapporterar och ger information om alla resurser som publiceras från AEM till varumärkesportalen inom en viss tidsperiod.
+   **[!UICONTROL Publish]** rapporterar och ger information om alla resurser som publiceras från AEM till Brand Portal inom en viss tidsperiod.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Publiceringsrapport visar inte information om innehållsfragment eftersom innehållsfragmenten inte kan publiceras på varumärkesportalen.
+   >Publiceringsrapport visar ingen information om innehållsfragment eftersom innehållsfragmenten inte kan publiceras till Brand Portal.
 
-   **[!UICONTROL Link Share report]** visar alla resurser som delas via länkar från gränssnittet för varumärkesportalen inom en viss tidsram. Rapporten innehåller också information om när resursen delades via en länk, med vilken användare, när upphör länken och antalet delade länkar för innehavaren (och användare som resurslänken delades med). Det går inte att anpassa kolumnerna i länkdelningsrapporten.
+   **[!UICONTROL Link Share report]** visar alla resurser som delas via länkar från Brand Portal-gränssnittet inom en viss tidsram. Rapporten innehåller också information om när resursen delades via en länk, med vilken användare, när upphör länken och antalet delade länkar för innehavaren (och användare som resurslänken delades med). Det går inte att anpassa kolumnerna i länkdelningsrapporten.
 
    ![](assets/link-share-report.png)
 
