@@ -1,6 +1,6 @@
 ---
-title: Felsöka problem vid parallell publicering till varumärkesportalen
-seo-title: Felsöka problem vid parallell publicering till varumärkesportalen
+title: Felsöka problem vid parallell publicering till Brand Portal
+seo-title: Felsöka problem vid parallell publicering till Brand Portal
 description: Felsöka parallell publicering.
 seo-description: Felsöka parallell publicering.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
@@ -8,23 +8,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
+# Felsöka problem vid parallell publicering till Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-# Felsöka problem vid parallell publicering till varumärkesportalen {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
-
-Varumärkesportalen är konfigurerad med AEM Assets för att innehålla godkända varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När [har konfigurerats](../using/configure-aem-assets-with-brand-portal.md) använder AEM Author en replikeringsagent för att replikera de valda resurserna till molntjänsten Brand Portal för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
+Brand Portal är konfigurerat med AEM Assets för att ha godkänt varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När [har konfigurerats](../using/configure-aem-assets-with-brand-portal.md) använder AEM Author en replikeringsagent för att replikera de valda resurserna till Brand Portal molntjänst för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
 
 >[!NOTE]
 >
->Adobe rekommenderar att du uppgraderar till AEM 6.4.1.0 för att säkerställa att AEM Assets varumärkesportal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med varumärkesportalen och replikeringen misslyckas.
+>Adobe rekommenderar uppgradering till AEM 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med Brand Portal och replikeringen misslyckas.
 
 När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar många resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
 
@@ -32,7 +31,7 @@ Publiceringen kan emellertid misslyckas ibland på grund av stora snedställning
 
 ![](assets/test-connection.png)
 
-## Felsöka fel vid förstagångspublicering: validerar din publiceringskonfiguration {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Felsöka fel vid förstagångspublicering: validera din publiceringskonfiguration {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 Så här validerar du dina publiceringskonfigurationer:
 
@@ -62,11 +61,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Rensa befintliga Brand Portal-publiceringskonfigurationer {#clean-up-existing-config}
+### Rensa befintliga publiceringskonfigurationer för Brand Portal {#clean-up-existing-config}
 
 De flesta gånger som publiceringen inte fungerar kan orsaken vara att användaren som publicerar (till exempel: `mac-<tenantid>-replication` har inte den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en ny konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från AEM författarinställningar:
 
-1. Gå till `localhost:4502/crx/de/` (med tanke på att du kör författarinstans på localhost:4502:\
+1. Gå till `localhost:4502/crx/de/` (med tanke på att du kör författarinstansen på localhost:4502:\
    i. ta bort `/etc/replication/agents.author/mp_replication`
 ii. delete 
 `/etc/cloudservices/mediaportal/<config_name>`
@@ -85,7 +84,7 @@ Det finns ett känt fel i det här användargränssnittet som innebär att för 
 
 JWT-programmet kanske inte visas korrekt. Du bör därför anteckna/bokmärka URL-adressen när du skapar ett JWT-program.
 
-## Konfigurationen som körs slutar fungera {#running-configuration-stops-working}
+## Konfigurationen slutar fungera {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -116,10 +115,10 @@ Om en replikeringsagent (som publicerades på en varumärkesportal helt okej) sl
 
 Om det finns kontinuerliga publiceringsfel och kön är blockerad bör du kontrollera **[!UICONTROL test connection]** och försöka lösa de fel som rapporteras.
 
-Beroende på felen rekommenderar vi att du loggar en supportanmälan så att vårt team på Brand Portal kan hjälpa dig att lösa problem.
+Beroende på felen rekommenderar vi att du loggar en supportanmälan så att Brand Portal tekniker kan hjälpa dig att lösa problem.
 
 
-## Konfigurera replikeringsagenter för att undvika timeout-fel för anslutningen {#connection-timeout}
+## Konfigurera replikeringsagenter för att undvika timeoutfel i anslutningen {#connection-timeout}
 
 Publiceringsjobbet misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
