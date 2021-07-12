@@ -8,27 +8,26 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
-
 
 # Använd anpassade sökfaktorer {#use-custom-search-facets}
 
 Administratörer kan lägga till sökpredikat i panelen [!UICONTROL Filters] för att anpassa sökningen och göra sökfunktionen flexibel.
 
-Varumärkesportalen stöder [fasetterad sökning](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) för detaljerade sökningar efter godkända varumärkesresurser, vilket är möjligt på grund av panelen [**Filter**](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Sökfaktorer är tillgängliga på panelen Filter via **[!UICONTROL Search Form]** i administrationsverktygen. Det finns ett standardsökformulär med namnet Resursadministratörens sökväg på Forms-sidan Sök i administrationsverktygen. Administratörer kan dock anpassa standardpanelen för filter genom att redigera standardsökformuläret (Resursadministratörens sökspår) genom att lägga till, ändra eller ta bort sökpredikt, vilket gör sökfunktionen mångsidig.
+Brand Portal stöder [fasetterad sökning](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) för detaljerade sökningar efter godkända varumärkesresurser, vilket är möjligt på grund av panelen [**Filter**](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Sökfaktorer är tillgängliga på panelen Filter via **[!UICONTROL Search Form]** i administrationsverktygen. Det finns ett standardsökformulär med namnet Resursadministratörens sökväg på Forms-sidan Sök i administrationsverktygen. Administratörer kan dock anpassa standardpanelen för filter genom att redigera standardsökformuläret (Resursadministratörens sökspår) genom att lägga till, ändra eller ta bort sökpredikt, vilket gör sökfunktionen mångsidig.
 
 Du kan använda olika sökpredikat för att anpassa panelen **[!UICONTROL Filters]**. Lägg till exempel till egenskapspredikatet för att söka efter resurser som matchar en enda egenskap som du anger i det här predikatet. Lägg till alternativpredikatet för att söka efter resurser som matchar ett eller flera värden som du anger för en viss egenskap. Lägg till datumintervallpredikatet för att söka efter resurser som skapats inom ett angivet datumintervall.
 
 >[!NOTE]
 >
->Med AEM kan organisationer [publicera anpassade sökformulär från AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) till varumärkesportalen i stället för att återskapa samma formulär på varumärkesportalen.
+>AEM tillåter organisationer att [publicera anpassade sökformulär från AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) till Brand Portal i stället för att återskapa samma formulär på Brand Portal.
 
 ## Lägg till ett sökpredikat {#add-a-search-predicate}
 
@@ -73,7 +72,7 @@ Så här lägger du till ett sökpredikat på panelen **[!UICONTROL Filters]**:
 
    >[!NOTE]
    >
-   >I varumärkesportalen indexeras alla egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` i `dam:asset` som standard.
+   >I Brand Portal indexeras alla egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` i `dam:asset` som standard.
    >
    >Alla egenskaper som är indexerade kan användas när ett egenskapsprediat skapas. Om en egenskap som inte är indexerad är konfigurerad kanske sökfrågan för en egenskap som inte är indexerad inte ger något sökresultat.
 
@@ -112,7 +111,7 @@ På samma sätt som du lägger till ett **[!UICONTROL Property]**-predikat kan d
 
 >[!NOTE]
 >
->Använd inte **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** och **[!UICONTROL Rating Predicate]** eftersom dessa predikat inte fungerar i varumärkesportalen.
+>Använd inte **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** och **[!UICONTROL Rating Predicate]** eftersom dessa predikat inte fungerar i Brand Portal.
 
 ## Ta bort ett sökpredikat {#delete-a-search-predicate}
 
