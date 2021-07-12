@@ -9,15 +9,14 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
-
 
 # Administrera allmänna klientkonfigurationer {#administer-general-tenant-configurations}
 
@@ -32,7 +31,7 @@ Dessa konfigurationer har tillhandahållits som **[!UICONTROL General Settings]*
 
 ![](assets/general-config.png)
 
-****   AConfiguration som tillåter administratörer att ta bort resurser från varumärkesportalen. (Standard är aktiverat)
+****   AConfiguration som tillåter administratörer att ta bort resurser från Brand Portal. (Standard är aktiverat)
 
 **BConfiguration**   som tillåter icke-adminanvändare att skapa publika samlingar. (Standard är aktiverat)
 
@@ -51,17 +50,17 @@ Så här aktiverar/inaktiverar du dessa konfigurationer:
 1. **[!UICONTROL Save]** ändringarna.
 1. Logga ut för att ändringarna ska börja gälla.
 
-## Tillåt administratörsanvändare att ta bort resurser från varumärkesportalen {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Tillåt administratörsanvändare att ta bort resurser från Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL Allow users to delete]** kan organisationer tillåta (eller begränsa) användare med administratörsbehörighet att ta bort resurser och mappar från varumärkesportalen.
+**[!UICONTROL Allow users to delete]** kan organisationer tillåta (eller begränsa) användare med administratörsbehörighet att ta bort resurser och mappar från Brand Portal.
 
 ## Tillåt att offentliga samlingar skapas av icke-administratörer {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Allow public collections creation]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) konfigurationkontrollerar om icke-administratörer kan skapa offentliga samlingar på varumärkesportalen. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan de förhindra att det finns många offentliga samlingar på portalen så att systemutrymmet kan sparas.
+[[!UICONTROL Allow public collections creation]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) konfigurationkontrollerar om icke-administratörer kan skapa offentliga samlingar på Brand Portal. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan de förhindra att det finns många offentliga samlingar på portalen så att systemutrymmet kan sparas.
 
-## Tillåt att offentliga smarta samlingar skapas av icke-administratörer {#allow-public-smart-collections-creation-by-non-admins}
+## Tillåt att icke-administratörer skapar publika smarta samlingar {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) konfigurationkontrollerar om icke-administratörer kan spara sina sökningar som smarta samlingar och göra dem offentliga för den klienten. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan du förhindra att det finns ett stort antal publika smarta samlingar som skapats av icke-adminanvändare på organisationens varumärkesportal.
+[[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) konfigurationkontrollerar om icke-administratörer kan spara sina sökningar som smarta samlingar och göra dem offentliga för den klienten. Konfigurationen är aktiverad som standard. Genom att inaktivera konfigurationsorganisationerna kan du förhindra att det finns ett stort antal publika smarta samlingar som skapats av icke-adminanvändare i organisationens Brand Portal.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
