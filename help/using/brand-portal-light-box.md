@@ -1,28 +1,27 @@
 ---
 title: Hantera ljuslådesamlingen
 seo-title: Hantera ljuslådesamlingen
-description: Ljuslådan är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv ljuslåda som skapas automatiskt första gången de loggar in på varumärkesportalen. Ljuslådesamlingen kan inte tas bort.
-seo-description: Ljuslådan är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv ljuslåda som skapas automatiskt första gången de loggar in på varumärkesportalen. Ljuslådesamlingen kan inte tas bort.
+description: Ljuslådan är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv ljuslåda som skapas automatiskt första gången de loggar in på Brand Portal. Ljuslådesamlingen kan inte tas bort.
+seo-description: Ljuslådan är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv ljuslåda som skapas automatiskt första gången de loggar in på Brand Portal. Ljuslådesamlingen kan inte tas bort.
 uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-
 # Hantera ljuslådesamlingen {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv **[!UICONTROL Lightbox]** som skapas automatiskt första gången de loggar in på varumärkesportalen. Det går inte att ta bort samlingen **[!UICONTROL Lightbox]**.
+**[!UICONTROL Lightbox]** är en särskild typ av samling som ger enkel åtkomst till resurser. Varje användare har en exklusiv **[!UICONTROL Lightbox]** som skapas automatiskt när de loggar in på Brand Portal för första gången. Det går inte att ta bort samlingen **[!UICONTROL Lightbox]**.
 
-## Lägg till resurser i ljuslådan {#add-assets-to-lightbox}
+## Lägga till resurser i ljuslådan {#add-assets-to-lightbox}
 
 Så här lägger du till resurser i **[!UICONTROL Lightbox]**:
 
