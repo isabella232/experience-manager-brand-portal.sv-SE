@@ -1,26 +1,25 @@
 ---
 title: Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden
 seo-title: Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden
-description: Administratörer för varumärkesportaler kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för varumärkesportalen. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
-seo-description: Administratörer för varumärkesportaler kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för varumärkesportalen. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
+description: Brand Portal-administratörer kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för Brand Portal. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
+seo-description: Brand Portal-administratörer kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för Brand Portal. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
+# Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden {#customize-wallpaper-header-and-email-message}
 
-# Anpassa skrivbordsunderlägg, rubrik och e-postmeddelande {#customize-wallpaper-header-and-email-message}
-
-Administratörer för varumärkesportaler kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för varumärkesportalen. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
+Brand Portal-administratörer kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för Brand Portal. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
 
 ## Anpassa skrivbordsunderlägg för inloggningsskärmen {#customize-the-login-screen-wallpaper}
 
@@ -52,7 +51,7 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
 1. Ange en rubriktext och beskrivning för bakgrundsbilden. Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfältet högst upp.
 
-1. Klicka på ikonen **[!UICONTROL Preview]** i verktygsfältet högst upp för att generera en förhandsvisning av gränssnittet för varumärkesportalen med bilden.
+1. Klicka på ikonen **[!UICONTROL Preview]** längst upp i verktygsfältet för att generera en förhandsvisning av Brand Portal-gränssnittet med bilden.
 
    ![](assets/chlimage_1.png)
 
@@ -60,11 +59,11 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
 1. Gör följande på sidan **[!UICONTROL Configure Branding > Wallpaper]** om du vill aktivera eller inaktivera standardskrivbordsunderlägget:
 
-   * Om du vill visa standardbilden för skrivbordsunderlägg på inloggningssidan för varumärkesportalen klickar du på **[!UICONTROL Deactivate Wallpaper]** i verktygsfältet högst upp. Ett meddelande bekräftar att den anpassade bilden är inaktiverad.
+   * Om du vill visa standardbilden för skrivbordsunderlägg på Brand Portal inloggningssida klickar du på **[!UICONTROL Deactivate Wallpaper]** i verktygsfältet högst upp. Ett meddelande bekräftar att den anpassade bilden är inaktiverad.
 
    ![](assets/chlimage_1-1.png)
 
-   * Om du vill återställa den anpassade bilden på inloggningssidan för varumärkesportalen klickar du på **[!UICONTROL Activate Wallpaper]** i verktygsfältet. Ett meddelande bekräftar att bilden har återställts.
+   * Om du vill återställa den anpassade bilden på inloggningssidan för Brand Portal klickar du på **[!UICONTROL Activate Wallpaper]** i verktygsfältet. Ett meddelande bekräftar att bilden har återställts.
 
    ![](assets/chlimage_1-2.png)
 
@@ -74,7 +73,7 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
 ## Anpassa rubriken {#customize-the-header}
 
-Sidhuvudet visas på olika sidor på varumärkesportalen när du har loggat in på varumärkesportalen.
+Sidhuvudet visas på olika Brand Portal-sidor när du har loggat in på Brand Portal.
 
 1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
 
@@ -84,7 +83,7 @@ Sidhuvudet visas på olika sidor på varumärkesportalen när du har loggat in p
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Om du vill anpassa sidhuvudet för gränssnittet för varumärkesportalen väljer du **[!UICONTROL Configure Branding]** i den vänstra listen på sidan **[!UICONTROL Header Image]**. Standardbilden för sidhuvud visas.
+1. Om du vill anpassa sidhuvudet för Brand Portal-gränssnittet väljer du **[!UICONTROL Configure Branding]** i den vänstra listen på sidan **[!UICONTROL Header Image]**. Standardbilden för sidhuvud visas.
 
    ![](assets/default-header.png)
 
@@ -105,18 +104,18 @@ Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfä
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Klicka på ikonen **[!UICONTROL Preview]** i verktygsfältet högst upp för att generera en förhandsvisning av gränssnittet för varumärkesportalen med rubrikbilden.
+1. Klicka på ikonen **[!UICONTROL Preview]** längst upp i verktygsfältet för att generera en förhandsvisning av Brand Portal-gränssnittet med rubrikbilden.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. Gör följande på sidan **[!UICONTROL Configure Branding > Header Image]** för att aktivera eller inaktivera rubrikbilden:
 
-   * Om du inte vill att en rubrikbild ska visas på sidorna i varumärkesportalen klickar du på **[!UICONTROL Deactivate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är inaktiverad.
+   * Om du vill förhindra att en rubrikbild visas på Brand Portal-sidor klickar du på **[!UICONTROL Deactivate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är inaktiverad.
 
    ![](assets/chlimage_1-4.png)
 
-   * Om du vill att rubrikbilden ska visas igen på sidorna för varumärkesportalen klickar du på **[!UICONTROL Activate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är aktiverad.
+   * Om du vill att rubrikbilden ska visas igen på Brand Portal-sidor klickar du på **[!UICONTROL Activate Header]** i verktygsfältet högst upp. Ett meddelande bekräftar att bilden är aktiverad.
 
    ![](assets/chlimage_1-5.png)
 
@@ -124,7 +123,7 @@ Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfä
 
 
 
-## Anpassa e-postmeddelandet {#customize-the-email-messaging}
+## Anpassa e-postmeddelanden {#customize-the-email-messaging}
 
 När resurser delas som en länk får användarna ett e-postmeddelande med länken. Administratörer kan anpassa meddelandena, det vill säga logotyp, beskrivning och sidfot, för dessa e-postmeddelanden.
 
