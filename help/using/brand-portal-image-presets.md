@@ -8,23 +8,22 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
 
-
-# Använd bildförinställningar eller dynamiska återgivningar {#apply-image-presets-or-dynamic-renditions}
+# Använda bildförinställningar eller dynamiska återgivningar {#apply-image-presets-or-dynamic-renditions}
 
 Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan AEM Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper.
 
 En bildförinställning används för att generera dynamiska återgivningar av bilder som kan förhandsvisas och hämtas. När du förhandsgranskar bilder och deras återgivningar kan du välja en förinställning för att formatera om bilder enligt de specifikationer som angetts av administratören.
 
-(*Om AEM författarinstans körs på&#x200B;**Dynamic Media hybridläge***) Om du vill visa dynamiska återgivningar av en resurs i varumärkesportalen kontrollerar du att dess Pyramid-tiff-återgivning finns på den AEM författarinstansen från vilken du publicerar på varumärkesportalen. När du publicerar resursen publiceras även dess PTIFF-återgivning på varumärkesportalen.
+(*Om AEM författarinstans körs på&#x200B;**Dynamic Media hybridläge***) Om du vill visa dynamiska återgivningar av en resurs i Brand Portal kontrollerar du att dess Pyramid-återgivning finns på den AEM författarinstansen som du publicerar på Brand Portal. När du publicerar resursen publiceras även dess PTIFF-återgivning till Brand Portal.
 
 >[!NOTE]
 >
@@ -39,7 +38,7 @@ AEM administratörer kan skapa bildförinställningar som visas som dynamiska å
 
 >[!NOTE]
 >
->Dynamiska återgivningar av en bild skapas med Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
+>Dynamiska återgivningar av en bild skapas med hjälp av Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
 >
 >Om AEM författarinstans körs på **Dynamic Media hybridläge** skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
 >
@@ -69,11 +68,11 @@ AEM administratörer kan skapa bildförinställningar som visas som dynamiska å
 1. Klicka på **[!UICONTROL Save]**. Bildförinställningen skapas och visas på sidan med bildförinställningar.
 1. Om du vill ta bort en bildförinställning markerar du den på sidan med bildförinställningar och klickar på **[!UICONTROL Delete]**. Bekräfta borttagningen genom att klicka på **[!UICONTROL Delete]** på bekräftelsesidan. Bildförinställningen tas bort från sidan med bildförinställningar.
 
-## Använd bildförinställningar vid förhandsgranskning av bilder {#apply-image-presets-when-previewing-images}
+## Använda bildförinställningar vid förhandsvisning av bilder  {#apply-image-presets-when-previewing-images}
 
 När du förhandsgranskar bilder och deras återgivningar kan du välja bland de befintliga förinställningarna för att formatera om bilderna enligt de specifikationer som angetts av administratören.
 
-1. Öppna en bild genom att klicka på den i gränssnittet för varumärkesportalen.
+1. Öppna en bild genom att klicka på den i Brand Portal-gränssnittet.
 1. Klicka på övertäckningsikonen till vänster och välj **[!UICONTROL Renditions]**.
 
    ![](assets/image-preset-previewrenditions.png)
@@ -82,11 +81,11 @@ När du förhandsgranskar bilder och deras återgivningar kan du välja bland de
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Använd bildförinställningar vid hämtning av bilder {#apply-image-presets-when-downloading-images}
+## Använda bildförinställningar vid hämtning av bilder {#apply-image-presets-when-downloading-images}
 
-När du hämtar bilder och deras återgivningar från varumärkesportalen kan du inte välja bland de befintliga bildförinställningarna. Du kan dock anpassa förinställda bildegenskaper baserat på vilka du vill formatera om bilder.
+När du hämtar bilder och deras återgivningar från Brand Portal kan du inte välja bland de befintliga bildförinställningarna. Du kan dock anpassa förinställda bildegenskaper baserat på vilka du vill formatera om bilder.
 
-1. I gränssnittet för varumärkesportalen gör du något av följande:
+1. Gör något av följande i Brand Portal-gränssnittet:
 
    * Håll pekaren över bilden som du vill hämta. Klicka på ikonen **[!UICONTROL Download]** i miniatyrbilderna för snabbåtgärder som är tillgängliga.
 
