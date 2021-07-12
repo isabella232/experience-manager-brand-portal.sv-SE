@@ -1,35 +1,34 @@
 ---
 title: Konfigurera AEM Assets med varumärkesportalen
 seo-title: Konfigurera AEM Assets med varumärkesportalen
-description: Få insikt i hur du konfigurerar AEM Assets med varumärkesportalen.
-seo-description: Få insikt i hur du konfigurerar AEM Assets med varumärkesportalen.
+description: Få insikt i hur du konfigurerar AEM Assets med Brand Portal.
+seo-description: Få insikt i hur du konfigurerar AEM Assets med Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 6b9433bd5a225a2bbaddc09980c9f7b866a75fe8
+role: Admin
+exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
 
-
 # Konfigurera AEM Assets med varumärkesportalen {#configure-integration}
 
-När du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du publicera resurser, distribuera resurser och bidra med resurser för dem som använder Brand Portal. Med den kan AEM Assets-användare publicera och distribuera material med Brand Portal-användare. Brand Portal-användare kan komma åt de delade resurserna och bidra genom att överföra nya resurser till resursavgiftsmapparna och publicera dem tillbaka till AEM Assets.
+Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du publicera resurser, distribuera resurser och bidra med resurser för Brand Portal-användare. Med det kan AEM Assets-användare publicera och distribuera mediefiler med Brand Portal-användare. Brand Portal-användare kan komma åt de delade resurserna och bidra genom att överföra nya resurser till resursavgiftsmapparna och publicera dem tillbaka till AEM Assets.
 
-Konfigurering av AEM Assets med varumärkesportalen stöds på:
+Konfigurering av AEM Assets med Brand Portal stöds i:
 * AEM Assets as a Cloud Service
 * AEM Assets (lokal och hanterad tjänst) 6.3 och senare
 
-AEM Assets som Cloud Service konfigureras automatiskt med varumärkesportalen genom att aktivera varumärkesportalen från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
+AEM Assets som Cloud Service konfigureras automatiskt med Brand Portal genom att Brand Portal aktiveras från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
 
-AEM Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal med hjälp av Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+AEM Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal via Adobe Developer Console, som anskaffar en Adobe Identity Management Services-token (IMS) för godkännande av Brand Portal-klienten.
 
 >[!NOTE]
 >
@@ -48,11 +47,11 @@ AEM Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal m
 >
 >Om du får problem med äldre OAuth Gateway-konfiguration tar du bort den befintliga konfigurationen och skapar en ny konfiguration via Adobe Developer Console.
 
-Stegen för att konfigurera AEM Assets med varumärkesportalen skiljer sig åt beroende på vilken version du har AEM och om du konfigurerar för första gången eller uppgraderar de befintliga konfigurationerna:
+Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken version du har av AEM, om du konfigurerar för första gången eller om du uppgraderar de befintliga konfigurationerna:
 
 | **AEM** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Aktivera varumärkesportal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM Assets as a Cloud Service** | [Aktivera Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 och senare)** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 och senare)** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 och senare)** | [Skapa en konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
