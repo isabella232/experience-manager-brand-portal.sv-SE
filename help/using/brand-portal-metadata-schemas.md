@@ -8,17 +8,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1641'
 ht-degree: 6%
 
 ---
 
-
-# Använd metadataschemaformuläret {#use-the-metadata-schema-form}
+# Använd metadatamatchformuläret {#use-the-metadata-schema-form}
 
 Ett metadatamatema beskriver layouten på egenskapssidan och de metadataegenskaper som visas för resurser som använder det aktuella schemat. Schemat som du tillämpar på en resurs avgör vilka metadatafält som visas på sidan Egenskaper.
 
@@ -92,7 +91,7 @@ På fliken **[!UICONTROL Build Form]** visas objekt som du kan använda i schema
 | **[!UICONTROL Hidden Field]** | Lägg till ett dolt fält. Den skickas som en POST-parameter när resursen sparas. |
 | **[!UICONTROL Asset Referenced By]** | Lägg till den här komponenten för att visa en lista över resurser som resursen refererar till. |
 | **[!UICONTROL Asset Referencing]** | Lägg till om du vill visa en lista med resurser som refererar till resursen. |
-| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som lagts till från AEM Assets innan den publiceras på varumärkesportalen. |
+| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som lagts till från AEM Assets innan den publiceras till Brand Portal. |
 | **[!UICONTROL Contextual Metadata]** | Lägg till för att styra visningen av andra metadataflikar på egenskapssidan för resurser. |
 
 >[!NOTE]
@@ -124,9 +123,9 @@ Följande är giltiga värden för den här egenskapen:
 
 >[!NOTE]
 >
->Alla metadatafält är skrivskyddade i metadataredigeringsformuläret för en resurs. Eftersom metadata för resursen måste redigeras i AEM Assets innan en resurs publiceras på varumärkesportalen.
+>Alla metadatafält är skrivskyddade i metadataredigeringsformuläret för en resurs. Eftersom metadata för resursen måste redigeras i AEM Assets innan en resurs publiceras i Brand Portal.
 
-#### Lägg till eller ta bort en flik i schemaformuläret {#add-or-delete-a-tab-in-the-schema-form}
+#### Lägga till eller ta bort en flik i schemaformuläret {#add-or-delete-a-tab-in-the-schema-form}
 
 Standardschemaformuläret innehåller flikarna **[!UICONTROL Basic]** och **[!UICONTROL Advanced]**. Med schemaredigeraren kan du lägga till eller ta bort en flik.
 
@@ -138,9 +137,9 @@ Standardschemaformuläret innehåller flikarna **[!UICONTROL Basic]** och **[!UI
 
 * Om du vill ta bort en flik klickar du på **[!UICONTROL x]**. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
 
-## Använda ett metadatamatchema för en mapp {#apply-a-metadata-schema-to-a-folder}
+## Tillämpa ett metadatamatchema på en mapp {#apply-a-metadata-schema-to-a-folder}
 
-Med varumärkesportalen kan du anpassa och styra metadataschemat så att sidan **[!UICONTROL Properties]** för en resurs endast visar den specifika information som du väljer att visa. Om du vill styra vilka metadata som ska visas på **[!UICONTROL Properties]**-sidan tar du bort de metadata som krävs från metadataschemaformuläret och använder dem på den specifika mappen.
+Med Brand Portal kan du anpassa och styra metadataschemat så att sidan **[!UICONTROL Properties]** för en resurs endast visar den specifika information som du väljer att visa. Om du vill styra vilka metadata som ska visas på **[!UICONTROL Properties]**-sidan tar du bort de metadata som krävs från metadataschemaformuläret och använder dem på den specifika mappen.
 
 Så här använder du ett metadatamatchemaformulär för en mapp:
 
@@ -170,9 +169,9 @@ Så här använder du ett metadatamatchemaformulär för en mapp:
 >
 >Om du använder ett schema som innehåller kapslade scheman i en mapp som innehåller videofiler, kanske videofilernas metadataegenskaper inte återges korrekt. För att metadataegenskaperna ska återges korrekt tar du bort kapslade scheman och använder bara det överordnade schemat på mappen.
 
-## Ta bort ett metadatamatchformulär {#delete-a-metadata-schema-form}
+## Ta bort ett metadataschemaformulär {#delete-a-metadata-schema-form}
 
-Med varumärkesportalen kan du bara ta bort anpassade schemaformulär. Du kan inte ta bort standardschemaformulär/-mallar. Du kan dock ta bort anpassade ändringar i dessa formulär.
+Med Brand Portal kan du bara ta bort anpassade schemaformulär. Du kan inte ta bort standardschemaformulär/-mallar. Du kan dock ta bort anpassade ändringar i dessa formulär.
 
 Om du vill ta bort ett formulär markerar du det och klickar på ikonen **[!UICONTROL Delete]**.
 
@@ -202,7 +201,7 @@ I det här fallet skapar du en ny nod på [!UICONTROL `/etc/dam/metadataeditor/m
 * **exponposedmimype**: Namnet på det befintliga formulär som ska mappas
 * **millimeter**: Lista över MIME-typer som använder formuläret som definierats i  **** attributet exponedMimeterType
 
-Varumärkesportalen mappar följande MIME-typer och schemaformulär:
+Brand Portal mappar följande MIME-typer och schemaformulär:
 
 | **Schemaformulär** | **MIME-typer** |
 |---|---|
