@@ -10,9 +10,9 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -74,11 +74,11 @@ ii. delete
    i. sök efter användare `mac-<tenantid>replication`
 ii. ta bort den här användaren
 
-Nu är systemet städat. Nu kan du försöka skapa en ny molntjänstkonfiguration och fortfarande använda det befintliga JWT-programmet i [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Du behöver inte skapa något nytt program, utan bara den offentliga nyckeln behöver uppdateras från den nya molnkonfigurationen.
+Nu är systemet städat. Nu kan du försöka skapa en ny molntjänstkonfiguration och fortfarande använda det befintliga JWT-programmet i `https://legacy-oauth.cloud.adobe.io/`. Du behöver inte skapa något nytt program, utan bara den offentliga nyckeln behöver uppdateras från den nya molnkonfigurationen.
 
 ## Problem med klientsynlighet för JWT-program för utvecklaranslutning {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Om den [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) visas alla organ (klientorganisationer) som de aktuella användarna har systemadministratör för. Om du inte hittar organisationsnamnet här eller om du inte kan skapa ett program för en nödvändig klient här, kontrollerar du om du har tillräcklig behörighet (systemadministratör) för att göra detta.
+Om `https://legacy-oauth.cloud.adobe.io/` är markerad visas alla organ (klientorganisationer) som de aktuella användarna har systemadministratör för. Om du inte hittar organisationsnamnet här eller om du inte kan skapa ett program för en nödvändig klient här, kontrollerar du om du har tillräcklig behörighet (systemadministratör) för att göra detta.
 
 Det finns ett känt fel i det här användargränssnittet som innebär att för alla klientprogram visas endast de 10 populära programmen. När du skapar programmet ska du stanna kvar på sidan och bokmärka URL-adressen. Du behöver inte gå till programmets listsida och hitta det program du har skapat. Du kan trycka på den här bokmärkesadressen direkt och uppdatera/ta bort programmet vid behov.
 
