@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom at
 
 >[!NOTE]
 >
->I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) i webbläsartillägget innan du laddar ned materialet från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från Brand Portal](../using/accelerated-download.md).
+>I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) i webbläsartillägget innan du laddar ned materialet från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från Brand Portal](../using/accelerated-download.md).
 >
 >Om du inte vill använda IBM Aspera Connect och fortsätta med den normala hämtningsprocessen kontaktar du Brand Portal-administratören för att inaktivera **[!UICONTROL Fast Download]**-inställningen.
 
@@ -156,7 +156,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
       >[!NOTE]
       >
-      >Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att [installera Aspera Download Accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+      >Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att [installera Aspera Download Accelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
 
       >[!NOTE]
@@ -399,7 +399,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-## Hämtningsprestanda {#expected-download-performance} förväntades
+## Hämtningsprestanda förväntades {#expected-download-performance}
 
 Filhämtningen kan variera för användare på olika platser på klienten, beroende på faktorer som lokal Internetanslutning och serverfördröjning. Den förväntade hämtningsprestandan för 2-GB-filer som observeras på olika klientplatser är följande, med Brand Portal server på Oregon i USA:
 
