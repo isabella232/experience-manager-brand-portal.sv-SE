@@ -1,7 +1,7 @@
 ---
 title: Vanliga frågor
 seo-title: null
-description: Få information om vanliga frågor och svar i Adobe Experience Manager Assets Brand Portal.
+description: Få insikt i de vanliga frågorna om Adobe Experience Manager Assets Brand Portal.
 seo-description: null
 uuid: null
 content-type: reference
@@ -9,25 +9,24 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
-source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
+exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
 
+# Vanliga frågor {#frequently-asked-questions}
 
-# Vanliga frågor och svar {#frequently-asked-questions}
-
-Vanliga frågor och svar om varumärkesportalen fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste utgåvan av AEM Assets Brand Portal 6.4.6 eller tidigare versioner.
+Vanliga frågor och svar om Brand Portal fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste versionen av AEM Assets Brand Portal 6.4.6 eller tidigare.
 
 
-## Frågor och svar om varumärkesportalen 6.4.6 {#faqs-bp646}
+## Brand Portal 6.4.6 - frågor och svar  {#faqs-bp646}
 
 **Frågor. Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanser till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera AEM Assets med varumärkesportalen](configure-aem-assets-with-brand-portal.md). För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanser till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera AEM Assets med Brand Portal](configure-aem-assets-with-brand-portal.md). För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -41,16 +40,20 @@ Vanliga frågor och svar om varumärkesportalen fokuserar på frågor och proble
 
 Problemet är åtgärdat i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack-versionen AEM 6.5.5 och [uppgradera dina konfigurationer](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 
-För omedelbar korrigering AEM 6.5.4 rekommenderar vi att du [hämtar snabbkorrigeringen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) och installerar den på din AEM författarinstans.
+<!--
+Broken link of download hotfix, comment out this section until we have the latest URL.
 
-**Frågor. Jag ser inte innehållet i mappen för bidrag som publicerats från Brand Portal i AEM Assets. Vad kan vara den möjliga orsaken?**
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+-->
 
-**Ans.** Kontakta din AEM Assets-administratör för att verifiera konfigurationerna och se till att din varumärkesportal-klient bara är konfigurerad med en AEM Assets-författarinstans.
+**Frågor. Jag ser inte innehållet i bidragsmappen som publicerats från Brand Portal i AEM Assets. Vad kan vara den möjliga orsaken?**
 
-Detta kan inträffa när du har konfigurerat en innehavare av en varumärkesportal på flera instanser av AEM Assets-författare. Administratören konfigurerar till exempel samma varumärkesportal-klient på AEM Assets författarinstans i staging- och produktionsmiljön. I det här fallet utlöses resurspubliceringen i Brand Portal, men AEM Assets-författarinstansen kunde inte importera resurskoden som replikeringsagenten inte får den begärda token.
+**Ans.** Kontakta AEM Assets-administratören för att verifiera konfigurationerna och se till att din Brand Portal-klient bara är konfigurerad med en AEM Assets-författarinstans.
+
+Detta kan inträffa när du har konfigurerat en Brand Portal-klient för flera instanser av AEM Assets-författare. Administratören konfigurerar till exempel samma Brand Portal-klient på AEM Assets författarinstans i staging- och produktionsmiljön. I det här fallet utlöses resurspubliceringen i Brand Portal men AEM Assets författarinstans kunde inte importera resurskoden som replikeringsagenten inte får den begärande token.
 
 
-**Frågor. Jag kan inte publicera material från AEM Assets till varumärkesportalen. Replikeringsloggen anger att anslutningen gjorde timeout. Finns det en snabbkorrigering?**
+**Frågor. Jag kan inte publicera material från AEM Assets till Brand Portal. Replikeringsloggen anger att anslutningen gjorde timeout. Finns det en snabbkorrigering?**
 
 **Ans.** Publiceringen misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
@@ -66,12 +69,12 @@ Utför följande steg för att konfigurera replikeringsagenten:
 1. Starta om servern och bekräfta anslutningen.
 
 
-## Frågor och svar om varumärkesportalen 6.4.5 {#faqs-bp645}
+## Brand Portal 6.4.5 - frågor och svar  {#faqs-bp645}
 
-**Frågor. Vilken är den största förändringen i varumärkesportalen 6.4.5?**
+**Frågor. Vilken är den största förändringen i Brand Portal 6.4.5?**
 
-**Ans.** AEM Assets Brand Portal 6.4.5 är en funktionsrelease som tillåter användare av Brand Portal att ladda upp innehåll inifrån Brand Portal och publicera Contribute-mappen till AEM Assets utan administratörsbehörighet.
-Mer information finns i [Resurshantering i varumärkesportalen](brand-portal-asset-sourcing.md).
+**Ans.** AEM Assets Brand Portal 6.4.5 är en funktionsversion som gör att Brand Portal-användare kan överföra innehåll från Brand Portal-instansen och publicera Contribute-mappen till AEM Assets utan att behöva ha administratörsbehörighet.
+Mer information finns i [Resurshantering i Brand Portal](brand-portal-asset-sourcing.md).
 
 
 
@@ -81,10 +84,10 @@ Mer information finns i [Resurshantering i varumärkesportalen](brand-portal-ass
 
 
 
-**Frågor. När ska jag gå till den nya versionen av varumärkesportalen?**
+**Frågor. När övergår jag till den nya versionen av Brand Portal?**
 
-**Ans.** Varumärkesportalen 6.4.5 släpptes till produktion i oktober 2019. Och nästa Brand Portal-version förväntas släppas tredje kvartalet 2020.
-För uppdateringar och versionsändringar bör du spåra [versionsinformationen](brand-portal-release-notes.md) och [Nyheter i varumärkesportalen](whats-new.md).
+**Ans.** Brand Portal 6.4.5 lanserades i oktober 2019. Och nästa version av Brand Portal förväntas släppas tredje kvartalet 2020.
+För uppdateringar och versionsändringar bör du spåra [versionsinformationen](brand-portal-release-notes.md) och [Nyheter i Brand Portal](whats-new.md).
 
 
 
@@ -94,22 +97,22 @@ För uppdateringar och versionsändringar bör du spåra [versionsinformationen]
 
 
 
-**Frågor. Behöver jag som varumärkesportalanvändare vidta någon åtgärd?**
+**Frågor. Måste jag som Brand Portal-användare utföra någon åtgärd?**
 
-**Ans.** Brand Portal 6.4.5 innehåller en ny funktion som heter Asset Source. AEM måste konfigurera funktionen Resurshantering i AEM Assets för att aktivera funktionen för användare på varumärkesportalen. Mer information finns i [Aktivera resurskälla](brand-portal-asset-sourcing.md).
+**Ans.** Brand Portal 6.4.5 har en ny funktion som heter Asset Sourcing. AEM måste konfigurera funktionen Resurshantering i AEM Assets för att aktivera funktionen för Brand Portal-användare. Mer information finns i [Aktivera resurskälla](brand-portal-asset-sourcing.md).
 
 
 
 **Frågor. Vem kan skapa en Contribute-mapp?**
 
 **Ans.** Alla AEM som har behörighet att skapa en ny mapp i AEM Assets kan skapa en  **** Contribute-mapp. Om du vill skapa en **Contribute**-mapp skapar du en ny mapp av typen **Resursbidrag**.
-Den här mappen delas med de aktiva Brand Portal-användarna för bidrag.
+Den här mappen delas med de aktiva Brand Portal-användarna för att de ska kunna bidra.
 
 
 
 **Frågor. Vad innehåller en Contribute-mapp?**
 
-**Ans.** **Mappen** Contribute innehåller två undermappar  **** NEW **och SHARED**. Till att börja med är mappen NEW tom och mappen SHARED innehåller referensinnehållet (återanvändbara resurser) för Brand Portal-användarna.
+**Ans.** **Mappen** Contribute innehåller två undermappar  **** NEW **och SHARED**. Till att börja med är mappen NEW tom och mappen SHARED innehåller referensinnehållet (återanvändbara resurser) för Brand Portal-användare.
 Brand Portal-användarna kommer åt mappen **Contribute** och överför innehåll i mappen **NEW**.
 
 
@@ -122,23 +125,23 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 **Frågor. Vad är tillgångskrav utan bidrag?**
 
-**Ans.** Det  **** dokument som är bifogat till  **** Contributionsmappen och referensinnehållet (återanvändbara resurser) som överförts i  **** SHAREDappen hjälper användaren på varumärkesportalen att förstå behovet av bidrag och förväntningar som medverkande och kallas tillsammans för tillgångskrav.
+**Ans.** Det  **** dokument som bifogas till  **** Contribute-mappen och referensinnehållet (återanvändbara resurser) som överförts i  **** SHAREDfolder hjälper Brand Portal-användaren att förstå behovet av bidrag och förväntningar som medverkande och kallas gemensamt för resurskrav.
 
 
 
 **Frågor. Kan jag överföra resurser till en tillåten mapp?**
 
-**Ans.** Inte alla tillåtna mappar. En varumärkesportalanvändare kan bara överföra innehåll till mappen **Contribute** som delas av AEM- eller varumärkesportaladministratören.
+**Ans.** Inte alla tillåtna mappar. En Brand Portal-användare kan bara överföra innehåll till mappen **Contribute** som delas av AEM- eller Brand Portal-administratören.
 
 
 
 **Frågor. Hur får jag åtkomst till en Contribute-mapp?**
 
-**Ans.** Du kan bara komma åt en  **** Contribute-mapp om den har delats med dig. Du får ett meddelande via e-post/puls när en Contribute-mapp delas med dig. Du kan antingen komma åt Contribute-mappen via länken som delas i e-postmeddelandet, eller logga in på din Brand Portal-instans och navigera till klockikonen för att få meddelanden och få tillgång till Contribute-mappen.
+**Ans.** Du kan bara komma åt en  **** Contribute-mapp om den har delats med dig. Du får ett meddelande via e-post/puls när en Contribute-mapp delas med dig. Du kan antingen komma åt Contribute-mappen via länken som delas i e-postmeddelandet eller logga in på din Brand Portal-instans och navigera till klockikonen för att få meddelanden om att komma åt Contribute-mappen.
 
 >[!NOTE]
 >
->Om du inte är en befintlig Brand Portal-användare ber du AEM att skapa din användare i AEM Admin Console och lägga till din profil i användarkonfigurationsfilen i listan med Brand Portal-användare.
+>Om du inte är en befintlig Brand Portal-användare ber du AEM att skapa din användare i AEM Admin Console och lägga till din profil i användarkonfigurationsfilen i Brand Portal användarlista.
 
 **Frågor. Vilket format har CSV-filen för användarimport?**
 
@@ -146,15 +149,15 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 
 
-**Frågor. Vad fyller i listan med användare (Brand Portal-medverkande) i listrutan Tillgångsmedverkande användare?**
+**Frågor. Vad fyller i listan med användare (Brand Portal-medarbetare) i listrutan Tillgångsmedverkande användare?**
 
-**Ans.** Användarna i listrutan fylls i från användarkonfigurationsfilen för Brand Portal (.csv) som har överförts i AEM.
+**Ans.** Användarna i listrutan fylls i från Brand Portal-användarkonfigurationsfilen (.csv) som har överförts i AEM.
 
 
 
 **Frågor. Var kan jag se status för import- och publiceringsjobb?**
 
-**Ans.** I AEM kan du se status för en import på  **** asynkrona jobbsidor. I varumärkesportalen kan du se status för ett publiceringsjobb i **[!UICONTROL Tools > Asset Contribution status]**.
+**Ans.** I AEM kan du se status för en import på  **** asynkrona jobbsidor. I Brand Portal kan du se status för ett publiceringsjobb i **[!UICONTROL Tools > Asset Contribution status]**.
 
 
 
@@ -164,7 +167,7 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 
 
-**Frågor. Finns det någon begränsning för hur många gånger en mapp kan publiceras från varumärkesportalen till AEM Assets?**
+**Frågor. Finns det någon begränsning för hur många gånger en mapp kan publiceras från Brand Portal till AEM Assets?**
 
 **Ans.** Nej, alla resurser i  **** mappen NEW publiceras till AEM Assets oavsett om de publicerades tidigare. Varje gång en **Contribute**-mapp publiceras från Brand Portal till AEM Assets åsidosätter den innehållet i mappen **NEW**.
 
@@ -176,16 +179,16 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 
 
-**Frågor. Kan jag inte se miniatyrbilder/förhandsgranskningar av resurserna som en användare på varumärkesportalen har överfört till den NYA mappen?**
+**Frågor. Kan jag inte se miniatyrbilder/förhandsgranskningar av resurser som en Brand Portal-användare har överfört till den NYA mappen?**
 
-**Ans.** Det är utformat, eftersom det inte finns något arbetsflöde att köra i varumärkesportaländen.
+**Ans.** Det är utformat, eftersom det inte finns något arbetsflöde i Brand Portal.
 
 
 
 **Frågor. Vad händer om en mapp publiceras från AEM Assets till Brand Portal som är i full gång?**?
 
-**Ans.** I AEM bevaras loggar för varje gång en mapp publiceras på varumärkesportalen. Vid publiceringen placeras alla resurser som inte publiceras på varumärkesportalen i en replikeringskö. Alla resurser som läggs till i mappen efter att publiceringsjobbet har utlösts publiceras inte på varumärkesportalen. När AEM publicerar mappen igen publiceras endast resurser som inte publicerades tidigare (som finns i replikeringskön) på varumärkesportalen.
-Detta gäller för alla mappar som publiceras från AEM Assets till varumärkesportalen och för delade mappar i en Contribute-mapp.
+**Ans.** I AEM bevaras loggar för varje gång en mapp publiceras till Brand Portal. Vid publiceringen placeras alla resurser som inte publiceras till Brand Portal i en replikeringskö. Alla resurser som läggs till i mappen efter att publiceringsjobbet har utlösts publiceras inte till Brand Portal. När AEM publicerar mappen igen publiceras endast resurser som inte publicerades tidigare (som finns i replikeringskön) till Brand Portal.
+Detta gäller för alla mappar som publiceras från AEM Assets till Brand Portal och för delade mappar i en Contribute-mapp.
 
 **Frågor. Vem kontaktar jag med frågor?**
 
