@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '983'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Om du vill hämta filerna snabbare bör du göra följande:
 
 * Navigera till **[!UICONTROL Tools]** > **[!UICONTROL Download]** och verifiera att konfigurationen **[!UICONTROL Fast Download]** är aktiverad i **[!UICONTROL Download Settings]**.
 * Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om förutsättningarna finns i [dokumentationen för IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) i webbläsartillägget med administratörsbehörighet.
+* **Installera IBM Aspera Connect 3.9.9** i webbläsartillägget med administratörsbehörighet (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Plattformsstöd för Aspera-överföringsklient finns i [supportmatris för IBM Aspera Connect-plattformen](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Hämta domäner {#download-domains}
@@ -92,7 +92,7 @@ Så här hämtar du resurser snabbare från Brand Portal:
 
 1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta där du kan hämta resurser med hjälp av IBM Aspera Connect.
 
-   Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren, eller om den befintliga versionen är inaktuell, uppmanas du att [installera Aspera Download Accelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
+   Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren eller om den befintliga versionen är inaktuell, uppmanas du att installera Aspera Download Accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
