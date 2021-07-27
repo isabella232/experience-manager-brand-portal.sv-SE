@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1852'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom at
 
 >[!NOTE]
 >
->I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. [Installera IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) i webbläsartillägget innan du laddar ned materialet från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från Brand Portal](../using/accelerated-download.md).
+>I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. Installera IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) i webbläsartillägget innan du hämtar materialet från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från Brand Portal](../using/accelerated-download.md).
 >
 >Om du inte vill använda IBM Aspera Connect och fortsätta med den normala hämtningsprocessen kontaktar du Brand Portal-administratören för att inaktivera **[!UICONTROL Fast Download]**-inställningen.
 
@@ -156,7 +156,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
       >[!NOTE]
       >
-      >Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att [installera Aspera Download Accelerator](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
+      >Om du hämtar resurserna för första gången och inte har IBM Aspera Connect installerat i webbläsaren uppmanas du att installera Aspera Download Accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
       >[!NOTE]
