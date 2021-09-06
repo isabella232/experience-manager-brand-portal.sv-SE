@@ -1,8 +1,8 @@
 ---
 title: Dela resurser som en länk
-seo-title: Dela resurser som en länk
+seo-title: Share assets as a link
 description: AEM Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
-seo-description: AEM Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,6 @@ Att dela resurser via en länk är ett bekvämt sätt att göra dem tillgänglig
 -->
 
 Mer information finns i [Hantera användare, grupper och användarroller](../using/brand-portal-adding-users.md#manage-user-roles).
-
->[!NOTE]
->
->Upp till 5 GB ZIP-nedladdning tillåts med hjälp av länkdelningsfunktionen i Brand Portal.
 
 
 Så här delar du resurser som en länk:
@@ -107,7 +103,7 @@ Så här hämtar du de delade resurserna:
 
 >[!NOTE]
 >
->Brand Portal begränsar nedladdning av resurser som är större än 5 GB per filstorlek.
+>Brand Portal begränsar hämtning av resurser som är större än **1** GB per filstorlek med hjälp av länkresurs.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,9 +124,6 @@ Så här hämtar du de delade resurserna:
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
 ## Stöd för förhandsgranskning och miniatyrbilder för resursformat {#preview-thumbnail-support}

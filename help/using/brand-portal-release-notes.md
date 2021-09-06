@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
-seo-title: Versionsinformation
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.06.0.
-seo-description: Få insikt i förbättringarna, åtgärdade allvarliga problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.06.0.
+seo-title: Release Notes
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.08.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
+source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 7%
+source-wordcount: '492'
+ht-degree: 3%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2021.06.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2021.08.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.06.0 |
-| Date | Juni 2021 |
+| Version | 2021.08.0 |
+| Date | Augusti 2021 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter i 2021.06.0 {#whats-new-in-2021.06.0}
+## Nyheter 2021.08.0 {#whats-new-in-2021.08.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,20 +67,22 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-<!--
-### Enhancements {#enhancements}
 
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
+### Förbättringar {#enhancements}
 
-This release includes the following enhancements:
+Brand Portal 2021.08.0 är en intern release som introducerar affärsprofiler för företags- och teamkunder för att ge bättre kontroll över deras tillgångar.
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+Den här versionen innehåller följande förbättringar:
 
+* Användarna har nu organisationsspecifika behörigheter för nya och migrerade organisationer. Om en användare är berättigad till flera organisationer måste användaren välja organisation vid inloggningen.
 
-* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+* De nya användare som läggs till i Admin Console måste **gå med i team** för att bli berättigade till organisationen.
 
-* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
--->
+>[!NOTE]
+>
+>Affärsprofiler gäller för närvarande för nya organisationer som skapas efter den 16 augusti 2021.
+>
+>Tills din organisation har migrerats kan du fortsätta använda Adobe ID, Enterprise ID eller Federated ID för att få åtkomst till organisationen.
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -95,13 +97,13 @@ This release includes the following enhancements:
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
-Brand Portal 2021.06.0 är en intern version som innehåller korrigeringar av följande allvarliga problem:
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
 * E-postmeddelanden om resurskälla levereras inte för vissa organisationer.
 
-* Videofiler med filnamnstillägget .mov körs inte på Brand Portal.
+* Videofiler med tillägget `.mov` körs inte på Brand Portal.
 
-* I listrutan Smarta samlingar visas bara 10 sparade samlingar.
+* I listrutan **[!UICONTROL Smart Collections]** visas bara tio sparade samlingar.
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -119,15 +121,19 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-<!--
-### Known Issues {#known-issues}
 
-This release includes the following known issue:
+### Kända fel {#known-issues}
 
-* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+Den här versionen innehåller följande kända fel:
 
-  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
--->
+* Användarna kan inte logga in på Brand Portal under migreringen av sin befintliga organisation.
+
+   De aktiva användare som är inloggade på Brand Portal kan dock fortsätta att arbeta tills deras nuvarande session går ut.
+
+* När administratörer navigerar från Brand Portal till Admin Console kan det visas en extra skärm där de kan välja organisation.
+
+* Användarna kan inte ta bort den tillämpade metadataschemaprofilen från en mapp.
+
 
 <!--
 ### Known Issues {#known-issues}
@@ -192,12 +198,12 @@ Brand Portal användargränssnitt finns på följande språk:
 
 ## Certifierade plattformar {#certified-platforms}
 
-Information om vilka plattformar som är certifierade för att köras med den här versionen av Brand Portal finns i kolumnen **Stöd för Touchoptimerat användargränssnitt** i tabellen i **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Information om vilka plattformar som är certifierade för att köras med den här versionen av Brand Portal finns i kolumnen **Stöd för Touchoptimerat användargränssnitt** i tabellen i **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Länkar {#links}
 
-* [Adobe Experience Manager produktsida på adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal Documentation](https://helpx.adobe.com/se/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager produktsida på adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal Documentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Produktåtkomst och support (begränsade platser) {#product-access-and-support-restricted-sites}
 
@@ -209,4 +215,4 @@ Dessa webbplatser är bara tillgängliga för kunder. Om du är kund och behöve
 
 * [Produktåtkomst](https://login.marketing.adobe.com)
 
-* [Adobe kundtjänst](https://helpx.adobe.com/contact.html)
+* [Kundsupport](https://helpx.adobe.com/contact.html)
