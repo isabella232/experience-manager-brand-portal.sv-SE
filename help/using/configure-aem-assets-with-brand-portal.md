@@ -1,8 +1,8 @@
 ---
 title: Konfigurera AEM Assets med varumärkesportalen
-seo-title: Konfigurera AEM Assets med varumärkesportalen
+seo-title: Configure AEM Assets with Brand Portal
 description: Få insikt i hur du konfigurerar AEM Assets med Brand Portal.
-seo-description: Få insikt i hur du konfigurerar AEM Assets med Brand Portal.
+seo-description: Get an insight into configuring AEM Assets with Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: ea3242459776037499b21b33ba40357afc8bf234
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 8%
+source-wordcount: '417'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 8%
 Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du publicera resurser, distribuera resurser och bidra med resurser för Brand Portal-användare. Med det kan AEM Assets-användare publicera och distribuera mediefiler med Brand Portal-användare. Brand Portal-användare kan komma åt de delade resurserna och bidra genom att överföra nya resurser till resursavgiftsmapparna och publicera dem tillbaka till AEM Assets.
 
 Konfigurering av AEM Assets med Brand Portal stöds i:
+
 * AEM Assets as a Cloud Service
 * AEM Assets (lokal och hanterad tjänst) 6.3 och senare
 

@@ -10,24 +10,24 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
+source-git-commit: 96ce77b306c207bb20e0fdc56dd218295fbaeffe
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Felsöka problem vid parallell publicering till Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal är konfigurerat med AEM Assets för att ha godkänt varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När [har konfigurerats](../using/configure-aem-assets-with-brand-portal.md) använder AEM Author en replikeringsagent för att replikera de valda resurserna till Brand Portal molntjänst för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
+Brand Portal är konfigurerat med AEM Assets för att ha godkänt varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När [har konfigurerats](../using/configure-aem-assets-with-brand-portal.md) använder Experience Manager Author en replikeringsagent för att replikera de markerade resurserna till Brand Portal molntjänst för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
 
 >[!NOTE]
 >
->Adobe rekommenderar uppgradering till AEM 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i AEM 6.4 ger ett fel när AEM Assets konfigureras med Brand Portal och replikeringen misslyckas.
+>Adobe rekommenderar uppgradering till Experience Manager 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i Experience Manager 6.4 ger ett fel när AEM Assets konfigureras med Brand Portal och replikeringen misslyckas.
 
-När du konfigurerar molntjänsten för varumärkesportalen under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Detta skapar fyra replikeringsagenter. När du publicerar många resurser från AEM till Brand Portal står de i kö och distribueras bland dessa replikeringsagenter via Round Robin.
+När du konfigurerar molntjänsten för Brand Portal under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Den skapar fyra replikeringsagenter. När du publicerar ett stort antal resurser från Experience Manager till Brand Portal står resurserna i kö och distribueras mellan replikeringsagenterna via Round Robin.
 
-Publiceringen kan emellertid misslyckas ibland på grund av stora snedställningsjobb, ökat nätverk och **[!UICONTROL Disk I/O]** på AEM Author-instansen eller långsammare prestanda för AEM Author-instansen. Därför rekommenderas att du testar anslutningen till replikeringsagenterna innan publiceringen påbörjas.
+Publiceringen kan emellertid misslyckas ibland på grund av stora snedställningsjobb, ökat nätverk och **[!UICONTROL Disk I/O]** på Experience Manager Author-instansen eller långsammare prestanda för Experience Manager Author-instansen. Därför bör du testa anslutningen till replikeringsagenterna innan du börjar publicera.
 
 ![](assets/test-connection.png)
 
@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Rensa befintliga publiceringskonfigurationer för Brand Portal {#clean-up-existing-config}
 
-De flesta gånger som publiceringen inte fungerar kan orsaken vara att användaren som publicerar (till exempel: `mac-<tenantid>-replication` har inte den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en ny konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från AEM författarinställningar:
+De flesta gånger som publiceringen inte fungerar kan orsaken vara att användaren som publicerar (till exempel: `mac-<tenantid>-replication` har inte den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från författarinställningarna i Experience Manager:
 
 1. Gå till `localhost:4502/crx/de/` (med tanke på att du kör författarinstansen på localhost:4502:\
    i. ta bort `/etc/replication/agents.author/mp_replication`
@@ -74,13 +74,18 @@ ii. delete
    i. sök efter användare `mac-<tenantid>replication`
 ii. ta bort den här användaren
 
-Nu är systemet städat. Nu kan du försöka skapa en ny molntjänstkonfiguration och fortfarande använda det befintliga JWT-programmet i `https://legacy-oauth.cloud.adobe.io/`. Du behöver inte skapa något nytt program, utan bara den offentliga nyckeln behöver uppdateras från den nya molnkonfigurationen.
+Nu är systemet städat. Nu kan du försöka skapa en molntjänstkonfiguration och fortfarande använda det befintliga JWT-programmet. Du behöver inte skapa något program, utan istället uppdatera den offentliga nyckeln från den nya molnkonfigurationen.
+
+>[!NOTE]
+>
+>Ändra inte några autogenererade inställningar.
+
 
 ## Problem med klientsynlighet för JWT-program för utvecklaranslutning {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Om `https://legacy-oauth.cloud.adobe.io/` är markerad visas alla organ (klientorganisationer) som de aktuella användarna har systemadministratör för. Om du inte hittar organisationsnamnet här eller om du inte kan skapa ett program för en nödvändig klient här, kontrollerar du om du har tillräcklig behörighet (systemadministratör) för att göra detta.
+Om `https://legacy-oauth.cloud.adobe.io/` är markerad visas alla organ (klientorganisationer) som de aktuella användarna har systemadministratör för. Om du inte hittar organisationsnamnet här eller om du inte kan skapa ett program för en nödvändig klient här, kontrollerar du om du har tillräcklig behörighet (systemadministratör).
 
-Det finns ett känt fel i det här användargränssnittet som innebär att för alla klientprogram visas endast de 10 populära programmen. När du skapar programmet ska du stanna kvar på sidan och bokmärka URL-adressen. Du behöver inte gå till programmets listsida och hitta det program du har skapat. Du kan trycka på den här bokmärkesadressen direkt och uppdatera/ta bort programmet vid behov.
+Det finns ett känt fel i det här användargränssnittet som innebär att för alla innehavare visas endast de tio viktigaste programmen. När du skapar programmet ska du stanna kvar på sidan och bokmärka URL-adressen. Du behöver inte gå till programmets listsida och hitta det program du har skapat. Du kan trycka på den här bokmärkesadressen direkt och uppdatera/ta bort programmet vid behov.
 
 JWT-programmet kanske inte visas korrekt. Du bör därför anteckna/bokmärka URL-adressen när du skapar ett JWT-program.
 
@@ -111,7 +116,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Om en replikeringsagent (som publicerades på en varumärkesportal helt okej) slutar bearbeta publiceringsjobb bör du kontrollera replikeringsloggarna. AEM har automatiskt gjort ett nytt försök, så om en viss resurspublicering misslyckas görs ett nytt försök automatiskt. Om det uppstår något tillfälligt problem, t.ex. ett nätverksfel, kan det lyckas under ett nytt försök.
+Om en replikeringsagent (som publicerade till Brand Portal bara fint) slutar bearbeta publiceringsjobb bör du kontrollera replikeringsloggarna. Experience Manager har automatiskt gjort ett nytt försök, så om en viss resurspublicering misslyckas görs ett nytt försök automatiskt. Om det uppstår något tillfälligt problem, t.ex. ett nätverksfel, kan det lyckas under ett nytt försök.
 
 Om det finns kontinuerliga publiceringsfel och kön är blockerad bör du kontrollera **[!UICONTROL test connection]** och försöka lösa de fel som rapporteras.
 
@@ -122,13 +127,12 @@ Beroende på felen rekommenderar vi att du loggar en supportanmälan så att Bra
 
 Publiceringsjobbet misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
-Utför följande steg för att konfigurera replikeringsagenterna:
+Så här konfigurerar du replikeringsagenterna:
 
 1. Logga in på din AEM Assets-författarinstans.
 1. Gå till **[!UICONTROL Deployment]** > **[!UICONTROL Replication]** på panelen **Verktyg**.
 1. Klicka på **[!UICONTROL Agents on author]** på sidan Replikering. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
-1. Klicka på replikeringsagentens URL för att öppna agentinformationen.
-1. Klicka på **[!UICONTROL Edit]** om du vill ändra inställningarna för replikeringsagenten.
+1. Klicka på replikeringsagentens URL och klicka på **[!UICONTROL Edit]**.
 1. Klicka på fliken **[!UICONTROL Extended]** i Agentinställningar.
 1. Markera kryssrutan **[!UICONTROL Close Connection]**.
 1. Upprepa steg 4 till 7 för att konfigurera alla fyra replikeringsagenterna.
