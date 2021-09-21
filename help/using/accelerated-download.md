@@ -1,8 +1,8 @@
 ---
 title: Snabba upp nedladdningen av Brand Portal
-seo-title: Snabba upp nedladdningen av Brand Portal
+seo-title: Speed up the Brand Portal downloads
 description: Förbättra hämtningsprestanda från Brand Portal och de delade länkarna.
-seo-description: Förbättra hämtningsprestanda från Brand Portal och de delade länkarna.
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '987'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,10 @@ Om du vill hämta filerna snabbare bör du göra följande:
 * Kontrollera att port 33001 (både TCP och UDP) är öppen i brandväggen. Mer information om förutsättningarna finns i [dokumentationen för IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * **Installera IBM Aspera Connect 3.9.9** i webbläsartillägget med administratörsbehörighet (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Plattformsstöd för Aspera-överföringsklient finns i [supportmatris för IBM Aspera Connect-plattformen](https://www.asperasoft.com/company/support/transfer-clients/).
+
+>[!NOTE]
+>
+>Det finns ett känt problem med IBM Aspera Connect. Snabb nedladdning fungerar inte med IBM Aspera Connect version 3.10 och senare.
 
 ## Hämta domäner {#download-domains}
 
