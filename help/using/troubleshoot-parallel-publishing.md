@@ -1,8 +1,8 @@
 ---
 title: Felsöka problem vid parallell publicering till Brand Portal
-seo-title: Felsöka problem vid parallell publicering till Brand Portal
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: Felsöka parallell publicering.
-seo-description: Felsöka parallell publicering.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,7 @@ Beroende på felen rekommenderar vi att du loggar en supportanmälan så att Bra
 Publiceringsjobbet misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
 Utför följande steg för att konfigurera replikeringsagenterna:
+
 1. Logga in på din AEM Assets-författarinstans.
 1. Gå till **[!UICONTROL Deployment]** > **[!UICONTROL Replication]** på panelen **Verktyg**.
 1. Klicka på **[!UICONTROL Agents on author]** på sidan Replikering. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
