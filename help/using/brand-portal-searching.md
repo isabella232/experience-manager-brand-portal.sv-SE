@@ -1,30 +1,29 @@
 ---
-title: Sök efter resurser på varumärkesportalen
-seo-title: Sökning efter resurser och sparad sökning AEM varumärkesportalen
-description: Med funktionen för varumärkesportalsökning kan du snabbt söka efter relevanta resurser med hjälp av sökning, och med sökfilter kan du begränsa sökningen ytterligare. Spara dina sökningar som smarta samlingar för framtiden.
-seo-description: Med funktionen för varumärkesportalsökning kan du snabbt söka efter relevanta resurser med hjälp av sökning, och med sökfilter kan du begränsa sökningen ytterligare. Spara dina sökningar som smarta samlingar för framtiden.
+title: Sök efter resurser på Brand Portal
+seo-title: Asset searching and saved search on AEM Brand Portal
+description: Med Brand Portal sökfunktion kan du snabbt söka efter relevanta resurser med hjälp av sökning, och med sökfilter kan du begränsa sökningen ytterligare. Spara dina sökningar som smarta samlingar för framtiden.
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1062'
 ht-degree: 4%
 
 ---
 
+# Sök efter resurser på Brand Portal {#search-assets-on-brand-portal}
 
-# Sök efter resurser på varumärkesportalen {#search-assets-on-brand-portal}
+Med Brand Portal sökfunktion kan du snabbt söka efter relevanta resurser med hjälp av sökning och ansiktssökning som använder filter för att ytterligare begränsa sökningen. Du kan även spara dina sökningar som smarta samlingar för framtiden.
 
-Med funktionen för varumärkesportalsökning kan du snabbt söka efter relevanta resurser med hjälp av sökning och ansiktssökning som använder filter för att ytterligare begränsa sökningen. Du kan även spara dina sökningar som smarta samlingar för framtiden.
+## Söka efter resurser med Omnissearch {#search-assets-using-omnisearch}
 
-## Sök efter resurser med Omnissearch {#search-assets-using-omnisearch}
-
-Så här söker du efter resurser på varumärkesportalen:
+Så här söker du efter resurser på Brand Portal:
 
 1. Klicka på ikonen **[!UICONTROL Search]** i verktygsfältet eller tryck på **[!UICONTROL /]** för att starta Omnissearch.
 
@@ -46,15 +45,15 @@ Så här söker du efter resurser på varumärkesportalen:
 
 Mer information om sökbeteenden med smarta taggade resurser finns i [Mer information om sökresultat och sökbeteenden](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
 
-## Söka med ansikten i filterpanelen {#search-using-facets-in-filters-panel}
+## Söka med ansikten på panelen Filter {#search-using-facets-in-filters-panel}
 
 Sökfaktorer på panelen Filter ger en mer detaljerad sökupplevelse och gör sökfunktionen effektiv. Sökfacets använder flera dimensioner (predikatfärger) som gör att du kan utföra komplexa sökningar. Du kan enkelt gå ned till önskad detaljnivå för en mer fokuserad sökning.
 
-Om du till exempel söker efter en bild kan du välja om du vill ha en bitmapp eller en vektorbild. Du kan begränsa sökningen ytterligare genom att ange MIME-typen för bilden i sökaspekten Filtyp. På samma sätt kan du ange formatet, t.ex. PDF- eller MS Word-format, när du söker efter dokument.<br />
+Om du till exempel söker efter en bild kan du välja om du vill ha en bitmapp eller en vektorbild. Du kan begränsa sökningen ytterligare genom att ange MIME-typen för bilden i sökaspekten Filtyp. På samma sätt kan du ange formatet, t.ex. PDF- eller MS Word-format, när du söker efter dokument.
 
-![Panelen Filter i ](assets/file-type-search.png "panelen för varumärkesportalfilterFilter i varumärkesportalen")
+![Panelen Filter i ](assets/file-type-search.png "panelen Brand PortalFilter i Brand Portal")
 
-Panelen **[!UICONTROL Filters]** innehåller några standardaspekter, till exempel - **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]** och **[!UICONTROL Orientation]**. Du kan dock [lägga till anpassade sökfaktorer](../using/brand-portal-search-facets.md) eller ta bort specifika sökfaktorer från panelen **[!UICONTROL Filters]** genom att lägga till eller ta bort predikatorer i det underliggande sökformuläret. Se listan med tillgängliga och användbara [sökpredikatorer på varumärkesportalen](../using/brand-portal-search-facets.md#list-of-search-predicates).
+Panelen **[!UICONTROL Filters]** innehåller några standardaspekter, till exempel - **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]** och **[!UICONTROL Orientation]**. Du kan dock [lägga till anpassade sökfaktorer](../using/brand-portal-search-facets.md) eller ta bort specifika sökfaktorer från panelen **[!UICONTROL Filters]** genom att lägga till eller ta bort predikatorer i det underliggande sökformuläret. Se listan med tillgängliga och användbara [sökpredikatorer i Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 Om du vill använda filter på sökningen använder du de tillgängliga [sökfunktionerna](../using/brand-portal-search-facets.md):
 
@@ -69,7 +68,7 @@ Använd till exempel följande standardfilter:
    >[!NOTE]
    >
    >För icke-adminanvändare visar [!UICONTROL Path Browser] på panelen [!UICONTROL Filter] bara innehållsstrukturen för de mappar (och deras överordnade mappar) som delas med dem.\
-   >Om du vill administrera användare kan du navigera till valfri mapp i varumärkesportalen med hjälp av Sökvägsläsaren.
+   >Om du vill administrera användare kan du navigera till valfri mapp i Brand Portal med hjälp av Path Browser.
 
    * **[!UICONTROL File Type]** för att ange typ (bild, dokument, multimedia, arkiv) av resursfilen som du söker efter. Du kan dessutom begränsa omfattningen av sökningen, till exempel ange MIME-typen (TIFF, Bitmapp, GIMP-bilder) för bilden eller formatet (PDF eller MS Word) för dokumenten.
    * **[!UICONTROL File Size]** om du vill söka efter resurser baserat på deras storlek. Du kan ange de nedre och övre gränserna för storleksintervallet för att begränsa sökningen och ange vilken måttenhet som ska sökas igenom.
@@ -112,7 +111,7 @@ textOm du vill tillåta icke-skiftlägeskänslig sökning i egenskapspredikatet 
 
 1. Du kan enkelt navigera till ett objekt från sökresultatet och gå tillbaka till samma sökresultat med bakåtknappen i webbläsaren utan att behöva köra sökfrågan igen.
 
-## Spara dina sökningar som smart samling {#save-your-searches-as-smart-collection}
+## Spara dina sökningar som en smart samling {#save-your-searches-as-smart-collection}
 
 Du kan spara sökinställningarna som en smart samling för att snabbt kunna upprepa samma sökning utan att behöva göra om samma inställningar senare.
 
@@ -124,7 +123,7 @@ Så här sparar du sökinställningarna som en smart samling:
 
    >[!NOTE]
    >
-   >Användare som inte är administratörer kan begränsas från att göra smarta samlingar offentliga för att undvika att ha ett stort antal publika smarta samlingar som skapats av icke-administratörer på organisationens varumärkesportal. Organisationer kan inaktivera **[!UICONTROL Allow public smart collections creation]**-konfigurationen från **[!UICONTROL General]**-inställningarna som är tillgängliga på panelen Administrationsverktyg.
+   >Användare som inte är administratörer kan begränsas från att göra smarta samlingar offentliga, så att du slipper ha ett stort antal publika smarta samlingar som skapats av användare som inte är administratörer i organisationens Brand Portal. Organisationer kan inaktivera **[!UICONTROL Allow public smart collections creation]**-konfigurationen från **[!UICONTROL General]**-inställningarna som är tillgängliga på panelen Administrationsverktyg.
 
    ![](assets/save_smartcollectionui.png)
 

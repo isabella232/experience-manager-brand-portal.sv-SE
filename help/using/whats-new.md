@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '6249'
+source-wordcount: '6235'
 ht-degree: 0%
 
 ---
@@ -245,7 +245,7 @@ På fliken **[!UICONTROL Groups]** på sidan **[!UICONTROL User Roles]** kan adm
 * Om bara **[!UICONTROL Download Original]**-inställningen är aktiverad kan användarna bara visa och hämta de ursprungliga resurserna från sidan med resursinformation.
 * Om bara **[!UICONTROL Download Renditions]**-inställningen är aktiverad kan användarna visa den ursprungliga resursen, men de kan inte hämta den. Användaren kan dock visa och hämta resursrenderingarna.
 
-Se [konfigurera hämtning av resurser](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Se [konfigurera hämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -291,6 +291,7 @@ Nedladdningen av resurser har moderniserats, vilket ger en förenklad användaru
 Det befintliga arbetsflödet för hämtning av resurser från Brand Portal följs av en **[!UICONTROL Download]**-dialogruta med flera hämtningsalternativ att välja mellan.
 
 I Brand Portal 6.4.7 kan Brand Portal-administratörer konfigurera inställningarna för resursen **[!UICONTROL Download]**. De tillgängliga konfigurationerna är:
+
 * **[!UICONTROL Fast Download]**
 * **[!UICONTROL Custom Renditions]**
 * **[!UICONTROL System Renditions]**
@@ -342,9 +343,9 @@ Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken ver
 
 | **AEM** | **Ny konfiguration** | **Uppgraderingskonfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 och senare)** | [Skapa en konfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM Assets as a Cloud Service** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5 (6.5.4.0 och senare)** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 och senare)** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 och senare)** | [Skapa en konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Kontakta supporten | Kontakta supporten |
 
@@ -626,7 +627,7 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 
 ### Adobe I/O användargränssnitt för att konfigurera autentiseringsintegreringar
 
-I Brand Portal 6.4.2 och framåt används äldre OAuth-gränssnitt (`https://legacy-oauth.cloud.adobe.io/`) för att skapa JWT-program, vilket möjliggör konfigurering av Auth-integreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med Brand Portal för publicering av resurser och samlingar i Brand Portal finns i [Konfigurera AEM Assets-integrering med Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+I Brand Portal 6.4.2 och framåt används äldre OAuth-gränssnitt (`https://legacy-oauth.cloud.adobe.io/`) för att skapa JWT-program, vilket möjliggör konfigurering av Auth-integreringar för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med Brand Portal för publicering av resurser och samlingar i Brand Portal finns i [Konfigurera AEM Assets-integrering med Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
