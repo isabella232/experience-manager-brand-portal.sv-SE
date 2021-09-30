@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Release Notes
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.08.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.10.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 3%
+source-wordcount: '390'
+ht-degree: 4%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2021.08.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2021.10.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.08.0 |
-| Date | Augusti 2021 |
+| Version | 2021.10.0 |
+| Date | Oktober 2021 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2021.08.0 {#whats-new-in-2021.08.0}
+## Nyheter 2021.10.0 {#whats-new-in-2021.10.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,22 +67,23 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users]() to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
+<!--
+### Enhancements {#enhancements}
 
-### Förbättringar {#enhancements}
+Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
-Brand Portal 2021.08.0 är en intern release som introducerar affärsprofiler för företags- och teamkunder för att ge bättre kontroll över deras tillgångar.
+This release includes the following enhancements:
 
-Den här versionen innehåller följande förbättringar:
+* The users now have organization-specific entitlement on the new and migrated organizations. If a user is entitled to multiple organizations, the user has to select the organization at the time of login.
 
-* Användarna har nu organisationsspecifika behörigheter för nya och migrerade organisationer. Om en användare är berättigad till flera organisationer måste användaren välja organisation vid inloggningen.
-
-* De nya användare som läggs till i Admin Console måste **gå med i team** för att bli berättigade till organisationen.
+* The new users that are added in Admin Console must **Join Team** to get entitled to the organization. 
 
 >[!NOTE]
 >
->Affärsprofiler gäller för närvarande för nya organisationer som skapas efter den 16 augusti 2021.
+>Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
 >
->Tills din organisation har migrerats kan du fortsätta använda Adobe ID, Enterprise ID eller Federated ID för att få åtkomst till organisationen.
+>Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
+-->
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -99,12 +100,19 @@ Den här versionen innehåller följande förbättringar:
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
-* E-postmeddelanden om resurskälla levereras inte för vissa organisationer.
+* Resurser som publiceras från Brand Portal kan inte visas i Experience Manager Assets för en viss bidragsmapp.
+* **[!UICONTROL totalUploadSize]** för en Brand Portal-klient minskas inte när en bidragsmapp avpubliceras.
+* Användarna kan inte ta bort den tillämpade metadataschemaprofilen från en mapp.
+* Antalet grupper på sidan för användarbehörigheter är felaktigt.
+* Det tar för lång tid att navigera i listan.
 
-* Videofiler med tillägget `.mov` körs inte på Brand Portal.
+<!--
+* Asset Sourcing email notifications are not delivered for some organizations. 
 
-* I listrutan **[!UICONTROL Smart Collections]** visas bara tio sparade samlingar.
+* Video files with extension `.mov` are not running on Brand Portal. 
 
+* In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
+-->
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
 -->
@@ -131,8 +139,6 @@ Den här versionen innehåller följande kända fel:
    De aktiva användare som är inloggade på Brand Portal kan dock fortsätta att arbeta tills deras nuvarande session går ut.
 
 * När administratörer navigerar från Brand Portal till Admin Console kan det visas en extra skärm där de kan välja organisation.
-
-* Användarna kan inte ta bort den tillämpade metadataschemaprofilen från en mapp.
 
 
 <!--
