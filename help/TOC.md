@@ -3,15 +3,15 @@ cloud: Experience Cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
-user-guide-title: AEM Brand Portal
+user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Brand Portal Guide
-user-guide-description: Använd AEM Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
+user-guide-description: Använd Experience Manager Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 feature: Brand Portal
 role: User
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 14%
+source-wordcount: '277'
+ht-degree: 9%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 14%
 + [Brand Portal Guide](using/home.md)
 + Introduktion {#introduction}
    + [Översikt](using/brand-portal.md)
-   + [Nyheter i AEM Assets Brand Portal](using/whats-new.md)
+   + [Nyheter i Experience Manager Assets Brand Portal](using/whats-new.md)
    + [Versionsinformation](using/brand-portal-release-notes.md)
    + [Vanliga frågor](using/brand-portal-faqs.md)
    + [Filformat som stöds](using/brand-portal-supported-formats.md)
    + [Gäståtkomst till Brand Portal](using/guest-access.md)
-   + [Förstå Brand Portal med AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Förstå Brand Portal med Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Bläddra bland resurser på Brand Portal](using/browse-assets-brand-portal.md)
-+ Publicera resurser från AEM till varumärkesportalen {#publish}
-   + [Konfigurera AEM Assets med varumärkesportalen](using/configure-aem-assets-with-brand-portal.md)
++ Publicera från Experience Manager Assets till Brand Portal {#publish}
+   + [Konfigurera Experience Manager Assets med Brand Portal](using/configure-aem-assets-with-brand-portal.md)
    + [Publicera resurser på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
@@ -38,8 +38,8 @@ ht-degree: 14%
    + [Publicera förinställningar, scheman och ansikten till Brand Portal](using/publish-schema-search-facets-presets.md)
 + Resurshantering i Brand Portal {#asset-sourcing-in-brand-portal}
    + [Resurskälla - översikt](using/brand-portal-asset-sourcing.md)
-   + [Konfigurera bidragsmappen i AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Publicera bidragsmapp till AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Konfigurera bidragsmappen i Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Publicera en mapp för bidrag till Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Dela resurser med användare {#share}
    + [Dela en samling](using/brand-portal-share-collection.md)
    + [Dela mappar](using/brand-portal-sharing-folders.md)

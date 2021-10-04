@@ -1,27 +1,26 @@
 ---
-title: Bläddra bland resurser på varumärkesportalen
-seo-title: Bläddra bland resurser på varumärkesportalen
-description: Bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ och gränssnittselement på varumärkesportalen.
-seo-description: Bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ och gränssnittselement på varumärkesportalen.
+title: Bläddra bland resurser på Brand Portal
+seo-title: Browse assets on Brand Portal
+description: Bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ och gränssnittselement i Brand Portal.
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
-source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
+exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
 
+# Bläddra bland resurser på Brand Portal {#browsing-assets-on-brand-portal}
 
-# Bläddra bland resurser på varumärkesportalen {#browsing-assets-on-brand-portal}
+Experience Manager Assets Brand Portal har olika funktioner och användargränssnittselement som gör det enklare att bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ.
 
-AEM Assets Brand Portal innehåller olika funktioner och element i användargränssnittet som gör det enklare att bläddra bland resurser, gå igenom resurshierarkier och söka efter resurser med olika visningsalternativ.
-
-AEM logotyp i det AEM verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
+Experience Manager logotyp i verktygsfältet längst upp gör det lättare för administratörsanvändare att komma åt panelen Administrationsverktyg.
 
 ![](assets/aemlogo.png)
 
@@ -29,11 +28,11 @@ AEM logotyp i det AEM verktygsfältet längst upp gör det lättare för adminis
 
 ![](assets/bp_subheader.png)<br />
 
-Rälsväljaren längst upp till vänster i listrutan Varumärksportal för att visa alternativ för att navigera i resurshierarkier, effektivisera sökningen och visa resurser.
+Rälsväljaren längst upp till vänster i listrutan Brand Portal för att visa alternativ för att navigera i resurshierarkier, effektivisera sökningen och visa resurser.
 
 ![](assets/siderail-1.png)
 
-Du kan visa, navigera genom och välja resurser med någon av de tillgängliga vyerna (kort, kolumn och lista) i vyväljaren längst upp till höger i varumärkesportalen.
+Du kan visa, navigera genom och välja resurser med någon av de tillgängliga vyerna (kort, kolumn och lista) i vyväljaren längst upp till höger i Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -57,7 +56,7 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Typ
 * Titel
 * Namn
-* Datum och tid när resursen publicerades till varumärkesportalen från AEM
+* Datum och tid när resursen publicerades till Brand Portal från AEM
 * Storlek
 * Dimensioner
 
@@ -108,7 +107,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Storlek
 * Klassificering
 * Mappsökväg som visar resurshierarki<sup>*</sup>
-* Datum för publicering av tillgången på varumärkesportalen
+* Datum för publicering av resursen på Brand Portal
 
 Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
@@ -142,7 +141,7 @@ När en resurs är markerad i kolumnvyn visas en visuell representation av resur
 * Titel
 * Namn
 * Dimensioner
-* Datum och tid när resursen publicerades till varumärkesportalen från AEM
+* Datum och tid när resursen publicerades till Brand Portal från AEM
 * Storlek
 * Typ
 * Alternativet Mer information, för att gå till detaljsidan för resursen
@@ -243,7 +242,7 @@ Navigera från innehållshierarkin till önskad resurs.
 
 ![](assets/content-tree.png)
 
-## Resursinformation {#asset-details}
+## Tillgångsinformation {#asset-details}
 
 På sidan med tillgångsinformation kan du visa en resurs, hämta, dela resursens länk, flytta den till en samling eller visa dess egenskapssida. Du kan även navigera på informationssidan för andra resurser i samma mapp i följd.
 
@@ -261,4 +260,4 @@ Om du vill öppna sidan med resursegenskaper använder du alternativet **[!UICON
 
 ![](assets/asset-properties.png)
 
-Du kan också visa en lista över alla relaterade resurser (källresurser eller härledda resurser på AEM) på en tillgångs egenskapssida, eftersom resursrelationen också publiceras från AEM till varumärkesportalen.
+Du kan också visa en lista över alla dess relaterade resurser (källresurser eller härledda resurser på AEM) på egenskapssidan för en resurs, eftersom resursrelationen också publiceras från AEM till Brand Portal.

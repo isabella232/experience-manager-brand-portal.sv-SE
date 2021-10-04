@@ -1,8 +1,8 @@
 ---
 title: Använda bildförinställningar eller dynamiska återgivningar
 seo-title: Apply image presets or dynamic renditions
-description: 'Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan AEM Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper. '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: 'Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan Experience Manager Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 2%
 
 ---
 
 # Använda bildförinställningar eller dynamiska återgivningar {#apply-image-presets-or-dynamic-renditions}
 
-Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan AEM Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper.
+Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Med bildförinställningar kan Experience Manager Assets Brand Portal dynamiskt leverera bilder i olika storlekar, format och egenskaper.
 
 En bildförinställning används för att generera dynamiska återgivningar av bilder som kan förhandsvisas och hämtas. När du förhandsgranskar bilder och deras återgivningar kan du välja en förinställning för att formatera om bilder enligt de specifikationer som angetts av administratören.
 
-(*Om AEM författarinstans körs på&#x200B;**Dynamic Media hybridläge***) Om du vill visa dynamiska återgivningar av en resurs i Brand Portal kontrollerar du att dess Pyramid-återgivning finns på den AEM författarinstansen som du publicerar på Brand Portal. När du publicerar resursen publiceras även dess PTIFF-återgivning till Brand Portal.
+(*Om författarinstansen för Experience Manager Assets körs på&#x200B;**Dynamic Media hybridläge***) Om du vill visa dynamiska återgivningar av en resurs i Brand Portal kontrollerar du att dess Pyramid tiff-återgivning finns på författarinstansen för Experience Manager Assets från vilken du publicerar till Brand Portal. När du publicerar resursen publiceras även dess PTIFF-återgivning till Brand Portal.
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ Mer information om de parametrar som krävs när du skapar bildförinställninga
 
 ## Skapa en bildförinställning {#create-an-image-preset}
 
-AEM administratörer kan skapa bildförinställningar som visas som dynamiska återgivningar på resursdetaljsidan. Du kan skapa en bildförinställning från grunden eller spara en befintlig med ett nytt namn. När du skapar en bildförinställning väljer du en storlek för bildleverans och formateringskommandona. När en bild levereras för visning optimeras dess utseende enligt de valda kommandona.
+Administratören för Experience Manager Assets kan skapa bildförinställningar som visas som dynamiska återgivningar på resursinformationssidan. Du kan skapa en bildförinställning från grunden eller spara en befintlig med ett nytt namn. När du skapar en bildförinställning väljer du en storlek för bildleverans och formateringskommandona. När en bild levereras för visning optimeras dess utseende enligt de valda kommandona.
 
 >[!NOTE]
 >
 >Dynamiska återgivningar av en bild skapas med Pyramid TIFF. Om Pyramid TIFF inte är tillgänglig för någon resurs går det inte att hämta dynamiska återgivningar för den resursen i varumärkesportalen.
 >
->Om AEM författarinstans körs på **Dynamic Media hybridläge** skapas och sparas Pyramid TIFF-återgivningar av bildresurser i AEM.
+>Om författarinstansen för Experience Manager Assets körs på **Dynamic Media hybridläge** skapas Pyramid TIFF-återgivningar av bildresurser och sparas i Experience Manager Assets-databasen.
 >
->Om AEM författarinstans körs på **Dynamic Media Scene 7 mode** finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
+>Om författarinstansen för Experience Manager Assets körs i **Dynamic Media Scene 7-läget** finns Pyramid TIFF-återgivningar av bildresurser på Scene 7-servern.
 >
 >När sådana resurser publiceras på varumärkesportalen används bildförinställningar och dynamiska återgivningar visas.
 
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
 1. Klicka på **[!UICONTROL Image Presets]** på panelen Administrationsverktyg.
 

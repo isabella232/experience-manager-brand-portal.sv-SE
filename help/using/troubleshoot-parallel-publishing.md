@@ -10,20 +10,20 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 96ce77b306c207bb20e0fdc56dd218295fbaeffe
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
 # Felsöka problem vid parallell publicering till Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal är konfigurerat med AEM Assets för att ha godkänt varumärkesresurser som sömlöst importerats (eller publicerats) från AEM Assets författarinstans. När [har konfigurerats](../using/configure-aem-assets-with-brand-portal.md) använder Experience Manager Author en replikeringsagent för att replikera de markerade resurserna till Brand Portal molntjänst för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
+Brand Portal är konfigurerat med Experience Manager Assets för att få godkända varumärkesresurser att kapslas (eller publiceras) sömlöst från Experience Manager Assets-författarinstansen. När [har konfigurerats](../using/configure-aem-assets-with-brand-portal.md) använder Experience Manager Author en replikeringsagent för att replikera de markerade resurserna till Brand Portal molntjänst för godkänd användning av Brand Portal-användare. Flera replikeringsagenter används Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 och senare för att möjliggöra parallell publicering med hög hastighet.
 
 >[!NOTE]
 >
->Adobe rekommenderar uppgradering till Experience Manager 6.4.1.0 för att säkerställa att AEM Assets Brand Portal konfigureras med AEM Assets. En begränsning i Experience Manager 6.4 ger ett fel när AEM Assets konfigureras med Brand Portal och replikeringen misslyckas.
+>Adobe rekommenderar uppgradering till Experience Manager 6.4.1.0 för att säkerställa att Experience Manager Assets Brand Portal konfigureras med Experience Manager Assets. En begränsning i Experience Manager 6.4 ger ett fel när Experience Manager Assets konfigureras med Brand Portal och replikeringen misslyckas.
 
 När du konfigurerar molntjänsten för Brand Portal under **[!UICONTROL /etc/cloudservice]** genereras alla nödvändiga användare och token automatiskt och sparas i databasen. Molntjänstkonfigurationen skapas. Tjänstanvändare som krävs för replikerings- och replikeringsagenter för att replikera innehåll skapas också. Den skapar fyra replikeringsagenter. När du publicerar ett stort antal resurser från Experience Manager till Brand Portal står resurserna i kö och distribueras mellan replikeringsagenterna via Round Robin.
 
@@ -49,7 +49,7 @@ Om molntjänsten inte konfigureras korrekt upprepade gånger ska du rapportera e
 
 Visa logg, om fel påträffas i replikeringsloggen:
 
-1. Kontakta supporten för Adobe.
+1. Kontakta kundsupport.
 
 1. Försök med [rensning](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) och skapa publiceringskonfigurationen igen.
 

@@ -1,8 +1,8 @@
 ---
 title: Använd metadatamatchformuläret
-seo-title: Använd metadatamatchformuläret
+seo-title: Use the metadata schema form
 description: Ett metadatamatema beskriver layouten på egenskapssidan och de metadataegenskaper som visas för resurser som använder det aktuella schemat. Schemat som du tillämpar på en resurs avgör vilka metadatafält som visas på sidan Egenskaper.
-seo-description: Ett metadatamatema beskriver layouten på egenskapssidan och de metadataegenskaper som visas för resurser som använder det aktuella schemat. Schemat som du tillämpar på en resurs avgör vilka metadatafält som visas på sidan Egenskaper.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1603'
 ht-degree: 6%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 6%
 
 Ett metadatamatema beskriver layouten på egenskapssidan och de metadataegenskaper som visas för resurser som använder det aktuella schemat. Schemat som du tillämpar på en resurs avgör vilka metadatafält som visas på sidan Egenskaper.
 
-Sidan **[!UICONTROL Properties]** för varje resurs innehåller standardmetadataegenskaper beroende på resursens MIME-typ. Administratörer kan använda metadatarameditor för att ändra befintliga scheman eller lägga till anpassade metadatamatcheman. AEM Assets Brand Portal innehåller standardformulär för resurser av olika MIME-typer. Du kan också lägga till anpassade formulär för sådana resurser.
+Sidan **[!UICONTROL Properties]** för varje resurs innehåller standardmetadataegenskaper beroende på resursens MIME-typ. Administratörer kan använda metadatarameditor för att ändra befintliga scheman eller lägga till anpassade metadatamatcheman. Experience Manager Assets Brand Portal innehåller standardformulär för resurser av olika MIME-typer. Du kan också lägga till anpassade formulär för sådana resurser.
 
 ## Lägg till ett metadatamatchformulär {#add-a-metadata-schema-form}
 
 Så här skapar du ett nytt metadataschemaformulär:
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Du kan lägga till nya flikar eller formulärobjekt i metadatchemaformuläret. D
 
 Så här redigerar du ett metadatamatchemaformulär:
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ På fliken **[!UICONTROL Build Form]** visas objekt som du kan använda i schema
 | **[!UICONTROL Number]** | Lägg till en sifferkomponent. |
 | **[!UICONTROL Date]** | Lägg till en datumkomponent. |
 | **[!UICONTROL Dropdown]** | Lägg till en listruta. |
-| **[!UICONTROL Standard Tags]** | Lägg till en tagg. **Obs!** Administratörer kan behöva ändra sökvägsvärdet, till exempel  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`om de publicerar metadatamappningsformuläret från AEM, där sökvägen inte innehåller klientinformation, till exempel  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart Tags]** | Automatiskt identifierade taggar om du har köpt och konfigurerat tillägget AEM smarta taggar. |
+| **[!UICONTROL Standard Tags]** | Lägg till en tagg. **Obs!** Administratörer kan behöva ändra sökvägsvärdet, till exempel  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`om de publicerar metadatamappningsformuläret från Experience Manager Assets, där sökvägen till exempel inte innehåller klientinformation  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]** | Automatiskt identifierade taggar om du har köpt och konfigurerat tillägget Smarta taggar för Experience Manager Assets. |
 | **[!UICONTROL Hidden Field]** | Lägg till ett dolt fält. Den skickas som en POST-parameter när resursen sparas. |
 | **[!UICONTROL Asset Referenced By]** | Lägg till den här komponenten för att visa en lista över resurser som resursen refererar till. |
 | **[!UICONTROL Asset Referencing]** | Lägg till om du vill visa en lista med resurser som refererar till resursen. |
-| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som lagts till från AEM Assets innan den publiceras till Brand Portal. |
+| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som har lagts till från Experience Manager Assets innan den publiceras till Brand Portal. |
 | **[!UICONTROL Contextual Metadata]** | Lägg till för att styra visningen av andra metadataflikar på egenskapssidan för resurser. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Följande är giltiga värden för den här egenskapen:
 
 >[!NOTE]
 >
->Alla metadatafält är skrivskyddade i metadataredigeringsformuläret för en resurs. Eftersom metadata för resursen måste redigeras i AEM Assets innan en resurs publiceras i Brand Portal.
+>Alla metadatafält är skrivskyddade i metadataredigeringsformuläret för en resurs. Eftersom metadata för resursen måste redigeras i Experience Manager Assets innan en resurs publiceras i Brand Portal.
 
 #### Lägga till eller ta bort en flik i schemaformuläret {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Med Brand Portal kan du anpassa och styra metadataschemat så att sidan **[!UICO
 
 Så här använder du ett metadatamatchemaformulär för en mapp:
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 

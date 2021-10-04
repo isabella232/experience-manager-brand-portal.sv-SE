@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,19 @@ Brand Portal-användare kan:
 
 >[!NOTE]
 >
->Om du vill arbeta med videoklipp och publicera dem på Brand Portal kontrollerar du att AEM Author-instansen är inställd på antingen Dynamic Media hybridläge eller Dynamic Media **[!DNL Scene 7]**-läge.
+>Om du vill arbeta med videoklipp och publicera dem på Brand Portal kontrollerar du att författarinstansen för Experience Manager är inställd i Dynamic Media Hybrid-läge eller Dynamic Media **[!DNL Scene 7]**-läge.
 
 För att förhandsgranska, spela upp och ladda ned videor visar Brand Portal följande två konfigurationer för administratörer:
 
 * [Dynamic Media Hybrid-](#configure-dm-hybrid-settings)
-konfigurationOm AEM Author-instansen körs i läget för dynamisk mediefyllning.
+konfigurationOm Experience Manager Author-instansen körs i läget för dynamisk mediefyllning.
 * [Dynamisk  [!DNL Scene 7] ](#configure-dm-scene7-settings)
-mediakonfigurationOm AEM Author-instansen körs i dynamiskt **[!DNL Scene 7]** medieläge.
-Ange någon av dessa konfigurationer baserat på de konfigurationer du ställt in i AEM Author-instansen som Brand Portal-klientorganisationen replikeras med.
+mediakonfigurationOm Experience Manager Author-instansen körs i dynamiskt **[!DNL Scene 7]** medieläge.
+Ange någon av dessa konfigurationer baserat på de konfigurationer som du anger i din Experience Manager Author-instans som Brand Portal-klientorganisationen replikeras med.
 
 >[!NOTE]
 >
->Dynamiska videor stöds inte på Brand Portal-klientorganisationer som är konfigurerade med AEM Author som körs i **[!UICONTROL Scene7Connect]**-runmode.
+>Dynamiska videor stöds inte på Brand Portal-klientorganisationer som är konfigurerade med Experience Manager Author som körs i **[!UICONTROL Scene7Connect]**-runmode.
 
 ## Hur spelas dynamiska videor upp? {#how-are-dynamic-videos-played}
 

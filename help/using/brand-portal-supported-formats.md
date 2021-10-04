@@ -1,27 +1,26 @@
 ---
 title: Filformat som stöds
-seo-title: Filformat som stöds
-description: 'Varje AEM Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen. '
-seo-description: 'Varje AEM Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen. '
+seo-title: Supported file formats
+description: 'Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen. '
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 5%
+source-wordcount: '315'
+ht-degree: 4%
 
 ---
 
-
 # Filformat som stöds {#supported-file-formats}
 
-Varje AEM Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen.
+Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen.
 
-| Filformat | Resurser publicerade på varumärkesportalen | Återgivningar publicerade på varumärkesportalen | Metadata publicerade på varumärkesportalen | Miniatyrbilder publicerade på varumärkesportalen | Sidor med tillgångsinformation som publiceras på varumärkesportalen | Länkresurser | Länka delningsminiatyrer | Förhandsgranskning av länkdelning |
+| Filformat | Resurser som publicerats i Brand Portal | Återgivningar som publicerats till Brand Portal | Metadata publicerade på Brand Portal | Miniatyrbilder publicerade till Brand Portal | Sidor med tillgångsinformation som publiceras till Brand Portal | Länkresurser | Länka delningsminiatyrer | Förhandsgranskning av länkdelning |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -88,4 +87,4 @@ I följande förklaring förklaras symbolerna som används i matrisen:
 | ✓ | Det här filformatet har stöd för den här funktionen. |
 | ✕ | Det här filformatet stöder inte den här funktionen. |
 | NA | Den här funktionen gäller inte för det här filformatet. |
-| * | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på varumärkesportalen efter att resurserna har publicerats på varumärkesportalen. |
+| * | Den här funktionen kräver tilläggsstöd för det här filformatet AEM författarinstansen men inte på Brand Portal efter att resurserna har publicerats till Brand Portal. |

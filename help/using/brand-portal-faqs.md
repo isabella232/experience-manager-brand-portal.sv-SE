@@ -10,23 +10,23 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
 
 # Vanliga frågor {#frequently-asked-questions}
 
-Vanliga frågor och svar om Brand Portal fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste versionen av AEM Assets Brand Portal 6.4.6 eller tidigare.
+Vanliga frågor och svar om Brand Portal fokuserar på frågor och problem som slutanvändarna kan råka ut för när de arbetar med den senaste utgåvan av Experience Manager Assets Brand Portal 6.4.6 eller tidigare versioner.
 
 
 ## Brand Portal 6.4.6 - frågor och svar  {#faqs-bp646}
 
 **Frågor. Den befintliga gamla OAuth-slutpunkten (`https://legacy-oauth.cloud.adobe.io/login`) fungerar inte. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera AEM Assets-författarinstanser till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera AEM Assets med Brand Portal](configure-aem-assets-with-brand-portal.md). För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** Äldre OAuth-konfiguration är föråldrad. Du måste uppgradera Experience Manager Assets-författarinstanser till det senaste Service Pack-paketet och konfigurera det via Adobe Developer Console. Mer information finns i [Konfigurera Experience Manager Assets med Brand Portal](configure-aem-assets-with-brand-portal.md). För att äldre OAuth-konfiguration ska fungera tills du uppgraderar måste du dock uppdatera den äldre OAuth-slutpunkten till `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Vanliga frågor och svar om Brand Portal fokuserar på frågor och problem som s
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till AEM Assets efter att ha uppgraderat till Adobe Developer Console. Min författarinstans är på AEM 6.5.4. Vad kan vara den möjliga orsaken?**
+**Frågor. Jag kan inte publicera resurserna i mappen för bidrag från Brand Portal till Experience Manager Assets efter att ha uppgraderat till Adobe Developer Console. Min författarinstans ligger på Experience Manager Assets 6.5.4. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Ja, det finns ett känt fel när du publicerar resurser i mappen för bidrag till AEM Assets på AEM 6.5.4 via Adobe Developer Console.
+**Ans.** Ja, det finns ett känt fel när du publicerar resurser i mappen Contribute på Experience Manager Assets 6.5.4 via Adobe Developer Console.
 
-Problemet är åtgärdat i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack-versionen AEM 6.5.5 och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
+Problemet har åtgärdats i Experience Manager Assets 6.5.5. Du kan uppgradera din Experience Manager Assets-instans till det senaste Service Pack-versionen och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,20 +46,20 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**Frågor. Jag ser inte innehållet i bidragsmappen som publicerats från Brand Portal i AEM Assets. Vad kan vara den möjliga orsaken?**
+**Frågor. Jag ser inte innehållet i bidragsmappen som publicerats från Brand Portal i Experience Manager Assets. Vad kan vara den möjliga orsaken?**
 
-**Ans.** Kontakta AEM Assets-administratören för att verifiera konfigurationerna och se till att din Brand Portal-klient bara är konfigurerad med en AEM Assets-författarinstans.
+**Ans.** Kontakta Experience Manager Assets-administratören för att verifiera konfigurationerna och se till att din Brand Portal-klient bara är konfigurerad med en författarinstans för Experience Manager Assets.
 
-Detta kan inträffa när du har konfigurerat en Brand Portal-klient för flera instanser av AEM Assets-författare. Administratören konfigurerar till exempel samma Brand Portal-klient på AEM Assets författarinstans i staging- och produktionsmiljön. I det här fallet utlöses resurspubliceringen i Brand Portal men AEM Assets författarinstans kunde inte importera resurskoden som replikeringsagenten inte får den begärande token.
+Detta kan inträffa när du har konfigurerat en Brand Portal-klient på flera Experience Manager Assets-författarinstanser. Administratören konfigurerar till exempel samma Brand Portal-klientorganisation i Experience Manager Assets-författarinstansen i staging- och produktionsmiljön. I det här fallet utlöses resurspubliceringen i Brand Portal men det gick inte att importera resurskoden som replikeringsagenten inte får den begärda token i Experience Manager Assets-författarinstansen.
 
 
-**Frågor. Jag kan inte publicera material från AEM Assets till Brand Portal. Replikeringsloggen anger att anslutningen gjorde timeout. Finns det en snabbkorrigering?**
+**Frågor. Jag kan inte publicera resurser från Experience Manager Assets till Brand Portal. Replikeringsloggen anger att anslutningen gjorde timeout. Finns det en snabbkorrigering?**
 
 **Ans.** Publiceringen misslyckas vanligtvis med ett timeout-fel om det finns flera väntande begäranden i replikeringskön. Kontrollera att replikeringsagenterna är konfigurerade för att undvika timeout för att lösa problemet.
 
 Utför följande steg för att konfigurera replikeringsagenten:
 
-1. Logga in på din AEM Assets-författarinstans.
+1. Logga in på din Experience Manager Assets-författarinstans.
 1. Gå till **[!UICONTROL Deployment]** > **[!UICONTROL Replication]** på panelen **Verktyg**.
 1. Klicka på **[!UICONTROL Agents on author]** på sidan Replikering. Du kan se de fyra replikeringsagenterna för din Brand Portal-klient.
 1. Klicka på replikeringsagentens URL för att öppna agentinformationen.
@@ -74,7 +74,7 @@ Utför följande steg för att konfigurera replikeringsagenten:
 
 **Frågor. Vilken är den största förändringen i Brand Portal 6.4.5?**
 
-**Ans.** AEM Assets Brand Portal 6.4.5 är en funktionsversion som gör att Brand Portal-användare kan överföra innehåll från Brand Portal-instansen och publicera Contribute-mappen till AEM Assets utan att behöva ha administratörsbehörighet.
+**Ans.** Experience Manager Assets Brand Portal 6.4.5 är en funktionsrelease som gör att Brand Portal-användare kan överföra innehåll inifrån Brand Portal-instansen och publicera Contribute-mappen tillbaka till Experience Manager Assets utan att behöva ha administratörsbehörighet.
 Mer information finns i [Resurshantering i Brand Portal](brand-portal-asset-sourcing.md).
 
 
@@ -100,13 +100,13 @@ För uppdateringar och versionsändringar bör du spåra [versionsinformationen]
 
 **Frågor. Måste jag som Brand Portal-användare utföra någon åtgärd?**
 
-**Ans.** Brand Portal 6.4.5 har en ny funktion som heter Asset Sourcing. AEM måste konfigurera funktionen Resurshantering i AEM Assets för att aktivera funktionen för Brand Portal-användare. Mer information finns i [Aktivera resurskälla](brand-portal-asset-sourcing.md).
+**Ans.** Brand Portal 6.4.5 har en ny funktion som heter Asset Sourcing. Administratören måste konfigurera funktionen Resurser i Experience Manager Resurser för att aktivera funktionen för Brand Portal-användare. Mer information finns i [Aktivera resurskälla](brand-portal-asset-sourcing.md).
 
 
 
 **Frågor. Vem kan skapa en Contribute-mapp?**
 
-**Ans.** Alla AEM som har behörighet att skapa en ny mapp i AEM Assets kan skapa en  **** Contribute-mapp. Om du vill skapa en **Contribute**-mapp skapar du en ny mapp av typen **Resursbidrag**.
+**Ans.** Alla Experience Manager Assets-användare som har behörighet att skapa en ny mapp i Experience Manager Assets kan skapa en  **** Contribute-mapp. Om du vill skapa en **Contribute**-mapp skapar du en ny mapp av typen **Resursbidrag**.
 Den här mappen delas med de aktiva Brand Portal-användarna för att de ska kunna bidra.
 
 
@@ -132,7 +132,7 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 **Frågor. Kan jag överföra resurser till en tillåten mapp?**
 
-**Ans.** Inte alla tillåtna mappar. En Brand Portal-användare kan bara överföra innehåll till mappen **Contribute** som delas av AEM- eller Brand Portal-administratören.
+**Ans.** Inte alla tillåtna mappar. En Brand Portal-användare kan bara överföra innehåll till mappen **Contribute** som delas av Experience Manager Assets- eller Brand Portal-administratören.
 
 
 
@@ -142,7 +142,7 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 >[!NOTE]
 >
->Om du inte är en befintlig Brand Portal-användare ber du AEM att skapa din användare i AEM Admin Console och lägga till din profil i användarkonfigurationsfilen i Brand Portal användarlista.
+>Om du inte är en befintlig Brand Portal-användare ber du administratören för Experience Manager Assets att skapa din användare i Admin Console och lägga till din profil i användarkonfigurationsfilen i listan över Brand Portal-användare.
 
 **Frågor. Vilket format har CSV-filen för användarimport?**
 
@@ -152,25 +152,25 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 **Frågor. Vad fyller i listan med användare (Brand Portal-medarbetare) i listrutan Tillgångsmedverkande användare?**
 
-**Ans.** Användarna i listrutan fylls i från Brand Portal-användarkonfigurationsfilen (.csv) som har överförts i AEM.
+**Ans.** Användarna i listrutan fylls i från Brand Portal-användarkonfigurationsfilen (.csv) som överförs i Experience Manager Assets.
 
 
 
 **Frågor. Var kan jag se status för import- och publiceringsjobb?**
 
-**Ans.** I AEM kan du se status för en import på  **** asynkrona jobbsidor. I Brand Portal kan du se status för ett publiceringsjobb i **[!UICONTROL Tools > Asset Contribution status]**.
+**Ans.** I Experience Manager Assets kan du se status för en import på  **** asynkrona jobbsidor. I Brand Portal kan du se status för ett publiceringsjobb i **[!UICONTROL Tools > Asset Contribution status]**.
 
 
 
-**Frågor. Vilken frekvens har ett importjobb som körs regelbundet i AEM?**
+**Frågor. Vilken frekvens har ett importjobb som periodvis körs i Experience Manager?**
 
-**Ans.** I AEM avsöks var femte minut.
+**Ans.** I Experience Manager Assets avsöks var femte minut.
 
 
 
-**Frågor. Finns det någon begränsning för hur många gånger en mapp kan publiceras från Brand Portal till AEM Assets?**
+**Frågor. Finns det någon begränsning för hur många gånger en mapp kan publiceras från Brand Portal till Experience Manager Assets?**
 
-**Ans.** Nej, alla resurser i  **** mappen NEW publiceras till AEM Assets oavsett om de publicerades tidigare. Varje gång en **Contribute**-mapp publiceras från Brand Portal till AEM Assets åsidosätter den innehållet i mappen **NEW**.
+**Ans.** Nej, alla resurser i  **** mappen NEWMappes publiceras till Experience Manager Assets oavsett om de publicerades tidigare. Varje gång en **Contribute**-mapp publiceras från Brand Portal till Experience Manager Assets åsidosätter den innehållet i **NYTT**-mappen.
 
 
 
@@ -186,10 +186,10 @@ Brand Portal-användarna kommer åt mappen **Contribute** och överför innehål
 
 
 
-**Frågor. Vad händer om en mapp publiceras från AEM Assets till Brand Portal som är i full gång?**?
+**Frågor. Vad händer om en mapp publiceras från Experience Manager Assets till Brand Portal som är i full gång?**?
 
-**Ans.** I AEM bevaras loggar för varje gång en mapp publiceras till Brand Portal. Vid publiceringen placeras alla resurser som inte publiceras till Brand Portal i en replikeringskö. Alla resurser som läggs till i mappen efter att publiceringsjobbet har utlösts publiceras inte till Brand Portal. När AEM publicerar mappen igen publiceras endast resurser som inte publicerades tidigare (som finns i replikeringskön) till Brand Portal.
-Detta gäller för alla mappar som publiceras från AEM Assets till Brand Portal och för delade mappar i en Contribute-mapp.
+**Ans.** I Experience Manager Assets bevaras loggar för varje gång en mapp publiceras till Brand Portal. Vid publiceringen placeras alla resurser som inte publiceras till Brand Portal i en replikeringskö. Alla resurser som läggs till i mappen efter att publiceringsjobbet har utlösts publiceras inte till Brand Portal. När Experience Manager Assets-användaren publicerar mappen igen publiceras endast resurser som inte publicerades tidigare (som finns i replikeringskön) till Brand Portal.
+Detta gäller för alla mappar som publiceras från Experience Manager Assets till Brand Portal, och delade mappar i en Contribute-mapp.
 
 **Frågor. Vem kontaktar jag med frågor?**
 
@@ -207,5 +207,5 @@ Dessa webbplatser är bara tillgängliga för kunder. Om du är kund och behöve
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
 -->

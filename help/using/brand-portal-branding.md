@@ -1,8 +1,8 @@
 ---
 title: Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden
-seo-title: Anpassa skrivbordsunderlägg, sidhuvud och e-postmeddelanden
+seo-title: Customize wallpaper, header, and email message
 description: Brand Portal-administratörer kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för Brand Portal. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
-seo-description: Brand Portal-administratörer kan göra begränsade anpassningar av gränssnittet som visas för användarna. Du kan välja en viss bakgrundsbild (skrivbordsunderlägg) för inloggningssidan för Brand Portal. Du kan också lägga till en huvudbild och anpassa e-postmeddelanden om resursdelning så att de matchar kundens varumärke.
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Brand Portal-administratörer kan göra begränsade anpassningar av gränssnitte
 
 Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunderlägg på inloggningssidan.
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Om det inte finns någon anpassad bakgrundsbild visas ett standardskrivbordsunde
 
 Sidhuvudet visas på olika Brand Portal-sidor när du har loggat in på Brand Portal.
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -127,7 +127,7 @@ Om du vill spara ändringarna klickar du på **[!UICONTROL Save]** i verktygsfä
 
 När resurser delas som en länk får användarna ett e-postmeddelande med länken. Administratörer kan anpassa meddelandena, det vill säga logotyp, beskrivning och sidfot, för dessa e-postmeddelanden.
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 

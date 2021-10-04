@@ -1,28 +1,27 @@
 ---
 title: Dela en samling
-seo-title: Dela en samling
-description: Administratörer för AEM Assets Brand Portal kan dela och ta bort delning av en samling eller en smart samling med behöriga användare. Redigerare kan bara visa och dela samlingar som de skapat, delat med dem och gemensamma samlingar.
-seo-description: Administratörer för AEM Assets Brand Portal kan dela och ta bort delning av en samling eller en smart samling med behöriga användare. Redigerare kan bara visa och dela samlingar som de skapat, delat med dem och gemensamma samlingar.
+seo-title: Share a collection
+description: Administratörer för Experience Manager Assets Brand Portal kan dela och ta bort delning av en samling eller en smart samling med behöriga användare. Redigerare kan bara visa och dela samlingar som de skapat, delat med dem och gemensamma samlingar.
+seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: tm+mt
-source-git-commit: a587061bc8afe250a88b4a02b42b6acd9ef6bbeb
+exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-
 # Dela samlingar {#share-collections}
 
-En samling representerar en grupp relaterade resurser som lagras tillsammans i Adobe Experience Manager Assets Brand Portal. Användarna kan skapa smarta samlingar genom att [använda sökning eller facet-sökning för att filtrera bort relaterade resurser](brand-portal-searching.md) och lagra dem tillsammans för enkel åtkomst och ytterligare dela dem med andra Brand Portal-användare.
+En samling representerar en grupp relaterade resurser som lagras tillsammans i Adobe Experience Manager Assets Brand Portal. Användarna kan skapa smarta samlingar genom att [använda sökning eller ansiktssökning för att filtrera bort relaterade resurser](brand-portal-searching.md) och lagra dem tillsammans för enkel åtkomst och dela dem ytterligare med andra Brand Portal-användare.
 
-Administratörerna kan dela och ta bort delning av en samling med auktoriserade Brand Portal-användare. Redigerare och visningsprogram kan visa och dela samlingar som de skapat, delat med dem och offentliga samlingar.
+Administratörerna kan dela och ta bort delning av en samling med behöriga Brand Portal-användare. Redigerare och visningsprogram kan visa och dela samlingar som de skapat, delat med dem och offentliga samlingar.
 
 >[!NOTE]
 >
@@ -30,9 +29,9 @@ Administratörerna kan dela och ta bort delning av en samling med auktoriserade 
 
 ## Dela en samling {#share-collection}
 
-Följ de här stegen för att dela en samling med auktoriserade Brand Portal-användare:
+Så här delar du en samling med behöriga Brand Portal-användare:
 
-1. Logga in på din klient för varumärkesportalen. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
 
 1. Klicka på **[!UICONTROL Collections]** i snabbnavigeringarna högst upp.
 
@@ -66,7 +65,7 @@ Följ de här stegen för att dela en samling med auktoriserade Brand Portal-anv
    >
    >En användares roll styr åtkomsten till resurser och mappar i en samling. Om en användare inte har åtkomst till resurser delas en tom samling med användaren. Dessutom styr en användares roll vilka åtgärder som är tillgängliga för samlingar.
 
-## Ta bort delning av samling {#unshare-a-collection}
+## Ta bort delning av en samling {#unshare-a-collection}
 
 Så här tar du bort delningen av en tidigare delad samling:
 

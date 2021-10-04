@@ -1,8 +1,8 @@
 ---
 title: Arbeta med rapporter
-seo-title: Arbeta med rapporter
-description: AEM Assets Brand Portal administratörer kan visa rapporter om Brand Portal användning samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
-seo-description: AEM Assets Brand Portal administratörer kan visa rapporter om Brand Portal användning samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
+seo-title: Work with reports
+description: Administratörer för Experience Manager Assets Brand Portal kan visa rapporter om Brand Portal användning och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Rapporthanteringsgränssnittet är intuitivt och innehåller detaljerade alterna
 
 Så här visar du en rapport:
 
-1. Tryck/klicka på AEM logotyp i verktygsfältet längst upp för att öppna administrationsverktygen.
+1. Tryck/klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ Rapporten visar även tillåten kapacitet för var och en av dessa informationsm
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]** rapporterar och ger information om alla resurser som publiceras från AEM till Brand Portal inom en viss tidsperiod.
+   **[!UICONTROL Publish]** rapporterar och ger information om alla resurser som publiceras från Experience Manager Assets till Brand Portal inom en viss tidsperiod.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Administratörer kan generera och hantera följande standardrapporter, när de h
 
 Kolumnerna i rapporten Download, Expiration och Publish kan anpassas för visning. Så här skapar du en rapport:
 
-1. Tryck/klicka på AEM logotyp i verktygsfältet längst upp för att öppna administrationsverktygen.
+1. Tryck/klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
 1. Öppna sidan **[!UICONTROL Asset Reports]** genom att trycka/klicka på **[!UICONTROL Create/Manage Reports]** på panelen Administrationsverktyg.
 

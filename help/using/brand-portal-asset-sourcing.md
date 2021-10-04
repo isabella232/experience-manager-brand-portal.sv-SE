@@ -17,16 +17,16 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # Resurskälla - översikt {#overview-asset-sourcing-in-bp}
 
-**Med** resurskälla kan AEM (administratörer/icke-admin-användare) skapa nya mappar med en extra  **Asset** Contributionsegenskap, vilket säkerställer att den nya mappen som skapas är öppen för att skickas från Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NYTT**, i den nyligen skapade **Contribute**-mappen. Den AEM administratören definierar sedan behovet genom att ladda upp en översikt över de typer av resurser som ska läggas till i bidragsmappen, samt en uppsättning baslinjeresurser, till mappen **SHARED** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nyskapade **Contribute**-mappen publiceras på Brand Portal. När användaren är klar med att lägga till innehåll i mappen **NEW** kan han eller hon publicera bidragsmappen i den AEM författarmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i AEM Assets.
+**Med** Resurser kan Experience Manager Assets-användare (administratörer/icke-admin-användare) skapa nya mappar med en extra  **Asset** Contribute-egenskap, vilket säkerställer att den nya mappen som skapas är öppen för att skickas från Brand Portal-användare. Detta utlöser automatiskt ett arbetsflöde som skapar ytterligare två undermappar, som kallas **DELAD** och **NYTT**, i den nyligen skapade **Contribute**-mappen. Administratören definierar sedan behovet genom att ladda upp en översikt över de typer av resurser som ska läggas till i bidragsmappen, samt en uppsättning baslinjeresurser, till mappen **SHARED** för att säkerställa att BP-användarna har den referensinformation de behöver. Administratören kan sedan ge aktiva Brand Portal-användare åtkomst till mappen för bidrag innan den nyskapade **Contribute**-mappen publiceras på Brand Portal. När användaren är klar med att lägga till innehåll i mappen **NEW** kan han eller hon publicera bidragsmappen i Experience Manager-redigeringsmiljön. Observera att det kan ta några minuter att slutföra importen och återspegla det nya publicerade innehållet i Experience Manager Assets.
 
 Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan visa, söka efter och hämta resurser från bidragsmappen samt från andra tillåtna mappar. Administratörer kan dessutom dela mappen för bidrag ytterligare, ändra egenskaper och lägga till resurser i samlingar.
 
@@ -36,8 +36,8 @@ Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan vi
 
 ## Förutsättningar {#prerequisites}
 
-* AEM Assets som Cloud Service, AEM Assets 6.5.2 eller senare.
-* Kontrollera att din AEM Assets-instans är konfigurerad med Brand Portal. Se [Konfigurera AEM Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Experience Manager Assets as a Cloud Service instance, Experience Manager Assets 6.5.2 or above.
+* Kontrollera att instansen Experience Manager Assets har konfigurerats med Brand Portal. Se [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,15 +45,15 @@ Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan vi
 
 >[!NOTE]
 >
->Funktionen Resurshantering är som standard aktiverad i AEM Assets som Cloud Service, AEM Assets 6.5.9 och senare.
+>Funktionen Resurshantering är som standard aktiverad i Experience Manager Assets som Cloud Service, Experience Manager Assets 6.5.9 och senare.
 >
 >De befintliga konfigurationerna fortsätter att fungera med de tidigare versionerna.
 
 >[!NOTE]
 >
->Det finns ett känt fel i AEM Assets 6.5.4. Brand Portal-användare kan inte publicera resurser i mappen för bidrag till AEM Assets när de uppgraderar till Adobe Developer Console.
+>Det finns ett känt fel i Experience Manager Assets 6.5.4. Brand Portal-användare kan inte publicera resursmappens resurser på Experience Manager Assets när de uppgraderar till Adobe Developer Console.
 >
->Problemet är åtgärdat i AEM 6.5.5. Du kan uppgradera din AEM Assets-instans till den senaste Service Pack-versionen AEM 6.5.5 och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
+>Problemet har åtgärdats i Experience Manager Assets 6.5.5. Du kan uppgradera din Experience Manager Assets-instans till det senaste Service Pack-versionen och [uppgradera dina konfigurationer](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) på Adobe Developer Console.
 
 <!--
 
@@ -102,23 +102,23 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Ladda upp Brand Portal-användarlista {#upload-bp-user-list}
 
-AEM kan överföra Brand Portal-användarkonfigurationsfilen (.csv) som innehåller den aktiva Brand Portal-användarlistan i AEM Assets för att ge dem åtkomst till funktionen Resurser.
+Experience Manager Assets-administratörer kan överföra Brand Portal-användarkonfigurationsfilen (.csv) som innehåller den aktiva Brand Portal-användarlistan i Experience Manager Assets för att ge dem åtkomst till funktionen Resurser.
 
 En mapp för bidrag kan bara delas med de aktiva Brand Portal-användare som är definierade i användarlistan. Administratören kan även lägga till nya användare i konfigurationsfilen och överföra den ändrade användarlistan.
 
 >[!NOTE]
 >
->Kontrollera att din AEM Assets-instans är konfigurerad med Brand Portal. Se [Konfigurera AEM Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Kontrollera att instansen Experience Manager Assets har konfigurerats med Brand Portal. Se [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >CSV-filens format är detsamma som det som stöds i Admin Console för bulkanvändarimport. E-post, förnamn och efternamn är obligatoriska.
 
-Administratörerna kan lägga till nya användare i AEM Admin Console, se [Hantera användare](brand-portal-adding-users.md) för mer information. När du har lagt till användare i Admin Console kan dessa användare läggas till i Brand Portal användarkonfigurationsfil och sedan tilldelas behörighet att komma åt mappen för bidrag.
+Administratörerna kan lägga till nya användare i Admin Console. Mer information finns i [Hantera användare](brand-portal-adding-users.md). När du har lagt till användare i Admin Console kan dessa användare läggas till i Brand Portal användarkonfigurationsfil och sedan tilldelas behörighet att komma åt mappen för bidrag.
 
 **Så här överför du Brand Portal-användarlista:**
 
-1. Logga in på din AEM Assets-instans.
+1. Logga in på instansen Experience Manager Assets.
 1. Gå till **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]** på panelen **Verktyg**.
 
 1. Fönstret Brand Portal Upload Contributors öppnas.
@@ -128,10 +128,10 @@ Bläddra från den lokala datorn och överför **konfigurationsfilen (.csv)** so
    ![](assets/upload-user-list2.png)
 
 
-Administratörer kan ge åtkomst till specifika användare från den här användarlistan när de konfigurerar en mapp för bidrag. Endast de användare som är tilldelade till en bidragsmapp har tillgång till bidragsmappen och publicerar resurser från Brand Portal till AEM Assets.
+Administratörer kan ge åtkomst till specifika användare från den här användarlistan när de konfigurerar en mapp för bidrag. Endast de användare som är tilldelade till en mapp för bidrag har tillgång till mappen för bidrag och publicerar resurser från Brand Portal till Experience Manager Assets.
 
 ## Se även {#reference-articles}
 
 * [Konfigurera och publicera avgiftsbelagda mappar i Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Publicera bidragsmapp till AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publicera en mapp för bidrag till Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)

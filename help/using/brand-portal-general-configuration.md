@@ -1,8 +1,8 @@
 ---
 title: Administrera allmänna klientkonfigurationer
-seo-title: Administrera allmänna klientkonfigurationer
+seo-title: Administer general tenant configurations
 description: Konfigurera hämtningsacceleration, offentliga smarta samlingar, skapande av offentliga samlingar och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
-seo-description: Konfigurera hämtningsacceleration, offentliga smarta samlingar, skapande av offentliga samlingar och gör det möjligt för administratörsanvändare att ta bort resurser på klientorganisationer.
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Administrera allmänna klientkonfigurationer {#administer-general-tenant-configurations}
 
-Med AEM Assets Brand Portal kan organisationer konfigurera följande funktioner för specifika innehavare:
+Med Experience Manager Assets Brand Portal kan organisationer konfigurera följande funktioner för specifika innehavare:
 
 * Borttagning av resurser av administratörer
 * Skapande av offentlig samling av icke-adminanvändare
@@ -44,7 +44,7 @@ Dessa konfigurationer har tillhandahållits som **[!UICONTROL General Settings]*
 Så här aktiverar/inaktiverar du dessa konfigurationer:
 
 1. Logga in med administratörsbehörighet.
-1. Välj AEM logotyp för att öppna administrationsverktygen i verktygsfältet högst upp.
+1. Om du vill öppna administrationsverktygen väljer du Experience Manager-logotypen i verktygsfältet högst upp.
 1. På panelen Administrationsverktyg väljer du **[!UICONTROL General]** för att öppna sidan **[!UICONTROL General Settings]**.
 1. Använd respektive växlingsknapp för att aktivera/inaktivera någon av de allmänna konfigurationerna.
 1. **[!UICONTROL Save]** ändringarna.

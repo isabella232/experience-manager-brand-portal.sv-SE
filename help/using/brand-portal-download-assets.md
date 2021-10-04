@@ -1,8 +1,8 @@
 ---
 title: Hämta resurser
-seo-title: Hämta resurser
+seo-title: Download assets
 description: Alla användare kan samtidigt hämta flera resurser och mappar som är tillgängliga för dem. På så sätt kan godkända varumärkesresurser distribueras säkert för användning offline.
-seo-description: Alla användare kan samtidigt hämta flera resurser och mappar som är tillgängliga för dem. På så sätt kan godkända varumärkesresurser distribueras säkert för användning offline.
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ De tillgängliga inställningarna är:
 
    Aktiverar hämtning av anpassade och (eller) dynamiska återgivningar av resurserna.
 
-   Alla resursåtergivningar som inte är den ursprungliga resursen och systemgenererade återgivningar kallas anpassade återgivningar. Den innehåller både statiska och dynamiska renderingar som är tillgängliga för resursen. Alla användare kan skapa en anpassad statisk återgivning i AEM Assets, medan bara AEM kan skapa anpassade dynamiska återgivningar. Mer information finns i [Använda bildförinställningar eller dynamiska återgivningar](../using/brand-portal-image-presets.md).
+   Alla resursåtergivningar som inte är den ursprungliga resursen och systemgenererade återgivningar kallas anpassade återgivningar. Den innehåller både statiska och dynamiska renderingar som är tillgängliga för resursen. Alla användare kan skapa en anpassad statisk återgivning i Experience Manager Assets, medan bara administratören kan skapa anpassade dynamiska återgivningar. Mer information finns i [Använda bildförinställningar eller dynamiska återgivningar](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]**
 
    Aktiverar hämtning av systemgenererade återgivningar av resurserna.
 
-   Det här är miniatyrbilder som skapas automatiskt i AEM Assets baserat på arbetsflödet&quot;DAM-uppdateringsresurs&quot;.
+   Det här är miniatyrbilder som genereras automatiskt i Experience Manager Assets baserat på arbetsflödet&quot;DAM-uppdateringsresurs&quot;.
 
 * **[!UICONTROL Asset Download]**
 
@@ -208,9 +208,9 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 >
 >Brand Portal stöder konfigurering av Dynamic Media i både läget Hybrid och Scene 7.
 >
->(*Om AEM författarinstans körs på&#x200B;**Dynamic Media hybridläge***)
+>(*Om författarinstansen för Experience Manager Assets körs på&#x200B;**Dynamic Media hybridläge***)
 >
->Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den AEM Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från AEM till Brand Portal publiceras även dess Pyramid-återgivning.
+>Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att de dynamiska medierna är aktiverade och att resursens Pyramid-återgivning finns på författarinstansen för Experience Manager Assets från vilken resurserna har publicerats. När en resurs publiceras från Experience Manager Assets till Brand Portal publiceras även dess Pyramid-tiff-rendering.
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: Dela resurser som en länk
 seo-title: Share assets as a link
-description: AEM Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
-seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
+description: Adobe Experience Manager Assets Brand Portal-administratörer kan dela länkar till flera resurser med auktoriserade interna användare och externa enheter, inklusive partners och leverantörer. Redigerare kan bara visa och dela resurser som delas med dem.
+seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---

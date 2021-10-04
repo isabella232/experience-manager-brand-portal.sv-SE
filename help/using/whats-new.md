@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6257'
+source-wordcount: '6258'
 ht-degree: 0%
 
 ---
 
-# Nyheter i AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Nyheter i Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal hjälper er att enkelt förvärva, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande Brand Portal-upplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
 
@@ -525,7 +525,7 @@ Publicerade resurser kan också tas bort från portalen senare genom att schemal
 
 ### Konfigurerbart klientalias i URL
 
-Organisationer kan anpassa sin portal-URL genom att ha ett alternativt prefix i URL:en. För att få ett alias för innehavarens namn i deras befintliga portal-URL måste man kontakta Adobe support.
+Organisationer kan anpassa sin portal-URL genom att ha ett alternativt prefix i URL:en. För att få ett alias för innehavarens namn i deras befintliga portal-URL måste organisationen kontakta kundsupport.
 
 Det är bara prefixet för Brand Portal URL som kan anpassas och inte hela URL:en.\
 En organisation med den befintliga domänen **geomettrix.brand-portal.adobe.com** kan till exempel få **geomettrixinc.brand-portal.adobe.com** som skapats på begäran.
@@ -668,7 +668,7 @@ Brand Portal 6.4.1 är en plattformsuppgraderingsversion som innehåller flera n
 
 * Ny funktion för att förhandsgranska ljudfiler, överförda från AEM, på objektets informationssida.
 * Ny funktion för relaterade resurser som finns i Resursegenskaper. Resurser som är relaterade till andra källresurser/härledda resurser på AEM och publicerade på Brand Portal har nu sin relation i Brand Portal, med länkar till relaterade resurser på egenskapssidan.
-* En ny konfiguration har införts som begränsar icke-adminanvändare från att skapa offentliga samlingar. Organisationer kan samarbeta med Adobe supportteam för att konfigurera den här funktionen för specifika konton.
+* En ny konfiguration har införts som begränsar icke-adminanvändare från att skapa offentliga samlingar. Organisationer kan samarbeta med kundsupportteamet för att konfigurera den här funktionen för specifika konton.
 
 ### Förbättrade sökfunktioner
 

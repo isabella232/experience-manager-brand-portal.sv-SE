@@ -1,8 +1,8 @@
 ---
 title: Använd anpassade sökfaktorer
-seo-title: Använd anpassade sökfaktorer
+seo-title: Use custom search facets
 description: Administratörer kan lägga till sökpredikat på panelen Filter för att anpassa sökningen och göra sökfunktionen flexibel.
-seo-description: Administratörer kan lägga till sökpredikat på panelen Filter för att anpassa sökningen och göra sökfunktionen flexibel.
+seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,13 @@ Du kan använda olika sökpredikat för att anpassa panelen **[!UICONTROL Filter
 
 >[!NOTE]
 >
->AEM tillåter organisationer att [publicera anpassade sökformulär från AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) till Brand Portal i stället för att återskapa samma formulär på Brand Portal.
+>Med Experience Manager Assets kan organisationer [publicera anpassade sökformulär från AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) till Brand Portal i stället för att återskapa samma formulär på Brand Portal.
 
 ## Lägg till ett sökpredikat {#add-a-search-predicate}
 
 Så här lägger du till ett sökpredikat på panelen **[!UICONTROL Filters]**:
 
-1. Om du vill öppna administrationsverktygen klickar du på AEM logotyp i verktygsfältet högst upp.
+1. Klicka på Experience Manager-logotypen i verktygsfältet högst upp för att öppna administrationsverktygen.
 
    ![](assets/aemlogo.png)
 

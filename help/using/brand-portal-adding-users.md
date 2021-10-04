@@ -1,8 +1,8 @@
 ---
 title: Hantera användare, grupper och användarroller
 seo-title: Manage users, groups, and user roles
-description: Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler och hantera sina roller med Brand Portal användargränssnitt. Det här privilegiet är inte tillgängligt för granskare och redigerare.
-seo-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+description: Administratörer kan använda Adobe Admin Console för att skapa Brand Portal-användare och produktprofiler och hantera sina roller med Brand Portal användargränssnitt. Det här privilegiet är inte tillgängligt för granskare och redigerare.
+seo-description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 257a4686e1f5fba1ae4900bfa966e3ad6bb81a7a
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
 
 # Hantera användare, grupper och användarroller {#manage-users-groups-and-user-roles}
 
-Administratörer kan använda Adobe Admin Console för att skapa AEM Assets Brand Portal-användare och produktprofiler och hantera sina roller med Brand Portal användargränssnitt. Det här privilegiet är inte tillgängligt för granskare och redigerare.
+Administratörer kan använda Adobe Admin Console för att skapa användare och produktprofiler för Experience Manager Assets Brand Portal och hantera deras roller med Brand Portal användargränssnitt. Det här privilegiet är inte tillgängligt för granskare och redigerare.
 
-I [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) kan du visa alla produkter som är kopplade till din organisation. En produkt kan vara en valfri Experience Cloud-lösning, som Adobe Analytics, Adobe Target eller AEM Brand Portal. Du måste välja AEM Brand Portal och skapa produktprofiler.
+I [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) kan du visa alla produkter som är kopplade till din organisation. En produkt kan vara en valfri Experience Cloud-lösning, som Adobe Analytics, Adobe Target eller Experience Manager Assets Brand Portal. Du måste välja AEM Brand Portal och skapa produktprofiler.
 
 <!--
 Comment Type: draft
@@ -127,7 +127,7 @@ Om du vill lägga till användare i en Brand Portal-grupp lägger du till dem i 
 >
 >Du kan logga in på [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direkt eller från Brand Portal. Om du loggar in direkt på Admin Console följer du steg 4-7 i proceduren nedan för att lägga till användare i en produktprofil.
 
-1. Klicka på Adobe-logotypen AEM verktygsfältet överst för att öppna administrationsverktygen.
+1. Klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
    ![AEM](assets/aemlogo.png)
 
@@ -209,7 +209,7 @@ Du kan ge systemadministratören eller produktadministratörsbehörighet till en
    >
    >Brand Portal har endast stöd för systemadministratörs- och produktadministratörsroller.
    >
-   >Adobe rekommenderar att du undviker att använda systemadministratörsrollen eftersom den ger administratörsbehörighet för hela organisationen för alla produkter i en organisation. En systemadministratör för en organisation som inkluderar tre molnprodukter för marknadsföring har till exempel hela uppsättningen behörigheter för alla tre produkterna. Endast en systemadministratör kan konfigurera AEM Assets så att resurser kan publiceras från AEM Assets till Brand Portal. Mer information finns i [Konfigurera AEM Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe rekommenderar att du undviker att använda systemadministratörsrollen eftersom den ger administratörsbehörighet för hela organisationen för alla produkter i en organisation. En systemadministratör för en organisation som inkluderar tre molnprodukter för marknadsföring har till exempel hela uppsättningen behörigheter för alla tre produkterna. Endast en systemadministratör kan konfigurera Experience Manager Assets så att resurser kan publiceras från Experience Manager Assets till Brand Portal. Mer information finns i [Konfigurera Experience Manager-resurser med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >Produktadministratörsrollen ger däremot administratörsbehörighet för en viss produkt. Om du vill använda en mer detaljerad åtkomstkontroll i Brand Portal använder du produktadministratörsrollen och väljer produkten som Brand Portal.
 
