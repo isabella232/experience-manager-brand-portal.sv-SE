@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '6258'
+source-wordcount: '6212'
 ht-degree: 0%
 
 ---
@@ -109,17 +109,17 @@ Brand Portal 2021.06.0 är en intern version som innehåller korrigeringar av al
 
 ## Vad ändrades 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 är en förbättringsrelease som innehåller Brand Portal aktiveringsarbetsflöde i AEM Assets som Cloud Service, underlättar resursanvändningen i AEM Assets som Cloud Service, förbättrar upplevelsen av nedladdning av resurser samt innehåller viktiga korrigeringar. Det gör det även möjligt för administratörer att konfigurera standardnedladdningsbeteendet för mappar, samlingar och massnedladdning av resurser på klientnivå. Brand Portal **[!UICONTROL Usage Report]** har också ändrats för att återspegla de aktiva Brand Portal-användarna.
+Brand Portal 2021.02.0 är en förbättringsrelease som innehåller Brand Portal aktiveringsarbetsflöde på AEM Assets as a Cloud Service, underlättar funktionen Resurshantering på AEM Assets as a Cloud Service, förbättrar upplevelsen av hämtning av resurser samt innehåller viktiga korrigeringar. Det gör det även möjligt för administratörer att konfigurera standardnedladdningsbeteendet för mappar, samlingar och massnedladdning av resurser på klientnivå. Brand Portal **[!UICONTROL Usage Report]** har också ändrats för att återspegla de aktiva Brand Portal-användarna.
 
-### Aktivera Brand Portal på AEM Assets som Cloud Service {#bp-automation-on-cloud-service}
+### Aktivera Brand Portal på AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets som Cloud Service har nu rätt att ha en förkonfigurerad Brand Portal-instans. Cloud Manager-användare kan aktivera Brand Portal på AEM Assets som en Cloud Service-instans.
+AEM Assets as a Cloud Service har nu rätt att ha en förkonfigurerad Brand Portal-instans. Cloud Manager-användaren kan aktivera Brand Portal på AEM Assets as a Cloud Service instans.
 
-Tidigare konfigurerades AEM Assets som Cloud Service manuellt med Brand Portal via Adobe Developer Console.
+Tidigare konfigurerades AEM Assets as a Cloud Service manuellt med Brand Portal via Adobe Developer Console.
 
-Cloud Manager-användaren aktiverar aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i serverdelen och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets som en Cloud Service-instans.
+Cloud Manager-användaren aktiverar aktiveringsarbetsflödet som skapar de nödvändiga konfigurationerna i backend-läget och aktiverar Brand Portal i samma IMS-organisation som i AEM Assets as a Cloud Service instans.
 
-Så här aktiverar du Brand Portal på din AEM Assets som en Cloud Service:
+Så här aktiverar du Brand Portal på din as a Cloud Service AEM Assets-instans:
 
 1. Logga in på Adobe Cloud Manager och navigera till **[!UICONTROL Environments]**.
 1. Välj miljöer (en efter en) i listan. När du har hittat den miljö som är kopplad till Brand Portal klickar du på **[!UICONTROL Activate Brand Portal]** för att starta aktiveringsarbetsflödet.
@@ -127,11 +127,11 @@ Så här aktiverar du Brand Portal på din AEM Assets som en Cloud Service:
 
 ![Visa status](assets/create-environment5.png)
 
-Se [aktivera Brand Portal på AEM Assets som en Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+Se [aktivera Brand Portal på AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
-### Resurshantering i AEM Assets som Cloud Service {#asset-sourcing-on-cloud-service}
+### Resurshantering på AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Funktionen Resurser är nu tillgänglig i AEM Assets som Cloud Service. Funktionen är aktiverad som standard för alla användare av molntjänster. Tillåtna Brand Portal-användare kan bidra till resurskälla genom att överföra nya resurser till bidragsmapparna och publicera bidragsmappen från Brand Portal till AEM Assets som en Cloud Service. Administratörerna kan granska och godkänna Brand Portal-användarnas bidrag för att vidaredistribuera dem till andra Brand Portal-användare.
+Funktionen Resurser är nu tillgänglig på AEM Assets as a Cloud Service. Funktionen är aktiverad som standard för alla användare av molntjänster. Tillåtna Brand Portal-användare kan bidra till resurskälla genom att överföra nya resurser till bidragsmapparna och publicera bidragsmappen från Brand Portal till AEM Assets as a Cloud Service instans. Administratörerna kan granska och godkänna Brand Portal-användarnas bidrag för att vidaredistribuera dem till andra Brand Portal-användare.
 
 Tidigare var Resurser endast tillgängligt på AEM Assets (lokal och hanterad tjänst).
 
@@ -275,7 +275,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### Document Viewer {#doc-viewer}
 
-Dokumentvisningsprogrammet förbättrar PDF-visningen. Det ger en liknande upplevelse som i Adobe Document Cloud när du visar PDF-filerna i Brand Portal.
+Document Viewer ger en bättre visningsupplevelse i PDF. Det ger en likartad upplevelse som Adobe Document Cloud när du visar PDF-filer i Brand Portal.
 
 Tidigare fanns det begränsade alternativ för att visa PDF-filerna.
 
@@ -313,7 +313,7 @@ Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fris
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Portal. Brand Portal stöds nu på AEM Assets som Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades Brand Portal tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som skaffar en IMS-token för auktorisering av din Brand Portal-klient.
+I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Portal. Brand Portal stöds nu på AEM Assets as a Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades Brand Portal tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som skaffar en IMS-token för auktorisering av din Brand Portal-klient.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -325,7 +325,7 @@ I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Por
 | **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+| **AEM 6.2** | | 
 
    -->
 
@@ -336,7 +336,7 @@ Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken ver
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+
 -->
 
 
@@ -351,7 +351,7 @@ Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken ver
 | **AEM 6.5 (6.5.4.0 och senare)** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 och senare)** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 och senare)** | [Skapa en konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Kontakta supporten | Kontakta supporten |
+| **AEM 6.2** | Kontakta kundsupport | Kontakta kundsupport |
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ På samma sätt kan du ange:
 >
 >När du markerar kryssrutan **Delvis sökning** är **Ignorera skiftläge** markerat som standard.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Vad har ändrats i 6.4.3 {#what-changed-in}
 
@@ -467,7 +467,7 @@ Standardminiatyrbilden för de virtuella mapparna är miniatyrbilden för den f�
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Sök i en viss mapphierarki eller sökväg
 
@@ -487,7 +487,7 @@ Om du söker i de här mapparna returneras endast resultat från resurser som ha
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Stöd för videoåtergivningar från Dynamic Media
 
@@ -509,11 +509,11 @@ Dynamic Media Video encodes kan laddas ned från:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Schemalagd publicering till Brand Portal
 
-Arbetsflödet för publicering av resurser (och mappar) från [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Författarinstans till Brand Portal kan schemaläggas för ett senare datum och tid.
+Arbetsflödet för publicering av resurser (och mappar) från [AEM (6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) Författarinstans till Brand Portal kan schemaläggas för ett senare datum och tid.
 
 Publicerade resurser kan också tas bort från portalen senare genom att schemalägga arbetsflödet för att avpublicera från Brand Portal.
 
@@ -521,7 +521,7 @@ Publicerade resurser kan också tas bort från portalen senare genom att schemal
 
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Konfigurerbart klientalias i URL
 
@@ -530,11 +530,11 @@ Organisationer kan anpassa sin portal-URL genom att ha ett alternativt prefix i 
 Det är bara prefixet för Brand Portal URL som kan anpassas och inte hela URL:en.\
 En organisation med den befintliga domänen **geomettrix.brand-portal.adobe.com** kan till exempel få **geomettrixinc.brand-portal.adobe.com** som skapats på begäran.
 
-AEM Author-instansen kan bara vara [konfigurerad](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
+AEM Author-instansen kan bara vara [konfigurerad](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
 Man kan anpassa portalens URL istället för att följa Adobe:s webbadress.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Bättre nedladdningsupplevelser
 
@@ -754,7 +754,7 @@ Brand Portal visar nu en meddelandebanderoll några dagar före en kommande unde
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Mer information finns i [Underhållsmeddelande för Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+Mer information finns i [Underhållsmeddelande för Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
 
 ### Förbättring av licensierat material som delas med hjälp av funktionen för länkdelning {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
