@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -60,14 +60,14 @@ Eftersom videokoderna inte lagras i Brand Portal-databasen och hämtas från **[
 Om du vill arbeta med dynamiska videoklipp på Brand Portal måste du se till att:
 
 * **Starta AEM Author i DM-**
-läge (Dynamic Media) Starta AEM Author-instansen (med vilken Brand Portal är konfigurerad) antingen i  [Dynamic Media Hybrid-](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) läge eller i  [Dynamic  [!DNL Scene 7] Mediamode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+läge (Dynamic Media) Starta AEM Author-instansen (med vilken Brand Portal är konfigurerad) antingen i  [Dynamic Media Hybrid-](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) läge eller i  [Dynamic  [!DNL Scene 7] Mediamode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html).
 * **Konfigurera Dynamic Media molntjänster på AEM**
-författareBaserat på det Dynamic Media-läge som AEM Author körs på anger du antingen  [Dynamic Media molntjänster ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) eller  [[!DNL Scene 7] molntjänster ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) på AEM Author från  **Verktyg** |  **Cloud Services** |  **** Dynamic Media¥.
+författareBaserat på det Dynamic Media-läge som AEM Author körs på anger du antingen  [Dynamic Media molntjänster ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) eller  [[!DNL Scene 7] molntjänster ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) på AEM Author från  **Verktyg** |  **Cloud Services** |  **** Dynamic Media¥.
 * **Konfigurera Dynamic Media på varumärkesportalen**
 Baserat på Dynamic Media molnkonfigurationer på AEM Author kan du konfigurera  [Dynamic Media ](#configure-dm-hybrid-settings) inställningar eller  [[!DNL Scene 7] ](#configure-dm-scene7-settings)  inställningar från Brand Portal administrationsverktyg.
 Se till att [separata Brand Portal-klientorganisationer](#separate-tenants) används för AEM Author-instanser som konfigurerats med Dynamic Media Hybrid och Dynamic Media **[!UICONTROL Scene7]**-lägen, om du använder funktionerna i Dynamic Media Hybrid och Dynamic Media **[!UICONTROL S7]**.
 * **Publicera mappar med videokodning på Brand**
-PortalAnvänd  [videokodning ](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) och publicera den mapp som innehåller multimedieresurser från AEM Author-instansen till Brand Portal.
+PortalAnvänd  [videokodning ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) och publicera den mapp som innehåller multimedieresurser från AEM Author-instansen till Brand Portal.
 * **Tillåtslista IP-adresser för Edge i SPS om säker förhandsgranskning**
 är aktiveratOm du använder Dynamic Media-**[!DNL Scene 7]** (med  [säker förhandsgranskning ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) aktiverad för ett företag) bör  **[!DNL Scene 7]** företagsadministratören  [tillåtslista IP-adressen för offentliga utgångar ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) för respektive region med hjälp av SPS (**[!UICONTROL Scene 7]** Publishing System) flash UI.
 IP-adresserna för Egress är följande:
@@ -114,7 +114,7 @@ Om AEM Author-instansen körs i dynamiskt medihybridläge använder du **[!UICON
 
 >[!NOTE]
 >
->[videokodningsprofilerna](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) publiceras inte till Brand Portal, utan hämtas från **[!UICONTROL Scene 7]**-servern. För att videokodningar ska kunna spelas upp i Brand Portal måste därför konfigurationsinformationen vara densamma som [[!UICONTROL Scene7 cloud configuration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) i din AEM Author-instans.
+>[videokodningsprofilerna](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) publiceras inte till Brand Portal, utan hämtas från **[!UICONTROL Scene 7]**-servern. För att videokodningar ska kunna spelas upp i Brand Portal måste därför konfigurationsinformationen vara densamma som [Scene7 molnkonfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) i din AEM Author-instans.
 
 Så här konfigurerar du Dynamic Media-konfigurationer för Brand Portal-klienter:
 

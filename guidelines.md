@@ -1,7 +1,7 @@
 ---
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 Alla idéer du kan behöva förbättra AEM dokumentation är välkomna som bidrag. Kommentarer, utgåvor och pull-begäranden är dock endast avsedda för *bidrag*. De är inte avsedda att användas för att besvara frågor om hur du använder AEM, implementerar ditt AEM eller löser tekniska problem.
 
-Frågor om hur du använder AEM eller tekniska fel som du har kan ha rapporterats via den normala supportprocessen via [Experience Cloud Enterprise Support-portalen](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) eller diskuteras i [Experience Manager-communityn](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Frågor om hur du använder AEM eller tekniska fel som du har kan ha rapporterats via den normala supportprocessen via [Experience Cloud Enterprise Support-portalen](https://experienceleague.adobe.com/?support-solution=General#support) eller diskuteras i [Experience Manager-communityn](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***AEM är inte en ersättning för Adobe*** kundsupport och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
 
@@ -63,7 +63,7 @@ Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och d
 
 Kom ihåg att läsare AEM dokumentation finns i hela världen och inte kan förväntas vara inbyggda eller flytande engelska. Undvik kollokvialism och håll språket så tydligt och enkelt som möjligt.
 
-#### Följ Microsoft-formathandboken
+#### Följ Microsoft formathandbok
 
 [Microsoft Manual of ](https://docs.microsoft.com/en-us/style-guide/welcome/) Style är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och AEM dokumentation som följer den här handboken när det är möjligt.
 

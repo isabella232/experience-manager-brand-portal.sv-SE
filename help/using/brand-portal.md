@@ -1,7 +1,7 @@
 ---
 title: Översikt över Experience Manager Assets Brand Portal
 seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter.
+description: Experience Manager Assets Brand Portal kan hjälpa er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter.
 seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1443'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Det är dock en utmaning att utveckla lösningar som stöder effektiv och säker
 
 **Adobe Experience Manager (AEM) Assets Brand** Portales fokuserar på marknadsförarens behov av att effektivt samarbeta med globalt distribuerade Brand Portal-användare genom att tillhandahålla funktioner för resursdistribution och materialbidrag.
 
-Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Resursbidrag gör det möjligt för Brand Portal-användare att överföra mediefiler till Brand Portal och publicera dem på Experience Manager Assets, utan att de behöver ha tillgång till redigeringsmiljön. Bidragsfunktionen kallas **Resurser i Brand Portal**. Dessutom förbättrar det den övergripande Brand Portal-upplevelsen av resursdistribution och bidrag från Brand Portal-användare (externa byråer/team), snabbar upp time-to-market för mediefiler och minskar risken för bristande efterlevnad och obehörig åtkomst.
+Med mediedistribution kan ni enkelt skaffa, kontrollera och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Asset-bidraget gör det möjligt för Brand Portal-användare att överföra mediefiler till Brand Portal och publicera till Experience Manager Assets, utan att de behöver ha tillgång till redigeringsmiljön. Bidragsfunktionen kallas **Resurser i Brand Portal**. Dessutom förbättrar det den övergripande Brand Portal-upplevelsen av resursdistribution och bidrag från Brand Portal-användare (externa byråer/team), snabbar upp time-to-market för mediefiler och minskar risken för bristande efterlevnad och obehörig åtkomst.
 Se [Resurshantering i Brand Portal](brand-portal-asset-sourcing.md).
 
 I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland, söka efter, förhandsgranska och exportera resurser i godkända format.
@@ -35,13 +35,13 @@ Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du publi
 
 >[!NOTE]
 >
->Konfiguration av Experience Manager Assets med Brand Portal stöds på Experience Manager Assets som en Cloud Service, Experience Manager Assets 6.3 och senare.
+>Konfigurering av Experience Manager Assets med Brand Portal stöds på Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 och senare.
 
-Experience Manager Assets som Cloud Service konfigureras automatiskt med Brand Portal genom att Brand Portal aktiveras från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i Experience Manager Assets som en Cloud Service-instans.
+Experience Manager Assets as a Cloud Service konfigureras automatiskt med Brand Portal genom att Brand Portal aktiveras från Cloud Manager. Aktiveringsarbetsflödet skapar de nödvändiga konfigurationerna i bakänden och aktiverar Brand Portal i samma IMS-organisation som i Experience Manager Assets as a Cloud Service instans.
 
-Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal via Adobe Developer Console, som anskaffar en IMS-token (Adobe Identity Management Services) för godkännande av Brand Portal-klienten.
+Experience Manager Assets (lokal och hanterad tjänst) konfigureras manuellt med Brand Portal via Adobe Developer Console, som anskaffar en Adobe Identity Management Services-token (IMS) för godkännande av Brand Portal-klienten.
 
-Mer information finns i [konfigurera Experience Manager-resurser med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+Mer information finns i [konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Användarprofiler i Brand Portal {#Personas}
 
@@ -129,9 +129,9 @@ Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följand
 
 [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publicera mappar på varumärkesportalen](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Publicera samlingar på varumärkesportalen](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alternativt alias för Brand Portal-URL {#tenant-alias-for-portal-url}
 
@@ -229,7 +229,7 @@ Du kan stänga meddelandet och fortsätta använda Brand Portal. Det här meddel
 ## Relaterade resurser {#related-resources}
 
 <!--
-* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe Customer Support]()
 -->
 
 * [AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

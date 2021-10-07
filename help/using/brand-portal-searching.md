@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1063'
 ht-degree: 4%
 
 ---
@@ -43,13 +43,13 @@ Så här söker du efter resurser på Brand Portal:
 
    *Resurssökning med omnissearch*
 
-Mer information om sökbeteenden med smarta taggade resurser finns i [Mer information om sökresultat och sökbeteenden](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Mer information om sökbeteenden med smarta taggade resurser finns i [Mer information om sökresultat och sökbeteenden](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
 ## Söka med ansikten på panelen Filter {#search-using-facets-in-filters-panel}
 
 Sökfaktorer på panelen Filter ger en mer detaljerad sökupplevelse och gör sökfunktionen effektiv. Sökfacets använder flera dimensioner (predikatfärger) som gör att du kan utföra komplexa sökningar. Du kan enkelt gå ned till önskad detaljnivå för en mer fokuserad sökning.
 
-Om du till exempel söker efter en bild kan du välja om du vill ha en bitmapp eller en vektorbild. Du kan begränsa sökningen ytterligare genom att ange MIME-typen för bilden i sökaspekten Filtyp. På samma sätt kan du ange formatet, t.ex. PDF- eller MS Word-format, när du söker efter dokument.
+Om du till exempel söker efter en bild kan du välja om du vill ha en bitmapp eller en vektorbild. Du kan begränsa sökningen ytterligare genom att ange MIME-typen för bilden i sökaspekten Filtyp. På samma sätt kan du ange formatet, t.ex. PDF eller MS Word, när du söker efter dokument.
 
 ![Panelen Filter i ](assets/file-type-search.png "panelen Brand PortalFilter i Brand Portal")
 

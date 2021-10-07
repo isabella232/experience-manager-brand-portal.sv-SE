@@ -1,40 +1,39 @@
 ---
-title: Publicera förinställningar, schema och ansikten på varumärkesportalen
-seo-title: Publicera förinställningar, schema och ansikten på varumärkesportalen
-description: Lär dig hur du publicerar förinställningar, scheman och ansikten på varumärkesportalen.
-seo-description: Lär dig hur du publicerar förinställningar, scheman och ansikten på varumärkesportalen.
+title: Publicera förinställningar, scheman och ansikten till Brand Portal
+seo-title: Publish presets, schema, and facets to Brand Portal
+description: Lär dig hur du publicerar förinställningar, scheman och ansikten till Brand Portal.
+seo-description: Learn how to publish presets, schema, and facets to Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
+# Publicera förinställningar, scheman och ansikten till Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
-# Publicera förinställningar, schema och ansikten på varumärkesportalen {#publish-presets-schema-and-facets-to-brand-portal}
-
-Artikeln innehåller information om hur du publicerar bildförinställningar, metadatamaterial och anpassade sökfaktorer från AEM Author-instansen till varumärkesportalen. Med publiceringsfunktionen kan organisationer återanvända bildförinställningar, metadatamatcheman och sökfaktorer som skapats/ändrats i AEM Author-instansen, vilket minskar dubbelarbetet.
+Artikeln innehåller information om hur du publicerar bildförinställningar, metadatamaterial och anpassade sökfaktorer från AEM Author-instansen till Brand Portal. Med publiceringsfunktionen kan organisationer återanvända bildförinställningar, metadatamatcheman och sökfaktorer som skapats/ändrats i AEM Author-instansen, vilket minskar dubbelarbetet.
 
 >[!NOTE]
 >
->Möjligheten att publicera bildförinställningar, metadataram och sökfaktorer från AEM Author-instansen till varumärkesportalen finns AEM 6.2 SP1-CFP7 och AEM 6.3 SP 1-CFP 1 (6.3.1.1) och framåt.
+>Möjligheten att publicera bildförinställningar, metadataram och sökfaktorer från AEM Author-instansen till Brand Portal finns AEM 6.2 SP1-CFP7 och AEM 6.3 SP 1-CFP 1 (6.3.1.1) och framåt.
 
-## Publicera bildförinställningar på varumärkesportalen {#publish-image-presets-to-brand-portal}
+## Publicera bildförinställningar till Brand Portal {#publish-image-presets-to-brand-portal}
 
-Bildförinställningar är en uppsättning kommandon för storleksändring och formatering som används på bilden när bilden levereras. Du kan skapa och ändra bildförinställningar på Varumärkesportalen. Om AEM Author-instansen körs i dynamiskt medieläge kan användarna skapa förinställningar hos AEM Author och publicera dem på AEM Assets Brand Portal, och undvika att återskapa samma förinställningar på Brand Portal.\
+Bildförinställningar är en uppsättning kommandon för storleksändring och formatering som används på bilden när bilden levereras. Du kan skapa och ändra bildförinställningar på Brand Portal. Om AEM Author-instansen körs i läget för dynamiska medier kan användarna skapa förinställningar hos AEM Author och publicera dem på AEM Assets Brand Portal, och undvika att återskapa samma förinställningar på Brand Portal.\
 När förinställningen har skapats visas den som en dynamisk återgivning på resursdetaljåtergivningsfältet och i dialogrutan för hämtning.
 
 >[!NOTE]
 >
->Om AEM Author-instansen inte körs i **[!UICONTROL Dynamic Media Mode]** (kunden har inte köpt Dynamic Media) skapas inte **[!UICONTROL Pyramid TIFF]**-renderingen av resurserna vid överföringen. Bildförinställningar eller dynamiska återgivningar fungerar på **[!UICONTROL Pyramid TIFF]** för en resurs, så om **[!UICONTROL Pyramid TIFF]** inte är tillgängligt på AEM Author-instansen är den inte heller tillgänglig på varumärkesportalen. Därför finns det inga dynamiska återgivningar i återgivningsfältet på sidan med resursinformation och i dialogrutan för hämtning.
+>Om AEM Author-instansen inte körs i **[!UICONTROL Dynamic Media Mode]** (kunden har inte köpt Dynamic Media) skapas inte **[!UICONTROL Pyramid TIFF]**-renderingen av resurserna vid överföringen. Bildförinställningar eller dynamiska återgivningar fungerar på **[!UICONTROL Pyramid TIFF]** för en resurs, så om **[!UICONTROL Pyramid TIFF]** inte är tillgängligt på AEM Author-instansen är den inte heller tillgänglig på Brand Portal. Därför finns det inga dynamiska återgivningar i återgivningsfältet på sidan med resursinformation och i dialogrutan för hämtning.
 
-Så här publicerar du bildförinställningar på varumärkesportalen:
+Så här publicerar du bildförinställningar till Brand Portal:
 
 1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen och trycker/ klickar på verktygsikonen och går till **[!UICONTROL Assets > Image Presets]**.
 1. Välj bildförinställningen eller flera bildförinställningar i listan med bildförinställningar och klicka/tryck på **[!UICONTROL Publish to Brand Portal]**.
@@ -45,32 +44,32 @@ Så här publicerar du bildförinställningar på varumärkesportalen:
 >
 >När användarna klickar på **[!UICONTROL Publish to Brand Portal]** köas bildförinställningarna för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
 
-Så här avpublicerar du en bildförinställning från varumärkesportalen:
+Så här avpublicerar du en bildförinställning från Brand Portal:
 
 1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen, trycker/klickar på ikonen **[!UICONTROL Tools]** och navigerar till **[!UICONTROL Assets > Image Presets]**.
 1. Välj en bildförinställning och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen överst.
 
-## Publicera metadatamatchemat på varumärkesportalen {#publish-metadata-schema-to-brand-portal}
+## Publicera metadatamatchemat till Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
 Metadata-schemat beskriver layouten och egenskaperna som visas på egenskapssidan för resurser/samlingar.
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-Om användare har redigerat standardschemat på AEM Author-instansen och är villiga att använda samma schema som standardschemat på varumärkesportalen, kan de helt enkelt publicera metadatamappningsformulären på varumärkesportalen. I ett sådant fall åsidosätts standardschemat på varumärkesportalen av standardscheman som publiceras från AEM Author-instansen.
+Om användare har redigerat standardschemat på AEM Author-instansen och är villiga att använda samma schema som standardschemat på Brand Portal, kan de helt enkelt publicera metadatamappningsformulären till Brand Portal. I sådana fall åsidosätts standardschemat på Brand Portal av standardscheman som publiceras från AEM Author-instansen.
 
-Om användare har skapat ett anpassat schema på en AEM Author-instans kan de publicera det anpassade schemat på varumärkesportalen i stället för att återskapa det anpassade schemat där. Användarna kan sedan använda det här anpassade schemat för alla mappar/samlingar i varumärkesportalen.
+Om användare har skapat ett anpassat schema på en AEM Author-instans kan de publicera det anpassade schemat till Brand Portal i stället för att återskapa samma anpassade schema där. Användarna kan sedan använda det här anpassade schemat för alla mappar/samlingar i Brand Portal.
 
 >[!NOTE]
 >
->Standardscheman kan inte publiceras till varumärkesportalen om de är låsta vid AEM (d.v.s. de är oredigerade).
+>Standardscheman kan inte publiceras till Brand Portal om de är låsta vid AEM (d.v.s. de är oredigerade).
 
 ![](assets/default-schema-form.png)
 
 >[!NOTE]
 >
->Om en mapp har ett schema tillämpat på en AEM Author-instans måste samma schema också finnas på varumärkesportalen för att upprätthålla enhetligheten på sidan för resursegenskaper på AEM Author och Brand Portal.
+>Om en mapp har ett schema tillämpat på en AEM Author-instans måste samma schema också finnas på Brand Portal för att upprätthålla konsekvensen på sidan med resursegenskaper på AEM Author och Brand Portal.
 
-Så här publicerar du ett metadataschema från AEM Author-instansen till varumärkesportalen:
+Så här publicerar du ett metadataschema från AEM Author-instansen till Brand Portal:
 
 1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen och trycker/klickar på verktygsikonen och navigerar till **[!UICONTROL Assets > Metadata Schemas]**.
 1. Välj ett metadatamatchema och välj **[!UICONTROL Publish to Brand Portal]** bland de tillgängliga alternativen överst.
@@ -79,25 +78,25 @@ Så här publicerar du ett metadataschema från AEM Author-instansen till varum�
 >
 >När användare klickar på **[!UICONTROL Publish to Brand Portal]** köas metadatamodeller för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
 
-Så här avpublicerar du ett metadataschema från varumärkesportalen:
+Så här avpublicerar du ett metadataschema från Brand Portal:
 
 1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen och trycker/klickar på verktygsikonen och navigerar till **[!UICONTROL Assets > Metadata Schemas]**.
 1. Välj ett metadatamatchema och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen överst.
 
-## Publicera sökfaktorer på varumärkesportalen {#publish-search-facets-to-brand-portal}
+## Publicera sökfaktorer till Brand Portal {#publish-search-facets-to-brand-portal}
 
-Sökformulär kan användas för [fasetterad sökning](../using/brand-portal-search-facets.md) för användare på varumärkesportalen. Sökfacets ger större detaljrikedom åt sökningar på varumärkesportalen. Alla [predikat som lagts till](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) i sökformuläret är tillgängliga för användare som sökfaktorer i sökfilter.
+Sökformulär kan användas för [facetterad sökning](../using/brand-portal-search-facets.md) för användare på Brand Portal. Sökfacets ger större granularitet åt sökningar i Brand Portal. Alla [predikat som lagts till](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) i sökformuläret är tillgängliga för användare som sökfaktorer i sökfilter.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-Om du vill använda det anpassade sökformuläret **[!UICONTROL Assets Admin Search Rail]** från AEM Author-instansen kan du publicera det anpassade sökformuläret från AEM Author-instansen till varumärkesportalen i stället för att återskapa samma formulär på varumärkesportalen.
+Om du vill använda det anpassade sökformuläret **[!UICONTROL Assets Admin Search Rail]** från AEM Author-instansen kan du publicera det anpassade sökformuläret från AEM Author-instansen till Brand Portal istället för att återskapa samma formulär på Brand Portal.
 
 >[!NOTE]
 >
->Det låsta sökformuläret **[!UICONTROL Assets Admin Search Rail]** på AEM Assets kan inte publiceras på varumärkesportalen om det inte redigeras. När sökformuläret har redigerats och publicerats på varumärkesportalen åsidosätter det sökformuläret på varumärkesportalen.
+>Låst sökformulär **[!UICONTROL Assets Admin Search Rail]** på AEM Assets kan inte publiceras till Brand Portal om det inte redigeras. När sökformuläret har redigerats och publicerats i Brand Portal åsidosätts det av Brand Portal.
 
-Så här publicerar du den redigerade sökaspekten från AEM Author-instansen till varumärkesportalen:
+Så här publicerar du den redigerade sökaspekten från AEM Author-instansen till Brand Portal:
 
 1. Tryck/klicka på AEM-logotypen och gå sedan till **[!UICONTROL Tools > General > Search Forms]**.
 1. Markera det redigerade sökformuläret och välj **[!UICONTROL Publish to Brand Portal]**.
@@ -106,19 +105,19 @@ Så här publicerar du den redigerade sökaspekten från AEM Author-instansen ti
    >
    >När användare klickar på **[!UICONTROL Publish to Brand Portal]** ställs sökfunktionerna i kö för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
 
-Så här avpublicerar du sökformulär från varumärkesportalen:
+Så här avpublicerar du sökformulär från Brand Portal:
 
 1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen och trycker/klickar på verktygsikonen och navigerar till **[!UICONTROL General > Search Forms]**.
 1. Markera sökformuläret och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen överst.
 
 >[!NOTE]
 >
->Åtgärden **[!UICONTROL Unpublish from Brand Portal]** lämnar standardsökformuläret på varumärkesportalen och återställer inte det sökformulär som användes före publiceringen.
+>Åtgärden **[!UICONTROL Unpublish from Brand Portal]** lämnar standardsökformuläret på Brand Portal och återställer inte det sökformulär som användes före publiceringen.
 
 ### Begränsningar {#limitations}
 
-1. Ett fåtal sökpredikat kan inte användas för sökfilter på varumärkesportalen. När dessa sökpredikat publiceras som en del av sökformuläret från AEM Author-instansen till Brand Portal filtreras de bort. Användarna ser därför färre antal predikt i det publicerade formuläret på varumärkesportalen. Se [sökpredikat som gäller filter på varumärkesportalen](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Ett fåtal sökpredikat kan inte användas för sökfilter på Brand Portal. När dessa sökpredikat publiceras som en del av sökformuläret från AEM Author-instansen till Brand Portal, filtreras de bort. Användarna ser därför färre antal predikt i det publicerade formuläret på Brand Portal. Se [sökpredikat för filter på Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. Om en användare använder en anpassad sökväg för att läsa alternativ på AEM Author-instansen för [!UICONTROL Options Predicate] fungerar den inte på varumärkesportalen. Dessa ytterligare sökvägar och alternativ publiceras inte på varumärkesportalen tillsammans med sökformuläret. I det här fallet kan användarna välja alternativet **[!UICONTROL Manual]** i **[!UICONTROL Add Options]** inom **[!UICONTROL Options Predicate]** för att lägga till dessa alternativ manuellt på Varumärkeportalen.
+1. Om en användare använder en anpassad sökväg för att läsa alternativ på AEM Author-instansen fungerar den inte på Brand Portal för [!UICONTROL Options Predicate]. Dessa ytterligare sökvägar och alternativ publiceras inte till Brand Portal med sökformuläret. I det här fallet kan användare välja alternativet **[!UICONTROL Manual]** i **[!UICONTROL Add Options]** inom **[!UICONTROL Options Predicate]** för att lägga till dessa alternativ manuellt på Brand Portal.
 
 ![](assets/options-predicate-manual.png)

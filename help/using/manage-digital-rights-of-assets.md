@@ -1,8 +1,8 @@
 ---
 title: Hantera digitala rättigheter för resurser
-seo-title: Hantera digitala rättigheter för resurser
+seo-title: Manage digital rights of assets
 description: Genom att licensiera resurser och ange förfallodatum för resurser och delade länkar kan du kontrollera användningen av dessa resurser och skydda dem.
-seo-description: Genom att licensiera resurser och ange förfallodatum för resurser och delade länkar kan du kontrollera användningen av dessa resurser och skydda dem.
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Mer information om länkdelning finns i [Dela resurser som en länk](../using/br
 
 För licensierade mediefiler krävs att ett licensavtal godkänns innan du laddar ned dem från Brand Portal. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från Brand Portal eller via en delad länk. Licensskyddade resurser kan visas av alla användare, oavsett om de har gått ut eller inte. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om hur licensierade resurser och tillåtna aktiviteter som har upphört att gälla baserat på användarroller kan du läsa [användningsbehörigheter för utgångna resurser](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Licensskyddade resurser har [licensavtal som är kopplade](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) till sig, vilket görs genom att ställa in resursens [metadataegenskap](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) i AEM Assets.
+Licensskyddade resurser har [licensavtal som är kopplade](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) till sig, vilket görs genom att ställa in resursens [metadataegenskap](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) i AEM Assets.
 
 Om du väljer att hämta licensskyddade mediefiler omdirigeras du till sidan **[!UICONTROL Copyright Management]**.
 

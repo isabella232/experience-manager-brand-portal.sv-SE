@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Storlek
 * Dimensioner
 
-Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (för att undvika snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningar i rubriken](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (för att undvika snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -109,7 +109,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Mappsökväg som visar resurshierarki<sup>*</sup>
 * Datum för publicering av resursen på Brand Portal
 
-Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
