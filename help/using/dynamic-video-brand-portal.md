@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e970775efa611357378516119077a3bfd52b124f
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -74,8 +74,8 @@ IP-adresserna för Egress är följande:
 
 | **Län** | **IP-adress för ägg** |
 |--- |--- |
-| NA | 130.248.160.66, 52.151.32.108 |
-| EMEA | 185.34.189.1 |
+| NA | 130.248.160.68, 20.94.203.130 |
+| EMEA | 185.34.189.3, 51.132.146.75 |
 | APAC | 63.140.44.54 |
 
 Om du vill tillåta någon av dessa utgående IP:n läser du [Förbered ditt konto för säker testningstjänst](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
