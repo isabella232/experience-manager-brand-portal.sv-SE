@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 2%
@@ -61,7 +61,9 @@ I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 | **Redigerare** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administratör** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-* Gästanvändare kan bara bläddra bland, komma åt och söka resurser i gemensamma mappar och samlingar.
+>[!NOTE]
+>
+>Gästanvändare kan bara bläddra bland, komma åt och söka resurser i gemensamma mappar och samlingar.
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -77,23 +79,23 @@ Alla användare som har begränsad åtkomst till resurser på Brand Portal utan 
 
 Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar och dela dem ytterligare. Användare i en gästsession har inte åtkomst till inställningar för mappar och samlingar och kan inte dela resurser som länkar. Här är en lista över uppgifter som en gästanvändare kan utföra:
 
-[Bläddra bland och få tillgång till offentliga resurser](browse-assets-brand-portal.md)
+* [Bläddra bland och få tillgång till offentliga resurser](browse-assets-brand-portal.md)
 
-[Sök efter offentliga resurser](brand-portal-searching.md)
+* [Sök efter offentliga resurser](brand-portal-searching.md)
 
-[Hämta offentliga resurser](brand-portal-download-assets.md)
+* [Hämta offentliga resurser](brand-portal-download-assets.md)
 
-[Lägg till resurser i [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+* [Lägg till resurser i [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visningsprogram {#viewer}
 
 En standardanvändare i Brand Portal är vanligtvis en användare med rollen Viewer. En användare med den här rollen har åtkomst till tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
 
-[Bläddra bland resurser](browse-assets-brand-portal.md)
+* [Bläddra bland resurser](browse-assets-brand-portal.md)
 
-[Sök efter resurser](brand-portal-searching.md)
+* [Sök efter resurser](brand-portal-searching.md)
 
-[Hämta resurser](brand-portal-download-assets.md)
+* [Hämta resurser](brand-portal-download-assets.md)
 
 ### Redigerare {#editor}
 
@@ -101,11 +103,11 @@ En användare med rollen Redigerare kan utföra alla uppgifter som en visningspr
 
 Förutom de uppgifter som en visningsprogram kan utföra kan en redigerare utföra följande ytterligare uppgifter:
 
-[Dela mappar](brand-portal-sharing-folders.md)
+* [Dela mappar](brand-portal-sharing-folders.md)
 
-[Dela en samling](brand-portal-share-collection.md)
+* [Dela en samling](brand-portal-share-collection.md)
 
-[Dela resurser som en länk](brand-portal-link-share.md)
+* [Dela resurser som en länk](brand-portal-link-share.md)
 
 ### Administratör {#administrator}
 
@@ -113,30 +115,30 @@ En administratör inkluderar en användare som är markerad som systemadministra
 
 En administratör kan utföra alla uppgifter som en redigerare kan utföra:
 
-[Hantera användare, grupper och användarroller](brand-portal-adding-users.md)
+* [Hantera användare, grupper och användarroller](brand-portal-adding-users.md)
 
-[Anpassa skrivbordsunderlägg, sidhuvuden och e-postmeddelanden](brand-portal-branding.md)
+* [Anpassa skrivbordsunderlägg, sidhuvuden och e-postmeddelanden](brand-portal-branding.md)
 
-[Använd anpassade sökfaktorer](brand-portal-search-facets.md)
+* [Använd anpassade sökfaktorer](brand-portal-search-facets.md)
 
-[Använd metadatamatchformuläret](brand-portal-metadata-schemas.md)
+* [Använd metadatamatchformuläret](brand-portal-metadata-schemas.md)
 
-[Använda bildförinställningar eller dynamiska återgivningar](brand-portal-image-presets.md)
+* [Använda bildförinställningar eller dynamiska återgivningar](brand-portal-image-presets.md)
 
-[Arbeta med rapporter](brand-portal-reports.md)
+* [Arbeta med rapporter](brand-portal-reports.md)
 
 Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följande uppgifter:
 
-[Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md)
+* [Konfigurera AEM Assets med varumärkesportalen](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [Publicera mappar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Publicera samlingar på varumärkesportalen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alternativt alias för Brand Portal-URL {#tenant-alias-for-portal-url}
 
 Från och med Brand Portal 6.4.3 kan organisationer ha en alternativ (alias) URL för sin Brand Portal-klient. Du kan skapa alias-URL:en genom att ha ett alternativt prefix i URL:en.\
-Observera att endast prefixet för Brand Portal URL kan anpassas och inte hela URL:en. En organisation med den befintliga domänen **[!UICONTROL geomettrix.brand-portal.adobe.com]** kan till exempel få **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** skapad på begäran.
+Observera att endast prefixet för Brand Portal URL kan anpassas och inte hela URL:en. En organisation med den befintliga domänen `geomettrix.brand-portal.adobe.com` kan till exempel få `geomettrixinc.brand-portal.adobe.com` skapad på begäran.
 
 AEM Author-instansen kan bara vara [konfigurerad](../using/configure-aem-assets-with-brand-portal.md) med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
@@ -160,30 +162,33 @@ Så här begär du åtkomst:
 
 1. Om du vill begära åtkomst till en organisations Brand Portal måste du ha en giltig [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] eller [!UICONTROL Federated ID].
 
-   På sidan [!UICONTROL Request Access] loggar du in med ditt ID (scenario 1) eller skapar ett [!UICONTROL Adobe ID] (scenario 2):<br />
+   På sidan [!UICONTROL Request Access] loggar du in med ditt ID (scenario 1) eller skapar ett [!UICONTROL Adobe ID] (scenario 2):
+
    ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
 
    **Scenario 1**
+
    1. Om du har en [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] eller [!UICONTROL Federated ID] klickar du på **[!UICONTROL Sign In]**.
 Sidan [!UICONTROL Sign in] öppnas.
-   1. Ange dina [!UICONTROL Adobe ID]-autentiseringsuppgifter och klicka på **[!UICONTROL Sign in]**.<br />
 
-   ![Adobe loggar in](assets/bplogin_request_access_3.png)
+   1. Ange dina [!UICONTROL Adobe ID]-autentiseringsuppgifter och klicka på **[!UICONTROL Sign in]**.
 
-   Du omdirigeras till sidan [!UICONTROL Request Access].<br />
+      ![Adobe loggar in](assets/bplogin_request_access_3.png)
+   Du omdirigeras till sidan [!UICONTROL Request Access].
+
    **Scenario 2**
+
    1. Om du inte har ett [!UICONTROL Adobe ID]-konto klickar du på **[!UICONTROL Get an Adobe ID]** på sidan [!UICONTROL Request Access] för att skapa ett.
 Sidan [!UICONTROL Sign in] öppnas.
    1. Klicka på **[!UICONTROL Get an Adobe ID]**.
 Sidan [!UICONTROL Sign up] öppnas.
    1. Ange för- och efternamn, e-post-ID och lösenord.
-   1. Välj **[!UICONTROL Sign up]**.<br />
+   1. Välj **[!UICONTROL Sign up]**.
 
-   ![](assets/bplogin_request_access_5.png)
-
+      ![](assets/bplogin_request_access_5.png)
    Du omdirigeras till sidan [!UICONTROL Request Access].
 
-1. På nästa sida visas ditt namn och e-post-ID som används för att begära åtkomst. Lämna en kommentar till administratören och klicka på **[!UICONTROL Submit]**.<br />
+1. På nästa sida visas ditt namn och e-post-ID som används för att begära åtkomst. Lämna en kommentar till administratören och klicka på **[!UICONTROL Submit]**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -206,7 +211,7 @@ Du kan ändra Brand Portal från Adobe [!UICONTROL Experience Cloud Settings].
 
 Så här ändrar du språk:
 
-1. Välj [!UICONTROL User] > [!UICONTROL Edit Profile] på den översta menyn.<br />
+1. Välj [!UICONTROL User] > [!UICONTROL Edit Profile] på den översta menyn.
 
    ![Redigera profil](assets/EditBPProfile.png)
 
