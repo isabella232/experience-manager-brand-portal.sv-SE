@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Experience Manager logotyp i verktygsfältet längst upp gör det lättare för 
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Rälsväljaren längst upp till vänster i listrutan Brand Portal för att visa alternativ för att navigera i resurshierarkier, effektivisera sökningen och visa resurser.
 
@@ -46,7 +46,7 @@ Du kan visa, navigera i och välja (för ytterligare åtgärder) resurser med n�
 * Kortvy
 * Listvy
 
-### Kortvy
+### Card View
 
 ![](assets/card-view.png)
 
@@ -80,7 +80,7 @@ Alternativet Översikt är tillgängligt för användare som inte är administra
 * i verktygsfältet högst upp när du väljer en resurs/mapp.
 * i listrutan när du väljer järnvägsväljaren.
 
-När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. Om du väljer alternativet Översikt på sidan med tillgångsinformation kan användarna se metadata för resursen.
+On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
 
 ![](assets/overview-option.png)
 
@@ -98,7 +98,7 @@ När du väljer alternativet **[!UICONTROL Overview]** när en resurs/mapp är m
 
 I listvyn visas information för varje resurs på den aktuella nivån. I listvyn finns följande information:
 
-* Miniatyrbild av resurser
+* Thumbnail image of assets
 * Namn
 * Titel
 * Nat. inst
@@ -106,7 +106,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Dimension
 * Storlek
 * Klassificering
-* Mappsökväg som visar resurshierarki<sup>*</sup>
+* Mappsökväg som visar resurshierarki
 * Datum för publicering av resursen på Brand Portal
 
 Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
@@ -115,13 +115,13 @@ Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphiera
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### Visa inställningar i listvyn
+### View settings in list view
 
-I listvyn visas resursen **[!UICONTROL Name]** som första kolumn som standard. Ytterligare information, som resurs **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, publiceringsstatus visas också. Du kan dock välja vilka kolumner som ska visas med **[!UICONTROL View Settings]**.
+I listvyn visas resursen **[!UICONTROL Name]** som första kolumn som standard. Additional information, such as asset **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, publish status are also shown. Du kan dock välja vilka kolumner som ska visas med **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
-### Kolumnvy
+### Column View
 
 ![](assets/column-view.png)
 
@@ -242,7 +242,7 @@ Navigera från innehållshierarkin till önskad resurs.
 
 ![](assets/content-tree.png)
 
-## Tillgångsinformation {#asset-details}
+## Asset Details {#asset-details}
 
 På sidan med tillgångsinformation kan du visa en resurs, hämta, dela resursens länk, flytta den till en samling eller visa dess egenskapssida. Du kan även navigera på informationssidan för andra resurser i samma mapp i följd.
 
