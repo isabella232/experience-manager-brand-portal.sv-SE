@@ -4,16 +4,16 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal Guide
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: d3076552969eb17264f5f27cbe7527470c01299d
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 2%
 
 ---
 
 # Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand** PortableMedia-organisationer kan på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
+**Adobe Experience Manager Assets Brand Portal** hjälper organisationer att tillgodose sina marknadsföringsbehov genom att på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 
 Avsaknaden av en säker lösning för resursdelning kan leda till:
 
@@ -41,11 +41,12 @@ Den här användarhandboken ger information om Brand Portal-erbjudanden och vikt
 |--- |---|
 | [Nyheter](whats-new.md) | Vilka ändringar och de senaste erbjudandena i Brand Portal har gjorts i tidigare versioner. |
 | [Versionsinformation](brand-portal-release-notes.md) | Förbättringar, åtgärdade kritiska problem och kända fel i den aktuella versionen. |
-| [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Så här replikerar du Brand Portal med Experience Manager Assets för att publicera resurser. |
+| [Konfigurera Experience Manager Assets med Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Hur man replikerar Brand Portal med Experience Manager Assets för att publicera material. |
 | [Felsöka problem vid parallell publicering](troubleshoot-parallel-publishing.md) | Felsöka replikering mellan Brand Portal och Experience Manager Assets. |
 | [Filformat som stöds](brand-portal-supported-formats.md) | Filformat som stöds i Brand Portal för förhandsgranskning och nedladdning. |
 | [Publicera resurser på Brand Portal](brand-portal-sharing-folders.md) | Publicera mappar, samlingar, länkar, förinställningar, schema, ansikten och taggar i Brand Portal. |
 | [Resurshantering i Brand Portal](brand-portal-asset-sourcing.md) | Så här konfigurerar du Resurser i AEM Assets, överför resurser i Brand Portal och publicerar bidragsmappen tillbaka till AEM Assets. |
+| [Brand Portal funktionsvideor](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Lär dig använda Experience Manager Assets Brand Portal med hjälp av videokurser. |
 
 ### Användbara resurser
 
