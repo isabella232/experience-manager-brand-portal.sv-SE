@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 7128c71576ae938a49f9bff0b95b98b7fc480f69
+source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ Eftersom videokodningar inte lagras i Brand Portal-databasen och hämtas från *
 Om du vill arbeta med dynamiska videoklipp på Brand Portal måste du se till att:
 
 * **Starta Experience Manager Author i Dynamic Media-läge**
-Starta Experience Manager Author-instansen (som Brand Portal är konfigurerat med) antingen i [Dynamic Media - [!DNL Scene7] läge](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) eller in [Dynamic Media - hybridläge](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) eller
+Starta Experience Manager Author-instansen (som Brand Portal är konfigurerat med) antingen i [Dynamic Media - [!DNL Scene7] läge](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) eller in [Dynamic Media - hybridläge](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) eller
 * **Konfigurera Dynamic Media-Cloud Services på författaren till Experience Manager**
-Baserat på Dynamic Media-läget (Scene7-läge eller hybridläge) kan du ställa in Experience Manager Author [Dynamic Media-Cloud Services ([!DNL Scene7] läge)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) eller [Dynamic Media-Cloud Services (hybridläge)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) på Experience Manager Author from **verktyg** | **Cloud Services** | **Dynamic Media**.
+Baserat på Dynamic Media-läget (Scene7-läge eller hybridläge) kan du ställa in Experience Manager Author [Dynamic Media-Cloud Services ([!DNL Scene7] läge)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) eller [Dynamic Media-Cloud Services (hybridläge)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) på Experience Manager Author from **verktyg** | **Cloud Services** | **Dynamic Media**.
 * **Konfigurera Dynamic Media i Brand Portal**
-Baserat på Dynamic Media molnkonfigurationer på Experience Manager Author kan du konfigurera [Dynamic Media-inställningar](#configure-dm-hybrid-settings) eller [[!DNL Scene7] inställningar](#configure-dm-scene7-settings)  från Brand Portal administrationsverktyg.
+Baserat på Dynamic Media molnkonfigurationer på Experience Manager Author kan du konfigurera [Dynamic Media-inställningar](#configure-dm-hybrid-settings) eller [[!DNL Scene7] inställningar](#configure-dm-scene7-settings) från Brand Portal administrationsverktyg.
 Se till att [separata Brand Portal-hyresgäster](#separate-tenants) används för Experience Manager Author-instanser som har konfigurerats i Dynamic Media - **[!UICONTROL Scene7]** och Dynamic Media - hybrid-läge. Speciellt om du använder funktioner i Dynamic Media **[!UICONTROL S7]** och Dynamic Media Hybrid.
 * **Publicera mappar med videokodning för Brand Portal**
 Använd [videokodning](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) och publicera den mapp som innehåller multimedieresurser från Experience Manager Author till Brand Portal.
@@ -122,7 +122,7 @@ Om Experience Manager Author-instansen körs i läget för dynamisk mediefyllnin
 
 >[!NOTE]
 >
->The [videokodningsprofiler](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) publiceras inte till Brand Portal, utan hämtas från **[!UICONTROL Scene7]** server. För att videokodningar ska kunna spelas upp i Brand Portal måste därför konfigurationsinformationen vara densamma som [Dynamic Media-Cloud Services ([!DNL Scene7] läge)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) i Experience Manager Author.
+>The [videokodningsprofiler](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) publiceras inte till Brand Portal, utan hämtas från **[!UICONTROL Scene7]** server. För att videokodningar ska kunna spelas upp i Brand Portal måste därför konfigurationsinformationen vara densamma som [Dynamic Media-Cloud Services ([!DNL Scene7] läge)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) i Experience Manager Author.
 
 Så här konfigurerar du Dynamic Media-konfigurationer för Brand Portal-klienter:
 
