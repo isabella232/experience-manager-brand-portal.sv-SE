@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
 workflow-type: tm+mt
 source-wordcount: '1932'
 ht-degree: 0%
