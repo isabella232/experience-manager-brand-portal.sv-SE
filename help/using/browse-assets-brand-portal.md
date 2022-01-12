@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Du kan visa, navigera i och välja (för ytterligare åtgärder) resurser med n�
 * Kortvy
 * Listvy
 
-### Card View
+### Kortvy
 
 ![](assets/card-view.png)
 
@@ -60,7 +60,7 @@ I kortvyn visas informationskort för varje objekt på den aktuella nivån. Dess
 * Storlek
 * Dimensioner
 
-Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (för att undvika snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Du kan navigera nedåt i hierarkin genom att trycka på/klicka på kort (var noga med att undvika snabbåtgärderna) eller uppåt igen genom att använda [vägbeskrivningar i sidhuvudet](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -80,7 +80,7 @@ Alternativet Översikt är tillgängligt för användare som inte är administra
 * i verktygsfältet högst upp när du väljer en resurs/mapp.
 * i listrutan när du väljer järnvägsväljaren.
 
-On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting Overview option lets the users see metadata of the asset.
+Vid val av **[!UICONTROL Overview]** när en resurs/mapp är markerad kan användarna se titeln, sökvägen och tidpunkten när resursen skapades. Om du väljer alternativet Översikt på sidan med tillgångsinformation kan användarna se metadata för resursen.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ On selecting the **[!UICONTROL Overview]** option while an asset/folder is selec
 
 #### Visa inställningar i kortvyn
 
-**[!UICONTROL View Settings]** öppnas när du väljer  **[!UICONTROL View Settings]** från vyväljaren. Du kan ändra storlek på miniatyrbilderna för resursen i kortvyn. På så sätt kan du anpassa visningen och styra antalet miniatyrbilder som visas.
+**[!UICONTROL View Settings]** dialogruta öppnas vid val **[!UICONTROL View Settings]** i vyväljaren. Du kan ändra storlek på miniatyrbilderna för resursen i kortvyn. På så sätt kan du anpassa visningen och styra antalet miniatyrbilder som visas.
 
 ![](assets/cardviewsettings.png)
 
@@ -98,7 +98,7 @@ On selecting the **[!UICONTROL Overview]** option while an asset/folder is selec
 
 I listvyn visas information för varje resurs på den aktuella nivån. I listvyn finns följande information:
 
-* Thumbnail image of assets
+* Miniatyrbild av resurser
 * Namn
 * Titel
 * Nat. inst
@@ -109,19 +109,19 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Mappsökväg som visar resurshierarki
 * Datum för publicering av resursen på Brand Portal
 
-Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka/klicka på resursnamnet och säkerhetskopiera genom att använda [vägbeskrivningar i rubriken](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Med sökvägskolumnen är det enkelt att identifiera resursens plats i mapphierarkin. Du kan navigera nedåt i hierarkin genom att trycka på/klicka på resursnamnet och sedan säkerhetskopiera genom att använda [vägbeskrivningar i sidhuvudet](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### View settings in list view
+### Visa inställningar i listvyn
 
-I listvyn visas resursen **[!UICONTROL Name]** som första kolumn som standard. Additional information, such as asset **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, publish status are also shown. Du kan dock välja vilka kolumner som ska visas med **[!UICONTROL View Settings]**.
+Listvyn visar resurser **[!UICONTROL Name]** som första kolumn som standard. Ytterligare information, till exempel tillgång **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensions]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]**, visas också publiceringsstatus. Du kan dock välja vilka kolumner som ska visas med **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
-### Column View
+### Kolumnvy
 
 ![](assets/column-view.png)
 
@@ -242,7 +242,7 @@ Navigera från innehållshierarkin till önskad resurs.
 
 ![](assets/content-tree.png)
 
-## Asset Details {#asset-details}
+## Tillgångsinformation {#asset-details}
 
 På sidan med tillgångsinformation kan du visa en resurs, hämta, dela resursens länk, flytta den till en samling eller visa dess egenskapssida. Du kan även navigera på informationssidan för andra resurser i samma mapp i följd.
 
@@ -252,11 +252,19 @@ Om du vill visa resursens metadata, eller visa de olika återgivningarna, använ
 
 ![](assets/asset-overview.png)
 
-Du kan visa alla tillgängliga återgivningar av resursen på sidan med resursinformation och välja en återgivning för att förhandsgranska den.
+Du kan visa alla tillgängliga återgivningar av resursen på sidan med tillgångsinformation och välja en återgivning på **[!UICONTROL Renditions]** för att förhandsgranska den.
 
 ![](assets/renditions.png)
 
-Om du vill öppna sidan med resursegenskaper använder du alternativet **[!UICONTROL Properties (p)]** i det övre fältet.
+>[!CAUTION]
+>
+>(**Experience Manager Assets as a Cloud Service** endast) Följande kända fel kommer att åtgärdas i den kommande versionen:
+>
+>The **[!UICONTROL Renditions]** panelen innehåller inte alla statiska återgivningar av resurser som publiceras till Brand Portal efter den 16 december 2021.
+>
+>The **[!UICONTROL Renditions]** på panelen visas de smarta beskärningsåtergivningarna av resursen, men användaren kan inte förhandsgranska eller hämta de smarta beskärningsåtergivningarna.
+
+Om du vill öppna sidan med resursegenskaper använder du **[!UICONTROL Properties (p)]** i det övre fältet.
 
 ![](assets/asset-properties.png)
 

@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 0%
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom att man kan ladda ned flera resurser och mappar som är tillgängliga för dem från Brand Portal samtidigt. På så sätt kan godkända varumärkesresurser distribueras säkert för användning offline. Läs vidare om du vill veta hur du hämtar godkända resurser från Brand Portal och vad du kan förvänta dig av [hämtningsprestanda](../using/brand-portal-download-assets.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal förbättrar nedladdningen genom att man kan ladda ned flera resurser och mappar som är tillgängliga för dem från Brand Portal samtidigt. På så sätt kan godkända varumärkesresurser distribueras säkert för användning offline. Läs vidare för att lära dig hur du hämtar godkända mediefiler från Brand Portal och vad du kan förvänta dig av [nedladdningsprestanda](../using/brand-portal-download-assets.md#expected-download-performance).
 
 
 >[!NOTE]
 >
->I Brand Portal 2020.10.0 (och senare) är inställningen **[!UICONTROL Fast Download]** aktiverad som standard, vilket använder IBM Aspera Connect för att hämta resurserna snabbare. Installera IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) i webbläsartillägget innan du hämtar resurserna från Brand Portal. Mer information finns i [guiden för att snabba upp hämtningar från Brand Portal](../using/accelerated-download.md).
+>I Brand Portal 2020.10.0 (och senare) finns **[!UICONTROL Fast Download]** inställningen är aktiverad som standard, vilket innebär att IBM Aspera Connect används för att hämta resurserna snabbare. Installera IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) i webbläsartillägget innan du hämtar resurserna från Brand Portal. Mer information finns i [guide för snabbare nedladdningar från Brand Portal](../using/accelerated-download.md).
 >
->Om du inte vill använda IBM Aspera Connect och fortsätta med den normala hämtningsprocessen kontaktar du Brand Portal-administratören för att inaktivera **[!UICONTROL Fast Download]**-inställningen.
+>Om du inte vill använda IBM Aspera Connect och fortsätta med den normala nedladdningsprocessen kontaktar du Brand Portal-administratören för att stänga av **[!UICONTROL Fast Download]** inställning.
 
 ## Konfigurera hämtning av resurser {#configure-download}
 
@@ -47,19 +47,19 @@ Brand Portal-administratörer kan konfigurera resurshämtning och användargrupp
 
 ### Aktivera hämtningsinställningar {#enable-download-settings}
 
-Administratörerna kan aktivera resursen **[!UICONTROL Download Settings]** för att definiera uppsättningen renderingar som är tillgängliga för Brand Portal-användare för hämtning.
+Administratörerna kan aktivera resursen **[!UICONTROL Download Settings]** för att definiera uppsättningen renderingar som Brand Portal-användare kan hämta.
 
 De tillgängliga inställningarna är:
 
 * **[!UICONTROL Fast Download]**
 
-   Den snabbar upp hämtningen av materialet med IBM Aspera Connect. Som standard är **[!UICONTROL Fast Download]**-inställningen aktiverad i **[!UICONTROL Download Settings]**.
+   Den snabbar upp hämtningen av materialet med IBM Aspera Connect. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**.
 
 * **[!UICONTROL Custom Renditions]**
 
    Aktiverar hämtning av anpassade och (eller) dynamiska återgivningar av resurserna.
 
-   Alla resursåtergivningar som inte är den ursprungliga resursen och systemgenererade återgivningar kallas anpassade återgivningar. Den innehåller både statiska och dynamiska renderingar som är tillgängliga för resursen. Alla användare kan skapa en anpassad statisk återgivning i Experience Manager Assets, medan bara administratören kan skapa anpassade dynamiska återgivningar. Mer information finns i [Använda bildförinställningar eller dynamiska återgivningar](../using/brand-portal-image-presets.md).
+   Alla resursåtergivningar som inte är den ursprungliga resursen och systemgenererade återgivningar kallas anpassade återgivningar. Den innehåller både statiska och dynamiska renderingar som är tillgängliga för resursen. Alla användare kan skapa en anpassad statisk återgivning i Experience Manager Assets, medan bara administratören kan skapa anpassade dynamiska återgivningar. Mer information finns i [använda bildförinställningar eller dynamiska återgivningar](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL System Renditions]**
 
@@ -81,13 +81,13 @@ Administratörerna kan aktivera valfri kombination av inställningar som Brand P
 
 >[!NOTE]
 >
->Endast administratörer kan hämta utgångna resurser. Mer information om utgångna resurser finns i [Hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md).
+>Endast administratörer kan hämta utgångna resurser. Mer information om utgångna resurser finns i [hantera digitala rättigheter för resurser](../using/manage-digital-rights-of-assets.md).
 
 ### Konfigurera inställningar för användargrupp {#configure-user-group-settings}
 
-Förutom **[!UICONTROL Download Settings]** kan Brand Portal-administratörer ytterligare konfigurera inställningar för olika användargrupper så att de kan visa och (eller) hämta originalresurserna och deras återgivningar.
+Förutom **[!UICONTROL Download Settings]** kan Brand Portal-administratörer ytterligare konfigurera inställningar så att olika användargrupper kan visa och (eller) hämta originalresurserna och deras återgivningar.
 
-Logga in på din Brand Portal-klient som administratör och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**. På sidan **[!UICONTROL User Roles]** går du till fliken **[!UICONTROL Groups]** för att konfigurera inställningar för visning och (eller) hämtning för användargrupperna.
+Logga in på din Brand Portal-klient som administratör och navigera till **[!UICONTROL Tools]** > **[!UICONTROL Users]**. I **[!UICONTROL User Roles]** sida, navigera till **[!UICONTROL Groups]** för att konfigurera inställningar för visning och (eller) hämtning för användargrupperna.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -97,7 +97,7 @@ Logga in på din Brand Portal-klient som administratör och navigera till **[!UI
 
 Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fristående resurser, flera resurser, mappar som innehåller resurser, licensierade eller olicensierade resurser och för att hämta resurser med hjälp av delningslänken.
 
-I följande matris definieras om en användare ska ha åtkomst till renderingarna beroende på [hämtningskonfigurationerna](#configure-download):
+I följande matris definieras om en användare ska ha åtkomst till återgivningarna beroende på [hämta konfigurationer](#configure-download):
 
 | **Hämtningsinställningar: Anpassade återgivningar** | **Hämtningsinställningar: Systemåtergivningar** | **Inställningar för användargrupp: Hämta original** | **Inställningar för användargrupp: Hämta återgivningar** | **Resultat** |
 |---|---|---|---|---|
@@ -122,7 +122,7 @@ Brand Portal-användare kan hämta flera resurser, mappar med resurser och samli
 >
 >Kontakta Brand Portal-administratören om du inte har behörighet att komma åt eller hämta resursåtergivningarna.
 
-Om användaren har åtkomst till återgivningar får användaren den förbättrade **[!UICONTROL Download]**-dialogrutan med följande funktioner:
+Om användaren har åtkomst till återgivningar får användaren det förbättrade **[!UICONTROL Download]** dialogruta med följande funktioner:
 * Visa alla tillgängliga återgivningar av alla resurser i hämtningslistan.
 * Undanta återgivningar av resurser som inte behövs för hämtning.
 * Använd samma uppsättning renderingar för alla liknande resurstyper med ett klick.
@@ -134,22 +134,22 @@ Om användaren har åtkomst till återgivningar får användaren den förbättra
 
 >[!NOTE]
 >
->Dialogrutan **[!UICONTROL Download]** visas bara om **[!UICONTROL Custom Renditions]** och (eller) **[!UICONTROL System Renditions]** är aktiverat i **[!UICONTROL Download Settings]**.
+>The **[!UICONTROL Download]** visas bara om **[!UICONTROL Custom Renditions]** och (eller) **[!UICONTROL System Renditions]** är aktiverat i **[!UICONTROL Download Settings]**.
 
 
 ### Steg för att hämta resurser {#bulk-download}
 
 Så här hämtar du resurser eller mappar som innehåller resurser från Brand Portal-gränssnittet:
 
-1. Logga in på din Brand Portal-klient. Som standard öppnas vyn **[!UICONTROL Files]** som innehåller alla publicerade resurser och mappar.
+1. Logga in på din Brand Portal-klient. Som standard är **[!UICONTROL Files]** öppnas som innehåller alla publicerade resurser och mappar.
 
    Gör något av följande:
 
-   * Markera de resurser eller mappar som du vill hämta. Klicka på ikonen **[!UICONTROL Download]** i verktygsfältet överst.
+   * Markera de resurser eller mappar som du vill hämta. Klicka på knappen **[!UICONTROL Download]** ikon.
 
       ![select-multiple-assets](assets/select-assets-new.png)
 
-   * Om du vill hämta särskilda återgivningar av en resurs för du pekaren över resursen och klickar på ikonen **[!UICONTROL Download]** som finns i miniatyrbilderna för snabbåtgärden.
+   * Om du vill hämta särskilda återgivningar av en resurs håller du pekaren över resursen och klickar på **[!UICONTROL Download]** -ikonen finns i miniatyrbilderna för snabbåtgärder.
 
       ![select-asset](assets/select-asset.png)
 
@@ -161,60 +161,66 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
       >[!NOTE]
       >
-      >Om de resurser du hämtar även innehåller licensierade resurser omdirigeras du till sidan **[!UICONTROL Copyright Management]**. På den här sidan markerar du resurserna, klickar på **[!UICONTROL Agree]** och sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas inte licensierade mediefiler.
+      >Om de mediefiler du hämtar också innehåller licensierade mediefiler omdirigeras du till **[!UICONTROL Copyright Management]** sida. Markera resurserna på den här sidan och klicka på **[!UICONTROL Agree]** och klicka sedan på **[!UICONTROL Download]**. Om du inte håller med hämtas inte licensierade mediefiler.
       > 
-      >Licensskyddade resurser har [licensavtal som är kopplade](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) till sig, vilket görs genom att ställa in resursens [metadataegenskap](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) i Experience Manager Assets.
+      >Licensskyddade tillgångar har [bifogat licensavtal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) till dem, vilket görs genom att ställa in resursens [metadataegenskap](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) i Experience Manager Assets.
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
 
-1. Dialogrutan **[!UICONTROL Download]** där alla markerade resurser visas.
+1. The **[!UICONTROL Download]** öppnas en dialogruta där alla markerade resurser visas.
 
    Klicka på en resurs för att visa tillgängliga återgivningar och markera kryssrutorna för de återgivningar som du vill hämta.
 
-   Du kan välja eller exkludera återgivningarna för enskilda resurser manuellt eller klicka på ikonen **Använd** för att välja samma uppsättning återgivningar som ska hämtas för liknande resurstyper (alla bildfiler i det här exemplet). I dialogrutan **[!UICONTROL Apply All]** klickar du på **[!UICONTROL Done]** för att tillämpa regeln på alla liknande resurser.
+   Du kan välja eller exkludera återgivningar manuellt för enskilda resurser eller klicka på **Använd** om du vill välja samma uppsättning återgivningar som ska hämtas för liknande resurstyper (alla bildfiler i det här exemplet). I **[!UICONTROL Apply All]** dialogruta, klicka **[!UICONTROL Done]** om du vill tillämpa regeln på alla liknande tillgångar.
 
    ![apply-all](assets/apply.png)
 
-   Du kan också ta bort en resurs från hämtningslistan (om det behövs) genom att klicka på ikonen **Ta bort**.
+   Du kan även ta bort en resurs från hämtningslistan (om det behövs) genom att klicka på **Ta bort** ikon.
 
    ![remove](assets/remove.png)
 
-   Markera kryssrutan **[!UICONTROL Create separate folder for each asset]** om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser.
+   Om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser väljer du **[!UICONTROL Create separate folder for each asset]** kryssruta.
 
-   Nedladdningsknappen visar antalet markerade objekt. När du är klar med att tillämpa reglerna klickar du på **[!UICONTROL Download items]**.
+   Nedladdningsknappen visar antalet markerade objekt. När du är klar med reglerna klickar du på **[!UICONTROL Download items]**.
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** endast) Följande kända fel kommer att åtgärdas i den kommande versionen:
+   >
+   >I hämtningsdialogrutan visas smarta beskärningsåtergivningar för den valda resursen, men användaren kan inte hämta smarta beskärningsåtergivningar.
 
-   Om du vill fortsätta använda **[!UICONTROL Fast Download]** klickar du på **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM Aspera Connect.
+1. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
 
-   Om du inte vill använda IBM Aspera Connect klickar du på **[!UICONTROL Deny]**. Om **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på knappen **[!UICONTROL Normal Download]** för att fortsätta hämta resurserna.
+   För att fortsätta använda **[!UICONTROL Fast Download]**, klicka **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM Aspera Connect.
+
+   Om du inte vill använda IBM Aspera Connect klickar du på **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
 
 >[!NOTE]
 >
->Om **[!UICONTROL Fast Download]**-inställningen är inaktiverad av administratören hämtas de valda återgivningarna direkt till en zip-mapp utan att använda IBM Aspera Connect.
+>Om **[!UICONTROL Fast Download]** inställningen är inaktiverad av administratören. De valda återgivningarna hämtas direkt till en zip-mapp utan att IBM Aspera Connect används.
 
 >[!NOTE]
 >
->Om inställningen **[!UICONTROL Asset Download]** är aktiverad i **[!UICONTROL Download Settings]** hämtas resursåtergivningarna i en separat mapp för varje resurs i zip-mappen.
+>Om **[!UICONTROL Asset Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**, hämtas resursåtergivningarna i en separat mapp för varje resurs i zip-mappen.
 >  
 >Om resurserna hämtas från en delad länk hämtas resursåtergivningarna i en separat mapp för varje resurs i zip-mappen.
 >
->Om en mapp, en samling eller fler än 20 resurser har valts för hämtning hoppas dialogrutan **[!UICONTROL Download]** över och alla resursåtergivningar som är tillgängliga för användaren, förutom de dynamiska återgivningarna, hämtas till en ZIP-mapp.
+>Om en mapp, en samling eller fler än 20 resurser har valts för nedladdning visas **[!UICONTROL Download]** dialogrutan hoppas över och alla resursrenderingar som är tillgängliga för användaren, förutom de dynamiska renderingarna, hämtas till en zip-mapp.
 
 >[!NOTE]
 >
 >Brand Portal stöder konfigurering av Dynamic Media i både läget Hybrid och Scene 7.
 >
->(*Om Experience Manager Assets-författarinstans körs på&#x200B;**Dynamic Media-hybridläge***)
+>(*Om Experience Manager Assets-författarinstans körs på&#x200B;**Dynamic Media hybridläge***)
 >
 >Om du vill förhandsgranska eller hämta dynamiska återgivningar av en resurs kontrollerar du att det dynamiska mediet är aktiverat och att resursens Pyramid-tiff-återgivning finns på den Experience Manager Assets-författarinstans där resurserna har publicerats. När en resurs publiceras från Experience Manager Assets till Brand Portal publiceras även dess Pyramid-återgivning.
 
 
 
-Om du inte är [auktoriserad av administratören att ha åtkomst till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) hämtas inte de ursprungliga återgivningarna för de markerade resurserna.
+Om du inte [som administratören har behörighet att ha tillgång till de ursprungliga återgivningarna](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), hämtas inte de ursprungliga återgivningarna av de markerade resurserna.
 
 ![no-access-message](assets/no-access-message.png)
 
@@ -228,31 +234,39 @@ Om du inte är [auktoriserad av administratören att ha åtkomst till de ursprun
 
 Förutom hämtningsarbetsflödet finns det en annan metod för att hämta återgivningar för enskilda resurser direkt från sidan med resursinformation.
 
-Användarna kan förhandsgranska olika återgivningar, välja specifika återgivningar och hämta dem direkt från panelen **[!UICONTROL Renditions]** på sidan med resursinformation utan att behöva öppna dialogrutan **[!UICONTROL Download]**.
+Användarna kan förhandsgranska olika återgivningar, välja specifika återgivningar och hämta dem direkt från **[!UICONTROL Renditions]** på sidan med resursinformation utan att behöva öppna **[!UICONTROL Download]** -dialogrutan.
 
 
 Så här hämtar du resursåtergivningar från sidan med resursinformation:
 
 1. Logga in på din Brand Portal-klient och klicka på resursen för att öppna sidan med resursinformation.
-1. Klicka på övertäckningsikonen till vänster och klicka sedan på **[!UICONTROL Renditions]**.
+1. Klicka på överläggsikonen till vänster och klicka sedan på **[!UICONTROL Renditions]**.
 
    ![återgivningsnavigering](assets/rendition-navigation.png)
 
-1. På panelen **[!UICONTROL Renditions]** visas alla tillgängliga resursåtergivningar baserat på resursens [hämtningskonfigurationer](#configure-download).
+1. The **[!UICONTROL Renditions]** på panelen visas alla tillgängliga återgivningar av resurser baserat på resursen [hämta konfigurationer](#configure-download).
 
    Välj de renderingar du vill hämta och klicka på **[!UICONTROL Download items]**.
 
    ![renditions-panel](assets/renditions-panel.png)
 
-1. Som standard är inställningen **[!UICONTROL Fast Download]** aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** endast) Följande kända fel kommer att åtgärdas i den kommande versionen:
+   >
+   >The **[!UICONTROL Renditions]** panelen innehåller inte alla statiska återgivningar av resurser som publiceras till Brand Portal efter den 16 december 2021.
+   >
+   >The **[!UICONTROL Renditions]** på panelen visas de smarta beskärningsåtergivningarna av resursen, men användaren kan inte förhandsgranska eller hämta de smarta beskärningsåtergivningarna.
 
-   Om du vill fortsätta använda **[!UICONTROL Fast Download]** klickar du på **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM Aspera Connect.
+1. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
 
-   Om du nekar med **[!UICONTROL Fast Download]** fylls ett felmeddelande i. Klicka på knappen **[!UICONTROL Normal Download]** för att fortsätta hämta resurserna.
+   För att fortsätta använda **[!UICONTROL Fast Download]**, klicka **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM Aspera Connect.
+
+   Om du nekar **[!UICONTROL Fast Download]** fyller systemet i ett felmeddelande. Klicka på **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
 
 >[!NOTE]
 >
->Om **[!UICONTROL Fast Download]**-inställningen är inaktiverad av administratören hämtas de valda återgivningarna direkt till en zip-mapp utan att använda IBM Aspera Connect.
+>Om **[!UICONTROL Fast Download]** inställningen är inaktiverad av administratören. De valda återgivningarna hämtas direkt till en zip-mapp utan att IBM Aspera Connect används.
 
 
 >[!NOTE]
