@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,7 @@ Brand Portal-användare kan hämta flera resurser, mappar med resurser och samli
 >Kontakta Brand Portal-administratören om du inte har behörighet att komma åt eller hämta resursåtergivningarna.
 
 Om användaren har åtkomst till återgivningar får användaren det förbättrade **[!UICONTROL Download]** dialogruta med följande funktioner:
+
 * Visa alla tillgängliga återgivningar av alla resurser i hämtningslistan.
 * Undanta återgivningar av resurser som inte behövs för hämtning.
 * Använd samma uppsättning renderingar för alla liknande resurstyper med ett klick.
@@ -186,17 +187,19 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** endast) Följande kända fel kommer att åtgärdas i den kommande versionen:
-   >
-   >I hämtningsdialogrutan visas smarta beskärningsåtergivningar för den valda resursen, men användaren kan inte hämta smarta beskärningsåtergivningar.
-
 1. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
 
    För att fortsätta använda **[!UICONTROL Fast Download]**, klicka **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM Aspera Connect.
 
    Om du inte vill använda IBM Aspera Connect klickar du på **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** nekas eller misslyckas fyller systemet i ett felmeddelande. Klicka på **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Så här hämtar du resursåtergivningar från sidan med resursinformation:
 
    ![renditions-panel](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** endast) Följande kända fel kommer att åtgärdas i den kommande versionen:
-   >
-   >The **[!UICONTROL Renditions]** panelen innehåller inte alla statiska återgivningar av resurser som publiceras till Brand Portal efter den 16 december 2021.
-   >
-   >The **[!UICONTROL Renditions]** på panelen visas de smarta beskärningsåtergivningarna av resursen, men användaren kan inte förhandsgranska eller hämta de smarta beskärningsåtergivningarna.
 
 1. Som standard är **[!UICONTROL Fast Download]** inställningen är aktiverad i **[!UICONTROL Download Settings]**. Därför visas en bekräftelseruta som tillåter snabb hämtning med IBM Aspera Connect.
 
    För att fortsätta använda **[!UICONTROL Fast Download]**, klicka **[!UICONTROL Allow]**. Alla valda återgivningar hämtas i en zip-mapp med IBM Aspera Connect.
 
    Om du nekar **[!UICONTROL Fast Download]** fyller systemet i ett felmeddelande. Klicka på **[!UICONTROL Normal Download]** om du vill fortsätta hämta resurserna.
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >

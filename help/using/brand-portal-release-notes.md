@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Release Notes
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2021.10.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2022.02.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '535'
+ht-degree: 3%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2021.10.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2022.02.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.10.0 |
-| Date | Oktober 2021 |
+| Version | 2022.02.0 |
+| Date | Februari 2022 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2021.10.0 {#whats-new-in-2021.10.0}
+## Nyheter 2022.02.0 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 
-* Resurserna i en mapp för bidrag som har samma storlek publiceras inte från Brand Portal till Experience Manager Assets.
-* När en resursavgiftsmapp avpubliceras minskas inte storleken på bidragsmappen.
-* Användarna kan inte ta bort den tillämpade metadataschemaprofilen från en mapp.
-* Antalet grupper på sidan för användarbehörigheter är felaktigt.
-* Det tar för lång tid att navigera i listan.
+* Användarna kan inte söka i, navigera i eller öppna mappar. Användargränssnittet visar felmeddelandet: `Failed to load data`.
+* The **[!UICONTROL Renditions]** Panelen innehåller inte alla statiska återgivningar av resurserna som publiceras till Brand Portal.
+* The **[!UICONTROL Renditions]** på panelen visas de smarta beskärningsåtergivningarna av resursen, men användaren kan inte förhandsgranska eller hämta de smarta beskärningsåtergivningarna.
+* I hämtningsdialogrutan visas smarta beskärningsåtergivningar för den valda resursen, men användaren kan inte hämta smarta beskärningsåtergivningar.
+* En icke-admin-användare får bara den ursprungliga resursåtergivningen när en resurs hämtas. Återgivningarna för systemet och anpassade versioner hämtas inte.
+* När du använder sökfilter för att hämta en resurs, `Download` knappen är inaktiverad i hämtningsdialogrutan och tillåter inte användaren att hämta resursen.
+* If `Smart Tags` och (eller) `Color Tags` är aktiverade visas en lista i hämtningsdialogrutan med `json` filer som återgivningar och hämtar dessa `json` filer i den arkiverade zip-mappen.
+* De anonyma användarna kan inte hämta resurser via en delad länk eftersom länken dirigerar om till Brand Portal inloggningssida.
+* Systemet återspeglar inte rätt värde för antalet aktiva samtidiga användare.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ Den här versionen innehåller följande kända fel:
    De aktiva användare som är inloggade på Brand Portal kan dock fortsätta att arbeta tills deras nuvarande session går ut.
 
 * När administratörer navigerar från Brand Portal till Admin Console kan det visas en extra skärm där de kan välja organisation.
+
+* If `Color Tags` är aktiverade och användaren hämtar en mapp eller samling, ytterligare `xml` filen hämtas för varje resurs i mappen (eller samlingen) i den arkiverade zip-mappen.
 
 
 <!--
@@ -204,7 +211,7 @@ Brand Portal användargränssnitt finns på följande språk:
 
 ## Certifierade plattformar {#certified-platforms}
 
-Information om vilka plattformar som är certifierade för att köras med den här versionen av Brand Portal finns i kolumnen **Stöd för Touchoptimerat användargränssnitt** i tabellen i **Webbläsare som stöds för redigeringsanvändargränssnittet** i [Tekniska krav](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Information om vilka plattformar som är certifierade för att köras med den här versionen av Brand Portal finns i **Stöd för pekoptimerat användargränssnitt** kolumnen i tabellen i **Webbläsare som stöds för redigeringsgränssnittet** avsnitt i [Tekniska krav](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Länkar {#links}
 
