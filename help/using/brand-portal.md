@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 2%
@@ -83,7 +83,7 @@ Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar
 
 * [Sök efter offentliga resurser](brand-portal-searching.md)
 
-* [Hämta offentliga resurser](download-assets.md)
+* [Hämta offentliga resurser](brand-portal-download-assets.md)
 
 * [Lägg till resurser i [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ En standardanvändare i Brand Portal är vanligtvis en användare med rollen Vie
 
 * [Sök efter resurser](brand-portal-searching.md)
 
-* [Hämta resurser](download-assets.md)
+* [Hämta resurser](brand-portal-download-assets.md)
 
 ### Redigerare {#editor}
 

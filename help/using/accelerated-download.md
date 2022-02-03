@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 3%
@@ -90,7 +90,7 @@ Så här hämtar du resurser snabbare från Brand Portal:
 
    Om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser väljer du **[!UICONTROL Create separate folder for each asset]** kryssruta.
 
-   Nedladdningsknappen visar antalet markerade objekt. När du är klar med reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder regler finns i [ladda ned resurser](../using/download-assets.md#download-assets).
+   Nedladdningsknappen visar antalet markerade objekt. När du är klar med reglerna klickar du på **[!UICONTROL Download items]**. Mer information om hur du använder regler finns i [ladda ned resurser](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 

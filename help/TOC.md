@@ -8,7 +8,7 @@ breadcrumb-title: Brand Portal Guide
 user-guide-description: Använd Experience Manager Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 feature: Brand Portal
 role: User
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 9%
@@ -48,7 +48,7 @@ ht-degree: 9%
    + [Sök efter resurser på Brand Portal](using/brand-portal-searching.md)
    + [Använd anpassade sökfaktorer](using/brand-portal-search-facets.md)
 + Använd nedladdningsfunktioner {#download}
-   + [Hämta resurser](using/download-assets.md)
+   + [Hämta resurser](using/brand-portal-download-assets.md)
    + [Dynamiskt videostöd i Brand Portal](using/dynamic-video-brand-portal.md)
    + [Hantera ljuslådesamlingen](using/brand-portal-light-box.md)
    + [Hantera digitala rättigheter för resurser](using/manage-digital-rights-of-assets.md)
