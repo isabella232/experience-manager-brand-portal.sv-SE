@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e460f4713886f084c87418cf23d1fa468a734f49
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '6234'
 ht-degree: 0%
@@ -184,14 +184,14 @@ Brand Portal 2020.10.0 är en förbättringsrelease som fokuserar på att fören
 
 Tidigare **[!UICONTROL Download]** som innehåller flera alternativ som att skapa separata mappar för varje resurs, e-postresurs, välja originalresurs, anpassade återgivningar, dynamiska återgivningar, exkludera systemåtergivningar och aktivera hämtningsacceleration, som var tvetydig för icke-tekniska eller nya användare särskilt när flera resurser eller mappar har valts för hämtning. Dessutom kunde användaren inte se alla resursrenderingar eller exkludera en specifik anpassad eller dynamisk rendering.
 
-Den nya **[!UICONTROL Download]** används för att göra det enklare för Brand Portal-användare att fatta effektiva beslut samtidigt som resursrenderingarna hämtas. Här visas alla markerade resurser och deras återgivningar beroende på [**[!UICONTROL Download]**](brand-portal-download-assets.md) konfiguration och **[!UICONTROL Download]** inställningar.
+Den nya **[!UICONTROL Download]** används för att göra det enklare för Brand Portal-användare att fatta effektiva beslut samtidigt som resursrenderingarna hämtas. Här visas alla markerade resurser och deras återgivningar beroende på [**[!UICONTROL Download]**](download-assets.md) konfiguration och **[!UICONTROL Download]** inställningar.
 
 >[!NOTE]
 >
 >Alla användare har nu **[!UICONTROL Fast Download]** aktiveras som standard och kräver IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) som installerats i webbläsarens tillägg innan du laddar ned resurserna från Brand Portal.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 Från **[!UICONTROL Download]** kan användarna
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-I Brand Portal 2020.10.0 kan användarna exkludera vissa renderingar och direkt [hämta de valda återgivningarna från panelen Återgivningar](brand-portal-download-assets.md#download-assets-from-asset-details-page) på sidan med tillgångsinformation utan att behöva öppna **[!UICONTROL Download]** -dialogrutan.
+I Brand Portal 2020.10.0 kan användarna exkludera vissa renderingar och direkt [hämta de valda återgivningarna från panelen Återgivningar](download-assets.md#download-assets-from-asset-details-page) på sidan med tillgångsinformation utan att behöva öppna **[!UICONTROL Download]** -dialogrutan.
 
 
 <!-- 
@@ -294,7 +294,7 @@ Med Document Viewer kan Brand Portal-användare nu visa sidor, visa bokmärken, 
 
 ### Hämta upplevelse {#download-configurations}
 
-Nedladdningen av resurser har moderniserats, vilket ger en förenklad användarupplevelse medan [hämta resurser från Brand Portal](brand-portal-download-assets.md).
+Nedladdningen av resurser har moderniserats, vilket ger en förenklad användarupplevelse medan [hämta resurser från Brand Portal](download-assets.md).
 
 Det befintliga arbetsflödet för hämtning av resurser från Brand Portal följs alltid av en  **[!UICONTROL Download]** med flera nedladdningsalternativ att välja mellan.
 

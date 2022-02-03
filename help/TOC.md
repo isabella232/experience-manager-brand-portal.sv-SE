@@ -8,7 +8,7 @@ breadcrumb-title: Brand Portal Guide
 user-guide-description: Använd Experience Manager Assets Brand Portal för att tillgodose marknadsföringsbehoven genom att på ett säkert sätt distribuera godkänt varumärkes- och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 feature: Brand Portal
 role: User
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 9%
@@ -39,7 +39,7 @@ ht-degree: 9%
 + Resurshantering i Brand Portal {#asset-sourcing-in-brand-portal}
    + [Resurskälla - översikt](using/brand-portal-asset-sourcing.md)
    + [Konfigurera bidragsmappen i Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Publicera en mapp för bidrag till Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Publicera bidragsmapp till Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Dela resurser med användare {#share}
    + [Dela en samling](using/brand-portal-share-collection.md)
    + [Dela mappar](using/brand-portal-sharing-folders.md)
@@ -48,12 +48,12 @@ ht-degree: 9%
    + [Sök efter resurser på Brand Portal](using/brand-portal-searching.md)
    + [Använd anpassade sökfaktorer](using/brand-portal-search-facets.md)
 + Använd nedladdningsfunktioner {#download}
-   + [Hämta resurser](using/brand-portal-download-assets.md)
+   + [Hämta resurser](using/download-assets.md)
    + [Dynamiskt videostöd i Brand Portal](using/dynamic-video-brand-portal.md)
    + [Hantera ljuslådesamlingen](using/brand-portal-light-box.md)
    + [Hantera digitala rättigheter för resurser](using/manage-digital-rights-of-assets.md)
    + [Guide to Accelerate Downloads from Brand Portal](using/accelerated-download.md)
-+ Använd administrationsverktyg {#admin-tools}
++ Använda administrationsverktyg {#admin-tools}
    + [Administrera användaråtkomst på Brand Portal](using/access-configurations-brand-portal.md)
    + [Administrera allmänna klientkonfigurationer](using/brand-portal-general-configuration.md)
    + [Första gången du loggar in](using/brand-portal-onboarding.md)
