@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
 
 # Sök efter resurser på Brand Portal {#search-assets-on-brand-portal}
 
-Med Brand Portal sökfunktion kan du snabbt söka efter relevanta resurser med hjälp av sökning och ansiktssökning som använder filter för att ytterligare begränsa sökningen. Du kan söka efter resurser på fil- eller mappnivå och spara sökresultaten som smarta samlingar. Du kan emellertid inte söka efter resurser i en samling med hjälp av sökning eller ansiktssökning.
+Med Brand Portal sökfunktion kan du snabbt söka efter relevanta resurser med hjälp av sökning och ansiktssökning som använder filter för att ytterligare begränsa sökningen. Du kan söka efter resurser på fil- eller mappnivå och spara sökresultaten som smarta samlingar.
+
+>[!NOTE]
+>
+>Brand Portal har inte stöd för sökning i samlingar med omnissearch.
+>
+>Du kan dock använda [sökfilter för att få en lista över relevanta samlingar](#search-collection).
 
 ## Söka efter resurser med Omnissearch {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Så här sparar du sökinställningarna som en smart samling:
 1. På **[!UICONTROL Edit Smart Collection]** väljer **[!UICONTROL Save As]** och ange ett namn för den smarta samlingen. Klicka på **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Sök i samling {#search-collection}
+
+Omnissearch stöds inte för samlingar. Du kan dock använda sökfilter för att lista de relevanta samlingarna inifrån [!UICONTROL Collections] gränssnitt.
+
+Från [!UICONTROL Collections] klickar du på övertäckningsikonen för att öppna filterpanelen i den vänstra listen. Använd ett eller flera sökfilter från de tillgängliga filtren (`modified date`, `access type`och `tags`). Här visas de mest relevanta samlingarna baserat på de använda filtren.
+
+![](assets/collection-search.png)
