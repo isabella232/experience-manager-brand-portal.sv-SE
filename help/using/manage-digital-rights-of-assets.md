@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Att mediefiler förfaller är ett effektivt sätt att kontrollera användningen 
 
 I Brand Portal kan administratörer visa, ladda ned och lägga till material som gått ut i samlingar. Redigerare och visningsprogram kan bara visa och lägga till utgångna resurser i samlingar.
 
-Administratörer kan publicera material som gått ut från AEM Assets till Brand Portal. Utgångna mediefiler kan dock inte delas via bläck från Brand Portal. Om du väljer en resurs som har gått ut i en mapp som innehåller både förfallna och icke-utgångna resurser är åtgärden **[!UICONTROL Share Link]** inte tillgänglig. Men om du väljer en mapp som innehåller resurser som har gått ut och som inte gått ut är åtgärderna [!UICONTROL Share] och **[!UICONTROL Share Link]** tillgängliga.
+Administratörer kan publicera material som gått ut från AEM Assets till Brand Portal. Utgångna mediefiler kan dock inte delas via bläck från Brand Portal. Om du väljer en resurs som har gått ut i en mapp som innehåller resurser som har gått ut och som inte har gått ut, visas **[!UICONTROL Share Link]** åtgärden är inte tillgänglig. Om du väljer en mapp som innehåller resurser som har gått ut och som inte gått ut, visas [!UICONTROL Share] och **[!UICONTROL Share Link]** åtgärder är tillgängliga.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Du kan visa förfallostatusen för resurser i deras **[!UICONTROL Card View]**. 
 
 ## Resurslänkens förfallodatum {#asset-link-expiration}
 
-När du delar resurser via länkar kan administratörer och redigerare ange ett datum och en tid när de ska förfalla med fältet **[!UICONTROL Expiration]** i dialogrutan **[!UICONTROL Link Sharing]**. Länkens standardförfallodatum är sju dagar från det datum då länken delas.
+När du delar resurser via länkar kan administratörer och redigerare ange ett datum och en tid när de ska börja gälla med **[!UICONTROL Expiration]** i **[!UICONTROL Link Sharing]** -dialogrutan. Länkens standardförfallodatum är sju dagar från det datum då länken delas.
 
 ![](assets/asset-link-sharing.png)
 
@@ -73,15 +73,28 @@ Mer information om länkdelning finns i [Dela resurser som en länk](../using/br
 
 ## Licensierade resurser {#licensed-assets}
 
-För licensierade mediefiler krävs att ett licensavtal godkänns innan du laddar ned dem från Brand Portal. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från Brand Portal eller via en delad länk. Licensskyddade resurser kan visas av alla användare, oavsett om de har gått ut eller inte. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om hur licensierade resurser och tillåtna aktiviteter som har upphört att gälla baserat på användarroller kan du läsa [användningsbehörigheter för utgångna resurser](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+För licensierade mediefiler krävs att ett licensavtal godkänns innan du laddar ned dem från Brand Portal. Det här avtalet för licensierade mediefiler levereras när du hämtar mediefilen direkt från Brand Portal eller via en delad länk. Licensskyddade resurser kan visas av alla användare, oavsett om de har gått ut eller inte. Hämtningen och användningen av licensierade mediefiler som upphört att gälla är dock begränsad. Om du vill veta mer om hur licensierade mediefiler och tillåtna aktiviteter fungerar baserat på användarroller kan du läsa [användningsbehörighet för utgångna resurser](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Licensskyddade resurser har [licensavtal som är kopplade](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) till sig, vilket görs genom att ställa in resursens [metadataegenskap](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) i AEM Assets.
+Licensskyddade tillgångar har [bifogat licensavtal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) till dem, vilket görs genom att resursens metadataegenskap anges i [!DNL Experience Manager Assets].
 
-Om du väljer att hämta licensskyddade mediefiler omdirigeras du till sidan **[!UICONTROL Copyright Management]**.
+En resurs betraktas som skyddad om den innehåller någon av följande (eller båda) metadataegenskaper:
+
+* `xmpRights:WebStatement`: Den här egenskapen refererar till sökvägen till sidan som innehåller licensavtalet för resursen. `xmpRights:WebStatement` ska vara en giltig sökväg i databasen.
+* `adobe_dam:restrictions`: Värdet för den här egenskapen är ett obearbetat HTML som anger licensavtalet.
+
+
+Om du väljer att hämta licensskyddade mediefiler omdirigeras du till **[!UICONTROL Copyright Management]** sida beroende på metadataegenskaperna.
+
+| `adobe_dam:restrictions` | `xmpRights:WebStatement` | Copyrighthantering |
+| --- | --- | --- |
+| Ja | - | Gränssnittet visas i både Assets och Brand Portal |
+| - | Ja (ogiltig sökväg) | Inget gränssnitt |
+| Ja | Ja (ogiltig sökväg) | Inget gränssnitt |
+| Ja | Ja (giltig sökväg) | Gränssnittet visas i Assets eller Brand Portal </br> Beroende på om sökvägen är giltig för Assets eller Brand Portal (eller båda). |
 
 ![](assets/asset-copyright-mgmt.png)
 
-Här måste du välja resursen för att hämta och godkänna det associerade licensavtalet. Om du inte godkänner licensavtalet är knappen **[!UICONTROL Download]** inte aktiverad.
+Här måste du välja resursen för att hämta och godkänna det associerade licensavtalet. Om du inte godkänner licensavtalet kan du **[!UICONTROL Download]** knappen är inte aktiverad.
 
 ![](assets/licensed-asset-download-2.png)
 
