@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '6234'
+source-wordcount: '6243'
 ht-degree: 0%
 
 ---
@@ -317,7 +317,7 @@ Beroende på konfigurationen förblir hämtningsarbetsflödet konstant för fris
 
 ## Vad har ändrats i 6.4.6 {#what-changed-in-646}
 
-I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Portal. Brand Portal stöds nu på AEM Assets as a Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades Brand Portal tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som skaffar en IMS-token för auktorisering av din Brand Portal-klient.
+I Brand Portal 6.4.6 ändras behörighetskanalen mellan AEM Assets och Brand Portal. Brand Portal stöds nu på AEM Assets as a Cloud Service, AEM Assets 6.3 och senare. I AEM Assets 6.3 och senare konfigurerades Brand Portal tidigare i Classic UI via äldre OAuth Gateway, som använder JWT-tokenutbyte för att erhålla en IMS Access-token för auktorisering. AEM Assets har nu konfigurerats med Brand Portal via Adobe Developer Console, som köper en IMS-token för auktorisering av din Brand Portal-klient.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -389,7 +389,10 @@ Dessutom ändras inte alla befintliga funktioner. Brand Portal-användare kan vi
 
 ### Överför resurser till mappen för bidrag {#upload-assets-in-bp}
 
-Brand Portal-användare med lämplig behörighet kan hämta tillgångskraven för att förstå behovet av bidrag och överföra flera resurser eller mappar som innehåller flera resurser till bidragsmappen. Observera dock att Brand Portal-användare bara kan överföra mediefiler till **NYHET** undermapp. The **DELAD** är avsedd för distribution av krav och baslinjeresurser.
+Brand Portal-användare med lämplig behörighet kan överföra enskilda resurser eller mappar (.zip-fil) som innehåller flera resurser till mappen för bidrag. En användare kan överföra flera resurser till en resursavgiftsmapp. Det går dock bara att skapa en mapp åt gången.
+
+Brand Portal-användare kan bara överföra resurser till **NYHET** undermapp. The **DELAD** är avsedd för distribution av krav och baslinjeresurser.
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,19 +429,19 @@ Om ditt sökformulär i Brand Portal till exempel använder egenskapspredikat f�
 
 #### Sökning med jokertecken {#wildcard-search}
 
-I Brand Portal går det att använda asterisken (*) i sökfrågan tillsammans med en del av ordet i den sökta frasen.
+Brand Portal tillåter användning av asterisken (&#42;) i sökfrågan tillsammans med en del av ordet i den sökta frasen.
 
 **Använd skiftläge. Om du är osäker på exakt vilka ord som förekommer i den sökda frasen kan du använda en jokerteckenssökning för att fylla i luckorna i sökfrågan.
 
-Ange till exempel **klättra*** returnerar alla resurser med ord som börjar med tecknen **klättra** i rubrikfrasen om sökformuläret i Brand Portal använder egenskapspredikatet för partiell sökning på resurstitel.
+Ange till exempel **klättra&#42;** returnerar alla resurser med ord som börjar med tecknen **klättra** i rubrikfrasen om sökformuläret i Brand Portal använder egenskapspredikatet för partiell sökning på resurstitel.
 
 ![](assets/wildcard-prop.png)
 
 På samma sätt kan du ange:
 
-* ***klättb** returnerar alla resurser med ord som slutar med tecken **klättra** i sin titelfras.
+* **&#42;klättra** returnerar alla resurser med ord som slutar med tecken **klättra** i sin titelfras.
 
-* ***klättb*** returnerar alla resurser med ord som innehåller tecknen **klättra** i sin titelfras.
+* **&#42;klättra&#42;** returnerar alla resurser med ord som innehåller tecknen **klättra** i sin titelfras.
 
 >[!NOTE]
 >
