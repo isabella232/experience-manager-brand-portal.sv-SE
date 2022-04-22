@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,11 @@ Förutom de uppgifter som en visningsprogram kan utföra kan en redigerare utfö
 
 En administratör har en användare som är markerad som systemadministratör eller Brand Portal produktadministratör i [!UICONTROL Admin Console]. En administratör kan lägga till och ta bort systemadministratörer och användare, definiera förinställningar, skicka e-post till användare och visa portalanvändning och lagringsrapporter.
 
-En administratör kan utföra alla uppgifter som en redigerare kan utföra:
+>[!NOTE]
+>
+>I Brand Portal är en användare markerad med rollen som supportadministratör i [!UICONTROL Admin Console] har samma behörighet som en systemadministratör.
+
+En administratör kan utföra alla åtgärder som en redigerare kan utföra. Följande är ytterligare uppgifter som en administratör kan utföra:
 
 * [Hantera användare, grupper och användarroller](brand-portal-adding-users.md)
 
