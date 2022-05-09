@@ -1,8 +1,8 @@
 ---
 title: Nyheter i Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Vilka är de nya funktionerna och förbättringarna för 2022.02.0?
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Vilka är de nya funktionerna och förbättringarna för 2022.05.0?
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 0%
 # Nyheter i Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal hjälper er att enkelt förvärva, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande Brand Portal-upplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+
+## Vad ändrades 2022.05.0 {#what-changed-in-May-2022}
+
+Brand Portal kör nu automatiska jobb var tolfte timme för att ta bort alla Brand Portal-resurser som publicerats till AEM. Därför behöver du inte ta bort resurserna i Contribute-mappen manuellt för att mappstorleken ska hållas under tröskelvärdet. Du kan också övervaka status för de automatiskt utförda borttagningsjobben med **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** > **[!UICONTROL Deletion Reports]** i Brand Portal. Rapporten för ett jobb innehåller följande information:
+
+* Jobbstarttid
+* Jobbsluttid
+* Jobbstatus
+* Totalt antal tillgångar som ingår i ett jobb
+* Totalt antal resurser som tagits bort i ett jobb.
+
+![Borttagningsrapport](assets/deletion-reports.png)
+
+Du kan även gå vidare och visa information om varje resurs som ingår i ett borttagningsjobb. I rapporten finns information om exempelvis objektets titel, storlek, författare, borttagningsstatus och borttagningstid.
+
+![Detaljerad borttagningsrapport](assets/deletion-reports-detailed.png)
+
+Dessutom innehåller Brand Portal 2022.05.0 korrigeringar av de allvarliga problemen. Se senaste [Versionsinformation för Brand Portal](brand-portal-release-notes.md).
+
 
 ## Vad ändrades 2022.02.0 {#what-changed-in-Feb-2022}
 
