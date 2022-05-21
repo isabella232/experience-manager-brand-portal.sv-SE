@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1489'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Gästanvändare (Ljus användare) {#guest-user}
+### Gästanvändare {#guest-user}
 
 Experience Manager Assets Brand Portal tillåter [gäståtkomst](#request-access-to-brand-portal) till Brand Portal. En gästanvändare behöver inga autentiseringsuppgifter för att gå in på portalen och har åtkomst till gemensamma mappar och samlingar. Som gästanvändare kan du bläddra bland tillgångsinformation och ha en fullständig resursvy över medlemmar i gemensamma mappar och samlingar. Du kan söka efter, hämta och lägga till offentliga resurser i [!UICONTROL Lightbox] samling.
 
@@ -89,9 +89,9 @@ Gästsessionen hindrar dig dock från att skapa samlingar och sparade sökningar
 
 Mer information finns i [gäståtkomst till Brand Portal](../using/guest-access.md).
 
-### Visningsprogram (standardanvändare) {#viewer}
+### Visningsprogram {#viewer}
 
-En standardanvändare är en Brand Portal-användare som definieras i [!DNL Admin Console] som har åtkomst till Brand Portal med rollen som Viewer. En användare med den här rollen kan logga in på Brand Portal och komma åt tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
+Brand Portal-användare definierad i [!DNL Admin Console] som har åtkomst till Brand Portal med rollen som Viewer. En användare med den här rollen kan logga in på Brand Portal och komma åt tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
 
 * [Bläddra bland resurser](browse-assets-brand-portal.md)
 
