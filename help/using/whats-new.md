@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6394'
+source-wordcount: '6405'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ Brand Portal kör nu automatiska jobb var tolfte timme för att ta bort alla Bra
 * Jobbsluttid
 * Jobbstatus
 * Totalt antal tillgångar som ingår i ett jobb
-* Totalt antal resurser som tagits bort i ett jobb.
+* Totalt antal resurser som tagits bort i ett jobb
+* Totalt lagringsutrymme som gjorts tillgängligt som ett resultat av jobbkörningen
 
 ![Borttagningsrapport](assets/deletion-reports.png)
 

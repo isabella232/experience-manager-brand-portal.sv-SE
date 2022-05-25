@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Du kan också öppna **[!UICONTROL SHARED]** och klickar på **Hämta** om du vi
 Gå igenom översikten (tillgångskravsdokument) och hänvisa till bastillgångarna för att förstå tillgångskraven. Nu kan du skapa nya resurser för bidrag och överföra dem till mappen för bidrag.
 
 
-## Överför resurser till mappen för bidrag {#uplad-new-assets-to-contribution-folder}
+## Överför resurser till mappen för bidrag {#upload-new-assets-to-contribution-folder}
 
 Efter att ha gått igenom resurskraven kan Brand Portal-användare skapa nya resurser för bidrag och överföra dem till mappen NEW i mappen för bidrag. En användare kan överföra flera resurser till en resursavgiftsmapp. Det går dock bara att skapa en mapp åt gången.
 
@@ -138,7 +138,7 @@ Det finns två rapporter som administratörer kan använda för att visa statuse
 
 * I Brand Portal navigerar du till **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Den här rapporten visar statusen för alla publiceringsjobb i olika faser av publiceringsarbetsflödet.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * I Experience Manager Assets (lokal eller hanterad tjänst) går du till **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Den här rapporten visar det slutliga tillståndet (Slutfört eller Fel) för alla publiceringsjobb.
 
@@ -157,3 +157,58 @@ Det finns två rapporter som administratörer kan använda för att visa statuse
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Automatisk borttagning av resurser som publicerats till Experience Manager Assets från Contribute-mappen {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal kör nu automatiska jobb var tolfte timme för att skanna alla Contribute-mappar och ta bort alla resurser som publicerats till AEM. Därför behöver du inte ta bort resurserna i Contribute-mappen manuellt för att behålla mappstorleken under mappen [tröskelvärde](#upload-new-assets-to-contribution-folder). Du kan också övervaka status för de borttagningsjobb som har körts automatiskt under de senaste sju dagarna. Rapporten för ett jobb innehåller följande information:
+
+* Jobbstarttid
+* Jobbsluttid
+* Jobbstatus
+* Totalt antal tillgångar som ingår i ett jobb
+* Totalt antal resurser som tagits bort i ett jobb
+* Totalt lagringsutrymme som gjorts tillgängligt som ett resultat av jobbkörningen
+
+   ![Borttagningsrapport](assets/deletion-reports.png)
+
+Du kan även gå vidare och visa information om varje resurs som ingår i ett borttagningsjobb. I rapporten finns information om exempelvis objektets titel, storlek, författare, borttagningsstatus och borttagningstid.
+
+![Detaljerad borttagningsrapport](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Kunder kan begära att Adobe kundsupport inaktiverar och återaktiverar den automatiska borttagningsjobbfunktionen eller ändrar hur ofta den ska köras.
+> * Den här funktionen är tillgänglig i Experience Manager 6.5.13.0 och senare versioner.
+
+
+### Visa och hämta borttagningsrapporter {#view-delete-jobs}
+
+Så här visar och hämtar du rapporter för ett borttagningsjobb:
+
+1. I Brand Portal navigerar du till **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** alternativ.
+
+1. Välj ett jobb och klicka på **[!UICONTROL View]** för att visa rapporten.
+
+   Visa information om varje resurs som ingår i ett borttagningsjobb. I rapporten finns information om exempelvis objektets titel, storlek, författare, borttagningsstatus och borttagningstid. Klicka **[!UICONTROL Download]** för att hämta rapporten för jobbet i CSV-format.
+
+   Borttagningsstatusen för en resurs i rapporten kan ha följande värden:
+
+   * **Borttagen** - Resursen har tagits bort från Contribute-mappen.
+
+   * **Hittades inte** - Brand Portal kunde inte hitta resursen i Contribute-mappen. Resursen har redan tagits bort från mappen manuellt.
+
+   * **Överhoppad** - Brand Portal hoppade över borttagningen av resurser eftersom det finns en ny version tillgänglig för resursen i Contribute-mappen, som ännu inte har publicerats för Experience Manager.
+
+   * **Misslyckades** - Brand Portal kunde inte ta bort resursen. Det finns tre nya försök att ta bort en resurs med en `Failed` borttagningsstatus. Om resursen inte kan tas bort från det tredje försöket måste du ta bort resursen manuellt.
+
+### Ta bort en rapport
+
+I Brand Portal kan du även välja en eller flera rapporter och ta bort dem manuellt.
+
+Så här tar du bort en rapport:
+
+1. Navigera till **[!UICONTROL Tools]**>**[!UICONTROL Asset Contribution Status]**>**[!UICONTROL Deletion Reports]** alternativ.
+
+1. Markera en eller flera rapporter och klicka på **[!UICONTROL Delete]**.
+
+
