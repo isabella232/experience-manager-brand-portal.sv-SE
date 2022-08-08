@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2022.05.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2022.08.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.05.0 |
-| Date | Maj 2022 |
+| Version | 2022.08.0 |
+| Date | Augusti 2022 |
 
 ## Översikt {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
+Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time to market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2022.05.0 {#whats-new-in-2022.05.0}
+## Nyheter 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Allvarliga problem har åtgärdats {#critical-issues-fixed}
+
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* När NUI inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
+* När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
+* Egenskapen för innehavaröverföring av kvot ställs in felaktigt för klientorganisationer.
+* När du klickar **Hämta alla objekt** och det finns ett stort antal renderingar tillgängliga för en mediefil, så hämtar Brand Portal en ogiltig ZIP-fil.
+* Översättningen av vissa strängar trunkeras i Brand Portal användargränssnitt.
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### Nya funktioner {#new-features}
+<!--
+### New features {#new-features}
 
-Brand Portal kör nu automatiska jobb var tolfte timme för att ta bort alla Brand Portal-resurser som publicerats till AEM. Därför behöver du inte ta bort resurserna i Contribute-mappen manuellt för att mappstorleken ska hållas under tröskelvärdet. Se [Nyheter i Experience Manager Assets Brand Portal](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### Allvarliga problem har åtgärdats {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* När du hämtar en mapp eller en samling som innehåller resurser med färgtaggar hämtas även en XML-fil.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* När du hämtar en video som innehåller återgivningar skapar Brand Portal en ogiltig ZIP-fil.
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* När du skapar förinställningar och resurser AEM författaren och publicerar dem på Brand Portal och sedan väljer dynamiska återgivningar medan resurserna hämtas, kan du inte extrahera de hämtade resurserna. ZIP-fil.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Problem vid hämtning av videomaterial från vissa mappar som är tillgängliga på Brand Portal.
-
-* När du delar Contribute-mappens URL med hjälp av ett e-postmeddelande stöter rollerna Viewer och Editor på problem när de får åtkomst till den överordnade mappen med hjälp av paketet.
-
-* En publicerad rapport visar en felaktig jobbstarttid.
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Den här versionen innehåller följande kända fel:
 
-* Delvis lokalisering i rapportinnehåll för tillgångskälla.
+* Delvis lokalisering i rapportinnehåll för tillgångskälla
 
 
 <!--
