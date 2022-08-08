@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
-* När NUI inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
+
+* När Asset compute inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
 * När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
 * Egenskapen för innehavaröverföring av kvot ställs in felaktigt för klientorganisationer.
 * När du klickar **Hämta alla objekt** och det finns ett stort antal renderingar tillgängliga för en mediefil, så hämtar Brand Portal en ogiltig ZIP-fil.
