@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '382'
 ht-degree: 4%
 
 ---
@@ -37,18 +37,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
-* Sakta svarstider vid kopiering av stora filer från Brand Portal till ett verktyg från tredje part.
+
+* Sakta svarstid när du kopierar stora filer från Brand Portal till ett verktyg från tredje part.
 * När du markerar kryssrutan Antal återgivningar inaktiveras kryssrutorna för att välja enskilda återgivningar.
 * Sakta svarstid för sökning.
 
 >[!IMPORTANT]
 >
->Pulsmeddelanden i AEM Assets Brand Portal upphör 1 december 2022. I stället för Pulse-meddelanden kommer du att fortsätta få e-postmeddelanden för följande händelser:
->* Dela resurser via länk
->* Begär åtkomstarbetsflöde
->* Delning av bidragsmapp
->* Initierar export till AEM
->* Exporten till AEM har slutförts
+>Pulsmeddelanden i AEM Assets Brand Portal upphör 1 december 2022. Du kommer att fortsätta få e-postmeddelanden för följande händelser:
+>* När Brand Portal-resurser delas med dig via länken Dela
+>* När administratören har godkänt din Brand Portal-åtkomstbegäran. Administratören får också ett meddelande när du begär åtkomst till Brand Portal.
+>* När bidragsmappen delas med dig
+>* När du börjar publicera resurser från Brand Portal till AEM
+>* När resurserna har publicerats från Brand Portal till AEM
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
