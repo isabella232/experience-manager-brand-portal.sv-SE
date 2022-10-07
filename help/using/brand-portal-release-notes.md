@@ -10,40 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
+source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 5%
+source-wordcount: '343'
+ht-degree: 4%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2022.08.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2022.10.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.08.0 |
-| Date | Augusti 2022 |
+| Version | 2022.10.0 |
+| Date | Oktober 2022 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time to market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2022.08.0 {#whats-new-in-2022.08.0}
+## Nyheter 2022.10.0 {#whats-new-in-2022.10.0}
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* Sakta svarstider vid kopiering av stora filer från Brand Portal till ett verktyg från tredje part.
+* När du markerar kryssrutan Antal återgivningar inaktiveras kryssrutorna för att välja enskilda återgivningar.
+* Sakta svarstid för sökning.
 
-* När Asset compute inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
-* När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
-* Egenskapen för innehavaröverföring av kvot ställs in felaktigt för klientorganisationer.
-* När du klickar **Hämta alla objekt** och det finns ett stort antal renderingar tillgängliga för en mediefil, så hämtar Brand Portal en ogiltig ZIP-fil.
-* Översättningen av vissa strängar trunkeras i Brand Portal användargränssnitt.
+>[!IMPORTANT]
+>
+>Pulsmeddelanden i AEM Assets Brand Portal upphör 1 december 2022. I stället för Pulse-meddelanden kommer du att fortsätta få e-postmeddelanden för följande händelser:
+>* Dela resurser via länk
+>* Begär åtkomstarbetsflöde
+>* Delning av bidragsmapp
+>* Initierar export till AEM
+>* Exporten till AEM har slutförts
 
+
+<!--
+## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+* When the preview action fails, there is no notification to communicate the failure.
+* Tenant Upload Quota property is getting inaccurately set for tenants.
+* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The translation of some strings gets truncated on the Brand Portal user interface.
+-->
 <!--
 ### New Features {#new-features}
 
@@ -160,13 +180,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
+### Known Issues {#known-issues}
 
-### Kända fel {#known-issues}
+This release includes the following known issue:
 
-Den här versionen innehåller följande kända fel:
-
-* Delvis lokalisering i rapportinnehåll för tillgångskälla
-
+* Partial localization in Asset sourcing report content
+-->
 
 <!--
 ### Known Issues {#known-issues}

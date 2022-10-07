@@ -1,8 +1,8 @@
 ---
 title: Nyheter i Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Vilka är de nya funktionerna och förbättringarna för 2022.05.0?
-seo-description: What are the new features and enhancements for 2022.05.0
+description: Vilka är de nya funktionerna och förbättringarna för 2022.10.0?
+seo-description: What are the new features and enhancements for 2022.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
+source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
 workflow-type: tm+mt
-source-wordcount: '6410'
+source-wordcount: '6427'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # Nyheter i Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal hjälper er att enkelt förvärva, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande Brand Portal-upplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+
+## Vad ändrades 2022.10.0 {#what-changed-in-October-2022}
+
+Brand Portal 2022.10.0 innehåller korrigeringar av allvarliga fel. Se senaste [Versionsinformation för Brand Portal](brand-portal-release-notes.md).
 
 ## Vad ändrades 2022.08.0 {#what-changed-in-August-2022}
 
