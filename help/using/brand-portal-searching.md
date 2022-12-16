@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
+source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 4%
+source-wordcount: '1191'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ Mer information om sökbeteenden med smarta taggade resurser finns i [förstå s
 
 Sökfaktorer på panelen Filter ger en mer detaljerad sökupplevelse och gör sökfunktionen effektiv. Sökfacets använder flera dimensioner (predikatfärger) som gör att du kan utföra komplexa sökningar. Du kan enkelt gå ned till önskad detaljnivå för en mer fokuserad sökning.
 
-Om du till exempel söker efter en bild kan du välja om du vill ha en bitmapp eller en vektorbild. Du kan begränsa sökningen ytterligare genom att ange MIME-typen för bilden i sökaspekten Filtyp. På samma sätt kan du ange formatet, t.ex. PDF eller MS Word, när du söker efter dokument.
+Om du till exempel söker efter en bild kan du välja om du vill ha en bitmapp eller en vektorbild. Du kan begränsa sökningen ytterligare genom att ange MIME-typen för bilden i sökaspekten Filtyp. På samma sätt kan du ange formatet, t.ex. PDF eller MS® Word, när du söker efter dokument.
 
 ![Panelen Filter i Brand Portal](assets/file-type-search.png "Panelen Filter i Brand Portal")
 
@@ -76,7 +76,7 @@ Använd till exempel följande standardfilter:
    >Till icke-adminanvändare, [!UICONTROL Path Browser] in [!UICONTROL Filter] På panelen visas endast innehållsstrukturen för de mappar (och deras överordnade mappar) som delas med dem.\
    >Om du vill administrera användare kan du navigera till valfri mapp i Brand Portal med hjälp av Path Browser.
 
-   * **[!UICONTROL File Type]** för att ange typ (bild, dokument, multimedia, arkiv) av resursfilen som du söker efter. Du kan dessutom begränsa omfattningen av sökningen, till exempel ange MIME-typen (TIFF, Bitmapp, GIMP-bilder) för bilden eller formatet (PDF eller MS Word) för dokumenten.
+   * **[!UICONTROL File Type]** för att ange typ (bild, dokument, multimedia, arkiv) av resursfilen som du söker efter. Du kan dessutom begränsa omfattningen av sökningen, till exempel ange MIME-typen (TIFF, Bitmapp, GIMP-bilder) för bilden eller formatet (PDF eller MS® Word) för dokumenten.
    * **[!UICONTROL File Size]** om du vill söka efter resurser baserat på deras storlek. Du kan ange de nedre och övre gränserna för storleksintervallet för att begränsa sökningen och ange vilken måttenhet som ska sökas igenom.
    * **[!UICONTROL Status]** om du vill söka efter resurser baserat på tillgångsstatus, t.ex. Godkännande (Godkänd, Ändringar Begärd, Avvisad, Väntande) och Förfallotid.
    * **[!UICONTROL Average Rating]** för att söka efter resurser baserat på tillgångarnas värdering.
@@ -91,15 +91,24 @@ Använd till exempel följande standardfilter:
       The [!UICONTROL Property Predicate] har stöd för textsökningar för:
 
       **Delfraser**
-Om du vill tillåta resurssökning med partiella fraser i egenskapspredikatet aktiverar du **[!UICONTROL Partial Search]** i sökformuläret.\
-      På så sätt kan du söka efter de önskade resurserna även om du inte anger de exakta ord/fraser som används i metadata för resursen.\
+Om du vill tillåta resurssökning med partiella fraser i egenskapspredikatet aktiverar du **[!UICONTROL Partial Search]** i sökformuläret. På så sätt kan du söka efter de önskade resurserna även om du inte anger de exakta ord/fraser som används i metadata för resursen.
+
+      >[!NOTE]
+      >
+      > Brand Portal har stöd för följande fält för partiell sökning:
+      >* jcr:content/metadata/dc:title
+      >* jcr:content/jcr:title
+      >* jcr:content/metadata/dam:search_Promote
+      >* jcr:content/metadata/dc:format
+
+
       Du kan:
       * Ange ett ord som förekommer i din sökfras i ansiktet på panelen Filter. Om du t.ex. söker efter termen **klättra** (och Egenskapspredikatet mappas till [!UICONTROL `dc:title`] egenskapen), sedan alla resurser med ordet **klättra** i sin namnfras returneras.
-      * Ange en del av ordet, som finns i sökfrasen, tillsammans med jokertecknet (*) för att fylla i luckorna.
+      * Ange en del av ordet, som finns i den sökta frasen, tillsammans med jokertecken (&#42;) för att fylla luckorna.
 Om du till exempel söker efter:
-         * **klättra*** returnerar alla resurser som har ord som börjar med tecknen &quot;klättra&quot; i titelfrasen.
-         * ***klättb** returnerar alla resurser med ord som slutar med tecknen &quot;klättra&quot; i titelfrasen.
-         * ***klättb*** returnerar alla resurser som har ord som innehåller tecknen &quot;klättra&quot; i titelfrasen.
+         * **klättra&#42;** returnerar alla resurser som har ord som börjar med tecknen &quot;klättra&quot; i titelfrasen.
+         * **&#42;klättra** returnerar alla resurser med ord som slutar med tecknen &quot;klättra&quot; i titelfrasen.
+         * **&#42;klättra&#42;** returnerar alla resurser som har ord som innehåller tecknen &quot;klättra&quot; i titelfrasen.
 
 Aktivera alternativet       **Ej skiftlägeskänslig text**
 Aktivera alternativet **[!UICONTROL Ignore Case]** i sökformuläret. Som standard är textsökningen på egenskapspredikatet skiftlägeskänslig.
