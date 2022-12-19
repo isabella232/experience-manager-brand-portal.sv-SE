@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
+source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 2%
