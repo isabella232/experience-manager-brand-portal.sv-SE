@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
+source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1234'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,9 @@ Så här söker du efter resurser på Brand Portal:
 
    >[!NOTE]
    >
-   >Minst tre tecken krävs i sökningen för att sökförslagen ska visas.
+   >* Minst tre tecken krävs i sökningen för att sökförslagen ska visas.
+   >* När du söker efter termer `mountain` eller `biking` innehåller då omnissearch sökresultaten med texten `mountain` OCH `biking` i sina metadatafält. I annat fall är beteendet ELLER när det gäller smarta taggar, vilket innebär att resultatet med `mountain` ELLER `biking` i sina respektive smarta taggar hämtas.
+
 
 1. Välj bland de relaterade förslag som visas i listrutan för att snabbt komma åt relevanta resurser.
 
