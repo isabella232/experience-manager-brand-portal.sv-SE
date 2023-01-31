@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1295'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Så här söker du efter resurser på Brand Portal:
    >[!NOTE]
    >
    >* Minst tre tecken krävs i sökningen för att sökförslagen ska visas.
-   >* När du söker efter termer `mountain` eller `biking` innehåller då omnissearch sökresultaten med texten `mountain` OCH `biking` i sina metadatafält. I annat fall är beteendet ELLER när det gäller smarta taggar, vilket innebär att resultatet med `mountain` ELLER `biking` i sina respektive smarta taggar hämtas.
+   >* När du söker efter `mountain biking`, omnissearch returnerar alla resurser i sökresultaten som har båda `mountain` och `biking` finns i metadatafälten. Till exempel: `mountain` i `Title` fält och `biking` i `Description` fält. Båda termerna måste vara tillgängliga i metadatafälten för att kunna visas i sökresultaten. Sökningen returnerar emellertid resursen i sökresultaten även om bara en av de två termerna är tillgänglig i metadatafältet för smarta taggar. Om en resurs till exempel innehåller `mountain` som en av de smarta taggarna och inte innehåller `biking` i andra metadatafält och du söker efter `mountain biking`, returnerar sökningen fortfarande resursen i sökresultaten.
 
 
 1. Välj bland de relaterade förslag som visas i listrutan för att snabbt komma åt relevanta resurser.
