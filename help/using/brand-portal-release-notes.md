@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -43,7 +43,6 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 * Det går inte att ändra storlek på innehållsträdrutan. Om filnamnet är längre än innehållsträdets standardbredd kan du inte dra innehållsträdet både vågrätt och lodrätt. Därför går det inte att läsa längre filnamn.
 * Sökresultaten är inkonsekventa för samma egenskapsprediat som används två gånger i sökformulären.
 * Texten på de mellanliggande inloggningssidorna är inte lokaliserad för alla språk.
-* Det går inte att redigera få fält i användarprofilen `Edit` Profilsida.
 
 ### Förbättringar {#enhancements}
 
@@ -60,7 +59,8 @@ Den här versionen innehåller följande förbättringar:
 
 Den här versionen innehåller följande kända fel:
 
-* Delvis lokalisering i rapportinnehåll för tillgångskälla
+* Delvis lokalisering i rapportinnehåll för tillgångskälla.
+* Det går inte att redigera få fält i användarprofilen.
 
 <!--
 This release include fixes to the following critical issues:
