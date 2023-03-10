@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: e72bdf307fbb16bb66636a342130a3d6c9e8ac3c
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '960'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Om det inte går att hämta acceleration felsöker du följande steg:
 
    Om bandbredden är några få (1-10 Mbit/s) eller i kbit/s använder du inställningarna för Aspera och försöker begränsa den bandbredd som är lika med den tillgängliga bandbredden.
 
-1. Om du vill bekräfta om hämtningarna från Aspera-demoservern fungerar kan du använda [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
-   (inloggning: asperaweb, lösenord: demoaspera )
+   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) -->
 
 1. Om ingen av ovanstående felsökningssteg fungerar avmarkerar du alternativet Aktivera acceleration för hämtning och använder den normala nedladdningen.
