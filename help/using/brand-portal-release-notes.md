@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 5%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2023.02.0 |
-| Date | Februari 2023 |
+| Datum | Februari 2023 |
 
 ## Översikt {#overview}
 
@@ -62,14 +62,72 @@ Den här versionen innehåller följande kända fel:
 * Delvis lokalisering i rapportinnehåll för tillgångskälla.
 * Det går inte att redigera få fält i användarprofilen.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## Tidigare versioner
+
+### Oktober 2022-versionen {#oct-2022}
+
+**Allvarliga problem har åtgärdats**
+
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* Sakta svarstider vid kopiering av stora filer från Brand Portal till ett verktyg från tredje part.
+* När du markerar kryssrutan Antal återgivningar inaktiveras kryssrutorna för att välja enskilda återgivningar.
+* Sakta svarstid för sökning.
+
+>[!IMPORTANT]
+>
+>Pulsmeddelanden i AEM Assets Brand Portal upphör 1 december 2022. I stället för Pulse-meddelanden kommer du att fortsätta få e-postmeddelanden för följande händelser:
+>* Dela resurser via länk
+>* Begär åtkomstarbetsflöde
+>* Delning av bidragsmapp
+>* Initierar export till AEM
+>* Exporten till AEM har slutförts
+>
+
+
+### Version från augusti 2022 {#aug-2022}
+
+**Allvarliga problem har åtgärdats**
+
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* När NUI inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
+* När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
+* Felaktigt värde för egenskapen totalUploadedSize för varje resurs är fast.
+* När du klickar **Hämta alla objekt** och det finns ett stort antal renderingar tillgängliga för en mediefil, så hämtar Brand Portal en ogiltig ZIP-fil.
+* Översättningen av vissa strängar trunkeras i Brand Portal användargränssnitt.
+
+### Version från maj 2022 {#may-2022}
+
+**Nya funktioner**
+
+Brand Portal kör nu automatiska jobb var tolfte timme för att ta bort alla Brand Portal-resurser som publicerats till AEM. Därför behöver du inte ta bort resurserna i Contribute-mappen manuellt för att mappstorleken ska hållas under tröskelvärdet.
+
+**Allvarliga problem har åtgärdats**
+
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
+
+* När du hämtar en mapp eller en samling som innehåller resurser med färgtaggar hämtas även en XML-fil.
+* När du hämtar en video som innehåller återgivningar skapar Brand Portal en ogiltig ZIP-fil.
+* När du skapar förinställningar och resurser AEM författaren och publicerar dem på Brand Portal och sedan väljer dynamiska återgivningar medan resurserna hämtas, kan du inte extrahera den hämtade ZIP-filen.
+* Problem vid hämtning av videomaterial från vissa mappar som är tillgängliga på Brand Portal.
+* När du delar Contribute-mappens URL med hjälp av ett e-postmeddelande stöter rollerna Viewer och Editor på problem när de får åtkomst till den överordnade mappen med hjälp av paketet.
+* En publicerad rapport visar en felaktig jobbstarttid.
+
+### Februari 2022-utgåvan {#feb-2022}
+
+**Nya funktioner**
+
+* Tröskelvärdet för sessionstimeout för gästanvändare har reducerats från 2 timmar till 15 minuter.
+* Ytterligare **[!UICONTROL View pages]** för flersidig PDF har tagits bort eftersom användaren nu kan visa PDF-sidorna från Adobe Document Cloud Viewer.
+* Användarna kan inte söka i, navigera i eller öppna mappar. Användargränssnittet visar felmeddelandet: `Failed to load data`.
+* The **[!UICONTROL Renditions]** Panelen innehåller inte alla statiska återgivningar av resurserna som publiceras till Brand Portal.
+* The **[!UICONTROL Renditions]** på panelen visas de smarta beskärningsåtergivningarna av resursen, men användaren kan inte förhandsgranska eller hämta de smarta beskärningsåtergivningarna.
+* I hämtningsdialogrutan visas smarta beskärningsåtergivningar för den valda resursen, men användaren kan inte hämta smarta beskärningsåtergivningar.
+* En icke-admin-användare får bara den ursprungliga resursåtergivningen när en resurs hämtas. Återgivningarna för systemet och anpassade versioner hämtas inte.
+* När du använder sökfilter för att hämta en resurs, `Download` knappen är inaktiverad i hämtningsdialogrutan och tillåter inte användaren att hämta resursen.
+* If `Smart Tags` och (eller) `Color Tags` är aktiverade visas en lista i hämtningsdialogrutan med `json` filer som återgivningar och hämtar dessa `json` filer i den arkiverade zip-mappen.
+* De anonyma användarna kan inte hämta resurser via en delad länk eftersom länken dirigerar om till Brand Portal inloggningssida.
+* Systemet återspeglar inte rätt värde för antalet aktiva samtidiga användare.
+
 <!--
 ### New Features {#new-features}
 
