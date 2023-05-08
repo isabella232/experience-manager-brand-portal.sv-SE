@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Release Notes
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2023.02.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2023.05.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,50 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2023.02.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2023.05.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.02.0 |
-| Datum | Februari 2023 |
+| Version | 2023.05.0 |
+| Datum | Maj 2023 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time to market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2023.02.0 {#whats-new-in-2023.02.0}
+## Nyheter 2023.05.0 {#whats-new-in-2023.05.0}
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
 #### Felkorrigeringar {#bug-fixes}
+
+Den här versionen innehåller korrigeringar av följande allvarliga problem:
+* Om ett fel inträffar när en resurs hämtas från en delad länk visas `Notice` och `Close` -etiketter i felmeddelandet är inte lokaliserade.
+* Brand Portal **Begär för stora rubrikfält** fel vid åtkomst av sökfilter med `Filter` fönster.
+
+### Kända fel {#known-issues}
+
+Den här versionen innehåller följande kända fel:
+
+* Delvis lokalisering i rapportinnehåll för tillgångskälla.
+* Det går inte att redigera få fält i användarprofilen.
+
+## Tidigare versioner
+
+### Februari 2023-utgåvan {#feb-2023}
+
+**Felkorrigeringar**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
 * Profilbilden kan inte uppdateras på Brand Portal.
@@ -44,7 +61,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 * Sökresultaten är inkonsekventa för samma egenskapsprediat som används två gånger i sökformulären.
 * Texten på de mellanliggande inloggningssidorna är inte lokaliserad för alla språk.
 
-### Förbättringar {#enhancements}
+**Förbättringar**
 
 Den här versionen innehåller följande förbättringar:
 * Det finns nu ett nytt modernt visningsprogram för PDF för en förbättrad förhandsvisning av resurserna i PDF.
@@ -55,14 +72,12 @@ Den här versionen innehåller följande förbättringar:
 * En obehörig användare kan inte begära åtkomst till Brand Portal om åtkomstbegäran är inaktiverad.
 * Endast de organisationer som har etablerats för Brand Portal visas i listan med profilväljare.
 
-### Kända fel {#known-issues}
+**Kända fel**
 
 Den här versionen innehåller följande kända fel:
 
 * Delvis lokalisering i rapportinnehåll för tillgångskälla.
 * Det går inte att redigera få fält i användarprofilen.
-
-## Tidigare versioner
 
 ### Oktober 2022-versionen {#oct-2022}
 

@@ -1,8 +1,8 @@
 ---
 title: Nyheter i Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Vilka är de nya funktionerna och förbättringarna för 2032.02.0?
-seo-description: What are the new features and enhancements for 2023.02.0
+description: Vilka är de nya funktionerna och förbättringarna för 2032.05.0?
+seo-description: What are the new features and enhancements for 2023.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
 workflow-type: tm+mt
-source-wordcount: '6459'
+source-wordcount: '6426'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # Nyheter i Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal hjälper er att enkelt förvärva, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande Brand Portal-upplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+
+## Vad ändrades 2023.05.0 {#what-changed-in-May-2023}
+
+Brand Portal 2023.05.0 är en intern version som innehåller korrigeringar av allvarliga fel. Se senaste [Versionsinformation för Brand Portal](brand-portal-release-notes.md).
 
 ## Vad ändrades 2023.02.0 {#what-changed-in-February-2023}
 
@@ -385,9 +389,6 @@ Hur du konfigurerar AEM Assets med Brand Portal varierar beroende på vilken ver
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 och senare)** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 och senare)** | [Skapa en konfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Uppgraderingskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3 (6.3.3.8 och senare)** | [Skapa en konfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Uppgraderingskonfiguration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Kontakta kundsupport | Kontakta kundsupport |
 
 >[!NOTE]
 >
@@ -552,7 +553,7 @@ Dynamic Media Video encodes kan laddas ned från:
 
 ### Schemalagd publicering till Brand Portal
 
-Arbetsflöde för publicering av resurser (och mappar) från [AEM (6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) Författarinstansen till Brand Portal kan schemaläggas för ett senare datum, tid.
+Arbetsflödet för publicering av resurser (och mappar) från AEM 6.4.2.0 Author instance till Brand Portal kan schemaläggas för ett senare datum och tid.
 
 Publicerade resurser kan också tas bort från portalen senare genom att schemalägga arbetsflödet för att avpublicera från Brand Portal.
 
@@ -670,7 +671,7 @@ Konfigurationerna ovan finns under Åtkomst och Allmänna inställningar på pan
 
 ### Adobe I/O användargränssnitt för att konfigurera autentiseringsintegreringar
 
-Brand Portal 6.4.2 och senare använder äldre OAuth (`https://legacy-oauth.cloud.adobe.io/`) för att skapa JWT-applikationer, som möjliggör konfigurering av autentiseringsintegrationer för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med Brand Portal för publicering av material och samlingar i Brand Portal finns i [Konfigurera AEM Assets-integrering med Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 och senare använder äldre OAuth (`https://legacy-oauth.cloud.adobe.io/`) för att skapa JWT-applikationer, som möjliggör konfigurering av autentiseringsintegrationer för att tillåta AEM Assets-integrering med Brand Portal. Tidigare fanns gränssnittet för konfiguration av OAuth-integreringar i `https://marketing.adobe.com/developer/`. Mer information om hur du integrerar AEM Assets med Brand Portal för publicering av material och samlingar i Brand Portal finns i [Konfigurera AEM Assets-integrering med Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Sökförbättringar
 
