@@ -31,23 +31,23 @@ När förinställningen har skapats visas den som en dynamisk återgivning på r
 
 >[!NOTE]
 >
->Om AEM Author-instansen inte körs i **[!UICONTROL Dynamic Media Mode]** (kunden har inte köpt Dynamic Media) skapas inte **[!UICONTROL Pyramid TIFF]**-renderingen av resurserna vid överföringen. Bildförinställningar eller dynamiska återgivningar fungerar på **[!UICONTROL Pyramid TIFF]** för en resurs, så om **[!UICONTROL Pyramid TIFF]** inte är tillgängligt på AEM Author-instansen är den inte heller tillgänglig på Brand Portal. Därför finns det inga dynamiska återgivningar i återgivningsfältet på sidan med resursinformation och i dialogrutan för hämtning.
+>Om AEM Author-instansen inte körs i **[!UICONTROL Dynamic Media Mode]** (kunden inte har köpt Dynamic Media) **[!UICONTROL Pyramid TIFF]**  Återgivning av resurserna skapas inte vid överföringen. Bildförinställningar eller dynamiska återgivningar fungerar på **[!UICONTROL Pyramid TIFF]** av en tillgång, så om **[!UICONTROL Pyramid TIFF]** är inte tillgängligt på AEM Author-instansen, men inte heller på Brand Portal. Därför finns det inga dynamiska återgivningar i återgivningsfältet på sidan med resursinformation och i dialogrutan för hämtning.
 
 Så här publicerar du bildförinställningar till Brand Portal:
 
-1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen och trycker/ klickar på verktygsikonen och går till **[!UICONTROL Assets > Image Presets]**.
-1. Välj bildförinställningen eller flera bildförinställningar i listan med bildförinställningar och klicka/tryck på **[!UICONTROL Publish to Brand Portal]**.
+1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen och trycker/ klickar på verktygsikonen och navigerar till **[!UICONTROL Assets > Image Presets]**.
+1. Välj bildförinställningen eller flera bildförinställningar i listan med bildförinställningar och klicka/tryck **[!UICONTROL Publish to Brand Portal]**.
 
 ![](assets/publishpreset.png)
 
 >[!NOTE]
 >
->När användarna klickar på **[!UICONTROL Publish to Brand Portal]** köas bildförinställningarna för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
+>När användare klickar på **[!UICONTROL Publish to Brand Portal]** bildförinställningarna är köade för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
 
 Så här avpublicerar du en bildförinställning från Brand Portal:
 
-1. I AEM Author-instansen trycker/klickar du på AEM logotyp för att komma åt den globala navigeringskonsolen, trycker/klickar på ikonen **[!UICONTROL Tools]** och navigerar till **[!UICONTROL Assets > Image Presets]**.
-1. Välj en bildförinställning och välj **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen överst.
+1. I AEM Author-instansen trycker/klickar du på den AEM logotypen för att komma åt den globala navigeringskonsolen och trycker/klickar på **[!UICONTROL Tools]** och navigera till **[!UICONTROL Assets > Image Presets]**.
+1. Välj en bildförinställning och markera **[!UICONTROL Remove from Brand Portal]** bland de tillgängliga alternativen överst.
 
 ## Publicera metadatamatchemat till Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
@@ -76,7 +76,7 @@ Så här publicerar du ett metadataschema från AEM Author-instansen till Brand 
 
 >[!NOTE]
 >
->När användare klickar på **[!UICONTROL Publish to Brand Portal]** köas metadatamodeller för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
+>När användare klickar på **[!UICONTROL Publish to Brand Portal]**, köas metadatamatcheman för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
 
 Så här avpublicerar du ett metadataschema från Brand Portal:
 
@@ -85,12 +85,12 @@ Så här avpublicerar du ett metadataschema från Brand Portal:
 
 ## Publicera sökfaktorer till Brand Portal {#publish-search-facets-to-brand-portal}
 
-Sökformulär kan användas för [facetterad sökning](../using/brand-portal-search-facets.md) för användare på Brand Portal. Sökfacets ger större granularitet åt sökningar i Brand Portal. Alla [predikat som lagts till](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) i sökformuläret är tillgängliga för användare som sökfaktorer i sökfilter.
+Med sökformulären kan man [facetterad sökning](../using/brand-portal-search-facets.md) till användare på Brand Portal. Sökfacets ger större granularitet åt sökningar i Brand Portal. Alla [tillagda predikat](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) i sökformuläret är tillgängliga för användare som sökfaktorer i sökfilter.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-Om du vill använda det anpassade sökformuläret **[!UICONTROL Assets Admin Search Rail]** från AEM Author-instansen kan du publicera det anpassade sökformuläret från AEM Author-instansen till Brand Portal istället för att återskapa samma formulär på Brand Portal.
+Om du vill använda ett anpassat sökformulär **[!UICONTROL Assets Admin Search Rail]** från AEM Author kan du istället för att återskapa samma formulär på Brand Portal publicera det anpassade sökformuläret från AEM Author-instansen till Brand Portal.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Så här publicerar du den redigerade sökaspekten från AEM Author-instansen ti
 
    >[!NOTE]
    >
-   >När användare klickar på **[!UICONTROL Publish to Brand Portal]** ställs sökfunktionerna i kö för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
+   >När användare klickar på **[!UICONTROL Publish to Brand Portal]** ställs sökfacetterna i kö för publicering. Användarna uppmanas att övervaka loggen för replikeringsagenterna för att bekräfta om publiceringen lyckades.
 
 Så här avpublicerar du sökformulär från Brand Portal:
 
@@ -112,12 +112,12 @@ Så här avpublicerar du sökformulär från Brand Portal:
 
 >[!NOTE]
 >
->Åtgärden **[!UICONTROL Unpublish from Brand Portal]** lämnar standardsökformuläret på Brand Portal och återställer inte det sökformulär som användes före publiceringen.
+>The **[!UICONTROL Unpublish from Brand Portal]** lämnar standardsökformuläret på Brand Portal och återställer inte det sökformulär som användes före publiceringen.
 
 ### Begränsningar {#limitations}
 
-1. Ett fåtal sökpredikat kan inte användas för sökfilter på Brand Portal. När dessa sökpredikat publiceras som en del av sökformuläret från AEM Author-instansen till Brand Portal, filtreras de bort. Användarna ser därför färre antal predikt i det publicerade formuläret på Brand Portal. Se [sökpredikat för filter på Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Ett fåtal sökpredikat kan inte användas för sökfilter på Brand Portal. När dessa sökpredikat publiceras som en del av sökformuläret från AEM Author-instansen till Brand Portal, filtreras de bort. Användarna ser därför färre antal predikt i det publicerade formuläret på Brand Portal. Se [sökpredikat som kan tillämpas på filter i Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. Om en användare använder en anpassad sökväg för att läsa alternativ på AEM Author-instansen fungerar den inte på Brand Portal för [!UICONTROL Options Predicate]. Dessa ytterligare sökvägar och alternativ publiceras inte till Brand Portal med sökformuläret. I det här fallet kan användare välja alternativet **[!UICONTROL Manual]** i **[!UICONTROL Add Options]** inom **[!UICONTROL Options Predicate]** för att lägga till dessa alternativ manuellt på Brand Portal.
+1. För [!UICONTROL Options Predicate]Om en användare använder en anpassad sökväg för att läsa alternativ på AEM Author-instansen fungerar den inte på Brand Portal. Dessa ytterligare sökvägar och alternativ publiceras inte till Brand Portal med sökformuläret. I det här fallet kan användarna välja **[!UICONTROL Manual]** alternativ i **[!UICONTROL Add Options]** inom **[!UICONTROL Options Predicate]** om du vill lägga till dessa alternativ manuellt på Brand Portal.
 
 ![](assets/options-predicate-manual.png)

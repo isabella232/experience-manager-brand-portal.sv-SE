@@ -1,5 +1,5 @@
 ---
-title: 'Konfigurera och publicera avgiftsbelagda mappar från Experience Manager Assets till Brand Portal '
+title: Konfigurera och publicera avgiftsbelagda mappar från Experience Manager Assets till Brand Portal
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Få insikt i hur man konfigurerar och publicerar en mapp för bidrag från Experience Manager Assets till Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.

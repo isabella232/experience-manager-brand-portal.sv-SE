@@ -74,8 +74,8 @@ IP-adresserna för Egress är följande:
 
 | **Län** | **IP-adress för ägg** |
 |--- |--- |
-| NA | 130.248.160.68, 20.94.203.130 |
-| EMEA | 185.34.189.3, 51.132.146.75 |
+| NA | 130.248.160.68,  20.94.203.130 |
+| EMEA | 185.34.189.3,  51.132.146.75 |
 | APAC | 63.140.44.54 |
 
 Om du vill tillåta någon av de här utgående IP-adresserna går du till [förbereda ditt konto för säker testningstjänst](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
@@ -112,7 +112,7 @@ IP-adresserna för utgångar är följande:
 
 | **Län** | **IP-adress för ägg** |
 |--- |--- |
-| NA | 130.248.160.66, 52.151.32.108 |
+| NA | 130.248.160.66,  52.151.32.108 |
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 

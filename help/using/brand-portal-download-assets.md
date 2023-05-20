@@ -175,7 +175,7 @@ Så här hämtar du resurser eller mappar som innehåller resurser från Brand P
 
    Du kan även ta bort en resurs från hämtningslistan (om det behövs) genom att klicka på **Ta bort** ikon.
 
-   ![remove](assets/remove.png)
+   ![ta bort](assets/remove.png)
 
    Om du vill bevara mapphierarkin i Brand Portal när du hämtar resurser väljer du **[!UICONTROL Create separate folder for each asset]** kryssruta.
 

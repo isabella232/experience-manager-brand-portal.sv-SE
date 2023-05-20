@@ -27,17 +27,17 @@ Med Experience Manager Assets Brand Portal kan organisationer konfigurera följa
 * Skapande av offentlig smart samling av icke-adminanvändare
 * Överordnad hierarki för delade mappar som är synliga för användare som inte är administratörer
 
-Dessa konfigurationer har tillhandahållits som **[!UICONTROL General Settings]**-konfigurationer på panelen Administrationsverktyg.
+Dessa konfigurationer har tillhandahållits som **[!UICONTROL General Settings]** konfigurationer på panelen Administrativa verktyg.
 
 ![](assets/general-config.png)
 
-****   AConfiguration som tillåter administratörer att ta bort resurser från Brand Portal. (Standard är aktiverat)
+**A**   Konfiguration som tillåter administratörer att ta bort resurser från Brand Portal. (Standard är aktiverat)
 
-**BConfiguration**   som tillåter icke-adminanvändare att skapa publika samlingar. (Standard är aktiverat)
+**B**   Konfiguration som tillåter användare som inte är administratörer att skapa offentliga samlingar. (Standard är aktiverat)
 
-**Konfigurera**   så att icke-adminanvändare kan skapa publika smarta samlingar. (Standard är aktiverat)
+**C**   Konfiguration som tillåter användare som inte är administratörer att skapa publika smarta samlingar. (Standard är aktiverat)
 
-**DC-**  konfiguration som visar mapphierarkin (från roten) för delade mappar till icke-adminanvändare (redigerare, visningsprogram, gästanvändare). (Standard är inaktiverat)
+**D**  Konfiguration för att visa mapphierarkin (från roten) för delade mappar till icke-adminanvändare (redigerare, visningsprogram, gästanvändare). (Standard är inaktiverat)
 
 ## Aktivera/inaktivera allmänna konfigurationer {#enable-disable-general-configurations}
 
@@ -45,7 +45,7 @@ Så här aktiverar/inaktiverar du dessa konfigurationer:
 
 1. Logga in med administratörsbehörighet.
 1. Om du vill öppna administrationsverktygen väljer du Experience Manager-logotypen i verktygsfältet högst upp.
-1. På panelen Administrationsverktyg väljer du **[!UICONTROL General]** för att öppna sidan **[!UICONTROL General Settings]**.
+1. Välj **[!UICONTROL General]** för att öppna **[!UICONTROL General Settings]** sida.
 1. Använd respektive växlingsknapp för att aktivera/inaktivera någon av de allmänna konfigurationerna.
 1. **[!UICONTROL Save]** ändringarna.
 1. Logga ut för att ändringarna ska börja gälla.

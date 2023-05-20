@@ -12,7 +12,7 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
 source-wordcount: '999'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ I listvyn visas information för varje resurs på den aktuella nivån. I listvyn
 * Miniatyrbild av resurser
 * Namn
 * Titel
-* Nat. inst
+* Språk
 * Typ
 * Dimension
 * Storlek

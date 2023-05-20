@@ -7,11 +7,11 @@ exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: 08162bdd26983c0362598625e26705addd32975f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# Adobe Experience Manager Assets Brand Portal Guide {#aem-brand-portal}
+# Adobe Experience Manager Assets Brand Portal Användarhandbok {#aem-brand-portal}
 
 **Adobe Experience Manager Assets Brand Portal** hjälper organisationer att tillgodose sina marknadsföringsbehov genom att på ett säkert sätt distribuera godkänt varumärke och produktmaterial till externa byråer, partners, interna team och återförsäljare för nedladdning.
 

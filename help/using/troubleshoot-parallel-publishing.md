@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ## Rensa befintliga publiceringskonfigurationer för Brand Portal {#clean-up-existing-config}
 
-De flesta gånger som publiceringen inte fungerar kan orsaken vara att användaren som publicerar (till exempel: `mac-<tenantid>-replication` saknar den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från författarinställningarna i Experience Manager:
+De flesta tillfällen när publiceringen inte fungerar kan det bero på att användaren som publicerar (till exempel: `mac-<tenantid>-replication` har inte den senaste privata nyckeln och publiceringen misslyckas därför med felet&quot;401 unauthorized&quot; och inga andra fel rapporteras i replikeringsagentloggarna. Du kanske vill undvika felsökning och skapa en konfiguration i stället. För att den nya konfigurationen ska fungera på rätt sätt bör du rensa följande från författarinställningarna i Experience Manager:
 
 1. Gå till `localhost:4502/crx/de/` (du kanske kör författarinstans på localhost:4502:\
    i. delete `/etc/replication/agents.author/mp_replication`

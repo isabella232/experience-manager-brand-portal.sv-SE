@@ -1,7 +1,7 @@
 ---
 title: Filformat som stöds
 seo-title: Supported file formats
-description: 'Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen. '
+description: Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat som anges i matrisen.
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -12,13 +12,13 @@ exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # Filformat som stöds {#supported-file-formats}
 
-Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat, vilket anges i matrisen.
+Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat som anges i matrisen.
 
 | Filformat | Resurser som publicerats i Brand Portal | Återgivningar som publicerats till Brand Portal | Metadata publicerade på Brand Portal | Miniatyrbilder publicerade till Brand Portal | Sidor med tillgångsinformation som publiceras till Brand Portal | Länkresurser | Länka delningsminiatyrer | Förhandsgranskning av länkdelning |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
@@ -54,12 +54,12 @@ Varje Experience Manager Assets Brand Portal har stöd för särskilda filformat
 | INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PS | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | QXP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
-| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| ePub | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | AAC | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MP3 | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
-| MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
+| Mp4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |
 | Mpg | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | OGA | ✓ | NA | ✓ | NA | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ | ✕ |

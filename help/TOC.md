@@ -16,7 +16,7 @@ ht-degree: 26%
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Guide {#using}
+# Adobe Experience Manager Assets Brand Portal Användarhandbok {#using}
 
 + [Användarhandbok om Brand Portal](using/home.md)
 + Introduktion {#introduction}

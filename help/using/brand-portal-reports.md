@@ -1,7 +1,7 @@
 ---
 title: Arbeta med rapporter
 seo-title: Work with reports
-description: Administratörer för Experience Manager Assets Brand Portal kan visa rapporter om Brand Portal användning och skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
+description: Administratörer för Experience Manager Assets Brand Portal kan visa rapporter om Brand Portal användning samt skapa, hantera och visa rapporter om resurser som hämtats, upphört att gälla, publicerats och länkats via Brand Portal.
 seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
@@ -31,11 +31,11 @@ Så här visar du en rapport:
 
    ![](assets/aemlogo.png)
 
-1. Öppna sidan **[!UICONTROL Asset Reports]** genom att klicka på **[!UICONTROL Create/Manage Reports]** på panelen Administrationsverktyg.
+1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Create/Manage Reports]** att öppna **[!UICONTROL Asset Reports]** sida.
 
    ![](assets/access-asset-reports.png)
 
-1. Få åtkomst till **[!UICONTROL Usage]**-rapporten och andra genererade rapporter från sidan Resursrapporter.
+1. Åtkomst **[!UICONTROL Usage]** rapport och andra genererade rapporter från sidan Resursrapporter.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ Rapporten visar även tillåten kapacitet för var och en av dessa informationsm
 
    >[!NOTE]
    >
-   >Resurserna i **[!UICONTROL Download]**-rapporten visar bara de resurser som har valts ut individuellt och hämtats från Brand Portal. Om en användare har hämtat en mapp som innehåller resurser visas inte mappen eller resurserna i mappen i rapporten.
+   >Resurserna **[!UICONTROL Download]** rapporten visar endast de resurser som har valts ut separat och hämtats från Brand Portal. Om en användare har hämtat en mapp som innehåller resurser visas inte mappen eller resurserna i mappen i rapporten.
 
    **[!UICONTROL Expiration]** rapporten innehåller en lista med och information om alla resurser som har gått ut inom en viss tidsram.
 
@@ -80,11 +80,11 @@ Rapporten visar även tillåten kapacitet för var och en av dessa informationsm
    >
    >I länkdelningsrapporten visas inte användare som har åtkomst till resursen som delas via länken eller som har hämtat resursen via länken.
    >
-   >Om du vill spåra hämtningar via den delade länken måste du generera en hämtningsrapport efter att du har valt **[!UICONTROL Only Link Share Downloads]**-alternativet på **[!UICONTROL Create Report]**-sidan. Användaren (hämtas av) är dock anonym i det här fallet.
+   >För att spåra nedladdningar via den delade länken måste du generera en nedladdningsrapport när du har valt **[!UICONTROL Only Link Share Downloads]** alternativ på **[!UICONTROL Create Report]** sida. Användaren (hämtas av) är dock anonym i det här fallet.
 
 ## Generera rapporter {#generate-reports}
 
-Administratörer kan generera och hantera följande standardrapporter, när de har skapats, som sparas för att [nås](../using/brand-portal-reports.md#main-pars-header) senare:
+Administratörerna kan generera och hantera följande standardrapporter som de sparar för att [använd](../using/brand-portal-reports.md#main-pars-header) senare:
 
 * Användarinloggningar
 * Hämta
@@ -92,24 +92,24 @@ Administratörer kan generera och hantera följande standardrapporter, när de h
 * Publicera
 * Länkdelning
 
-Kolumnerna i rapporten Download, Expiration och Publish kan anpassas för visning. Så här skapar du en rapport:
+Kolumnerna i rapporten Download, Expiration, and Publish kan anpassas för visning. Så här skapar du en rapport:
 
 1. Tryck/klicka på Experience Manager-logotypen i verktygsfältet överst för att öppna administrationsverktygen.
 
-1. Öppna sidan **[!UICONTROL Asset Reports]** genom att trycka/klicka på **[!UICONTROL Create/Manage Reports]** på panelen Administrationsverktyg.
+1. Tryck/klicka på panelen Administrationsverktyg **[!UICONTROL Create/Manage Reports]** att öppna **[!UICONTROL Asset Reports]** sida.
 
    ![](assets/asset-reports.png)
 
-1. Tryck/klicka på **[!UICONTROL Create]** på sidan Resursrapporter.
-1. Välj den rapport du vill skapa på sidan **[!UICONTROL Create Report]** och tryck/klicka på **[!UICONTROL Next]**.
+1. Tryck/klicka på knappen Resursrapporter på sidan Resursrapporter **[!UICONTROL Create]**.
+1. Från **[!UICONTROL Create Report]** väljer du en rapport att skapa och trycker/klickar på **[!UICONTROL Next]**.
 
    ![](assets/crete-report.png)
 
-1. Konfigurera rapportinformation. Ange titel, beskrivning, mappstruktur (där rapporten måste köras och generera statistik) och datumintervall för **[!UICONTROL Download]**-, **[!UICONTROL Expiration]**- och **[!UICONTROL Publish]**-rapporter.
+1. Konfigurera rapportinformation. Ange titel, beskrivning, mappstruktur (där rapporten måste köras och generera statistik) och datumintervall för **[!UICONTROL Download]**, **[!UICONTROL Expiration]** och **[!UICONTROL Publish]** rapporter.
 
    ![](assets/create-report-page.png)
 
-   **[!UICONTROL Link Share Report]** behöver bara parametrarna för titel, beskrivning och datumintervall.
+   med beaktande av följande: **[!UICONTROL Link Share Report]** behöver bara parametrarna för titel, beskrivning och datumintervall.
 
    ![](assets/create-link-share-report.png)
 
@@ -117,8 +117,8 @@ Kolumnerna i rapporten Download, Expiration och Publish kan anpassas för visnin
    >
    >Specialtecknen # och % i rapportrubriken ersätts med ett bindestreck (-) i rapportgenereringen.
 
-1. Tryck/klicka på **[!UICONTROL Next]** om du vill konfigurera kolumnerna för hämtnings-, förfallo- och publiceringsrapporter.
-1. Markera eller avmarkera kryssrutorna efter behov. Om du till exempel vill visa namn på användare (som hämtade resurser) i **[!UICONTROL Download]**-rapporten väljer du **[!UICONTROL Downloaded By]**. Följande bild visar hur du väljer standardkolumner i hämtningsrapporten.
+1. Tryck/klicka **[!UICONTROL Next]**, för att konfigurera kolumnerna för hämtnings-, förfallodatum- och publiceringsrapporter.
+1. Markera eller avmarkera kryssrutorna efter behov. Om du till exempel vill visa namn på användare (som hämtade resurser) i **[!UICONTROL Download]** rapport, välja **[!UICONTROL Downloaded By]**. Följande bild visar hur du väljer standardkolumner i hämtningsrapporten.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ Kolumnerna i rapporten Download, Expiration och Publish kan anpassas för visnin
 
    Så här lägger du till anpassade kolumner i rapporten Hämta, Publicera eller Förfallotid:
 
-   1. Om du vill visa en anpassad kolumn trycker/klickar du på **[!UICONTROL Add]** i [!UICONTROL Custom Columns].
-   1. Ange namnet på kolumnen i **[!UICONTROL Column Name]**-fältet.
+   1. Visa en anpassad kolumn genom att trycka/klicka **[!UICONTROL Add]** inom [!UICONTROL Custom Columns].
+   1. Ange namnet på kolumnen i **[!UICONTROL Column Name]** fält.
    1. Välj den egenskap som kolumnen ska kopplas till med hjälp av egenskapsväljaren.
 
       ![](assets/property-picker.png)
@@ -135,7 +135,7 @@ Du kan också skriva sökvägen i fältet för egenskapssökväg.
 
       ![](assets/property-path.png)
 
-      Om du vill lägga till fler anpassade kolumner trycker/klickar du på **Lägg till** och upprepar steg 2 och 3.
+      Om du vill lägga till fler anpassade kolumner trycker du/klickar **Lägg till** och upprepa steg 2 och 3.
 
 1. Tryck/klicka på **[!UICONTROL Create]**. Ett meddelande meddelar att rapportgenereringen har initierats.
 
@@ -147,13 +147,13 @@ Om du vill spara och hämta en rapport som en CSV-fil gör du något av följand
 
 ![](assets/download-asset-report.png)
 
-* Öppna en rapport på sidan Resursrapporter. Välj alternativet **[!UICONTROL Download]** högst upp på rapportsidan.
+* Öppna en rapport på sidan Resursrapporter. Välj **[!UICONTROL Download]** överst på rapportsidan.
 
 ![](assets/download-report-fromwithin.png)
 
 ## Ta bort rapporter {#delete-reports}
 
-Om du vill ta bort en befintlig rapport markerar du rapporten på sidan **[!UICONTROL Asset Reports]** och trycker/klickar på **[!UICONTROL Delete]** i verktygsfältet högst upp.
+Om du vill ta bort en befintlig rapport väljer du rapporten från **[!UICONTROL Asset Reports]** sida och knacka/klicka **[!UICONTROL Delete]** i verktygsfältet högst upp.
 
 >[!NOTE]
 >

@@ -21,7 +21,7 @@ ht-degree: 6%
 
 Ett metadatamatema beskriver layouten på egenskapssidan och de metadataegenskaper som visas för resurser som använder det aktuella schemat. Schemat som du tillämpar på en resurs avgör vilka metadatafält som visas på sidan Egenskaper.
 
-Sidan **[!UICONTROL Properties]** för varje resurs innehåller standardmetadataegenskaper beroende på resursens MIME-typ. Administratörer kan använda metadatarameditor för att ändra befintliga scheman eller lägga till anpassade metadatamatcheman. Experience Manager Assets Brand Portal innehåller standardformulär för resurser av olika MIME-typer. Du kan också lägga till anpassade formulär för sådana resurser.
+The **[!UICONTROL Properties]** sidan för varje resurs innehåller standardmetadataegenskaper beroende på resursens MIME-typ. Administratörer kan använda metadatarameditor för att ändra befintliga scheman eller lägga till anpassade metadatamatcheman. Experience Manager Assets Brand Portal innehåller standardformulär för resurser av olika MIME-typer. Du kan också lägga till anpassade formulär för sådana resurser.
 
 ## Lägg till ett metadatamatchformulär {#add-a-metadata-schema-form}
 
@@ -31,7 +31,7 @@ Så här skapar du ett nytt metadataschemaformulär:
 
    ![](assets/aemlogo.png)
 
-1. Klicka på **[!UICONTROL Metadata Schemas]** på panelen Administrationsverktyg.
+1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Metadata Schemas]**.
 
    ![](assets/navigation-panel.png)
 
@@ -39,7 +39,7 @@ Så här skapar du ett nytt metadataschemaformulär:
 
    ![](assets/create-metadata-schema-form.png)
 
-1. I dialogrutan **[!UICONTROL Create Schema Form]** anger du titeln på schemaformuläret och klickar sedan på **[!UICONTROL Create]** för att slutföra formulärskapandet.
+1. I **[!UICONTROL Create Schema Form]** anger du rubriken för schemaformuläret och klickar sedan på **[!UICONTROL Create]** för att slutföra formulärskapandet.
 
    ![](assets/create-schema-form.png)
 
@@ -55,8 +55,8 @@ Så här redigerar du ett metadatamatchemaformulär:
 
    ![](assets/aemlogo.png)
 
-1. Klicka på **[!UICONTROL Metadata Schemas]** på panelen Administrationsverktyg.
-1. På sidan **[!UICONTROL Metadata Schema Forms]** väljer du ett schemaformulär för att redigera dess egenskaper, till exempel **[!UICONTROL collection]**.
+1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Metadata Schemas]**.
+1. Från **[!UICONTROL Metadata Schema Forms]** väljer du ett schemaformulär för att redigera dess egenskaper, till exempel **[!UICONTROL collection]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -64,19 +64,19 @@ Så här redigerar du ett metadatamatchemaformulär:
    >
    >Oredigerade mallar har en låssymbol före sig. Om du anpassar någon av mallarna försvinner låssymbolen innan mallen visas.
 
-1. Klicka på **[!UICONTROL Edit]** i verktygsfältet överst.
+1. Klicka på i verktygsfältet högst upp **[!UICONTROL Edit]**.
 
-   Sidan **[!UICONTROL Metadata Schema Editor]** öppnas med fliken **[!UICONTROL Basic]** öppen till vänster och fliken **[!UICONTROL Build Form]** öppen till höger.
+   The **[!UICONTROL Metadata Schema Editor]** sidan öppnas med **[!UICONTROL Basic]** tabben till vänster och **[!UICONTROL Build Form]** -fliken öppnas till höger.
 
-1. På sidan **[!UICONTROL Metadata Schema Editor]** anpassar du sidan **[!UICONTROL Properties]** för resursen genom att dra en eller flera komponenter från en lista med komponenttyper på fliken **[!UICONTROL Build Form]** till fliken **[!UICONTROL Basic]**.
+1. I **[!UICONTROL Metadata Schema Editor]** sida, anpassa **[!UICONTROL Properties]** sidan med resursen genom att dra en eller flera komponenter från en lista med komponenttyper i **[!UICONTROL Build Form]** till **[!UICONTROL Basic]** -fliken.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-1. Om du vill konfigurera en komponent markerar du den och ändrar dess egenskaper på fliken **[!UICONTROL Settings]**.
+1. Om du vill konfigurera en komponent markerar du den och ändrar dess egenskaper i **[!UICONTROL Settings]** -fliken.
 
 ### Komponenter på fliken Skapa formulär {#components-in-the-build-form-tab}
 
-På fliken **[!UICONTROL Build Form]** visas objekt som du kan använda i schemaformuläret. Fliken **[!UICONTROL Settings]** innehåller attributen för varje objekt som du väljer på fliken **[!UICONTROL Build Form]**. Följande tabell visar vilka formulärobjekt som är tillgängliga på fliken **[!UICONTROL Build Form]**:
+The **[!UICONTROL Build Form]** På -fliken visas objekt som du kan använda i schemaformuläret. The **[!UICONTROL Settings]** -fliken innehåller attributen för varje objekt som du väljer i **[!UICONTROL Build Form]** -fliken. I följande tabell visas de formulärobjekt som är tillgängliga i **[!UICONTROL Build Form]** tab:
 
 | Komponentnamn | Beskrivning |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -86,25 +86,25 @@ På fliken **[!UICONTROL Build Form]** visas objekt som du kan använda i schema
 | **[!UICONTROL Number]** | Lägg till en sifferkomponent. |
 | **[!UICONTROL Date]** | Lägg till en datumkomponent. |
 | **[!UICONTROL Dropdown]** | Lägg till en listruta. |
-| **[!UICONTROL Standard Tags]** | Lägg till en tagg. **Obs!** Administratörer kan behöva ändra sökvägsvärdet, till exempel  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`om de publicerar metadatamappningsformuläret från Experience Manager Assets, där sökvägen till exempel inte innehåller klientinformation  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart Tags]** | Automatiskt identifierade taggar om du har köpt och konfigurerat tillägget Smarta taggar för Experience Manager Assets. |
+| **[!UICONTROL Standard Tags]** | Lägg till en tagg. **Obs!** Administratörer kan behöva ändra sökvägsvärdet, till exempel `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, om de publicerar metadataschemaformuläret från Experience Manager Assets, där sökvägen till exempel inte innehåller klientinformation, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]** | Automatiskt identifierade taggar om du har köpt och konfigurerat tillägget Experience Manager Assets smarta taggar. |
 | **[!UICONTROL Hidden Field]** | Lägg till ett dolt fält. Den skickas som en POST-parameter när resursen sparas. |
 | **[!UICONTROL Asset Referenced By]** | Lägg till den här komponenten för att visa en lista över resurser som resursen refererar till. |
 | **[!UICONTROL Asset Referencing]** | Lägg till om du vill visa en lista med resurser som refererar till resursen. |
-| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som har lagts till från Experience Manager Assets innan den publiceras till Brand Portal. |
+| **[!UICONTROL Asset Rating]** | Genomsnittlig värdering av en tillgång som lagts till från Experience Manager Assets innan den publiceras till Brand Portal. |
 | **[!UICONTROL Contextual Metadata]** | Lägg till för att styra visningen av andra metadataflikar på egenskapssidan för resurser. |
 
 >[!NOTE]
 >
->Använd inte **[!UICONTROL Product References]** eftersom det inte fungerar.
+>Använd inte **[!UICONTROL Product References]**, eftersom det inte fungerar.
 
 #### Redigera metadatakomponenten {#edit-the-metadata-component}
 
-Om du vill redigera egenskaperna för en metadatakomponent i formuläret klickar du på komponenten och redigerar dess egenskaper på fliken **[!UICONTROL Settings]**.
+Om du vill redigera egenskaperna för en metadatakomponent i formuläret klickar du på komponenten och redigerar dess egenskaper i dialogrutan **[!UICONTROL Settings]** -fliken.
 
 * **[!UICONTROL Field Label]**: Namnet på metadataegenskapen som visas på objektets egenskapssida.
 
-* **[!UICONTROL Map to Property]**: Värdet för den här egenskapen anger den relativa sökvägen/namnet till resursnoden där den sparas i CRX-databasen. Den börjar med **./**&quot; eftersom det anger att sökvägen finns under objektets nod.
+* **[!UICONTROL Map to Property]**: Värdet för den här egenskapen anger den relativa sökvägen/namnet till resursnoden där den sparas i CRX-databasen. Det börjar med &quot;**./**&quot; eftersom sökvägen är under objektets nod.
 
 Följande är giltiga värden för den här egenskapen:
 
@@ -127,19 +127,19 @@ Följande är giltiga värden för den här egenskapen:
 
 #### Lägga till eller ta bort en flik i schemaformuläret {#add-or-delete-a-tab-in-the-schema-form}
 
-Standardschemaformuläret innehåller flikarna **[!UICONTROL Basic]** och **[!UICONTROL Advanced]**. Med schemaredigeraren kan du lägga till eller ta bort en flik.
+Standardschemaformuläret innehåller **[!UICONTROL Basic]** och **[!UICONTROL Advanced]** -tabbar. Med schemaredigeraren kan du lägga till eller ta bort en flik.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Om du vill lägga till en ny flik i ett schemaformulär klickar du på **[!UICONTROL +]**. Som standard har den nya fliken namnet &quot;Namnlös-1&quot;. Du kan ändra namnet på fliken **[!UICONTROL Settings]**.
+* Om du vill lägga till en ny flik i ett schemaformulär klickar du på **[!UICONTROL +]**. Som standard har den nya fliken namnet &quot;Namnlös-1&quot;. Du kan ändra namnet på **[!UICONTROL Settings]** -fliken.
 
 ![](assets/add-tab-metadata-form.png)
 
-* Om du vill ta bort en flik klickar du på **[!UICONTROL x]**. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
+* Om du vill ta bort en flik klickar du på **[!UICONTROL x]**. Klicka **[!UICONTROL Save]** för att spara ändringarna.
 
 ## Tillämpa ett metadatamatchema på en mapp {#apply-a-metadata-schema-to-a-folder}
 
-Med Brand Portal kan du anpassa och styra metadataschemat så att sidan **[!UICONTROL Properties]** för en resurs endast visar den specifika information som du väljer att visa. Om du vill styra vilka metadata som ska visas på **[!UICONTROL Properties]**-sidan tar du bort de metadata som krävs från metadataschemaformuläret och använder dem på den specifika mappen.
+Med Brand Portal kan du anpassa och styra metadataschemat så att **[!UICONTROL Properties]** sidan med en resurs visar bara den specifika information du väljer att visa. Styr vilka metadata som visas i dialogrutan **[!UICONTROL Properties]** tar du bort de metadata som krävs från schemaformuläret för metadata och använder dem på den specifika mappen.
 
 Så här använder du ett metadatamatchemaformulär för en mapp:
 
@@ -147,21 +147,21 @@ Så här använder du ett metadatamatchemaformulär för en mapp:
 
    ![](assets/aemlogo.png)
 
-1. Klicka på **[!UICONTROL Metadata Schemas]** på panelen Administrationsverktyg.
+1. På panelen Administrationsverktyg klickar du på **[!UICONTROL Metadata Schemas]**.
 
-1. På sidan **[!UICONTROL Metadata Schema Forms]** väljer du schemaformuläret som du vill tillämpa på en resurs, till exempel **[!UICONTROL clothing]**.
+1. Från **[!UICONTROL Metadata Schema Forms]** väljer du schemaformuläret som du vill tillämpa på en resurs, till exempel **[!UICONTROL clothing]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. Klicka på **[!UICONTROL Apply to Folder(s)]** i verktygsfältet överst.
+1. Klicka på i verktygsfältet högst upp **[!UICONTROL Apply to Folder(s)]**.
 
-1. På sidan **[!UICONTROL Select Folder(s)]** navigerar du till mappen som du vill använda metadataschemat för **[!UICONTROL clothing]**, till exempel **[!UICONTROL Gloves]**.
+1. Från **[!UICONTROL Select Folder(s)]** bläddra till den mapp som du vill använda **[!UICONTROL clothing]** metadata-schema, till exempel **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. Klicka på **[!UICONTROL Apply]** om du vill använda metadatamatchemaformuläret för mappen.
+1. Klicka **[!UICONTROL Apply]** om du vill använda metadataschemaformuläret för mappen.
 
-   De metadata som är tillgängliga i schemaformuläret för **[!UICONTROL clothing]**-metadata används i mappen **[!UICONTROL Gloves]** och visas på sidan **[!UICONTROL Properties]** i mappen.
+   Tillgängliga metadata i **[!UICONTROL clothing]** metadata-schemaformuläret används på **[!UICONTROL Gloves]** och visas i **[!UICONTROL Properties]** sidan i mappen.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -173,13 +173,13 @@ Så här använder du ett metadatamatchemaformulär för en mapp:
 
 Med Brand Portal kan du bara ta bort anpassade schemaformulär. Du kan inte ta bort standardschemaformulär/-mallar. Du kan dock ta bort anpassade ändringar i dessa formulär.
 
-Om du vill ta bort ett formulär markerar du det och klickar på ikonen **[!UICONTROL Delete]**.
+Om du vill ta bort ett formulär markerar du det och klickar på knappen **[!UICONTROL Delete]** ikon.
 
 ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >
->När du har tagit bort de anpassade ändringarna som gjorts i ett standardformulär visas symbolen **[!UICONTROL Lock]** före formulärnamnet i metadataschemagränssnittet, vilket anger att formuläret återställs till standardläget.
+>När du har tagit bort de anpassade ändringarna i ett standardformulär **[!UICONTROL Lock]** symbolen visas igen före formulärnamnet i metadataschemagränssnittet för att ange att formuläret återställs till standardläget.
 
 ## Schemaformulär för MIME-TYPER {#schema-forms-for-mime-types}
 
@@ -189,7 +189,7 @@ Förutom standardformulären kan du lägga till anpassade formulär för resurse
 
 #### Använda en befintlig schemamall för olika MIME-typer {#using-an-existing-schema-template-for-various-mime-types}
 
-Du kan använda en befintlig mall för en annan MIME-typ. Använd till exempel formuläret **image/jpeg** för resurser av MIME-typen **image/png**.
+Du kan använda en befintlig mall för en annan MIME-typ. Använd till exempel **image/jpeg** formulär för resurser av MIME-typ **bild/png**.
 
 I det här fallet skapar du en ny nod på [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] i CRX-databasen. Ange ett namn för noden och definiera följande egenskaper:
 
@@ -199,7 +199,7 @@ I det här fallet skapar du en ny nod på [!UICONTROL `/etc/dam/metadataeditor/m
 | mimetypes | Sträng[] | bild/png |
 
 * **exponposedmimype**: Namnet på det befintliga formulär som ska mappas
-* **millimeter**: Lista över MIME-typer som använder formuläret som definierats i  **** attributet exponedMimeterType
+* **mimetypes**: Lista över MIME-typer som använder formuläret som definierats i **exponposedmimype** attribute
 
 Brand Portal mappar följande MIME-typer och schemaformulär:
 
