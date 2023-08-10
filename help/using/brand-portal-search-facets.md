@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1205'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Lägga till ett sökpredikat i **[!UICONTROL Filters]** panel:
    >
    >Vid markering **[!UICONTROL Partial Search]** kryssruta, **[!UICONTROL Ignore Case]** är markerat som standard.
 
-1. I **[!UICONTROL Property Name]** öppnar du egenskapsväljaren och väljer den egenskap som sökningen baseras på. Du kan också ange ett namn för egenskapen. Skriv till exempel `  jcr :content/metadata/dc:title` eller `./jcr:content/metadata/dc:title`.
+1. I **[!UICONTROL Property Name]** öppnar du egenskapsväljaren och väljer den egenskap som sökningen baseras på. Du kan också ange ett namn för egenskapen. Skriv till exempel `jcr :content/metadata/dc:title` eller `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Liknar hur du lägger till en **[!UICONTROL Property]** kan du lägga till följ
 
 >[!NOTE]
 >
->Använd inte **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** och **[!UICONTROL Rating Predicate]** eftersom dessa predikat inte fungerar i Brand Portal.
+>* Använd inte **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]** och **[!UICONTROL Rating Predicate]** eftersom dessa predikat inte fungerar i Brand Portal.
+>* Mapptypspredikat `(nt:folder type)` stöds inte på Brand Portal och kan orsaka prestandaproblem. Om det finns i ett publicerat anpassat sökformulär kan det tas bort genom att du redigerar sökformuläret.
 
 ## Ta bort ett sökpredikat {#delete-a-search-predicate}
 
