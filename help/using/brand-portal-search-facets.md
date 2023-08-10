@@ -1,7 +1,7 @@
 ---
-title: Använd anpassade sökfaktorer
+title: Använda anpassade sökfaktorer
 seo-title: Use custom search facets
-description: Administratörer kan lägga till sökpredikat på panelen Filter för att anpassa sökningen och göra sökfunktionen flexibel.
+description: Administratörer kan lägga till sökpredikat på panelen Filter för att anpassa sökningen och göra sökfunktionen mångsidig.
 seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
 
-# Använd anpassade sökfaktorer {#use-custom-search-facets}
+# Använda anpassade sökfaktorer {#use-custom-search-facets}
 
 Administratörer kan lägga till sökpredikat i [!UICONTROL Filters] för att anpassa sökningen och göra sökfunktionen flexibel.
 
@@ -72,14 +72,14 @@ Lägga till ett sökpredikat i **[!UICONTROL Filters]** panel:
 
    >[!NOTE]
    >
-   >I Brand Portal är alla egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` av `dam:asset` indexeras som standard.
+   >I Brand Portal gäller alla String-egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` av `dam:asset` indexeras som standard.
    >
    >Alla egenskaper som är indexerade kan användas när ett egenskapsprediat skapas. Om en egenskap som inte är indexerad är konfigurerad kanske sökfrågan för en egenskap som inte är indexerad inte ger något sökresultat.
 
    ![](assets/title-prop.png)
 
 1. Klicka **[!UICONTROL Done]** för att spara inställningarna.
-1. Från [!UICONTROL Assets] klickar du på överläggsikonen och väljer **[!UICONTROL Filter]** för att navigera till **[!UICONTROL Filters]** -panelen. Predikatet **[!UICONTROL Property]** läggs till på panelen.
+1. Från [!UICONTROL Assets] klickar du på överläggsikonen och väljer **[!UICONTROL Filter]** navigera till **[!UICONTROL Filters]** -panelen. Predikatet **[!UICONTROL Property]** läggs till på panelen.
 
    ![](assets/property-filter-panel.png)
 
@@ -95,18 +95,18 @@ Liknar hur du lägger till en **[!UICONTROL Property]** kan du lägga till följ
 | **[!UICONTROL Property]** | Sök efter resurser baserat på en viss metadataegenskap. **Obs!** *Om du väljer Delvis sökning är Ignorera skiftläge valt som standard*. | <ul><li>Fältetikett</li><li>Platshållare</li><li>Egenskapsnamn</li><li>Delvis sökning</li><li>Ignorera skiftläge</li><li> Beskrivning</li></ul> |
 | **[!UICONTROL Multi-Value Property]** | Liknar egenskapsprediat men tillåter flera indatavärden, avgränsade med en avgränsare (standardvärdet är COMMA)[,]) resurser som matchar något av indatavärdena returneras i resultatet. | <ul><li>Fältetikett</li><li>Platshållare</li><li>Egenskapsnamn</li><li>Stöd för avgränsare</li><li>Ignorera skiftläge</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL Tags]** | Sök efter predikatorn för att söka efter resurser baserat på taggar. Du kan konfigurera egenskapen Path så att den fyller i olika taggar i listan Taggar. *Obs! Administratörer kan behöva ändra sökvägsvärdet, till exempel [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], om de publicerar sökformuläret från AEM, där sökvägen inte innehåller information om t.ex. innehavare [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Bana</li><li>Beskrivning</li></ul> |
-| **[!UICONTROL Path]** | Sök på predikatet för att söka efter resurser på en viss plats. | <ul><li>Fältetikett</li><li>Bana</li><li>Beskrivning</li></ul> |  |
+| **[!UICONTROL Path]** | Sök på predikatet för att söka efter resurser på en viss plats. | <ul><li>Fältetikett</li><li>Bana</li><li>Beskrivning</li></ul> |                                                     |
 | **[!UICONTROL Relative Date]** | Sökpredikatet för att söka efter resurser baserat på det relativa datumet då de skapades. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Relativt datum</li></ul> |
 | **[!UICONTROL Range]** | Sök på predikatet för att söka efter resurser som ligger inom ett angivet intervall med egenskapsvärden. På panelen Filter kan du ange lägsta och högsta egenskapsvärden för intervallet. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL Date Range]** | Sökpredikatet för att söka efter resurser som skapats inom ett angivet intervall efter en datumegenskap. På panelen Filter kan du ange start- och slutdatum. | <ul><li>Fältetikett</li><li>Platshållare</li><li>Egenskapsnamn</li><li>Intervalltext (från)</li><li>Intervalltext (till)</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL Date]** | Sökpredikatet för en skjutreglagebaserad sökning efter resurser baserat på en date-egenskap. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL File Size]** | Sök efter predikatorn för att söka efter resurser baserat på deras storlek. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Bana</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL Asset Last Modified]** | Sökpredikatet om du vill söka efter resurser baserat på det senaste ändringsdatumet. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
-| **[!UICONTROL Approval Status]** | Sökpredikatet för att söka efter resurser baserat på metadataegenskapen för godkännande. Standardegenskapsnamnet är **dam:status**. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
-| **[!UICONTROL Checkout Status]** | Sök efter predikatorn för att söka efter resurser baserat på utcheckningsstatusen för en resurs när den publicerades från AEM Assets. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
+| **[!UICONTROL Approval Status]** | Sökpredikatet om du vill söka efter resurser baserat på metadataegenskapen för godkännande. Standardegenskapsnamnet är **dam:status**. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
+| **[!UICONTROL Checkout Status]** | Sök på predikatet för att söka efter resurser baserat på utcheckningsstatusen för en resurs när den publicerades från AEM Assets. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL Checked Out By]** | Sökpredikatet för att söka efter resurser baserat på den användare som har checkat ut resursen. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
 | **[!UICONTROL Expiry Status]** | Sök på predikatet för att söka efter resurser baserat på förfallostatusen. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
-| **[!UICONTROL Member of collection]** | Sök efter predikatorn för att söka efter resurser baserat på om en resurs är en del av en samling. | Beskrivning |
+| **[!UICONTROL Member of collection]** | Sök efter predikatorn för att söka efter resurser baserat på om en resurs är en del av en samling eller inte. | Beskrivning |
 | **[!UICONTROL Hidden]** | Det här predikatet är inte synligt för slutanvändarna och används för dolda begränsningar som vanligtvis begränsar sökresultatstypen till **dam:Asset**. | <ul><li>Fältetikett</li><li>Egenskapsnamn</li><li>Beskrivning</li></ul> |
 
 >[!NOTE]
@@ -143,7 +143,7 @@ Så här tar du bort ett sökpredikat:
 
    ![](assets/search-form-delete-predicate.png)
 
-1. Spara ändringarna genom att klicka på **[!UICONTROL Done]** i verktygsfältet.
-1. Från **[!UICONTROL Assets]** klickar du på överläggsikonen och väljer **[!UICONTROL Filter]** för att navigera till **[!UICONTROL Filters]** -panelen. The **[!UICONTROL Property]** predikatet tas bort från panelen.
+1. Klicka på **[!UICONTROL Done]** i verktygsfältet.
+1. Från **[!UICONTROL Assets]** klickar du på överläggsikonen och väljer **[!UICONTROL Filter]** navigera till **[!UICONTROL Filters]** -panelen. The **[!UICONTROL Property]** predikatet tas bort från panelen.
 
    ![](assets/property-predicate-removed.png)
