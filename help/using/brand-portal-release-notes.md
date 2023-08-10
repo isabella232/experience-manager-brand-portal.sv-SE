@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation
 seo-title: Release Notes
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2023.05.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2023.08.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,52 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
+source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1207'
 ht-degree: 1%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2023.05.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2023.08.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.05.0 |
-| Datum | Maj 2023 |
+| Version | 2023.08.0 |
+| Datum | Augusti 2023 |
 
 ## Översikt {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time to market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
+Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2023.05.0 {#whats-new-in-2023.05.0}
+## Nyheter 2023.08.0 {#whats-new-in-2023.08.0}
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
-#### Felkorrigeringar {#bug-fixes}
+#### Felkorrigeringar och förbättringar {#bug-fixes-enhancements}
 
+Den här versionen innehåller korrigeringar av följande förbättringar:
+
+* Prestandaförbättringar vid inläsning av resurser på [!UICONTROL Download] popup.
+* När du hämtar en resurs eller en återgivning av en resurs hämtas den nu i det ursprungliga filformatet i stället för i en zip-fil.
+
+Den här versionen innehåller korrigeringar av följande felkorrigeringar:
+
+* De långa etiketterna eller taggarna visas inte korrekt för sökfilter.
+* Det går inte att visa långa återgivningsnamn i dialogrutan Hämta.
+* Det går inte att förhandsgranska videomaterial i kortvyn.
+
+
+## Tidigare versioner
+
+### Version från maj 2023 {#may-2023}
+
+**Felkorrigeringar**
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
+
 * Om ett fel inträffar när en resurs hämtas från en delad länk visas `Notice` och `Close` -etiketter i felmeddelandet är inte lokaliserade.
-* Brand Portal **Begär för stora rubrikfält** fel vid åtkomst av sökfilter med `Filter` fönster.
+* Brand Portal visar **Begär för stora rubrikfält** fel vid åtkomst av sökfilter med `Filter` fönster.
 
-### Kända fel {#known-issues}
-
+**Kända fel**
 Den här versionen innehåller följande kända fel:
 
 * Delvis lokalisering i rapportinnehåll för tillgångskälla.
 * Det går inte att redigera få fält i användarprofilen.
 
-## Tidigare versioner
-
-### Februari 2023-utgåvan {#feb-2023}
+### Version från februari 2023 {#feb-2023}
 
 **Felkorrigeringar**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
+
 * Profilbilden kan inte uppdateras på Brand Portal.
 * Det går inte att ändra storlek på innehållsträdrutan. Om filnamnet är längre än innehållsträdets standardbredd kan du inte dra innehållsträdet både vågrätt och lodrätt. Därför går det inte att läsa längre filnamn.
 * Sökresultaten är inkonsekventa för samma egenskapsprediat som används två gånger i sökformulären.
@@ -64,10 +80,11 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 **Förbättringar**
 
 Den här versionen innehåller följande förbättringar:
+
 * Det finns nu ett nytt modernt visningsprogram för PDF för en förbättrad förhandsvisning av resurserna i PDF.
 * Du kan nu välja att aktivera eller inaktivera meddelanden om resurskälla för administratörer. Navigera till [!UICONTROL General Settings] och sedan aktivera eller inaktivera [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Meddela administratören om tillgångsbidrag](assets/notify-admin.png)
+  ![Meddela administratören om tillgångsbidrag](assets/notify-admin.png)
 
 * En obehörig användare kan inte begära åtkomst till Brand Portal om åtkomstbegäran är inaktiverad.
 * Endast de organisationer som har etablerats för Brand Portal visas i listan med profilväljare.
@@ -84,8 +101,9 @@ Den här versionen innehåller följande kända fel:
 **Allvarliga problem har åtgärdats**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
+
 * Sakta svarstider vid kopiering av stora filer från Brand Portal till ett verktyg från tredje part.
-* När du markerar kryssrutan Antal återgivningar inaktiveras kryssrutorna för att välja enskilda återgivningar.
+* När du markerar kryssrutan för antal återgivningar inaktiveras kryssrutorna för att välja enskilda återgivningar.
 * Sakta svarstid för sökning.
 
 >[!IMPORTANT]
@@ -98,12 +116,12 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 >* Exporten till AEM har slutförts
 >
 
-
 ### Version från augusti 2022 {#aug-2022}
 
 **Allvarliga problem har åtgärdats**
 
 Den här versionen innehåller korrigeringar av följande allvarliga problem:
+
 * När NUI inte kan bearbeta en resurs i Experience Manager visas en felaktig status för resursimportering i Brand Portal.
 * När förhandsgranskningsåtgärden misslyckas finns det inget meddelande om att meddela felet.
 * Felaktigt värde för egenskapen totalUploadedSize för varje resurs är fast.
@@ -127,7 +145,7 @@ Den här versionen innehåller korrigeringar av följande allvarliga problem:
 * När du delar Contribute-mappens URL med hjälp av ett e-postmeddelande stöter rollerna Viewer och Editor på problem när de får åtkomst till den överordnade mappen med hjälp av paketet.
 * En publicerad rapport visar en felaktig jobbstarttid.
 
-### Februari 2022-utgåvan {#feb-2022}
+### Version från februari 2022 {#feb-2022}
 
 **Nya funktioner**
 
@@ -231,7 +249,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
