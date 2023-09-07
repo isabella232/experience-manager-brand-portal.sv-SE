@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: b66b8ea6a88dba41380ca94e613e77b3a2c1e253
+source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # Gäståtkomst till Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal ger gästerna åtkomst till portalen. En gästanvändare behöver inga autentiseringsuppgifter för att gå in i portalen och har tillgång till portalens offentliga resurser (och samlingar). Användare i gästsessionen kan lägga till resurser i ljuslådan (privat samling) och hämta samma tills deras session varar eller om inte gästanvändaren väljer att [[!UICONTROL End Session]](#exit-guest-session). En gästanvändarsession är aktiv i 15 minuter, medan den faktiska gästanvändarens timeout är 2 timmar.
+Experience Manager Assets Brand Portal ger gästerna åtkomst till portalen. En gästanvändare behöver inga autentiseringsuppgifter för att gå in i portalen och har tillgång till portalens offentliga resurser (och samlingar). Användare i gästsessionen kan lägga till resurser i ljuslådan (privat samling) och hämta samma tills deras session varar eller om inte gästanvändaren väljer att [[!UICONTROL End Session]](#exit-guest-session). En gästanvändarsession är aktiv i 15 minuter.
 
 Gäståtkomstfunktionen gör att organisationer kan [snabbt dela godkända tillgångar](../using/brand-portal-sharing-folders.md#how-to-share-folders) med den avsedda publiken i stor skala utan att behöva ta med dem. Brand Portal 6.4.2 och senare är utrustat för flera samtidiga gästanvändare, vilket är 10 % av den totala användarkvoten per organisation. Genom att ge gäståtkomst sparar du tid för att hantera och lägga in poäng för användare med begränsade funktioner på Brand Portal.\
 Organisationer kan aktivera (eller inaktivera) gäståtkomst på Brand Portal-konto som använder **[!UICONTROL Allow Guest Access]** alternativ från **[!UICONTROL Access]** på panelen Administrationsverktyg.
