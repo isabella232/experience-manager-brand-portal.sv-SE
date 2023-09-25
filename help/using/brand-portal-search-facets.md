@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Du kan använda olika sökpredikat för att anpassa **[!UICONTROL Filters]** -pa
 
 >[!NOTE]
 >
->Experience Manager Assets ger företag möjlighet att [publicera anpassade sökformulär från AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) till Brand Portal i stället för att återskapa samma formulär på Brand Portal.
+>Experience Manager Assets ger företag möjlighet att [publicera anpassade sökformulär från AEM författare](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) till Brand Portal i stället för att återskapa samma formulär på Brand Portal.
 
 ## Lägg till ett sökpredikat {#add-a-search-predicate}
 
@@ -72,7 +72,7 @@ Lägga till ett sökpredikat i **[!UICONTROL Filters]** panel:
 
    >[!NOTE]
    >
-   >I Brand Portal gäller alla String-egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` av `dam:asset` indexeras som standard.
+   >I Brand Portal gäller alla String-egenskaper (utom de som börjar med `xmp`) i `jcrcontent/metadata` av `dam:asset` indexeras som standard. Återställ alla andra anpassade egenskaper av valfri typ som standard inte indexeras.
    >
    >Alla egenskaper som är indexerade kan användas när ett egenskapsprediat skapas. Om en egenskap som inte är indexerad är konfigurerad kanske sökfrågan för en egenskap som inte är indexerad inte ger något sökresultat.
 
