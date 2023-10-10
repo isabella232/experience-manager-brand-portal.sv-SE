@@ -1,7 +1,7 @@
 ---
 title: Nyheter i Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Vilka nya funktioner och förbättringar finns för 2032.10.0?
+description: Vilka nya funktioner och förbättringar finns för 2023.10.0?
 seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
+source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
 workflow-type: tm+mt
 source-wordcount: '6470'
 ht-degree: 0%
