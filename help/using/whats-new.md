@@ -1,8 +1,8 @@
 ---
 title: Nyheter i Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Vilka nya funktioner och förbättringar finns för 2032.08.0?
-seo-description: What are the new features and enhancements for 2023.08.0
+description: Vilka nya funktioner och förbättringar finns för 2032.10.0?
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
 workflow-type: tm+mt
-source-wordcount: '6448'
+source-wordcount: '6470'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # Nyheter i Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal hjälper er att enkelt förvärva, styra och på ett säkert sätt distribuera godkända kreativa resurser till externa parter och interna företagsanvändare på olika enheter. Det bidrar till att effektivisera resursdelning, snabbar upp time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Adobe arbetar för att förbättra den övergripande Brand Portal-upplevelsen. Här får du en smygtitt på de nya funktionerna och förbättringarna.
+
+## Vad ändrades 2023.10.0 {#what-changed-in-October-2023}
+
+Brand Portal 2023.10.0 är en intern version som innehåller korrigeringar av allvarliga fel. Se senaste [Versionsinformation för Brand Portal](brand-portal-release-notes.md).
 
 ## Vad ändrades 2023.08.0 {#what-changed-in-August-2023}
 
@@ -535,7 +539,7 @@ Om du söker i de här mapparna returneras endast resultat från resurser som ha
 
 ### Stöd för videoåtergivningar från Dynamic Media
 
-Användare vars AEM Author-instans är i hybridläget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, utöver de ursprungliga videofilerna.
+Användare vars AEM Author-instans är i hybridläget Dynamic Media kan förhandsgranska och hämta de dynamiska medieåtergivningarna, förutom de ursprungliga videofilerna.
 
 För att tillåta förhandsgranskning och hämtning av dynamiska medierenderingar på specifika innehavarkonton måste administratören ange **Dynamic Media Configuration** (URL för videotjänst (DM-Gateway-URL) och registrerings-ID för att hämta den dynamiska videon) i **Video** konfiguration från panelen Administrationsverktyg.
 
@@ -574,7 +578,7 @@ Organisationer kan anpassa sin portal-URL genom att ha ett alternativt prefix i 
 Det är bara prefixet för Brand Portal URL som kan anpassas och inte hela URL:en.\
 Exempel: en organisation med befintlig domän **geomettrix.brand-portal.adobe.com** kan få **geomettrixinc.brand-portal.adobe.com** skapad på begäran.
 
-AEM Author-instansen kan dock vara [konfigurerad](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) endast med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
+AEM författarinstans kan dock vara [konfigurerad](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) endast med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
 Man kan anpassa portalens URL istället för att följa Adobe:s webbadress.
 

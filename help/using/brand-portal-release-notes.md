@@ -1,7 +1,7 @@
 ---
 title: Versionsinformation
 seo-title: Release Notes
-description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2023.08.0.
+description: Få en inblick i funktioner, förbättringar, åtgärdade kritiska problem och kända fel i Adobe Experience Manager Assets Brand Portal 2023.10.0.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
 
 # Versionsinformation {#release-notes}
 
-Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2023.08.0.
+Få en inblick i de nya funktionerna, förbättringarna, de allvarliga problemen och de kända problemen i Adobe Experience Manager Assets Brand Portal 2023.10.0.
 
 ## Versionsinformation {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.08.0 |
-| Datum | Augusti 2023 |
+| Version | 2023.10.0 |
+| Datum | Oktober 2023 |
 
 ## Översikt {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa, styra och på ett säkert sätt distribuera godkänt material till externa parter och interna användare på olika enheter. Det bidrar till att effektivisera delning av tillgångar, kortar time-to-market för tillgångar och minskar risken för bristande efterlevnad och obehörig åtkomst. Med Brand Portal kan man bläddra bland, söka, förhandsgranska, ladda ned och exportera material i företagsgodkända format - när som helst, var som helst.
 
-## Nyheter 2023.08.0 {#whats-new-in-2023.08.0}
+## Nyheter 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Allvarliga problem har åtgärdats {#critical-issues-fixed}
 
-#### Felkorrigeringar och förbättringar {#bug-fixes-enhancements}
+#### Felkorrigeringar {#bug-fixes}
 
+Den här versionen innehåller följande felkorrigeringar:
+
+* Det går inte att spara [!UICONTROL Date] och [!UICONTROL Options] till [!UICONTROL Smart Collection].
+
+* The [!UICONTROL Date and Time] formatet är inkonsekvent när du arbetar på andra språk än engelska.
+
+* När du söker efter resurser [!UICONTROL Delete] saknas.
+
+* Om [!UICONTROL Title] fältet innehåller multibytesymboler i [!UICONTROL Link Share], kan rapporten inte hämtas.
+
+* När du visar ett dokument av PDF-typ är etiketterna och verktygstipsen inte lokaliserade.
+
+#### Förbättringar {#enhancements}
+
+Den här versionen innehåller följande förbättringar:
+
+* Prestandaförbättringar vid bläddring [!UICONTROL Collections].
+
+* När du utför en partiell sökning med OmniSearch-fältet blir resultatet inte korrekt.
+
+## Tidigare versioner
+
+### Augustiversionen 2023 {#aug-2023}
+
+**Felkorrigeringar och förbättringar**
 Den här versionen innehåller följande förbättringar:
 
 * Prestandaförbättringar vid inläsning av resurser på [!UICONTROL Download] popup.
@@ -48,9 +73,6 @@ Den här versionen innehåller följande felkorrigeringar:
 * De långa etiketterna eller taggarna visas inte korrekt för sökfilter.
 * Det går inte att visa långa återgivningsnamn i dialogrutan Hämta.
 * Det går inte att förhandsgranska videomaterial i kortvyn.
-
-
-## Tidigare versioner
 
 ### Version från maj 2023 {#may-2023}
 
