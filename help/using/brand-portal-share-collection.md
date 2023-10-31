@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,15 @@ ht-degree: 0%
 
 En samling representerar en grupp relaterade resurser som lagras tillsammans i Adobe Experience Manager Assets Brand Portal. Användarna kan skapa smarta samlingar med [använda sökning eller ansiktssökning för att filtrera bort relaterade resurser](brand-portal-searching.md) och lagra dem tillsammans så att de blir lätta att komma åt och dela dem med andra Brand Portal-användare.
 
-Administratörerna kan dela och ta bort delning av en samling med behöriga Brand Portal-användare. Redigerare och visningsprogram kan visa och dela samlingar som de skapat, delat med dem och offentliga samlingar.
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+Samlingar delas som länkar via e-post. Alla som har åtkomst till länken för delning kan öppna samlingen, medan delade e-postmeddelanden kan vidarebefordras till alla. Dessutom [delade länkar](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) är tillfälliga och endast tillgängliga under begränsad tid. Alternativt kan användare bjudas in som permanenta medlemmar i samlingar. Det finns följande typer av användare för samlingarna:
+
+* **Administratörer** kan dela eller ta bort delning av en samling med behöriga Brand Portal-användare. De kan bjuda in andra användare till en viss samling och definiera deras roll för den samlingen. Dessutom kan administratörer skapa offentliga samlingar.
+
+* **Redigerare** kan skapa och dela samlingar. De kan bjuda in andra användare till en viss samling och definiera deras roll för den samlingen. Dessutom kan de dela samlingar, om de har bjudits in till samlingen som redigerare eller ägare.
+
+* **Tittare** kan bara skapa privata samlingar. De får inte dela en samling även när de har bjudits in som ägare.
 
 >[!NOTE]
 >
@@ -35,15 +43,15 @@ Så här delar du en samling med behöriga Brand Portal-användare:
 
 1. Klicka på snabbnavigeringen högst upp **[!UICONTROL Collections]**.
 
-1. Från **[!UICONTROL Collections]** gör något av följande:
+1. Från **[!UICONTROL Collections]** gör du något av följande:
 
-   * Håll pekaren över den samling du vill dela. På miniatyrbilderna för snabbåtgärder som är tillgängliga för samlingen klickar du på **[!UICONTROL Settings]** ikon.
+   * Håll pekaren över den samling som du vill dela. Klicka på miniatyrbilderna för snabbåtgärder som är tillgängliga för samlingen **[!UICONTROL Settings]** -ikon.
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
    * Markera den samling som du vill dela. Klicka på i verktygsfältet högst upp **[!UICONTROL Settings]**.
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
 1. I **[!UICONTROL Collection Settings]** väljer du de användare som du vill dela samlingen med och väljer den roll som användaren ska ha för att matcha den globala rollen. Tilldela till exempel redigerarrollen till en global redigerare, visningsprogramrollen till ett globalt visningsprogram.
 
