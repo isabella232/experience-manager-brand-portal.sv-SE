@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
+source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ I den webbläsarbaserade portalmiljön kan du enkelt överföra, bläddra bland,
 
 ## Konfigurera Experience Manager Assets med Brand Portal {#configure-brand-portal}
 
-Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan du publicera resurser, distribuera resurser och bidra med resurser för Brand Portal-användare.
+Om du konfigurerar Adobe Experience Manager Assets med Brand Portal kan Brand Portal-användare publicera mediefiler, distribuera resurser och bidra med resurser.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Brand Portal har stöd för följande användarroller:
 
 I följande tabell visas de uppgifter som användare i dessa roller kan utföra:
 
-|  | **Bläddra** | **Sökning** | **Hämta** | **Dela mappar** | **Dela en samling** | **Dela resurser som en länk** | **Åtkomst till administratörsverktyg** |
+|  | **Bläddra** | **Sökning** | **Ladda ned** | **Dela mappar** | **Dela en samling** | **Dela resurser som en länk** | **Åtkomst till administratörsverktyg** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Gästanvändare** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visningsprogram** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -91,7 +91,7 @@ Mer information finns i [gäståtkomst till Brand Portal](../using/guest-access.
 
 ### Visningsprogram {#viewer}
 
-Brand Portal-användare definierad i [!DNL Admin Console] som har åtkomst till Brand Portal med rollen som Viewer. En användare med den här rollen kan logga in på Brand Portal och komma åt tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
+Brand Portal-användare definierad i [!DNL Admin Console] som har åtkomst till Brand Portal med rollen som Viewer. En användare med den här rollen kan logga in på Brand Portal och få åtkomst till tillåtna mappar, samlingar och resurser. Användaren kan också bläddra bland, förhandsgranska, hämta och exportera resurser (ursprungliga eller specifika återgivningar), konfigurera kontoinställningar och söka efter resurser. Här är en lista över uppgifter som en visningsprogram kan utföra:
 
 * [Bläddra bland resurser](browse-assets-brand-portal.md)
 
@@ -125,7 +125,7 @@ En administratör kan utföra alla åtgärder som en redigerare kan utföra. Fö
 
 * [Anpassa skrivbordsunderlägg, sidhuvuden och e-postmeddelanden](brand-portal-branding.md)
 
-* [Använd anpassade sökfaktorer](brand-portal-search-facets.md)
+* [Använda anpassade sökfaktorer](brand-portal-search-facets.md)
 
 * [Använd metadatamatchformuläret](brand-portal-metadata-schemas.md)
 
@@ -144,9 +144,10 @@ Förutom ovanstående uppgifter kan en författare i AEM Assets utföra följand
 ## Alternativt alias för Brand Portal-URL {#tenant-alias-for-portal-url}
 
 Från och med Brand Portal 6.4.3 kan organisationer ha en alternativ (alias) URL för sin Brand Portal-klient. Du kan skapa alias-URL:en genom att ha ett alternativt prefix i URL:en.\
-Observera att endast prefixet för Brand Portal URL kan anpassas och inte hela URL:en. En organisation med en befintlig domän `geomettrix.brand-portal.adobe.com` kan få `geomettrixinc.brand-portal.adobe.com` skapad på begäran.
+Om innehavarnamnet är längre än 32 tecken måste ett innehavaralias skapas.
+Observera att endast prefixet för Brand Portal URL kan anpassas och inte hela URL:en. Exempel: en organisation med befintlig domän `geomettrix.brand-portal.adobe.com` kan få `geomettrixinc.brand-portal.adobe.com` skapad på begäran.
 
-AEM Author-instansen kan dock vara [konfigurerad](../using/configure-aem-assets-with-brand-portal.md) endast med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
+AEM författarinstans kan dock vara [konfigurerad](../using/configure-aem-assets-with-brand-portal.md) endast med URL:en för klient-ID och inte med URL:en för klientalias (alternativ).
 
 >[!NOTE]
 >
@@ -177,9 +178,10 @@ Så här begär du åtkomst:
    1. Om du har en [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], eller [!UICONTROL Federated ID], klicka **[!UICONTROL Sign In]**.
 The [!UICONTROL Sign in] sidan öppnas.
 
-   1. Ange [!UICONTROL Adobe ID] inloggningsuppgifter och klicka på **[!UICONTROL Sign in]**.
+   1. Ange [!UICONTROL Adobe ID] och klicka på **[!UICONTROL Sign in]**.
 
       ![Adobe loggar in](assets/bplogin_request_access_3.png)
+
    Du omdirigeras till [!UICONTROL Request Access] sida.
 
    **Scenario 2**
@@ -192,6 +194,7 @@ The [!UICONTROL Sign up] sidan öppnas.
    1. Välj **[!UICONTROL Sign up]**.
 
       ![](assets/bplogin_request_access_5.png)
+
    Du omdirigeras till [!UICONTROL Request Access] sida.
 
 1. På nästa sida visas ditt namn och e-post-ID som används för att begära åtkomst. Lämna en kommentar till administratören och klicka på **[!UICONTROL Submit]**.
@@ -207,7 +210,7 @@ Brand Portal produktadministratörer får åtkomstbegäranden i sitt meddelandeo
 För att bevilja åtkomst måste produktadministratörer klicka på motsvarande meddelande i meddelandefältet i Brand Portal och sedan klicka på **[!UICONTROL Grant Access]**.
 Produktadministratörer kan även följa länken i e-postmeddelandet om åtkomstbegäran för att besöka Adobe [!UICONTROL Admin Console] och lägg till användaren i den relevanta produktkonfigurationen.
 
-Du omdirigeras till [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hemsida. Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (som tidigare kallades produktkonfigurationer) som visas som grupper i Brand Portal. Mer information om hur du lägger till användare i [!UICONTROL Admin Console], se [Lägg till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 i proceduren för att lägga till en användare).
+Du omdirigeras till [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hemsida. Använd Adobe [!UICONTROL Admin Console] för att skapa användare och tilldela dem till produktprofiler (tidigare produktkonfigurationer) som visas som grupper i Brand Portal. Mer information om hur du lägger till användare i [!UICONTROL Admin Console], se [Lägg till en användare](brand-portal-adding-users.md#add-a-user) (följ steg 4-7 när du lägger till en användare).
 
 ## Brand Portal språk {#brand-portal-language}
 
@@ -221,7 +224,7 @@ Så här ändrar du språk:
 
    ![Redigera profil](assets/EditBPProfile.png)
 
-1. På [!UICONTROL Experience Cloud Settings] väljer du ett språk på sidan [!UICONTROL Language] nedrullningsbar meny.
+1. På [!UICONTROL Experience Cloud Settings] väljer du ett språk på sidan [!UICONTROL Language] listruta.
 
 ## Underhållsmeddelande för Brand Portal {#brand-portal-maintenance-notification}
 
