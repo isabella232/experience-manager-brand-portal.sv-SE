@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -41,25 +41,12 @@ Adobe Experience Manager (AEM) Assets Brand Portal hjälper er att enkelt skaffa
 Den här versionen innehåller följande felkorrigeringar:
 
 * Det går inte att hämta digitala resurser som skyddas av DRM på turkiska språk.
-
 * Det går inte att öppna och hämta befintliga rapporter som innehåller resurser med flerradsrubrik.
-
 * När du hämtar resurser med [!UICONTROL Download] från åtgärdsfältet hämtas maximalt 1 000 resurser.
-
 * Felaktigt namn på resurser av PSD-typ vid visning i innehållsträdet.
-
 * [!UICONTROL Delete Rendition] alternativet på sidan med resursinformation fungerar inte.
-
 * Feljusterad rubrik och storlek för resurser i hämtningsfönstret.
-
-* Det går inte att läsa in mappar i en kortvy om du växlar från trädvyn.
-
-* Även om [!UICONTROL Fast Download] är aktiverat i [!UICONTROL Download Settings] för både redigerare och administratörer, kan de specifika klienterna inte hämta utgångna mediefiler.
-
-* Användargränssnittsfelet är inte lokaliserat när en rapport skapas när alla kryssrutor inte är markerade.
-
 * När du skapar en rapport lokaliseras inte etiketter.
-
 * Supportadministratörer kallades administratörer i Brand Portal.
 
 ## Tidigare versioner
